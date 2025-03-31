@@ -1,0 +1,37 @@
+site_name: Arista Federal Newsletter
+
+site_url: https://AristaFederal.github.io/NewsLetter/
+repo_name: AristaFederal/NewsLetter
+docs_dir: docs/
+edit_uri: edit/main/docs/
+
+markdown_extensions:
+- abbr
+- attr_list
+- md_in_html
+- admonition
+- tables
+- def_list
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.snippets
+- toc: 
+    permalink: true  
+- pymdownx.tasklist:  
+    custom_checkbox: true
+
+theme:
+  name: material
+  icon:
+    admonition:
+      quote: octicons/quote-16
+      note: octicons/tag-16
+  palette:
+    primary: blue
+  logo: 
+  favicon: img/arista_logo.png
+
+
+
+copyright: Copyright &copy; 2025 Arista Networks. You are receiving this newsletter as a customer of Arista. To stop receiving newsletters please contact akash.takhar@arista.com or abojko@arista.com
+
