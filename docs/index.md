@@ -1,12 +1,21 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
-# Arista April Federal Newsletter
+# Welcome to the Arista Federal Newsletter!
 
-Welcome to the April 2025 newsletter for Arista customers in the U.S. Federal!
+We’re excited to kick off the Arista Federal Newsletter—your go-to resource for the latest Arista innovations, industry insights, and mission-driven networking solutions for Federal Agencies and System Integrators.  
 
+In networking, as in life, speed isn’t just a luxury—it’s the difference between leading the pack and lagging behind. With low-latency, high-throughput, and automation-ready designs, Arista networks keep up with the most demanding workloads.
+
+Arista Networking Speed Tiers:
+Access & Campus – 1G, 2.5G, 5G, 10G
+Data Center & Enterprise – 10G, 25G, 40G, 50G, 100G
+AI & High-Performance Computing – 200G, 400G, 800G
+
+As mission-critical networks evolve, staying ahead of the curve is more important than ever.  Each edition will provide you updates on Arista solutions, technology advancements, success stories, and best practices—all designed to help you get the most out of your Arista investments.We intend to make it an easy read to help initiate conversation and we welcome feedback and suggestions for future newsletters.  Stay tuned for exclusive content designed to keep you informed and ahead of the curve.
+
+Thank you for being part of the Arista Federal community!  
  
 We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to federal@aristafederal.com.  
-
 
 ---
 
