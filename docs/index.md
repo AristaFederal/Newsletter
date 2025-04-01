@@ -246,6 +246,6 @@ For a list of the most current advisories and notices, click [Here](https://www.
 ![Image Placement](img/pictureOfNetworks.jpeg){: style="height:300px;width:800px"}  
     <figcaption></figcaption>
 </figure>
-We thank you for taking the time to read out newsletter today. Feel free to reach out to your SE or ASE for more information or questions regardsing your network operations. Until next month, have a good one! 
+We thank you for taking the time to read out newsletter today. Feel free to reach out to your SE or ASE for more information or questions regardsing your network operations. Until next month, have a good one!!
 
 
