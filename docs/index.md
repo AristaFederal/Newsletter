@@ -105,7 +105,7 @@ For more information, check these resources:
 
 ---
 ## **Lee Gillespie Named Employee of the Year**
-In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Year. "His intellect is so vast it could only be contained within the confines of a mind that transcends ordinary mortals. This is no mere technician, no humble craftsman; this is a maestro of routing, a wizard of switching, a demigod of design. Every problem that stumps the feeble masses is but a fleeting nuisance to him—solvable with a mere flick of mighty mighty mind." said Jayshree at the news conference. 
+In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Year. "His intellect is so vast it could only be contained within the confines of a mind that transcends ordinary mortals. This is no mere technician, no humble craftsman; this is a maestro of routing, a wizard of switching, a demigod of design. Every problem that stumps the feeble masses is but a fleeting nuisance to him—solvable with a mere flick of his mighty mind." said Jayshree at the news conference. 
 
 ---
 ## **Managing Bug and Threat Compliance in the Modern Network** 
