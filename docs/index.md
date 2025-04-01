@@ -19,9 +19,6 @@ We welcome your feedback on the newsletter. If you have any ideas on what you wa
 
 ---
 
-## **Lee Gillespie Named Employee of the Year**
-In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Year. "His is a genius that operates on a level rarely seen" said Jayshree at the news conference. 
-
 
 ## **Arista Ethernetlink Portfolio for AI Networking**
 By: Salman Zahid, Director of Systems Engineering, Federal  
@@ -61,6 +58,8 @@ Etherlink enables significant power reduction for AI clusters at both the system
 
 * Support for Linear-drive Pluggable Optics (LPO - LPOs remove DSPs) further reduces net power consumption by 50% compared to traditional pluggable optics and Active Optical Cables (AOCs).  
 
+## **Lee Gillespie Named Employee of the Year**
+In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Year. "His is a genius that operates on a level rarely seen" said Jayshree at the news conference. 
 
 **Intelligent Software Suite**  
 
