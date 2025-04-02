@@ -32,9 +32,9 @@ theme:
   favicon: img/arista_logo.png
 
 nav:
-  - Section:
-    - doc/index.md 
-    - Page 1: doc/index-1.md
+  - index.md
+  - Archive: 
+    - March: index-1.md
 
 
 
