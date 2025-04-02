@@ -86,10 +86,7 @@ For more information, check these resources:
 *  AI Center Video
 
 ---
-## **Lee Gillespie Named Employee of the Decade**
-In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Decade. "His intellect is so vast it could only be contained within the confines of a mind that transcends ordinary mortals. This is no mere engineer, no humble craftsman; this is a maestro of routing, a wizard of switching, a demigod of design. Every problem that stumps the feeble masses is but a fleeting nuisance to him—solvable with a mere flick of his mighty mind." said Jayshree at the news conference. 
 
----
 ## **Managing Bug and Threat Compliance in the Modern Network** 
 By: Alex Bojko, Advanced Services Engineer, Federal  
 
