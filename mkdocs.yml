@@ -30,8 +30,12 @@ theme:
     primary: blue
   logo: 
   favicon: img/arista_logo.png
-  features:
-    - navigation.sections
+
+nav:
+  - Section:
+    - doc/index.md 
+    - Page 1: doc/index-1.md
+
 
 
 
