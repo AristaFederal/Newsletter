@@ -30,6 +30,8 @@ theme:
     primary: blue
   logo: 
   favicon: img/arista_logo.png
+  features:
+    - navigation.sections
 
 
 
