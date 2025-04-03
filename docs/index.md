@@ -15,7 +15,7 @@ As mission-critical networks evolve, staying ahead of the curve is more importan
 
 Thank you for being part of the Arista Federal community!  
  
-We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to federal@aristafederal.com.  
+We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to lee.gillespie@aristafederal.com.  
 
 ---
 
