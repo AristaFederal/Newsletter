@@ -27,7 +27,7 @@ theme:
       quote: octicons/quote-16
       note: octicons/tag-16
   palette:
-    primary: blue
+    primary: custom
   logo: 
   favicon: img/arista_logo.png
 
