@@ -1,4 +1,4 @@
-# Arista Federal NewsLetter
+# Arista Federal Newsletter
 Arista Federal
 
 
