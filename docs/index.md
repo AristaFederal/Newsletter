@@ -1,6 +1,6 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
-# [Arista Federal](http://www.aristafederal.com)
+# [www.aristafederal.com](http://www.aristafederal.com)
 
 # Welcome to the Arista Federal Newsletter!
 
