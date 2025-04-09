@@ -1,5 +1,7 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
+[Arista Federal](www.aristafederal.com)
+
 # Welcome to the Arista Federal Newsletter!
 
 We’re excited to kick off the Arista Federal Newsletter—your go-to resource for the latest Arista innovations, industry insights, and mission-driven networking solutions for Federal Agencies and System Integrators.  
@@ -15,11 +17,9 @@ As mission-critical networks evolve, staying ahead of the curve is more importan
 
 Thank you for being part of the Arista Federal community!  
  
-We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to lee.gillespie@aristafederal.com.  
+We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to fed@aristafederal.com.  
 
 ---
-
-
 ## **Arista Ethernetlink Portfolio for AI Networking**
 By: Salman Zahid, Director of Systems Engineering, Federal  
 
@@ -102,10 +102,6 @@ For more information, check these resources:
 *  ARISTA AI Ethernet Portfolio
 *  Arista and NVIDIA Collaboration Press Release
 *  AI Center Video
-
----
-## **Lee Gillespie Named Employee of the Decade**
-In a move that surprised no one, Arista CEO Jayshree Ullal has named Lee Gillespie the Arista Employee of the Decade. "His intellect is so vast it could only be contained within the confines of a mind that transcends ordinary mortals. This is no mere engineer, no humble craftsman; this is a maestro of routing, a wizard of switching, a demigod of design. Every problem that stumps the feeble masses is but a fleeting nuisance to him—solvable with a mere flick of his mighty mind." said Jayshree at the news conference. 
 
 ---
 ## **Managing Bug and Threat Compliance in the Modern Network** 
