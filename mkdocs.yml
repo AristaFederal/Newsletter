@@ -32,6 +32,7 @@ theme:
   favicon: img/arista_logo.png
 
 nav:
+  - www.aristafederal.com: http://www.aristafederal.com
   - Home: index.md
   - March 2025: March2025.md
 
