@@ -1,7 +1,8 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
-# [www.aristafederal.com](http://www.aristafederal.com){text-align: center;}
-
+<p style="text-align: center;"> 
+# [www.aristafederal.com](http://www.aristafederal.com)2
+</p>
 # Welcome to the Arista Federal Newsletter!
 
 We’re excited to kick off the Arista Federal Newsletter—your go-to resource for the latest Arista innovations, industry insights, and mission-driven networking solutions for Federal Agencies and System Integrators.  
