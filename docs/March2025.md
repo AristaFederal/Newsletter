@@ -1,6 +1,6 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
-# Arista Federal Newsletter!
+# Arista Federal Newsletter
 
 ## **Arista Ethernetlink Portfolio for AI Networking**
 By: Salman Zahid, Director of Systems Engineering, Federal  
