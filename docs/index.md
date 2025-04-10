@@ -1,8 +1,10 @@
- ![Image Placememt](img/arista-federal-logo.png)
 
-<p style="text-align: center;font-size: 100%;"> 
-<a href="http://www.aristafederal.com">www.aristafederal.com</a>
-</p>
+
+ <a href="http://www.aristafederal.com" target="_blank">
+  <img src="img/arista-federal-logo.png" />
+ </a>
+
+
 # Welcome to the Arista Federal Newsletter!
 
 We’re excited to kick off the Arista Federal Newsletter—your go-to resource for the latest Arista innovations, industry insights, and mission-driven networking solutions for Federal Agencies and System Integrators.  
