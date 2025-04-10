@@ -1,7 +1,7 @@
  ![Image Placememt](img/arista-federal-logo.png)
 
 <p style="text-align: center;"> 
-# [www.aristafederal.com](http://www.aristafederal.com)2
+<a href="http://www.aristafederal.com">www.aristafederal.com</a>
 </p>
 # Welcome to the Arista Federal Newsletter!
 
