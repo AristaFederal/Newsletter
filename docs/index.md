@@ -7,7 +7,7 @@
 
 # Welcome to the Arista Federal Newsletter!
 
-Welcome to the April 2025 newsletter for Federal!
+Welcome to the April 2025 newsletter for Arista Federal!
 
 We’re excited to kick off the Arista Federal Newsletter—your go-to resource for the latest Arista innovations, industry insights, and mission-driven networking solutions for Federal Agencies and System Integrators.  
 
