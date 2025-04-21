@@ -3,7 +3,7 @@
 # Arista Federal Newsletter March 2025
 
 ## **Arista Ethernetlink Portfolio for AI Networking**
-By: Salman Zahid, Director of Systems Engineering, Federal  
+By: Salman Zahid, Director of Systems Engineering  
 
 In the rapidly evolving world of Artificial Intelligence, network performance can make or break the success of AI initiatives. Arista Networks has stepped up to this challenge with its groundbreaking Etherlink AI platforms (a set of hardware platforms and a suite of software capabilities in Arista EOS and CloudVision), offering a comprehensive solution for high-performance AI networking.  
 
@@ -88,7 +88,7 @@ For more information, check these resources:
 ---
 
 ## **Managing Bug and Threat Compliance in the Modern Network** 
-By: Alex Bojko, Advanced Services Engineer, Federal  
+By: Alex Bojko, Advanced Services Engineer  
 
 Keeping a production network in compliance can prove to be a challenging task, especially when it comes to managing bugs and CVE's (Common Vulnerabilities and Exposures) on our network infrastructure. For starters, there can be a wide range of devices deployed in a network, many of which are running various versions of code. Bugs and Security Advisories are unpredictable, and keeping track of them across a wide range of devices and code can become cumbersome. Failing to bring devices into compliance can result in network downtime, outages, and a vulnerable network.   
 
