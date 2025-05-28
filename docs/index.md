@@ -535,9 +535,10 @@ CVaaS will push configurations to all switches in the fabric.
 ## __*Upcoming Events*__  
 Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.
 
-Arista Network Webinars Series with Carasoft
+<div class="grid cards" markdown>
 
-
+- __Arista Network Webinars Series with Carahsoft__
+---
    |  Date    | Description      | 
    | :-----------: | :-----------: |
    | __June 10__   | Why Arista? <br >
@@ -545,6 +546,8 @@ Arista Network Webinars Series with Carasoft
    | __September 9__ | Positioning Arista to the Federal Government <br> 
 
 [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){ .md-button }
+
+</div>
 
 <div class="grid cards" markdown>
 
