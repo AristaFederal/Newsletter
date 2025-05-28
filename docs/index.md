@@ -547,7 +547,7 @@ Arista hosts various events throughout the year for you! Members of our team org
     | __July 15__   | Arista Campus Solutions<br>
     | __September 9__ | Positioning Arista to the Federal Government <br> 
 
- 
+    [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
 </div>
 
