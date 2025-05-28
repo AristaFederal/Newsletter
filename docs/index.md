@@ -543,11 +543,12 @@ Arista hosts various events throughout the year for you! Members of our team org
       <img src="img/arista-carasoft-v2.png"/>
     </a>
 
-    |  Date | Description | 
+    |  Date | Name| Description | 
     | :-----------: | :-----------: |
-    | __June 10__   | Why Arista? <br >
-    | __July 15__   | Arista Campus Solutions<br>
-    | __September 9__ | Positioning Arista to the Federal Government <br> 
+    | __June 10__   | Why Arista? | An introduction to Arista's unique value proposition for federal customers. Explore the
+core differentiators that set Arista apart in a competitive networking landscape. |
+    | __July 15__   | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
+    | __September 9__ | Positioning Arista to the Federal Government | Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector. |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
