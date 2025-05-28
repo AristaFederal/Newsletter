@@ -2,7 +2,7 @@
   <img src="../img/arista-federal-logo.png" />
 </a>
 
-# Welcome to the Arista Federal Newsletter!
+# Welcome to the Arista Federal Newsletter April 2025!
 
 Welcome to the April 2025 newsletter for Arista Federal!
 
