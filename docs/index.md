@@ -538,10 +538,10 @@ Arista hosts various events throughout the year for you! Members of our team org
 <div class="grid cards" markdown>
 
 -   __Arista Network Webinars Series with Carahsoft__
+
     <a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
       <img src="img/arista_carahsoft.jpg"/>
     </a>
-    ---
 
     |  Date | Description | 
     | :-----------: | :-----------: |
@@ -550,10 +550,6 @@ Arista hosts various events throughout the year for you! Members of our team org
     | __September 9__ | Positioning Arista to the Federal Government <br> 
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
-
-    <a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
-      <img src="img/arista_carahsoft.jpg"/>
-    </a>
 
 </div>
 
