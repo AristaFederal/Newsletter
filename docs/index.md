@@ -537,15 +537,15 @@ Arista hosts various events throughout the year for you! Members of our team org
 
 <div class="grid cards" markdown>
 
-- __Arista Network Webinars Series with Carahsoft__
----
-   |  Date    | Description      | 
-   | :-----------: | :-----------: |
-   | __June 10__   | Why Arista? <br >
-   | __July 15__   | Arista Campus Solutions<br>
-   | __September 9__ | Positioning Arista to the Federal Government <br> 
+-   __Arista Network Webinars Series with Carahsoft__
+    ---
+    |  Date    | Description      | 
+    | :-----------: | :-----------: |
+    | __June 10__   | Why Arista? <br >
+    | __July 15__   | Arista Campus Solutions<br>
+    | __September 9__ | Positioning Arista to the Federal Government <br> 
 
-[Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){ .md-button }
+    [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){ .md-button }
 
 </div>
 
