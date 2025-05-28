@@ -34,6 +34,7 @@ theme:
 nav:
   - www.aristafederal.com: http://www.aristafederal.com
   - Current: index.md
+  - April 2025: April2025.md
   - March 2025: March2025.md
 
 extra_css:
