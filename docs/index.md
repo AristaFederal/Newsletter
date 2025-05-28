@@ -540,8 +540,8 @@ Arista hosts various events throughout the year for you! Members of our team org
 -   __Arista Network Webinars Series with Carahsoft__
 
     ---
-    
-    |  Date    | Description      | 
+
+    |  Date | Description | 
     | :-----------: | :-----------: |
     | __June 10__   | Why Arista? <br >
     | __July 15__   | Arista Campus Solutions<br>
