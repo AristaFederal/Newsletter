@@ -549,6 +549,9 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
+</div>
+
+<div class="grid cards" markdown>
 
 -   __TAC Webinar Series__  
 
