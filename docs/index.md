@@ -1,5 +1,5 @@
 <a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
+  <img src="/docs/img/arista-federal-logo.png" />
 </a>
 
 
