@@ -1,3 +1,104 @@
 :root  > * {
     --md-primary-fg-color:        #16325B;
   }
+
+/* Highlight active link in left-hand sidebar */
+.md-nav__link--active {
+  font-weight: bold;
+  color: #0070d2 !important; /* Arista blue or any brand accent */
+  border-left: 3px solid #0070d2;
+  background-color: rgba(0, 112, 210, 0.05); /* subtle background highlight */
+}
+
+/* -----------------------------------------
+   Custom link styling for arista.com links
+   Applies to links like "Register" and references
+-------------------------------------------- */
+a[href*="arista.com"] {
+  color: #0070d2;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a[href*="arista.com"]:hover {
+  color: #005bb5;
+  text-decoration: none;
+}
+
+
+/* -----------------------------------------
+   Center all content inside <li> items of grid.cards
+   (used for headers, paragraphs, buttons inside cards)
+-------------------------------------------- */
+.grid.cards li {
+  text-align: center;
+}
+
+/* -----------------------------------------
+   Ensure buttons inside cards are centered
+-------------------------------------------- */
+.grid.cards .md-button {
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+/* -----------------------------------------
+   Tables used in .md-typeset context
+   Centered, full-width on smaller screens
+   No hard border around the table itself
+-------------------------------------------- */
+.md-typeset table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 90%;
+  border-collapse: collapse;
+  border: none !important; /* prevents border if Markdown or theme tries to add one */
+}
+
+/* -----------------------------------------
+   Soft table borders and padding
+-------------------------------------------- */
+.md-typeset th,
+.md-typeset td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #eee;
+}
+
+/* -----------------------------------------
+   Light alternate row coloring in tables
+-------------------------------------------- */
+.md-typeset tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* -----------------------------------------
+   In-table links (e.g., advisories, EOS links)
+-------------------------------------------- */
+.md-typeset td a {
+  color: #0070d2;
+  text-decoration: underline;
+}
+
+.md-typeset td a:hover {
+  color: #005bb5;
+  text-decoration: none;
+}
+
+/* -----------------------------------------
+   Ensure <figure> elements are centered
+-------------------------------------------- */
+.md-typeset figure {
+  text-align: center;
+}
+
+/* -----------------------------------------
+   Consistent layout for grid.cards sections
+   Used for "Local Events", "Software Updates", etc.
+-------------------------------------------- */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
