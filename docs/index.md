@@ -10,8 +10,10 @@ Welcome to the June 2025 edition of the Arista Federal Newsletter!
 Thank you for taking the time to read the Arista Federal Newsletter—your go-to source for the latest Arista innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators. We truly appreciate the positive feedback we’ve received and welcome your suggestions for future topics. If there’s something specific you’d like us to cover, please let us know.
 
 In this month’s edition, we invite you to explore the latest Arista technology updates, including a must-read blog post on AI networking. The evolution of AI interconnects is clearly trending toward open, Ethernet-based architectures. Learn more in our latest blog, “Powering All Ethernet AI Networking,” authored by Vijay Vusirikala and John Peach.
- 
+
+<a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking">
 https://blogs.arista.com/blog/powering-all-ethernet-ai-networking
+</a>
 
 <a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking" target="_blank">
   <img src="img/blog.png" />
