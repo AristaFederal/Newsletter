@@ -117,6 +117,7 @@ Arista hosts various events throughout the year for you! Members of our team org
     | __July 15__   | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
     | __September 9__ | Positioning Arista to the Federal Government | Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector. |
     | __October 14__ | vSphere Integration | Learn how to effectively integrate vSphere into an Arista Network. |
+    
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
 </div>
