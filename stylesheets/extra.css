@@ -6,23 +6,8 @@
 .md-nav__link--active {
   font-weight: bold;
   color: #0070d2 !important; /* Arista blue or any brand accent */
-  border-left: 3px solid #0070d2;
+  /* border-left: 3px solid #0070d2; */
   background-color: rgba(0, 112, 210, 0.05); /* subtle background highlight */
-}
-
-/* -----------------------------------------
-   Custom link styling for arista.com links
-   Applies to links like "Register" and references
--------------------------------------------- */
-a[href*="arista.com"] {
-  color: #0070d2;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-a[href*="arista.com"]:hover {
-  color: #005bb5;
-  text-decoration: none;
 }
 
 
