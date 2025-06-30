@@ -11,6 +11,10 @@ Thank you for taking the time to read the Arista Federal Newsletter—your go-to
 
 In this month’s edition, we invite you to explore the latest Arista technology updates, including a must-read blog post on AI networking. The evolution of AI interconnects is clearly trending toward open, Ethernet-based architectures. Learn more in our latest blog, “Powering All Ethernet AI Networking,” authored by Vijay Vusirikala and John Peach.
 
+We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to fed@aristafederal.com.  
+
+---
+
 ## **Arista Blog**
 
 <a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking">
@@ -20,10 +24,6 @@ https://blogs.arista.com/blog/powering-all-ethernet-ai-networking
 <a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking" target="_blank">
   <img src="img/blog.png" />
 </a>
-
-We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to fed@aristafederal.com.  
-
----
 
 ## **Leveraging Arista Cloud Test (ACT) for Network Modeling**
 By: Shayne Kelly, Advanced Services Engineer, Southwest Region   
