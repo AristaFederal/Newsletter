@@ -70,6 +70,7 @@ Together, these deliver:
 1. __Simplicity & Ease of Use__
 
 With one OS and one management system across domains, Arista significantly reduces complexity—allowing agencies to do more with fewer people and less overhead.
+
 2. __Operational Excellence through Automation__
 
 Arista’s open standards and industry-leading automation tools empower agencies to streamline processes, reduce human error, and enhance network resiliency—delivering on modernization goals.
