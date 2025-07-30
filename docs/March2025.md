@@ -1,4 +1,6 @@
- ![Image Placememt](img/arista-federal-logo.png)
+<a href="http://www.aristafederal.com" target="_blank">
+  <img src="../img/arista-federal-logo.png" />
+</a>
 
 # Arista Federal Newsletter March 2025
 

@@ -1,15 +1,26 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-74HMNYLH82"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74HMNYLH82');
+</script>
+
 <a href="http://www.aristafederal.com" target="_blank">
   <img src="img/arista-federal-logo.png" />
 </a>
 
+# Welcome to the July 2025 Edition of the Arista Federal Newsletter!
 
-# Arista Federal Newsletter June 2025
+Thank you for taking the time to read the Arista Federal Newsletter—your go-to source for the latest Arista innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators. We appreciate the positive feedback we’ve received and always welcome your suggestions for future topics. If there’s something specific you’d like us to cover, please don’t hesitate to reach out.
 
+July brought more than just fireworks as we celebrated America’s 249th birthday—it was also a milestone month for Arista. We're excited to announce the acquisition of VeloCloud SD-WAN, a significant step forward as we continue to shape the future of networking across campus, branch, and cloud environments. This move strengthens Arista’s SD-WAN portfolio and reinforces our commitment to innovation and leadership at the enterprise edge.
 
-Welcome to the June 2025 edition of the Arista Federal Newsletter!
-Thank you for taking the time to read the Arista Federal Newsletter—your go-to source for the latest Arista innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators. We truly appreciate the positive feedback we’ve received and welcome your suggestions for future topics. If there’s something specific you’d like us to cover, please let us know.
+If you missed our July 10th webinar, “Arista Acquires VeloCloud SD-WAN,” the recording is now available on YouTube. In this session, our experts explore how VeloCloud enhances Arista’s ability to deliver unified, zero-touch networking with integrated security. Learn how VeloCloud’s cloud-delivered SD-WAN is transforming the modern WAN—empowering organizations to build agile, resilient, and secure branch architectures for the future.
 
-In this month’s edition, we invite you to explore the latest Arista technology updates, including a must-read blog post on AI networking. The evolution of AI interconnects is clearly trending toward open, Ethernet-based architectures. Learn more in our latest blog, “Powering All Ethernet AI Networking,” authored by Vijay Vusirikala and John Peach.
+🎥 Watch the replay here: https://www.youtube.com/watch?v=R74pG9OtTts
 
 We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to fed@aristafederal.com.  
 
@@ -17,90 +28,162 @@ We welcome your feedback on the newsletter. If you have any ideas on what you wa
 
 ## **Arista Blog**
 
-<a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking">
-https://blogs.arista.com/blog/powering-all-ethernet-ai-networking
+<a href="https://blogs.arista.com/blog">
+https://blogs.arista.com/blog
 </a>
 
-<a href="https://blogs.arista.com/blog/powering-all-ethernet-ai-networking" target="_blank">
+<a href="https://blogs.arista.com/blog" target="_blank">
   <img src="img/blog.png" />
 </a>
 
-## **Leveraging Arista Cloud Test (ACT) for Network Modeling**
-By: Shayne Kelly, Advanced Services Engineer, Southwest Region   
+## **Modernizing Federal Networks with Arista: A New Era of Efficiency and Simplicity**
 
-Arista Cloud Test (ACT) is a virtualized network modeling environment that can be used for testing configurations and features, or as a full ‘digital twin’. This allows you to have a full working model of your network, whether you are trying to get a head start on port mapping and configurations, testing out a difficult migration, applying a new set of features, or creating a full digital twin of your existing production network, where you can test changes and designs before applying them to your production environment.   
+**Delivering on the Mission of Government Modernization**
 
-I use ACT on a regular basis, as customers frequently come to me and ask, ‘How do I migrate from a traditional 3-Tier design to an EVPN/VxLAN CLOS network?’, ‘How do I set up the routing policy for my Metro Area Network?’, or even, ‘What is the best way to configure my BGP policies?’. Any number of these situations can easily be modeled with ACT.   
+In an era where federal agencies are under mounting pressure to modernize infrastructure, reduce waste, and improve operational efficiency, __Arista Federal__ is uniquely positioned to deliver the __modern operating model__ government IT leaders are asking for.
 
-Also, given that ACT allows you to specify the device model and have the correct port mapping applied, you are able to get a head start on modeling out your configuration and even your automation, before you ever rack your new Arista Gear. I have worked with many customers, using ACT to create and test the configurations and automation models they have employed in their production environments, which allowed them to build out everything they needed for their deployment, long before the switches arrived. This includes switch configurations, Network Automation Variable Files, for both customer Ansible Scripts and Arista Validated Design (AVD) models, and even integrations with third party services, such DHCP and IPAM (IP Address Management) systems.   
+Federal agencies share a common goal: to streamline spending and modernize technology in support of their mission. Regardless of political affiliation, reducing inefficiencies and advancing operational capabilities remains a top priority
 
-Lastly, because you can provision connectivity outside of this virtual environment, you can connect these virtual switches to CVaaS (Arista Cloud Vision as a Service), allowing you to use the same Cloud Vision that you use to manage your other switches, to manage your test environment. This allows you to manage your switches via Cloud Vision, whether that is with Studios, or a different Automation Platform, and view your configuration and changes the same way you will with your switches in your production environment.   
+Arista answers this call by providing a __unified platform for simplicity, automation, and performance.__
+ 
+**The Modern Operating System for Government**
 
-Obviously a deep dive into this technology is a rather lengthy article. So in this article, we will cover the ‘highlights’ of ACT, some basic steps and requirements to get your ACT environment up and running, and show what this looks like in CVaaS.   
+At the core of Arista’s strategy is the __Modern Operating System__-—centered around two powerful platforms:
+*	__Arista EOS®__ (Extensible Operating System): One OS across all environments—Data Center, Campus, and WAN.
+*	__Arista CloudVision®__: A single management plane that unifies visibility, automation, and analytics across the network.
 
-**ACT Setup and Configuration**  
+Together, these deliver:
+✅ __Simplified operations__ with one OS and one management interface
+✅ __Reduced OpEx__ through automation and a smaller operational footprint
+✅ __Faster deployments__ with zero-touch provisioning and open programmability
+✅ __Enhanced security__ via macro-segmentation and network-wide visibility
+ 
+**How Arista Aligns with Federal Priorities**
 
-ACT leverages simple YAML files for constructing your device inventory and the connections between the devices. This allows you a simple way to create your lab environment. I love the fact that YAML files are so flexible and easy to read. For someone who is not an automation ‘expert’ this format is easy for me to work with and understand. I have worked with customers who have never used automation before, but due to the structure of YAML files, they were able to quickly understand how to edit these files and use them in their environment.   
+1. __Simplicity & Ease of Use__
+With one OS and one management system across domains, Arista significantly reduces complexity—allowing agencies to do more with fewer people and less overhead.
+2. __Operational Excellence through Automation__
+Arista’s open standards and industry-leading automation tools empower agencies to streamline processes, reduce human error, and enhance network resiliency—delivering on modernization goals.
+ 
+**Challenges Facing Federal Networks**
 
-Once you have all of your topology file completed, now you simply use that to ‘create’ your virtual environment and ACT does the rest[^1]. ACT will verify that the topology file is valid and even call out any errors, if they exist. Once the file is validated, you can generate your lab and away you go. The screenshot below shows an example of a lab that I recently built to test out some of the new Campus Studios features for a customer. You can see each of the devices is listed, with the details about the device.  
+Arista understands the realities federal agencies and integrators face:
+🔍 __Deep integration challenges__
+*	Expanding user access to sensitive systems 
+*	Increase in unmanaged or unsecured endpoints
+*	Reworking of infrastructure without centralized oversight
+💰 __Aggressive cost-cutting & vendor shake-ups__
+*	~$30M in canceled legacy contracts
+*	Delayed or cancelled engagements with major integrators
+*	Growing pressure on incumbents to demonstrate value and cost savings
+🚀 __Opportunity for agile, specialized vendors__
+*	Cloud, automation, and cybersecurity-focused firms gaining traction
+*	FedRAMP deregulation opening doors for new entrants
+*	Demand for solutions that can deliver ROI and security simultaneously
+ 
+**The Road Ahead: Federal IT Outlook**
 
-**Working with Your Virtual Environment**  
+__For Networks:__
+*	__Consolidation onto modern platforms
+*	Increased automation and AI adoption
+*	Greater security scrutiny—especially around endpoint and access controls
+__For Vendors:__
+*	Incumbents must justify contracts and pricing
+*	Mid-tier and niche players can win by aligning with automation, AI, and compliance goals
+*	Unvetted or legacy offerings may be excluded
+ 
+**Arista: Your Trusted Modernization Partner**
 
-For this lab, I choose to use CVaaS as the way that I would configure and manage my devices. I have an existing CVaaS instance that I use for testing, and adding these devices to my CVaaS instance was exactly the same as I would do for an on-site deployment. Because there are only a few devices in my lab, I choose not to host a ZTP (Zero Touch Provisioning) server, which would have added the security token and the required network information to connect the device to CVaaS automatically. Instead, I choose to do this manually, however, I have used the ZTP method in the past, and it works exactly as it does in a production environment.   
+Arista is helping federal agencies and integrators move forward by:
+*	__Delivering a single operating model__ that reduces risk and complexity
+*	__Enabling real-time automation, telemetry, and programmability__
+*	__Providing flexible options__ that align with program missions, budget constraints, and cybersecurity standards
+*	__Partnering on proof-of-concepts (POCs)__, evaluations, and test drives to help validate performance and TCO
+ 
+**Now is the Time**
 
-In the screenshot below, you can see the Inventory Page from my CVaaS environment. The virtual devices for this lab have been onboarded and you can see them in the inventory, alongside other production, physical devices in my environment. I like to use CVaaS when I am testing features specific to CloudVision as it provides me with the most up to date features and functionality.   
+As the federal government aggressively modernizes, the window to reimagine your network architecture is now. Arista Federal brings a modern, mission-ready foundation to support AI/ML, cloud-native operations, cybersecurity, and compliance.
 
-<figure markdown="span">
-  ![Inventory List](img/CVP_Inventory.png)
-  <figcaption>Inventory List in CVaaS</figcaption>
-</figure>
-
-
-Again, all of these devices that you see here are virtual devices, running in Cloud Hosted Instance, that you can use to test with. I have done the same or similar work for Data Center Deployments, WAN routing deployments, tests for AVD and other automation frameworks, you name it. The possibilities are endless with ACT. While this example is relatively small and simple, I have built ACT topologies with Customers that literally span 100s of devices, in large 5 Stage CLOS fabrics, with multiple uplinks and dozens of connected end-hosts, all running iPerf and other network testing technologies.   
-
-**Summary**  
-
-ACT is a very easy to use tool that allows you to test out features, pre-build your network or create a digital twin that you can use to test out changes. It provides you a platform to create extremely large networks, or test out features in a small sandbox, catered to Arista Devices.   
-
-If you are interested in learning more about ACT, or would like to speak to someone about ordering this or seeing a live demo, please contact your local account team.  
-
-Alternatively, you can also read the following Data Sheet for additional information:  
-[ACT Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/Cloud-Test-Datasheet.pdf)  
-
-
-[^1]: Virtually all of the ‘fixed’ switches can be specified, with the correct port mapping applied. It is possible to use Chassis switches as well, but this takes a bit more effort    
-
-
-## **Simple and Straightforward Network Monitoring - Arista Connectivity Monitoring Studio**
-By: Alex Bojko, Advanced Services Engineer, Southwest Region   
-
-High latency, packet loss, and jitter are all words we despise as network engineers. We design and build networks to combat and prevent each of those events from happening. However, some things are out of our control and still find a way to occur despite our best efforts. Clients, Endpoints, and Applications are isolated in discrete locations, away from the local network. Managing and determining the performance and user experience of a modern network has proven to be a tough challenge.   
-
-The Connectivity Monitor Studio built into Arista CloudVision serves as a simple and straightforward solution to help address this challenge. Connectivity Monitor is a feature introduced in EOS 4.24.2F that aims to allow users to monitor their network resources directly from their Arista switches. It works by periodically sending ICMP probes to designated endpoints, tracking latency, packet loss, jitter, and HTTP response time. An Endpoint can be classified as an EOS device, third-party device, access point, server, or application. As long as ICMP and HTTP ports to these endpoints are open, Connectivity Monitor will be able to track a device's connection to them.  
-
-Using the Connectivity Monitor Studio in Arista CloudVision, we define a list of hosts (endpoints) that we would like to track by giving them a name and designating their destination IP address. Then, with the use of device tags, we define an Arista switch (or group of switches) that we will source the ICMP probes from. This can be one of or any number of our Arista EOS switches that have been onboarded into CloudVision. The last step is to simply map the defined hosts to the tagged Arista switch or group of switches we want to source the monitoring from.   
-
-<figure markdown="span">
-  ![Inventory List](img/JuneNewsletterPic2.png){: style="height:300px;width:700px"}
-  <figcaption>Hosts in Connectivity Monitoring Studios</figcaption>
-</figure>
-
-CloudVision Studios will then build out the configuration needed for each device that we defined in the Connectivity Monitor Studio. After executing the Change Control, within the Devices tab of CloudVision, under the Connectivity Monitor subsection, we can select any number of our devices and view Latency, Packet Loss, Jitter, and HTTP Response time statistics to the defined hosts.   
-
-<figure markdown="span">
-  ![Inventory List](img/JuneNewsletterPic3.png){: style="height:200px;width:700px"}
-  <figcaption>Latency View</figcaption>
-</figure>
-
-For CloudVision as a Service (CVaaS) customers, this information is stored for 30 days. This can greatly aid in troubleshooting network disruptions as we can view historical telemetry data up to 4 weeks in the past. Furthermore, using the Events tab in CloudVIsion, we can set Latency, Packet Loss, Jitter, or HTTP Response Time thresholds that, when breached, send alerts directly to a receiver of our choice. Coupled with the real-time state streaming of EOS, this ensures that we will not miss a single spike in latency or any of the other listed metrics that we are tracking thanks to Connectivity Monitor.    
-
-To learn more about Connectivity Monitor and the Connectivity Monitor Studio, click the links below:  
-
-[Connectivity Monitor](https://www.arista.io/help/articles/ZGV2aWNlcy5jb25uZWN0aXZpdHlNb25pdG9yLkFsbA==#connectivity-monitor)  
-[Connectivity Monitor Studio](https://www.arista.io/help/articles/cHJvdmlzaW9uaW5nLnN0dWRpb3MuQWxsLmJ1aWx0SW4uY29ubmVjdGl2aXR5#connectivity-monitoring-studio)  
-[Connectivity Monitor TOI](https://www.arista.com/en/support/toi/eos-4-20-1f/13913-connectivity-monitor)    
+Let us show you how __Arista is changing the federal network landscape—today and into the future.__
+ 
+**Contact Arista Federal**
+<a href=mailto:fed@aristafederal.com >🌐 fed@aristafederal.com</a>
 
 
+## **Universal Cloud Network (UCN)**
+By: Michael Harrison, Systems Engineer, US Federal  
+
+The Universal Cloud Network (UCN) by Arista Networks is a cutting-edge networking
+solution designed to simplify and standardize network architectures across diverse use
+cases. By incorporating common cloud principles, UCN enables organizations to extend
+their data center networking practices to other environments, delivering streamlined
+topologies and architectures. This innovative solution addresses the growing complexity
+of modern networks, offering operational simplicity, enhanced reliability, and advanced
+security features. Arista&#39;s Universal Cloud Network (UCN) presents a transformative
+solution, leveraging cloud principles to simplify and standardize network architectures
+across data center, campus, and wide area network environments.
+Enterprise networks are evolving rapidly in response to increasing demands for agility,
+scalability, and security. Traditional networking models, often built on siloed
+architectures and proprietary solutions, are no longer sufficient to meet the needs of
+modern enterprises.
+
+Enterprise IT landscapes are more distributed than ever, with workloads spanning
+across on-premises data centers, campus locations, and public or hybrid clouds. This
+expansion demands a networking architecture that is flexible, consistent, and resilient.
+Arista&#39;s Universal Cloud Network (UCN) addresses these challenges by delivering a
+unified, software-driven networking platform that extends the operational benefits of
+cloud networking to all enterprise environments.
+
+**Key Features of Arista UCN**
+
+**1. Open, Standards-Based Design**
+UCN is built on open standards, providing an alternative to proprietary solutions offered
+by legacy vendors. It emphasizes software-driven control principles, ensuring flexibility
+and interoperability across various platforms.
+
+**2. Spine/Leaf Architecture**
+Arista&#39;s UCN employs a spine-and-leaf architecture that integrates both wired and
+wireless Wi-Fi platforms. This design consolidates campus layers into simpler
+topologies, reducing costs and improving overall network reliability.
+
+**3. Consistent Operational Experience**
+UCN normalizes siloed Places-In-the-Network (PINs) into standardized Places-In-the-
+Cloud (PICs). This transformation delivers a uniform operational model across different
+network domains, enhancing efficiency and consistency.
+
+**4. Multi-Domain Management**
+Arista CloudVision—a key component of UCN—enables seamless management across
+data centers, campuses, and wide-area networks. This eliminates the need for
+disparate network operating models, streamlining operations across multiple domains.
+
+**5. Network Data Lake (NetDL)**
+UCN leverages Arista&#39;s NetDL architecture to consolidate diverse datasets. This
+centralized data lake facilitates the application of AI/ML methods for advanced network
+operations and security insights.
+
+**Benefits of Arista UCN**
+| Benefit       | Description   |
+| :-----------: | :-----------: |
+| Operational Simplicity | Reduces operational expenses by eliminating network silos and providing consistent management tools. |
+|Enhanced Reliability | Simplified, standardized architecture increases uptime and resiliency. |
+| Improved Security | Integrated zero trust security capabilities across all networking domains. |
+| Scalability | Architecture designed for small enterprises to large-scale cloud providers. |
+| Advanced Analytics | AI/ML-powered insights via NetDL and Autonomous Virtual Assist (AVA) for predictive and automated operations. |
+
+Arista’s Universal Cloud Network (UCN) provides a next-generation networking
+approach built on open standards, operational consistency, and cloud principles. By
+unifying data center, campus, and WAN environments under a single operational model,
+UCN simplifies network management, enhances reliability, and improves security
+posture.
+
+By adopting UCN, businesses can achieve enhanced efficiency and resilience while
+meeting the demands of modern networking challenges.
+
+For Additional Information please see link below: Arista Universal Cloud Network
+Design Guide
+<a href=https://www.arista.com/en/solutions/design-guides?start=10>
+https://www.arista.com/en/solutions/design-guides?start=10
+</a>
 ---
 
 ## __*Upcoming Events*__  
@@ -116,9 +199,9 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
-    | __July 15__   | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
-    | __September 9__ | Positioning Arista to the Federal Government | Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector. |
-    | __October 14__ | vSphere Integration | Learn how to effectively integrate vSphere into an Arista Network. |
+    | __July 15__   | Positioning Arista to the Federal Government | Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector. |
+    | __September 9__ |  Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
+    | __October 14__ | vSphere Integration | Join Paul Mancuso, Systems Engineer at Arista Networks, for an in-depth look at how Arista's CloudVision and EOS streamline integration with VMware vSphere.. This session will explore how Arista's solutions enhance automation, visibility, and operational efficiency across virtualized federal data centers. Learn how to simplify network operations and accelerate mission outcomes through seamless vSphere integration. |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 

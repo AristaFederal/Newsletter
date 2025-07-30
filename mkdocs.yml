@@ -33,7 +33,8 @@ theme:
 
 nav:
   - www.aristafederal.com: http://www.aristafederal.com
-  - June 2025: index.md
+  - July 2025: index.md
+  - June 2025: June2025.md
   - May 2025: May2025.md
   - April 2025: April2025.md
   - March 2025: March2025.md
