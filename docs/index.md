@@ -44,9 +44,7 @@ https://blogs.arista.com/blog
 
 In an era where federal agencies are under mounting pressure to modernize infrastructure, reduce waste, and improve operational efficiency, __Arista Federal__ is uniquely positioned to deliver the __modern operating model__ government IT leaders are asking for.
 
-Federal agencies share a common goal: to streamline spending and modernize technology in support of their mission. Regardless of political affiliation, reducing inefficiencies and advancing operational capabilities remains a top priority
-
-Arista answers this call by providing a __unified platform for simplicity, automation, and performance.__
+Federal agencies share a common goal: to streamline spending and modernize technology in support of their mission. Regardless of political affiliation, reducing inefficiencies and advancing operational capabilities remains a top priority. Arista answers this call by providing a __unified platform for simplicity, automation, and performance.__
  
 **The Modern Operating System for Government**
 
@@ -70,8 +68,10 @@ Together, these deliver:
 **How Arista Aligns with Federal Priorities**
 
 1. __Simplicity & Ease of Use__
+
 With one OS and one management system across domains, Arista significantly reduces complexity—allowing agencies to do more with fewer people and less overhead.
 2. __Operational Excellence through Automation__
+
 Arista’s open standards and industry-leading automation tools empower agencies to streamline processes, reduce human error, and enhance network resiliency—delivering on modernization goals.
  
 **Challenges Facing Federal Networks**
