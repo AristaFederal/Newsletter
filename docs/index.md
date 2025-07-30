@@ -195,6 +195,7 @@ centralized data lake facilitates the application of AI/ML methods for advanced 
 operations and security insights.
 
 **Benefits of Arista UCN**
+
 | Benefit       | Description   |
 | :-----------: | :-----------: |
 | Operational Simplicity | Reduces operational expenses by eliminating network silos and providing consistent management tools. |
