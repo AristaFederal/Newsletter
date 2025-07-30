@@ -36,6 +36,8 @@ https://blogs.arista.com/blog
   <img src="img/blog.png" />
 </a>
 
+---
+
 ## **Modernizing Federal Networks with Arista: A New Era of Efficiency and Simplicity**
 
 **Delivering on the Mission of Government Modernization**
@@ -64,6 +66,7 @@ Together, these deliver:
 
 ✅ __Enhanced security__ via macro-segmentation and network-wide visibility
  
+
 **How Arista Aligns with Federal Priorities**
 
 1. __Simplicity & Ease of Use__
@@ -74,6 +77,7 @@ Arista’s open standards and industry-leading automation tools empower agencies
 **Challenges Facing Federal Networks**
 
 Arista understands the realities federal agencies and integrators face:
+
 🔍 __Deep integration challenges__
 
 *	Expanding user access to sensitive systems 
@@ -137,6 +141,7 @@ Let us show you how __Arista is changing the federal network landscape—today a
 **Contact Arista Federal**
 <a href="mailto:fed@aristafederal.com">🌐 fed@aristafederal.com</a>
 
+---
 
 ## **Universal Cloud Network (UCN)**
 By: Michael Harrison, Systems Engineer, US Federal  
