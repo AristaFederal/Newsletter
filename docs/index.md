@@ -20,7 +20,7 @@ July brought more than just fireworks as we celebrated America’s 249th birthda
 
 If you missed our July 10th webinar, “Arista Acquires VeloCloud SD-WAN,” the recording is now available on YouTube. In this session, our experts explore how VeloCloud enhances Arista’s ability to deliver unified, zero-touch networking with integrated security. Learn how VeloCloud’s cloud-delivered SD-WAN is transforming the modern WAN—empowering organizations to build agile, resilient, and secure branch architectures for the future.
 
-🎥 Watch the replay here: https://www.youtube.com/watch?v=R74pG9OtTts
+🎥 Watch the replay here: <a href="https://www.youtube.com/watch?v=R74pG9OtTts">https://www.youtube.com/watch?v=R74pG9OtTts</a>
 
 We welcome your feedback on the newsletter. If you have any ideas on what you want to see, please reach out to fed@aristafederal.com.  
 
@@ -49,13 +49,19 @@ Arista answers this call by providing a __unified platform for simplicity, autom
 **The Modern Operating System for Government**
 
 At the core of Arista’s strategy is the __Modern Operating System__-—centered around two powerful platforms:
+
 *	__Arista EOS®__ (Extensible Operating System): One OS across all environments—Data Center, Campus, and WAN.
+
 *	__Arista CloudVision®__: A single management plane that unifies visibility, automation, and analytics across the network.
 
 Together, these deliver:
+
 ✅ __Simplified operations__ with one OS and one management interface
+
 ✅ __Reduced OpEx__ through automation and a smaller operational footprint
+
 ✅ __Faster deployments__ with zero-touch provisioning and open programmability
+
 ✅ __Enhanced security__ via macro-segmentation and network-wide visibility
  
 **How Arista Aligns with Federal Priorities**
@@ -69,35 +75,57 @@ Arista’s open standards and industry-leading automation tools empower agencies
 
 Arista understands the realities federal agencies and integrators face:
 🔍 __Deep integration challenges__
+
 *	Expanding user access to sensitive systems 
+
 *	Increase in unmanaged or unsecured endpoints
+
 *	Reworking of infrastructure without centralized oversight
+
 💰 __Aggressive cost-cutting & vendor shake-ups__
+
 *	~$30M in canceled legacy contracts
+
 *	Delayed or cancelled engagements with major integrators
+
 *	Growing pressure on incumbents to demonstrate value and cost savings
+
 🚀 __Opportunity for agile, specialized vendors__
+
 *	Cloud, automation, and cybersecurity-focused firms gaining traction
+
 *	FedRAMP deregulation opening doors for new entrants
+
 *	Demand for solutions that can deliver ROI and security simultaneously
  
 **The Road Ahead: Federal IT Outlook**
 
 __For Networks:__
-*	__Consolidation onto modern platforms
-*	Increased automation and AI adoption
-*	Greater security scrutiny—especially around endpoint and access controls
+
+*	__Consolidation__ onto modern platforms
+
+*	__Increased automation and AI__ adoption
+
+*	__Greater security scrutiny__—especially around endpoint and access controls
+
 __For Vendors:__
+
 *	Incumbents must justify contracts and pricing
+
 *	Mid-tier and niche players can win by aligning with automation, AI, and compliance goals
+
 *	Unvetted or legacy offerings may be excluded
  
 **Arista: Your Trusted Modernization Partner**
 
 Arista is helping federal agencies and integrators move forward by:
+
 *	__Delivering a single operating model__ that reduces risk and complexity
+
 *	__Enabling real-time automation, telemetry, and programmability__
+
 *	__Providing flexible options__ that align with program missions, budget constraints, and cybersecurity standards
+
 *	__Partnering on proof-of-concepts (POCs)__, evaluations, and test drives to help validate performance and TCO
  
 **Now is the Time**
@@ -107,7 +135,7 @@ As the federal government aggressively modernizes, the window to reimagine your 
 Let us show you how __Arista is changing the federal network landscape—today and into the future.__
  
 **Contact Arista Federal**
-<a href=mailto:fed@aristafederal.com >🌐 fed@aristafederal.com</a>
+<a href="mailto:fed@aristafederal.com">🌐 fed@aristafederal.com</a>
 
 
 ## **Universal Cloud Network (UCN)**
