@@ -117,8 +117,8 @@ This is where Ultra Ethernet Transport (UET) comes in, designed to make RDMA a n
 
 UET addresses the limitations of traditional RDMA networking from several angles to provide a comprehensive new transport paradigm for both HPC and AI/ML workloads. We’ll take a look at some of the innovations below:
 
-    |  Traditional RDM | Ultra Ethernetme| 
-    | :-----------: | :-----------: |
+|  Traditional RDM | Ultra Ethernet | 
+| :-----------: | :-----------: |
 |RDMA tunneled over Ethernet	|Closely coupled API and transport|
 |Single cluster scaling in tens of thousands	|Designed for scaling over 1M endpoints|
 |No native security implementation	|Native highly scalable group-based encryption|
@@ -161,10 +161,10 @@ The day has finally arrived: You are ready to rack your new Arista switch and be
 
 <figure markdown="span">
   ![Pic1](img/July25article11.jpg)
-  <figcaption>To DO List Below</figcaption>
+  <figcaption></figcaption>
 </figure>  
 
-Do List:  
+__Do List:__
 
 1.  If using Zero Touch Provisioning, please set up Option 66 and 67 on your DHCP Server:   
    To enable ZTP for initial onboarding, it is required to enable options 66 and 67 within your DHCP server for the Arista switches to grab a configuration file. Note that if you are running EOS version 4.30.X and above, this requirement is not necessary. The purpose of ZTP is to have a pre-set configuration installed onto your switch. In addition, the next step is to check for reachability to Arista.io   
@@ -177,10 +177,10 @@ Do List:
 
 <figure markdown="span">
   ![Pic1](img/July25Article3.jpg)
-  <figcaption>To NOT Do List Below</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
-Do NOT:  
+__Do NOT:__
 
 1. Do not wait last minute to see if your CVP instance is set up:   
   As your equipment arrives, it’s best practice to begin communicating with the Account Manager to check for your CVP instance. If it’s not ready, and your equipment arrives, this may add additional time to your plans for onboarding the devices to use CVP.  

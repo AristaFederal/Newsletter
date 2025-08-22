@@ -307,7 +307,52 @@
         <li class="md-nav__item">
   <a href="#demystifying-ultra-ethernet" class="md-nav__link">
     <span class="md-ellipsis">
-      ** Demystifying Ultra Ethernet **
+      Demystifying Ultra Ethernet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-onboarding-of-your-arista-device-the-dos-and-do-nots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Onboarding Of Your Arista Device: The DO's and DO NOT's
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upcoming Events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-advisories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Advisories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Updates
     </span>
   </a>
   
@@ -478,7 +523,52 @@
         <li class="md-nav__item">
   <a href="#demystifying-ultra-ethernet" class="md-nav__link">
     <span class="md-ellipsis">
-      ** Demystifying Ultra Ethernet **
+      Demystifying Ultra Ethernet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-onboarding-of-your-arista-device-the-dos-and-do-nots" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Onboarding Of Your Arista Device: The DO's and DO NOT's
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Upcoming Events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-advisories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Advisories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Updates
     </span>
   </a>
   
@@ -556,9 +646,320 @@ Evolution of WANs in the Agentic AI Wave</p>
 <p><strong>The Road Ahead</strong>  </p>
 <p>In today’s AI era, customers need more than traditional SD-WAN. WAN silos will no longer be viable, as traffic caused by generative AI in data centers (either on-premise or hosted in the cloud) will increasingly impact the WAN. Arista and VeloCloud share a common vision for client to cloud networking across WAN and LAN domains as evidenced by the recent announcement of Google’s Cloud WAN. This is a fitting example of this trend. We are excited to warmly welcome the Velo family, led by founder and former CEO Sanjay Uppal, as our seventh and largest acquisition to date. Welcome to our cognitive campus/branch offerings that modernize WAN networks!</p>
 <hr />
-<h2 id="demystifying-ultra-ethernet">** Demystifying Ultra Ethernet **<a class="headerlink" href="#demystifying-ultra-ethernet" title="Permanent link">&para;</a></h2>
+<h2 id="demystifying-ultra-ethernet"><strong>Demystifying Ultra Ethernet</strong><a class="headerlink" href="#demystifying-ultra-ethernet" title="Permanent link">&para;</a></h2>
 <p>By: Tom Emmons and John Peach</p>
 <p>he Ultra Ethernet Consortium (UEC), of which Arista is a founding member, is a standards organisation established to enhance Ethernet for the demanding requirements of Artificial Intelligence (AI) and High-Performance Computing (HPC). Over 100 member companies and 1000 participants have collaborated to evolve Ethernet, leading to the recent publication of its 1.0 specification, which will drive hardware implementations that significantly boost cluster performance.</p>
+<figure>
+<p><img alt="Image Placement" src="img/july2025_article2.jpg" />
+    <figcaption></figcaption></p>
+</figure>
+<p>In this blog, we will take a look at the need for Ultra Ethernet and the new capabilities it delivers.</p>
+<p>Historically, AI/ML clusters have been specialist, independent technology islands. As AI/ML has become business-critical, there is a need for a common technology paradigm that integrates with existing enterprise fiscal, operational, and security frameworks. Ethernet and IP have a proven history of adapting over 50 years, and advanced Ethernet networking solutions, such as Arista's Etherlink™ portfolio, are already the chosen interconnect for the majority of AI accelerators (XPUs).</p>
+<p>A central element of the UEC's vision is to take Ethernet performance to the next level by reimagining Remote Direct Memory Access (RDMA) as a native Ethernet application. RDMA is vital for the success of both AI and HPC applications, as it enables systems and processors to directly exchange data at high speed, currently 400 Gbps, with 800 Gbps in the near future. This efficient communication facilitates the distribution of workloads across numerous servers and processors, supporting parallel computation across many thousands of accelerators.</p>
+<p>RDMA entails high flow rates and synchronized large-volume flows that pose challenges for unoptimized Ethernet networks. Without advanced switching features, large flows created hashing nightmares, requiring almost perfect traffic distribution to prevent congestion. The rapid startup and termination of RDMA flows offered traditional congestion control algorithms little time to react. While enhancements like Arista's Etherlink already substantially improve performance beyond alternative proprietary approaches, the next level of universal optimization necessitates a rethinking of how applications interact with the network.</p>
+<p>This is where Ultra Ethernet Transport (UET) comes in, designed to make RDMA a native Ethernet application by incorporating new traffic distribution semantics and modern congestion control on top of standard Ethernet and IP layers. UET aims to meet the demands of contemporary and traditional HPC workloads without requiring proprietary infrastructure.</p>
+<figure>
+<p><img alt="Image Placement" src="img/july2025_article3.jpg" />
+    <figcaption></figcaption></p>
+</figure>
+<p><strong>Key Aspects of Ultra Ethernet Transport (UET)</strong></p>
+<p>UET addresses the limitations of traditional RDMA networking from several angles to provide a comprehensive new transport paradigm for both HPC and AI/ML workloads. We’ll take a look at some of the innovations below:</p>
+<pre><code>|  Traditional RDM | Ultra Ethernetme| 
+| :-----------: | :-----------: |
+</code></pre>
+<p>|RDMA tunneled over Ethernet    |Closely coupled API and transport|
+|Single cluster scaling in tens of thousands    |Designed for scaling over 1M endpoints|
+|No native security implementation  |Native highly scalable group-based encryption|
+|Requires in order delivery |Native support for out-of-order packet delivery|
+|Multi-pathing at flow level    |Per-packet multipathing (spraying)|
+|Inefficient go-back-N loss recovery    |Per-packet loss recovery|
+|Coarse congestion management and recovery  |Fine-grained sender and receiver based congestion control|
+|Inflexible network tuning paradigm |Semantic-level configuration of workload tuning|</p>
+<p><strong>Native Libraries:</strong> To achieve maximum performance, UET effectively implements a native transport layer for the ubiquitous libfabric 2.0 API. For many applications, the transition to UET is straightforward, requiring minimal or no application changes.</p>
+<p><strong>Optimized Traffic Forwarding:</strong> A fundamental concept of UET is the evolution from traditional flow-based traffic distribution to source-based packet spraying. Unlike proprietary solutions, UET is built from the ground up for packet spraying for all message types, ensuring optimal efficiency at every layer.</p>
+<p><strong>Advanced Connection and Congestion Management:</strong> Traditional methods of setting up new connections (e.g., 3-way handshake) are time and resource intensive. Congestion algorithms are optimized for general traffic patterns and recovering from packet loss triggers inefficient "go-back-N" operations, which require many packets to be resent, impacting both the sender and the receiver, as well as the network itself. UET provides significant optimization for all of these cases, including:</p>
+<ul>
+<li><strong>Ephemeral Connections:</strong> Enable fast connection startup, eliminating the round-trip handshake delay before data begins to flow.</li>
+<li><strong>Selective Retransmission:</strong> Enables retransmission of individual lost packets, reducing the network-wide impact of a dropped packet from full round-trip time to a single packet.</li>
+<li><strong>Packet Trimming:</strong> Efficiently notifies both receiver and sender of packet loss and congestion, allowing rapid mitigation and recovery.</li>
+<li><strong>Network Signal Congestion Control (NSCC):</strong> Sender-based algorithm that paces transmission rates upon detecting congestion.</li>
+<li><strong>Receiver Credit Congestion Control (RCCC):</strong> Receiver-based mechanism to manage "in-cast" scenarios by controlling sender traffic rates.</li>
+</ul>
+<p><strong>Security:</strong> Given the value of AI models and intellectual property, security of data in-flight is mandatory, especially in multi-tenant environments. UET treats security as a fundamental objective, offering optional end-to-end encryption and authentication based on an advanced group keying scheme that allows all members of a job (e.g., all XPUs for one tenant) to operate in an encrypted bubble, protecting model data from exposure and preventing data injection or exfiltration by other tenants on the network.</p>
+<p>In summary, the UEC specification modernises the relationship between AI/HPC applications and networks. By tightly integrating application semantics with network behaviours, it creates a native transport mechanism that combines the strengths of RDMA with best-in-class Ethernet solutions, forming a powerful foundation for the next generation of applications.</p>
+<figure>
+<p><img alt="Image Placement" src="img/july2025_article4.jpg" />
+    <figcaption></figcaption></p>
+</figure>
+<p>Arista, as the leading provider of advanced Ethernet solutions for AI/ML clusters and a founding member of the UEC, is committed to this vision. With its current Etherlink portfolio already being UET-ready, and ongoing efforts to develop future systems and collaborate with other pioneers to build optimal Ethernet networks for high-performance computing, we look forward to cementing the leadership of Ethernet as a universal interconnect. For more details on UET, please review our whitepaper here.</p>
+<hr />
+<h2 id="initial-onboarding-of-your-arista-device-the-dos-and-do-nots"><strong>Initial Onboarding Of Your Arista Device: The DO's and DO NOT's</strong><a class="headerlink" href="#initial-onboarding-of-your-arista-device-the-dos-and-do-nots" title="Permanent link">&para;</a></h2>
+<p>By: Akashdeep Takhar, Advanced Services Engineer, Southwest Region    </p>
+<p>The day has finally arrived: You are ready to rack your new Arista switch and begin to onboard it to production. After waiting for shipment, scheduling the team to rack the switches, and allocating space in your environment, you can now start to use the switch. However, there are some checklist items that we need to take into consideration to prevent problems from arising. Poor preparation leads to poor execution, and as an Advanced Service Engineer that has seen problems occur, it’s best to have some action items taken care of early on. Listed below are 4 best practices to use during the initial onboarding of your devices. In addition, we have also included 4 crucial steps you should avoid in order to execute the onboarding process to perfection with the least amount of trouble.   </p>
+<figure>
+  <img alt="Pic1" src="img/July25article11.jpg" />
+<br />
+<figcaption>To DO List Below</figcaption>
+</figure>
+<p>Do List:  </p>
+<ol>
+<li>If using Zero Touch Provisioning, please set up Option 66 and 67 on your DHCP Server: <br />
+   To enable ZTP for initial onboarding, it is required to enable options 66 and 67 within your DHCP server for the Arista switches to grab a configuration file. Note that if you are running EOS version 4.30.X and above, this requirement is not necessary. The purpose of ZTP is to have a pre-set configuration installed onto your switch. In addition, the next step is to check for reachability to Arista.io   </li>
+<li>Ensure that you have the proper length rack mounts:<br />
+  Sometimes we are busy with discussion of architecture, so busy that in fact we glance over some detail that might seem obvious. Upon arrival of your device, ensure that the proper rack equipment is ready to hold the switches in place. If a custom rack mount is needed, your fellow SE would be more than happy to find one for you.  </li>
+<li>Determine method of device management:  <br />
+  Depending on your choice of either in band or out of band management, it is best practice to have that decision made before the devices are set up. One of the final steps to ensure that onboarding is complete is for the device to reach out to your cloud tenant instance on https://arista.io. Open port 443 to gain reachability to https://arista.io if using CloudVision as a Service (CVaaS). </li>
+<li>Create a Port Map for device connectivity:<br />
+  Time saving step here. Wiring devices together seems easy, until you realize the distance between devices are far apart or that the port speed is not what you had expected. Save time by creating a design or port mapping sheet to quickly wire devices together.    </li>
+</ol>
+<figure>
+  <img alt="Pic1" src="img/July25Article3.jpg" />
+<br />
+<figcaption>To NOT Do List Below</figcaption>
+</figure>
+<p>Do NOT:  </p>
+<ol>
+<li>Do not wait last minute to see if your CVP instance is set up: <br />
+  As your equipment arrives, it’s best practice to begin communicating with the Account Manager to check for your CVP instance. If it’s not ready, and your equipment arrives, this may add additional time to your plans for onboarding the devices to use CVP.  </li>
+<li>Do not wait to build configurations for the device, as they begin to onboard:<br />
+  Having at least an idea of the features and protocols to use prior to the device’s arrival is crucial. Without having a set plan, or even discussing the protocols to use, will add more time to setting up your network. If there is a set deadline, this should be a high priority. It’s best to have this set up as the devices ship over, even better when talking to your SE representative to have questions answered faster.  </li>
+<li>Do not forget to check transceiver and optic bandwidth capabilities:<br />
+  This is one of those steps that we might overlook because we are sure the fibers and optics will work together….until it doesn’t. Mismatch speeds and troubleshooting Layer 1 problems take longer than anticipated since there are many sources of truth for the issue.   </li>
+</ol>
+<p>If you’re able to limit the amount of time it takes to troubleshoot the matter because you had prepared ahead of time, wouldn’t your future self thank you for that? Of course, at Arista we have teams that help with the onboarding process, along with SE’s that check to see if the essential fundamentals of your networks are ready for production. If there’s any questions regarding the onboarding process of your new devices, please ask and we would be happy to help!  </p>
+<p>Additional tips here, click the links below:<br />
+<a href="https://arista.my.site.com/AristaCommunity/s/article/eos-tricks-and-tips-that-make-life-easier">Tips and Tricks</a>    </p>
+<hr />
+<h2 id="upcoming-events"><strong><em>Upcoming Events</em></strong><a class="headerlink" href="#upcoming-events" title="Permanent link">&para;</a></h2>
+<p>Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>Arista Network Webinars Series with Carahsoft</strong></p>
+<p><a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
+  <img src="img/arista-carasoft-v2.png"/>
+</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Date</th>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>July 15</strong></td>
+<td style="text-align: center;">Positioning Arista to the Federal Government</td>
+<td style="text-align: center;">Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>September 9</strong></td>
+<td style="text-align: center;">Arista Campus Solutions</td>
+<td style="text-align: center;">Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>October 14</strong></td>
+<td style="text-align: center;">vSphere Integration</td>
+<td style="text-align: center;">Join Paul Mancuso, Systems Engineer at Arista Networks, for an in-depth look at how Arista's CloudVision and EOS streamline integration with VMware vSphere.. This session will explore how Arista's solutions enhance automation, visibility, and operational efficiency across virtualized federal data centers. Learn how to simplify network operations and accelerate mission outcomes through seamless vSphere integration.</td>
+</tr>
+</tbody>
+</table>
+<p><a class="md-button" href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks">Register Here</a></p>
+</li>
+</ul>
+</div>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>Webinars</strong>  </p>
+<hr />
+<p>We make is easy for you to view products that are of interest, all virtually! Technical memebers of the team showcase outstading explanation of the products. Click below to see our list of Webinars. </p>
+<p><a class="md-button" href="https://www.arista.com/en/company/news/webinars">Arista Webinars</a></p>
+</li>
+<li>
+<p><strong>Events</strong> </p>
+<hr />
+<p>Join us in person to get a closer look in our list of produts and solution, as well as get the chance to meet members of the team. Click below to see our list of ipcoming Events. </p>
+<p><a class="md-button" href="https://www.arista.com/en/company/news/events">Upcoming Events</a></p>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="software-updates"><strong><em>Software Updates</em></strong><a class="headerlink" href="#software-updates" title="Permanent link">&para;</a></h2>
+<figure>
+<p><img alt="Image Placement" src="img/pictureOfCloudVision.jpeg" style="height:200px;width:300px" />  <br />
+    <figcaption></figcaption></p>
+</figure>
+<p>For new code releases, click <a href="https://www.arista.com/en/support/software-download">here</a> </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Softwares</th>
+<th style="text-align: center;">Versions</th>
+<th style="text-align: center;">Release Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>EOS</strong></td>
+<td style="text-align: center;">4.32.6.1M <br> 4.33.4M <br> 4.32.6M <br> 4.34.1F <br></td>
+<td style="text-align: center;">July 2nd, 2025 <br> June 23rd, 2025 <br> June 20th, 2025 <br> June 16th, 2025 <br></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CVP</strong></td>
+<td style="text-align: center;">Portal 2025.2.0 <br> Appliance 7.0.1 <br> Sensor 1.1.0 <br></td>
+<td style="text-align: center;">July 4th, 2025 <br> January 28th, 2025<br> March 24th, 2025 <br></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>DMF</strong></td>
+<td style="text-align: center;">8.6.2 <br ></td>
+<td style="text-align: center;">June 23rd, 2025 <br></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>WLAN</strong> <br>CV-CUE<br>Wireless Manager<br></td>
+<td style="text-align: center;"><br> 19.0.0 <br>19.0.0<br></td>
+<td style="text-align: center;"><br> July 25th, 2025<br>June 12th, 2025<br></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Arista NDR</strong></td>
+<td style="text-align: center;">5.3.5</td>
+<td style="text-align: center;">July 16th, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TerminAttr</strong></td>
+<td style="text-align: center;">1.37.2 <br></td>
+<td style="text-align: center;">April 9th, 2025 <br></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="software-advisories"><strong><em>Software Advisories</em></strong><a class="headerlink" href="#software-advisories" title="Permanent link">&para;</a></h2>
+<p>Below is a list of advisories that are announced by Arista. To view more details on the specific advisories, please click the links in the middle row.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Advisory Link</th>
+<th style="text-align: center;">Date of Advisory Notice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Global Common Encryption Key</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/security-advisory/22022-security-advisory-0122">Security Advisory 0122</a></td>
+<td style="text-align: center;">July 22nd, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>UDP Source Port 3503 Packets</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/security-advisory/22021-security-advisory-0121">Security Advisory 0121</a></td>
+<td style="text-align: center;">July 22nd, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Neighbor AP Detection on Wi-Fi 7 AP's</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22024-field-notice-0106">Field Notice 0106</a></td>
+<td style="text-align: center;">July 29th, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Deprecated Command Removal</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22016-field-notice-0105">Field Notice 0105</a></td>
+<td style="text-align: center;">July 14th, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Prolonged Network Churn Events</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22011-field-notice-0104">Field Notice 0104</a></td>
+<td style="text-align: center;">July 14th, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Secure Boot</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/21651-field-notice-0103">Field Notice 0103</a></td>
+<td style="text-align: center;">July 1st, 2025</td>
+</tr>
+</tbody>
+</table>
+<p>For a list of the most current advisories and notices, click <a href="https://www.arista.com/en/support/advisories-notices">Here</a></p>
+<hr />
+<h2 id="product-updates"><strong><em>Product Updates</em></strong><a class="headerlink" href="#product-updates" title="Permanent link">&para;</a></h2>
+<figure>
+<p><img alt="Image Placement" src="img/pictureOfSwitches.jpeg" style="height:200px;width:400px" /> <br />
+    <figcaption></figcaption></p>
+</figure>
+<p><strong>End of Sale</strong> notices are listed below.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Device</th>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">End Of Sale Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Software</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21412-end-of-software-support-for-cloudvision-portal-2023-2-release-train">End of Software for CloudVision Portal 2023.2</a><br><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21275-end-of-software-support-for-eos-4-28">End of Software Support for EOS 4.28</a><br><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21094-end-of-support-for-dmf-and-ccf-deployments-on-accton-edgecore-switches">DMF and CCF Deployments on Accton/ Edgecore Switches</a><br><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21089-end-of-software-support-for-7280r-r2-7500r-r2-and-7020r-series">EOS-4.34 and later no longer supported on select switches</a><br></td>
+<td style="text-align: center;">May 27th. 2025 <br> March 14, 2025 <br>January 31st, 2025 <br>January 15th, 2025 <br></td>
+</tr>
+<tr>
+<td style="text-align: center;">Module</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/18886-end-of-sale-of-the-arista-7500r2-series-line-cards">7500R2 Series Linecards</a></td>
+<td style="text-align: center;">December 20th, 2023</td>
+</tr>
+<tr>
+<td style="text-align: center;">Access Points</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/20652-end-of-sale-of-ap-model-w-118">AP Model W-118</a> <br></td>
+<td style="text-align: center;">November 20th, 2024 <br></td>
+</tr>
+<tr>
+<td style="text-align: center;">CVP</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21627-end-of-software-support-for-cloudvision-portal-2023-3-release-train">CVP 2023.2</a> <br> <a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21412-end-of-software-support-for-cloudvision-portal-2023-2-release-train">CVP 2023.2</a></td>
+<td style="text-align: center;">June 17th, 2025 <br> May 27th, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;">DMF</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-support/21417-end-of-software-support-for-dmf-8-3">DMF 8.3</a></td>
+<td style="text-align: center;">June 3rd, 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;">Switches</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/21052-end-of-sale-of-the-arista-dcs-7020r-series">DCS-7020R Series</a><br></td>
+<td style="text-align: center;">December 20th, 2024</td>
+</tr>
+</tbody>
+</table>
+<p><strong>New Releases</strong> of Arista's device are listed below </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Device</th>
+<th style="text-align: center;">More Information</th>
+<th style="text-align: center;">Release Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Arista SWAG</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/company/news/press-release/20693-pr-12032024">Modern Stacking for Campus</a></td>
+<td style="text-align: center;">Q1 2025</td>
+</tr>
+<tr>
+<td style="text-align: center;">Arista Multi-Domain Segmentaton Service</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/company/news/press-release/19297-pr-20240430">Arista MSS</a></td>
+<td style="text-align: center;">Q3 2024</td>
+</tr>
+<tr>
+<td style="text-align: center;">Arista CV UNO</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/company/news/press-release/19195-pr-20240305">CloudVision Universal Network Observability</a></td>
+<td style="text-align: center;">Q1 2024</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="feel-free-to-reach-out-to-us-for-your-network-needs"><em>Feel Free to Reach Out To Us For Your Network Needs</em><a class="headerlink" href="#feel-free-to-reach-out-to-us-for-your-network-needs" title="Permanent link">&para;</a></h1>
+<figure>
+<p><img alt="Image Placement" src="img/pictureOfNetworks.jpeg" style="height:300px;width:800px" /><br />
+    <figcaption></figcaption></p>
+</figure>
+<p>We thank you for taking the time to read out newsletter today. Feel free to reach out to your SE or ASE for more information or questions regardsing your network operations. Until next month, have a good one! </p>
 
 
 
