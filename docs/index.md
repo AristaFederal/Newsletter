@@ -84,7 +84,7 @@ VeloCloud products complement Arista’s broad campus wired and wireless product
 In today’s AI era, customers need more than traditional SD-WAN. WAN silos will no longer be viable, as traffic caused by generative AI in data centers (either on-premise or hosted in the cloud) will increasingly impact the WAN. Arista and VeloCloud share a common vision for client to cloud networking across WAN and LAN domains as evidenced by the recent announcement of Google’s Cloud WAN. This is a fitting example of this trend. We are excited to warmly welcome the Velo family, led by founder and former CEO Sanjay Uppal, as our seventh and largest acquisition to date. Welcome to our cognitive campus/branch offerings that modernize WAN networks!
 
 ---
-## ** Demystifying Ultra Ethernet ** 
+## **Demystifying Ultra Ethernet** 
 By: Tom Emmons and John Peach
 
 he Ultra Ethernet Consortium (UEC), of which Arista is a founding member, is a standards organisation established to enhance Ethernet for the demanding requirements of Artificial Intelligence (AI) and High-Performance Computing (HPC). Over 100 member companies and 1000 participants have collaborated to evolve Ethernet, leading to the recent publication of its 1.0 specification, which will drive hardware implementations that significantly boost cluster performance.
@@ -92,6 +92,7 @@ he Ultra Ethernet Consortium (UEC), of which Arista is a founding member, is a s
 <figure markdown>
 ![Image Placement](img/july2025_article2.jpg)
     <figcaption></figcaption>
+</figure>
 
 
 
@@ -109,6 +110,8 @@ This is where Ultra Ethernet Transport (UET) comes in, designed to make RDMA a n
 <figure markdown>
 ![Image Placement](img/july2025_article3.jpg)
     <figcaption></figcaption>
+</figure>
+
 
 **Key Aspects of Ultra Ethernet Transport (UET)**
 
@@ -145,6 +148,8 @@ In summary, the UEC specification modernises the relationship between AI/HPC app
 <figure markdown>
 ![Image Placement](img/july2025_article4.jpg)
     <figcaption></figcaption>
+</figure>
+
 
 Arista, as the leading provider of advanced Ethernet solutions for AI/ML clusters and a founding member of the UEC, is committed to this vision. With its current Etherlink portfolio already being UET-ready, and ongoing efforts to develop future systems and collaborate with other pioneers to build optimal Ethernet networks for high-performance computing, we look forward to cementing the leadership of Ethernet as a universal interconnect. For more details on UET, please review our whitepaper here.
 
