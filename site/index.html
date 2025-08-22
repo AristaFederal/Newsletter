@@ -664,17 +664,48 @@ Evolution of WANs in the Agentic AI Wave</p>
 </figure>
 <p><strong>Key Aspects of Ultra Ethernet Transport (UET)</strong></p>
 <p>UET addresses the limitations of traditional RDMA networking from several angles to provide a comprehensive new transport paradigm for both HPC and AI/ML workloads. We’ll take a look at some of the innovations below:</p>
-<pre><code>|  Traditional RDM | Ultra Ethernetme| 
-| :-----------: | :-----------: |
-</code></pre>
-<p>|RDMA tunneled over Ethernet    |Closely coupled API and transport|
-|Single cluster scaling in tens of thousands    |Designed for scaling over 1M endpoints|
-|No native security implementation  |Native highly scalable group-based encryption|
-|Requires in order delivery |Native support for out-of-order packet delivery|
-|Multi-pathing at flow level    |Per-packet multipathing (spraying)|
-|Inefficient go-back-N loss recovery    |Per-packet loss recovery|
-|Coarse congestion management and recovery  |Fine-grained sender and receiver based congestion control|
-|Inflexible network tuning paradigm |Semantic-level configuration of workload tuning|</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Traditional RDM</th>
+<th style="text-align: center;">Ultra Ethernet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">RDMA tunneled over Ethernet</td>
+<td style="text-align: center;">Closely coupled API and transport</td>
+</tr>
+<tr>
+<td style="text-align: center;">Single cluster scaling in tens of thousands</td>
+<td style="text-align: center;">Designed for scaling over 1M endpoints</td>
+</tr>
+<tr>
+<td style="text-align: center;">No native security implementation</td>
+<td style="text-align: center;">Native highly scalable group-based encryption</td>
+</tr>
+<tr>
+<td style="text-align: center;">Requires in order delivery</td>
+<td style="text-align: center;">Native support for out-of-order packet delivery</td>
+</tr>
+<tr>
+<td style="text-align: center;">Multi-pathing at flow level</td>
+<td style="text-align: center;">Per-packet multipathing (spraying)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Inefficient go-back-N loss recovery</td>
+<td style="text-align: center;">Per-packet loss recovery</td>
+</tr>
+<tr>
+<td style="text-align: center;">Coarse congestion management and recovery</td>
+<td style="text-align: center;">Fine-grained sender and receiver based congestion control</td>
+</tr>
+<tr>
+<td style="text-align: center;">Inflexible network tuning paradigm</td>
+<td style="text-align: center;">Semantic-level configuration of workload tuning</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Native Libraries:</strong> To achieve maximum performance, UET effectively implements a native transport layer for the ubiquitous libfabric 2.0 API. For many applications, the transition to UET is straightforward, requiring minimal or no application changes.</p>
 <p><strong>Optimized Traffic Forwarding:</strong> A fundamental concept of UET is the evolution from traditional flow-based traffic distribution to source-based packet spraying. Unlike proprietary solutions, UET is built from the ground up for packet spraying for all message types, ensuring optimal efficiency at every layer.</p>
 <p><strong>Advanced Connection and Congestion Management:</strong> Traditional methods of setting up new connections (e.g., 3-way handshake) are time and resource intensive. Congestion algorithms are optimized for general traffic patterns and recovering from packet loss triggers inefficient "go-back-N" operations, which require many packets to be resent, impacting both the sender and the receiver, as well as the network itself. UET provides significant optimization for all of these cases, including:</p>
@@ -699,9 +730,9 @@ Evolution of WANs in the Agentic AI Wave</p>
 <figure>
   <img alt="Pic1" src="img/July25article11.jpg" />
 <br />
-<figcaption>To DO List Below</figcaption>
+<figcaption></figcaption>
 </figure>
-<p>Do List:  </p>
+<p><strong>Do List:</strong></p>
 <ol>
 <li>If using Zero Touch Provisioning, please set up Option 66 and 67 on your DHCP Server: <br />
    To enable ZTP for initial onboarding, it is required to enable options 66 and 67 within your DHCP server for the Arista switches to grab a configuration file. Note that if you are running EOS version 4.30.X and above, this requirement is not necessary. The purpose of ZTP is to have a pre-set configuration installed onto your switch. In addition, the next step is to check for reachability to Arista.io   </li>
@@ -715,9 +746,9 @@ Evolution of WANs in the Agentic AI Wave</p>
 <figure>
   <img alt="Pic1" src="img/July25Article3.jpg" />
 <br />
-<figcaption>To NOT Do List Below</figcaption>
+<figcaption></figcaption>
 </figure>
-<p>Do NOT:  </p>
+<p><strong>Do NOT:</strong></p>
 <ol>
 <li>Do not wait last minute to see if your CVP instance is set up: <br />
   As your equipment arrives, it’s best practice to begin communicating with the Account Manager to check for your CVP instance. If it’s not ready, and your equipment arrives, this may add additional time to your plans for onboarding the devices to use CVP.  </li>
