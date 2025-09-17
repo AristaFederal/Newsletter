@@ -20,10 +20,12 @@ In this edition, we celebrate the 10th anniversary of Arista CloudVision®, our 
 
 We're also excited to share two timely articles:
 
-Why Do All Your OSPF Costs Show 10 in EOS?
+__Why Do All Your OSPF Costs Show 10 in EOS?__
+
 Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.
 
-The Clock Is Ticking on the OMB IPv6 Mandate!
+__The Clock Is Ticking on the OMB IPv6 Mandate!__
+
 Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.
 
 As we move into fall, we look forward to bringing you more updates, insights, and opportunities to help advance your mission. This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
@@ -52,6 +54,7 @@ By: Dustin Lee, Advanced Services Engineer, US Federal
 The Office of Management and Budget (OMB) mandated the transition to IPv6 because the
 U.S. federal government needs to ensure long-term scalability, security, and innovation across
 its IT infrastructure. Here are the key reasons behind the mandate:
+
 **1. IPv4 Address Exhaustion**
 * IPv4 has only about 4.3 billion unique addresses, most of which have already been
 allocated.
@@ -67,19 +70,21 @@ and IoT (Internet of Things).
 Address Translation (NAT).
 * OMB sees IPv6 as critical to modernizing federal networks and enabling digital
 transformation initiatives.
+
 **3. Security and Efficiency**
 * IPv6 has built-in features that improve security and efficiency, including mandatory
 support for IPsec.
 * It enables end-to-end encryption and better traffic routing.
 * These features align with federal cybersecurity modernization priorities.
+
 **4. Policy and Global Alignment**
 * Many parts of the world (e.g., APAC, Europe) have already widely adopted IPv6.
 * The U.S. government wants to ensure interoperability with international partners and
 avoid falling behind.
 * OMB’s 2020 Memorandum (M-21-07) requires agencies to transition at least 80% of IP-
 enabled assets to IPv6-only by 2025.
-​
-**​Bottom-Line**
+
+​**​Bottom-Line**
 OMB has mandated IPv6 because IPv4 is running out of space, IPv6 supports modernization
 and cybersecurity, and the U.S. government must align with global internet standards to stay
 future-ready.
@@ -90,12 +95,14 @@ integration of IPv6 into core services is more important than ever. With this go
 critical IPv6 capabilities into AVD to address the needs of our customers.
 
 **AVD IPv6 capabilities <= AVD 5.4**
+
 * IPv6 overlay
 * RFC 5549 (Unnumbered) underlay
 * IPv4 still required for full functionality
 * Best Effort support
 
 **AVD IPv6 capabilities >= AVD 5.5**
+
 * Previous Capabilities +
 * Full IPv6 numbered underlay support
 * Dual Stack not required
@@ -229,9 +236,8 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
-    | __July 15__   | Positioning Arista to the Federal Government | Learn how to effectively align Arista's solutions with federal IT missions. The session will provide key messaging, solution positioning, and success stories tailored to the government sector. |
-    | __September 9__ |  Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
     | __October 14__ | vSphere Integration | Join Paul Mancuso, Systems Engineer at Arista Networks, for an in-depth look at how Arista's CloudVision and EOS streamline integration with VMware vSphere.. This session will explore how Arista's solutions enhance automation, visibility, and operational efficiency across virtualized federal data centers. Learn how to simplify network operations and accelerate mission outcomes through seamless vSphere integration. |
+    | November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
