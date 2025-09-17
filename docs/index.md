@@ -56,6 +56,7 @@ U.S. federal government needs to ensure long-term scalability, security, and inn
 its IT infrastructure. Here are the key reasons behind the mandate:
 
 **1. IPv4 Address Exhaustion**
+
 * IPv4 has only about 4.3 billion unique addresses, most of which have already been
 allocated.
 * Federal agencies need the ability to support growing numbers of users, devices, and
@@ -64,6 +65,7 @@ services — something IPv4 alone cannot accommodate.
 growth.
 
 **2. Modernization and Innovation**
+
 * IPv6 is designed for today’s internet scale, supporting cloud services, mobile devices,
 and IoT (Internet of Things).
 * It simplifies network operations by removing the need for workarounds like Network
@@ -72,12 +74,14 @@ Address Translation (NAT).
 transformation initiatives.
 
 **3. Security and Efficiency**
+
 * IPv6 has built-in features that improve security and efficiency, including mandatory
 support for IPsec.
 * It enables end-to-end encryption and better traffic routing.
 * These features align with federal cybersecurity modernization priorities.
 
 **4. Policy and Global Alignment**
+
 * Many parts of the world (e.g., APAC, Europe) have already widely adopted IPv6.
 * The U.S. government wants to ensure interoperability with international partners and
 avoid falling behind.
@@ -85,6 +89,7 @@ avoid falling behind.
 enabled assets to IPv6-only by 2025.
 
 ​**​Bottom-Line**
+
 OMB has mandated IPv6 because IPv4 is running out of space, IPv6 supports modernization
 and cybersecurity, and the U.S. government must align with global internet standards to stay
 future-ready.
@@ -110,14 +115,15 @@ critical IPv6 capabilities into AVD to address the needs of our customers.
 * IPv6 support added to ANTA
 
 **Usage**
+
 A full reference example has been provided and is accessible at: 
 
 <a href="https://avd.arista.com/5.5/ansible_collections/arista/avd/examples/single-dc-l3ls-ipv6/index.html">
 https://avd.arista.com/5.5/ansible_collections/arista/avd/examples/single-dc-l3ls-ipv6/index.html
 </a>
 
-
 The highlights of turning on Ipv6 AVD:
+
 * underlay_ipv6: true
 * underlay_ipv6_numbered: true
 
@@ -129,6 +135,7 @@ Adding these two knobs enables configuration of a Full IPv6 overlay and underlay
 </figure>
 
 **Output**
+
 The following example highlights AVD’s IPv6 capabilities in action.
 <figure markdown>
 ![Image Placement](img/Aug2025_pic2.png)
@@ -148,21 +155,23 @@ These enhancements, validated through integrated testing with ANTA, provide fede
 Arista is committed to ensuring compliance with federal directives while advancing towards a future-ready network architecture.
 
 ---
-
 ## **Why Your Arista OSPF Costs All Say 10 (and the 60-second fix)**
 By: Cass Bell, Systems Engineer, US Federal
 
 OSPF (Open Shortest Path First) is a standard link-state interior gateway protocol (IGP) used in large enterprise networks to dynamically determine the most efficient routes within an autonomous system (AS) using the Dijkstra Shortest Path First (SPF) algorithm. It achieves fast convergence by building a complete network topology map from link-state advertisements (LSAs) and offers scalability and efficiency for complex networks, although it requires more router CPU and memory resources.
 
 **The surprise**
+
 On Arista EOS, OSPF interface costs often appear as 10 across many links rather than reflecting link speed. If you’re looking for the classic OSPF formula (cost = reference_bandwidth / interface_bandwidth), EOS doesn’t apply it by default and interfaces typically show a cost of 10 until you set a modern reference bandwidth or explicit per-interface costs.
 
 **Why it happens**
+
 * Classic OSPF uses a reference bandwidth (historically 100 Mbps). Anything ≥1 Gbps computes to ≤1, which gets floored to 1, not very helpful in modern fabrics.
 
 * On EOS, if you don’t deliberately set a modern reference or explicit costs, interfaces may appear with a fixed cost (10), masking real differences between 1/10/25/40/100/400G paths.
 
 **The 60-second fix**
+
 Pick a modern reference bandwidth and set it under OSPF on every router in the domain.
 
 router ospf <PROCESS-ID>
@@ -177,7 +186,9 @@ Choose a value ≥ your fastest link (e.g., 100000 for 100 G, 1000000 for 1 T).
 Use the same value everywhere to avoid asymmetric path costs.
 
 **Quick presets you can copy**
+
 Datacenter cores/fabrics (10/25/40/100G+)
+
 '''
 router ospf 100
   auto-cost reference-bandwidth 100000
@@ -192,6 +203,7 @@ router ospf 10
 
 
 **Verify in the field**
+
 '''
 show ip ospf interface brief
 
@@ -201,6 +213,7 @@ show running-config section ospf
 '''
 
 **Rollout playbook (safe and fast)**
+
 * Survey current costs: show ip ospf interface brief.
 
 * Pick a reference ≥ your fastest link.
@@ -210,16 +223,14 @@ show running-config section ospf
 * Validate with show ip ospf interface and a quick traceroute/ECMP check.
 
 **Gotchas to avoid**
+
 * Inconsistent reference across neighbors → asymmetric path selection.
 
 * Don’t assume EOS auto-adjusts OSPF costs. It won’t unless you configure it with auto-cost reference-bandwidth.
 
 **Bottom line**
+
 Seeing cost 10 everywhere isn’t “broken,” but it hides real topology differences. Standardize on a modern auto-cost reference-bandwidth and tidy up outliers. Your LSAs (and your traffic) will thank you.  
-
----
-
-Article 3
 
 ---
 
@@ -237,7 +248,7 @@ Arista hosts various events throughout the year for you! Members of our team org
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
     | __October 14__ | vSphere Integration | Join Paul Mancuso, Systems Engineer at Arista Networks, for an in-depth look at how Arista's CloudVision and EOS streamline integration with VMware vSphere.. This session will explore how Arista's solutions enhance automation, visibility, and operational efficiency across virtualized federal data centers. Learn how to simplify network operations and accelerate mission outcomes through seamless vSphere integration. |
-    | November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
+    | __November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
@@ -285,7 +296,6 @@ For new code releases, click [here](https://www.arista.com/en/support/software-d
 
 
 ---
-
 ## __*Software Advisories*__
 Below is a list of advisories that are announced by Arista. To view more details on the specific advisories, please click the links in the middle row.
 
@@ -293,10 +303,10 @@ Below is a list of advisories that are announced by Arista. To view more details
 | :-----------: |:-------------:| :-----:|
 |  __Global Common Encryption Key__   | [Security Advisory 0122](https://www.arista.com/en/support/advisories-notices/security-advisory/22022-security-advisory-0122)  | July 22nd, 2025   |  
 |  __UDP Source Port 3503 Packets__   | [Security Advisory 0121](https://www.arista.com/en/support/advisories-notices/security-advisory/22021-security-advisory-0121)  | July 22nd, 2025   |  
-|  __Neighbor AP Detection on Wi-Fi 7 AP's__   | [Field Notice 0106](https://www.arista.com/en/support/advisories-notices/field-notice/22024-field-notice-0106)  | July 29th, 2025   |  
-|  __Deprecated Command Removal__   | [Field Notice 0105](https://www.arista.com/en/support/advisories-notices/field-notice/22016-field-notice-0105)  | July 14th, 2025   | 
-|  __Prolonged Network Churn Events__   | [Field Notice 0104](https://www.arista.com/en/support/advisories-notices/field-notice/22011-field-notice-0104)  | July 14th, 2025   |   
-|  __Secure Boot__   | [Field Notice 0103](https://www.arista.com/en/support/advisories-notices/field-notice/21651-field-notice-0103)  | July 1st, 2025   |  
+|  __CVP Reverse Proxy__   | [Field Notice 0111](https://www.arista.com/en/support/advisories-notices/field-notice/22238-field-notice-0111)  | September 3rd, 2025   |  
+|  __CVP Disc Usage__   | [Field Notice 0110](https://www.arista.com/en/support/advisories-notices/field-notice/22237-field-notice-0110)  | September 3rd, 2025   | 
+|  __Last Support Release WiFi 6 Platforms__   | [Field Notice 0109](https://www.arista.com/en/support/advisories-notices/field-notice/22049-field-notice-0109)  | August 13th, 2025   |   
+|  __Guest Manager Analytics- Data Opt Out__   | [Field Notice 0108](https://www.arista.com/en/support/advisories-notices/field-notice/22034-field-notice-0108)  | August 1st, 2025   |  
 
 
 
@@ -317,6 +327,8 @@ For a list of the most current advisories and notices, click [Here](https://www.
 | CVP           | [CVP IPAM Application](https://www.arista.com/en/support/advisories-notices/endofsupport) <br> [CVP 2023.3](https://www.arista.com/en/support/advisories-notices/end-of-support/21627-end-of-software-support-for-cloudvision-portal-2023-3-release-train)          |  July 14th, 2025 <br> June 17th, 2025   |
 | DMF           | [DMF 8.3](https://www.arista.com/en/support/advisories-notices/end-of-support/21417-end-of-software-support-for-dmf-8-3)          |  June 3rd, 2025           |
 | Switches      | [DCS-7020R Series](https://www.arista.com/en/support/advisories-notices/end-of-sale/21052-end-of-sale-of-the-arista-dcs-7020r-series)<br> |  December 20th, 2024  |
+| VeloCloud      | [SASE Secured by Symantec](https://www.arista.com/en/support/advisories-notices/end-of-sale/22072-end-of-sale-life-velocloud-sase-secured-symantec)<br> [Software Defined (SD) Access](https://www.arista.com/en/support/advisories-notices/end-of-sale/21653-end-of-sale-end-of-life-for-velocloud-software-defined-sd-access) <br> |  August 20th, 2024 <br> July 1st, 2025 | 
+
 
 
 **New Releases** of Arista's device are listed below 
@@ -324,7 +336,7 @@ For a list of the most current advisories and notices, click [Here](https://www.
 |  Device       | More Information |  Release Date 
     | :-----------: | :-----------:    | :-----------:
     | Arista VeloCloud | [VeloCloud Acquisition](https://www.arista.com/en/company/news/press-release/21646-pr-07012025) | Q3 2025
-    |  Arista SWAG    |   [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024)                | Q3 2025 
+    |  Arista SWAG    |   [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024)                | Q1 2025 
     | Arista Multi-Domain Segmentaton Service  | [Arista MSS](https://www.arista.com/en/company/news/press-release/19297-pr-20240430)         | Q3 2024
     | Arista CV UNO  | [CloudVision Universal Network Observability](https://www.arista.com/en/company/news/press-release/19195-pr-20240305)  | Q1 2024
 
