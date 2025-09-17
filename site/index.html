@@ -635,33 +635,41 @@ https://blogs.arista.com/blog/cloudvision-the-first-decade-2025
 <p>The Office of Management and Budget (OMB) mandated the transition to IPv6 because the
 U.S. federal government needs to ensure long-term scalability, security, and innovation across
 its IT infrastructure. Here are the key reasons behind the mandate:</p>
-<p><strong>1. IPv4 Address Exhaustion</strong>
-* IPv4 has only about 4.3 billion unique addresses, most of which have already been
-allocated.
-* Federal agencies need the ability to support growing numbers of users, devices, and
-services — something IPv4 alone cannot accommodate.
-* IPv6 provides an almost limitless pool of addresses (340 undecillion), ensuring future
-growth.</p>
-<p><strong>2. Modernization and Innovation</strong>
-* IPv6 is designed for today’s internet scale, supporting cloud services, mobile devices,
-and IoT (Internet of Things).
-* It simplifies network operations by removing the need for workarounds like Network
-Address Translation (NAT).
-* OMB sees IPv6 as critical to modernizing federal networks and enabling digital
-transformation initiatives.</p>
-<p><strong>3. Security and Efficiency</strong>
-* IPv6 has built-in features that improve security and efficiency, including mandatory
-support for IPsec.
-* It enables end-to-end encryption and better traffic routing.
-* These features align with federal cybersecurity modernization priorities.</p>
-<p><strong>4. Policy and Global Alignment</strong>
-* Many parts of the world (e.g., APAC, Europe) have already widely adopted IPv6.
-* The U.S. government wants to ensure interoperability with international partners and
-avoid falling behind.
-* OMB’s 2020 Memorandum (M-21-07) requires agencies to transition at least 80% of IP-
-enabled assets to IPv6-only by 2025.</p>
-<p>​<strong>​Bottom-Line</strong>
-OMB has mandated IPv6 because IPv4 is running out of space, IPv6 supports modernization
+<p><strong>1. IPv4 Address Exhaustion</strong></p>
+<ul>
+<li>IPv4 has only about 4.3 billion unique addresses, most of which have already been
+allocated.</li>
+<li>Federal agencies need the ability to support growing numbers of users, devices, and
+services — something IPv4 alone cannot accommodate.</li>
+<li>IPv6 provides an almost limitless pool of addresses (340 undecillion), ensuring future
+growth.</li>
+</ul>
+<p><strong>2. Modernization and Innovation</strong></p>
+<ul>
+<li>IPv6 is designed for today’s internet scale, supporting cloud services, mobile devices,
+and IoT (Internet of Things).</li>
+<li>It simplifies network operations by removing the need for workarounds like Network
+Address Translation (NAT).</li>
+<li>OMB sees IPv6 as critical to modernizing federal networks and enabling digital
+transformation initiatives.</li>
+</ul>
+<p><strong>3. Security and Efficiency</strong></p>
+<ul>
+<li>IPv6 has built-in features that improve security and efficiency, including mandatory
+support for IPsec.</li>
+<li>It enables end-to-end encryption and better traffic routing.</li>
+<li>These features align with federal cybersecurity modernization priorities.</li>
+</ul>
+<p><strong>4. Policy and Global Alignment</strong></p>
+<ul>
+<li>Many parts of the world (e.g., APAC, Europe) have already widely adopted IPv6.</li>
+<li>The U.S. government wants to ensure interoperability with international partners and
+avoid falling behind.</li>
+<li>OMB’s 2020 Memorandum (M-21-07) requires agencies to transition at least 80% of IP-
+enabled assets to IPv6-only by 2025.</li>
+</ul>
+<p>​<strong>​Bottom-Line</strong></p>
+<p>OMB has mandated IPv6 because IPv4 is running out of space, IPv6 supports modernization
 and cybersecurity, and the U.S. government must align with global internet standards to stay
 future-ready.</p>
 <p>With a Federal mandate dictating not only the adoption of IPv6 but a complete transition, full
@@ -683,21 +691,23 @@ critical IPv6 capabilities into AVD to address the needs of our customers.</p>
 <li>IPv6 testing added to network services</li>
 <li>IPv6 support added to ANTA</li>
 </ul>
-<p><strong>Usage</strong>
-A full reference example has been provided and is accessible at: </p>
+<p><strong>Usage</strong></p>
+<p>A full reference example has been provided and is accessible at: </p>
 <p><a href="https://avd.arista.com/5.5/ansible_collections/arista/avd/examples/single-dc-l3ls-ipv6/index.html">
 https://avd.arista.com/5.5/ansible_collections/arista/avd/examples/single-dc-l3ls-ipv6/index.html
 </a></p>
-<p>The highlights of turning on Ipv6 AVD:
-* underlay_ipv6: true
-* underlay_ipv6_numbered: true</p>
+<p>The highlights of turning on Ipv6 AVD:</p>
+<ul>
+<li>underlay_ipv6: true</li>
+<li>underlay_ipv6_numbered: true</li>
+</ul>
 <p>Adding these two knobs enables configuration of a Full IPv6 overlay and underlay for an EVPN/VxLAN fabric </p>
 <figure>
 <p><img alt="Image Placement" src="img/Aug2025_pic1.png" />
     <figcaption></figcaption></p>
 </figure>
-<p><strong>Output</strong>
-The following example highlights AVD’s IPv6 capabilities in action.</p>
+<p><strong>Output</strong></p>
+<p>The following example highlights AVD’s IPv6 capabilities in action.</p>
 <figure>
 <p><img alt="Image Placement" src="img/Aug2025_pic2.png" />
     <figcaption></figcaption></p>
@@ -714,23 +724,27 @@ The following example highlights AVD’s IPv6 capabilities in action.</p>
 <h2 id="why-your-arista-ospf-costs-all-say-10-and-the-60-second-fix"><strong>Why Your Arista OSPF Costs All Say 10 (and the 60-second fix)</strong><a class="headerlink" href="#why-your-arista-ospf-costs-all-say-10-and-the-60-second-fix" title="Permanent link">&para;</a></h2>
 <p>By: Cass Bell, Systems Engineer, US Federal</p>
 <p>OSPF (Open Shortest Path First) is a standard link-state interior gateway protocol (IGP) used in large enterprise networks to dynamically determine the most efficient routes within an autonomous system (AS) using the Dijkstra Shortest Path First (SPF) algorithm. It achieves fast convergence by building a complete network topology map from link-state advertisements (LSAs) and offers scalability and efficiency for complex networks, although it requires more router CPU and memory resources.</p>
-<p><strong>The surprise</strong>
-On Arista EOS, OSPF interface costs often appear as 10 across many links rather than reflecting link speed. If you’re looking for the classic OSPF formula (cost = reference_bandwidth / interface_bandwidth), EOS doesn’t apply it by default and interfaces typically show a cost of 10 until you set a modern reference bandwidth or explicit per-interface costs.</p>
-<p><strong>Why it happens</strong>
-* Classic OSPF uses a reference bandwidth (historically 100 Mbps). Anything ≥1 Gbps computes to ≤1, which gets floored to 1, not very helpful in modern fabrics.</p>
+<p><strong>The surprise</strong></p>
+<p>On Arista EOS, OSPF interface costs often appear as 10 across many links rather than reflecting link speed. If you’re looking for the classic OSPF formula (cost = reference_bandwidth / interface_bandwidth), EOS doesn’t apply it by default and interfaces typically show a cost of 10 until you set a modern reference bandwidth or explicit per-interface costs.</p>
+<p><strong>Why it happens</strong></p>
 <ul>
-<li>On EOS, if you don’t deliberately set a modern reference or explicit costs, interfaces may appear with a fixed cost (10), masking real differences between 1/10/25/40/100/400G paths.</li>
+<li>
+<p>Classic OSPF uses a reference bandwidth (historically 100 Mbps). Anything ≥1 Gbps computes to ≤1, which gets floored to 1, not very helpful in modern fabrics.</p>
+</li>
+<li>
+<p>On EOS, if you don’t deliberately set a modern reference or explicit costs, interfaces may appear with a fixed cost (10), masking real differences between 1/10/25/40/100/400G paths.</p>
+</li>
 </ul>
-<p><strong>The 60-second fix</strong>
-Pick a modern reference bandwidth and set it under OSPF on every router in the domain.</p>
+<p><strong>The 60-second fix</strong></p>
+<p>Pick a modern reference bandwidth and set it under OSPF on every router in the domain.</p>
 <p>router ospf <PROCESS-ID></p>
 <p>auto-cost reference-bandwidth 100000   ! 100G in Mbps</p>
 <p><strong>Guidance</strong></p>
 <p>Choose a value ≥ your fastest link (e.g., 100000 for 100 G, 1000000 for 1 T).</p>
 <p>Use the same value everywhere to avoid asymmetric path costs.</p>
-<p><strong>Quick presets you can copy</strong>
-Datacenter cores/fabrics (10/25/40/100G+)
-'''
+<p><strong>Quick presets you can copy</strong></p>
+<p>Datacenter cores/fabrics (10/25/40/100G+)</p>
+<p>'''
 router ospf 100
   auto-cost reference-bandwidth 100000
 '''</p>
@@ -739,15 +753,17 @@ router ospf 100
 router ospf 10
    auto-cost reference-bandwidth 10000
 '''</p>
-<p><strong>Verify in the field</strong>
-'''
+<p><strong>Verify in the field</strong></p>
+<p>'''
 show ip ospf interface brief</p>
 <p>show ip ospf interface <INTF></p>
 <p>show running-config section ospf
 '''</p>
-<p><strong>Rollout playbook (safe and fast)</strong>
-* Survey current costs: show ip ospf interface brief.</p>
+<p><strong>Rollout playbook (safe and fast)</strong></p>
 <ul>
+<li>
+<p>Survey current costs: show ip ospf interface brief.</p>
+</li>
 <li>
 <p>Pick a reference ≥ your fastest link.</p>
 </li>
@@ -758,15 +774,17 @@ show ip ospf interface brief</p>
 <p>Validate with show ip ospf interface and a quick traceroute/ECMP check.</p>
 </li>
 </ul>
-<p><strong>Gotchas to avoid</strong>
-* Inconsistent reference across neighbors → asymmetric path selection.</p>
+<p><strong>Gotchas to avoid</strong></p>
 <ul>
-<li>Don’t assume EOS auto-adjusts OSPF costs. It won’t unless you configure it with auto-cost reference-bandwidth.</li>
+<li>
+<p>Inconsistent reference across neighbors → asymmetric path selection.</p>
+</li>
+<li>
+<p>Don’t assume EOS auto-adjusts OSPF costs. It won’t unless you configure it with auto-cost reference-bandwidth.</p>
+</li>
 </ul>
-<p><strong>Bottom line</strong>
-Seeing cost 10 everywhere isn’t “broken,” but it hides real topology differences. Standardize on a modern auto-cost reference-bandwidth and tidy up outliers. Your LSAs (and your traffic) will thank you.  </p>
-<hr />
-<p>Article 3</p>
+<p><strong>Bottom line</strong></p>
+<p>Seeing cost 10 everywhere isn’t “broken,” but it hides real topology differences. Standardize on a modern auto-cost reference-bandwidth and tidy up outliers. Your LSAs (and your traffic) will thank you.  </p>
 <hr />
 <h2 id="upcoming-events"><strong><em>Upcoming Events</em></strong><a class="headerlink" href="#upcoming-events" title="Permanent link">&para;</a></h2>
 <p>Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.</p>
@@ -792,7 +810,7 @@ Seeing cost 10 everywhere isn’t “broken,” but it hides real topology diffe
 <td style="text-align: center;">Join Paul Mancuso, Systems Engineer at Arista Networks, for an in-depth look at how Arista's CloudVision and EOS streamline integration with VMware vSphere.. This session will explore how Arista's solutions enhance automation, visibility, and operational efficiency across virtualized federal data centers. Learn how to simplify network operations and accelerate mission outcomes through seamless vSphere integration.</td>
 </tr>
 <tr>
-<td style="text-align: center;">November 18__</td>
+<td style="text-align: center;"><strong>November 18</strong></td>
 <td style="text-align: center;">Arista Campus Solutions</td>
 <td style="text-align: center;">Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations.</td>
 </tr>
@@ -889,24 +907,24 @@ Seeing cost 10 everywhere isn’t “broken,” but it hides real topology diffe
 <td style="text-align: center;">July 22nd, 2025</td>
 </tr>
 <tr>
-<td style="text-align: center;"><strong>Neighbor AP Detection on Wi-Fi 7 AP's</strong></td>
-<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22024-field-notice-0106">Field Notice 0106</a></td>
-<td style="text-align: center;">July 29th, 2025</td>
+<td style="text-align: center;"><strong>CVP Reverse Proxy</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22238-field-notice-0111">Field Notice 0111</a></td>
+<td style="text-align: center;">September 3rd, 2025</td>
 </tr>
 <tr>
-<td style="text-align: center;"><strong>Deprecated Command Removal</strong></td>
-<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22016-field-notice-0105">Field Notice 0105</a></td>
-<td style="text-align: center;">July 14th, 2025</td>
+<td style="text-align: center;"><strong>CVP Disc Usage</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22237-field-notice-0110">Field Notice 0110</a></td>
+<td style="text-align: center;">September 3rd, 2025</td>
 </tr>
 <tr>
-<td style="text-align: center;"><strong>Prolonged Network Churn Events</strong></td>
-<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22011-field-notice-0104">Field Notice 0104</a></td>
-<td style="text-align: center;">July 14th, 2025</td>
+<td style="text-align: center;"><strong>Last Support Release WiFi 6 Platforms</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22049-field-notice-0109">Field Notice 0109</a></td>
+<td style="text-align: center;">August 13th, 2025</td>
 </tr>
 <tr>
-<td style="text-align: center;"><strong>Secure Boot</strong></td>
-<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/21651-field-notice-0103">Field Notice 0103</a></td>
-<td style="text-align: center;">July 1st, 2025</td>
+<td style="text-align: center;"><strong>Guest Manager Analytics- Data Opt Out</strong></td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/field-notice/22034-field-notice-0108">Field Notice 0108</a></td>
+<td style="text-align: center;">August 1st, 2025</td>
 </tr>
 </tbody>
 </table>
@@ -947,6 +965,11 @@ Seeing cost 10 everywhere isn’t “broken,” but it hides real topology diffe
 <td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/21052-end-of-sale-of-the-arista-dcs-7020r-series">DCS-7020R Series</a><br></td>
 <td style="text-align: center;">December 20th, 2024</td>
 </tr>
+<tr>
+<td style="text-align: center;">VeloCloud</td>
+<td style="text-align: center;"><a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/22072-end-of-sale-life-velocloud-sase-secured-symantec">SASE Secured by Symantec</a><br> <a href="https://www.arista.com/en/support/advisories-notices/end-of-sale/21653-end-of-sale-end-of-life-for-velocloud-software-defined-sd-access">Software Defined (SD) Access</a> <br></td>
+<td style="text-align: center;">August 20th, 2024 <br> July 1st, 2025</td>
+</tr>
 </tbody>
 </table>
 <p><strong>New Releases</strong> of Arista's device are listed below </p>
@@ -967,7 +990,7 @@ Seeing cost 10 everywhere isn’t “broken,” but it hides real topology diffe
 <tr>
 <td style="text-align: center;">Arista SWAG</td>
 <td style="text-align: center;"><a href="https://www.arista.com/en/company/news/press-release/20693-pr-12032024">Modern Stacking for Campus</a></td>
-<td style="text-align: center;">Q3 2025</td>
+<td style="text-align: center;">Q1 2025</td>
 </tr>
 <tr>
 <td style="text-align: center;">Arista Multi-Domain Segmentaton Service</td>

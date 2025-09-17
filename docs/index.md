@@ -16,17 +16,17 @@
 
 What a great time of year,  fall is starting to emerge, the MLB playoffs are around the corner, and the NFL and College Football seasons are in full swing. We hope you're enjoying the season and cheering on your favorite teams!
 
-In this edition, we celebrate the 10th anniversary of Arista CloudVision®, our flagship network-wide management and automation platform.  
+In this edition, we celebrate the __10th anniversary of Arista CloudVision®__, our flagship network-wide management and automation platform.  
 
 We're also excited to share two timely articles:
 
-__Why Do All Your OSPF Costs Show 10 in EOS?__
+* __Why Do All Your OSPF Costs Show 10 in EOS?__
 
-Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.
+  Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.
 
-__The Clock Is Ticking on the OMB IPv6 Mandate!__
+* __The Clock Is Ticking on the OMB IPv6 Mandate!__
 
-Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.
+  Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.
 
 As we move into fall, we look forward to bringing you more updates, insights, and opportunities to help advance your mission. This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
 
@@ -174,10 +174,10 @@ On Arista EOS, OSPF interface costs often appear as 10 across many links rather 
 
 Pick a modern reference bandwidth and set it under OSPF on every router in the domain.
 
+```
 router ospf <PROCESS-ID>
-
    auto-cost reference-bandwidth 100000   ! 100G in Mbps
-
+```
 
 **Guidance**
 
@@ -189,28 +189,28 @@ Use the same value everywhere to avoid asymmetric path costs.
 
 Datacenter cores/fabrics (10/25/40/100G+)
 
-'''
+```
 router ospf 100
   auto-cost reference-bandwidth 100000
-'''
+```
 
 **Campus cores (1/10/40G)**
 
-'''
+```
 router ospf 10
    auto-cost reference-bandwidth 10000
-'''
+```
 
 
 **Verify in the field**
 
-'''
+```
 show ip ospf interface brief
 
 show ip ospf interface <INTF>
 
 show running-config section ospf
-'''
+```
 
 **Rollout playbook (safe and fast)**
 
