@@ -20,13 +20,9 @@ In this edition, we celebrate the __10th anniversary of Arista CloudVision®__, 
 
 We're also excited to share two timely articles:
 
-* __Why Do All Your OSPF Costs Show 10 in EOS?__
+* __Why Do All Your OSPF Costs Show 10 in EOS?__ -- Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.
 
-  Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.
-
-* __The Clock Is Ticking on the OMB IPv6 Mandate!__
-
-  Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.
+* __The Clock Is Ticking on the OMB IPv6 Mandate!__ -- Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.
 
 As we move into fall, we look forward to bringing you more updates, insights, and opportunities to help advance your mission. This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
 

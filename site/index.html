@@ -612,11 +612,15 @@
 </a></p>
 <h1 id="welcome-to-the-september-2025-edition-of-the-arista-federal-newsletter">Welcome to the September 2025 Edition of the Arista Federal Newsletter!<a class="headerlink" href="#welcome-to-the-september-2025-edition-of-the-arista-federal-newsletter" title="Permanent link">&para;</a></h1>
 <p>What a great time of year,  fall is starting to emerge, the MLB playoffs are around the corner, and the NFL and College Football seasons are in full swing. We hope you're enjoying the season and cheering on your favorite teams!</p>
-<p>In this edition, we celebrate the 10th anniversary of Arista CloudVision®, our flagship network-wide management and automation platform.  </p>
+<p>In this edition, we celebrate the <strong>10th anniversary of Arista CloudVision®</strong>, our flagship network-wide management and automation platform.  </p>
 <p>We're also excited to share two timely articles:</p>
-<p><strong>Why Do All Your OSPF Costs Show 10 in EOS?</strong></p>
+<ul>
+<li><strong>Why Do All Your OSPF Costs Show 10 in EOS?</strong></li>
+</ul>
 <p>Arista Federal SE Cass Bell explains why it happens, why it’s not “broken,” and the 60-second fix to align your OSPF metrics with real-world paths.</p>
-<p><strong>The Clock Is Ticking on the OMB IPv6 Mandate!</strong></p>
+<ul>
+<li><strong>The Clock Is Ticking on the OMB IPv6 Mandate!</strong></li>
+</ul>
 <p>Arista Federal ASE Dustin Lee outlines why IPv6 is critical for federal networks — scalability, security, modernization — and how Arista is building the IPv6 capabilities customers need in AVD to stay future-ready.</p>
 <p>As we move into fall, we look forward to bringing you more updates, insights, and opportunities to help advance your mission. This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.</p>
 <p>Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.</p>
@@ -737,28 +741,28 @@ https://avd.arista.com/5.5/ansible_collections/arista/avd/examples/single-dc-l3l
 </ul>
 <p><strong>The 60-second fix</strong></p>
 <p>Pick a modern reference bandwidth and set it under OSPF on every router in the domain.</p>
-<p>router ospf <PROCESS-ID></p>
-<p>auto-cost reference-bandwidth 100000   ! 100G in Mbps</p>
+<div class="highlight"><pre><span></span><code>router ospf &lt;PROCESS-ID&gt;
+   auto-cost reference-bandwidth 100000   ! 100G in Mbps
+</code></pre></div>
 <p><strong>Guidance</strong></p>
 <p>Choose a value ≥ your fastest link (e.g., 100000 for 100 G, 1000000 for 1 T).</p>
 <p>Use the same value everywhere to avoid asymmetric path costs.</p>
 <p><strong>Quick presets you can copy</strong></p>
 <p>Datacenter cores/fabrics (10/25/40/100G+)</p>
-<p>'''
-router ospf 100
+<div class="highlight"><pre><span></span><code>router ospf 100
   auto-cost reference-bandwidth 100000
-'''</p>
+</code></pre></div>
 <p><strong>Campus cores (1/10/40G)</strong></p>
-<p>'''
-router ospf 10
+<div class="highlight"><pre><span></span><code>router ospf 10
    auto-cost reference-bandwidth 10000
-'''</p>
+</code></pre></div>
 <p><strong>Verify in the field</strong></p>
-<p>'''
-show ip ospf interface brief</p>
-<p>show ip ospf interface <INTF></p>
-<p>show running-config section ospf
-'''</p>
+<div class="highlight"><pre><span></span><code>show ip ospf interface brief
+
+show ip ospf interface &lt;INTF&gt;
+
+show running-config section ospf
+</code></pre></div>
 <p><strong>Rollout playbook (safe and fast)</strong></p>
 <ul>
 <li>
