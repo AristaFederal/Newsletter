@@ -237,14 +237,16 @@ Arista hosts various events throughout the year for you! Members of our team org
 
 -   __Arista Network Webinars Series with Carahsoft__
 
+*CHANNEL PARTNER ONLY*
+
     <a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
       <img src="img/arista-carasoft-v2.png"/>
     </a>
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
-    | __October 14__ | Data Center Networking Solutions & Operations in the Era of DOGE | Join Mitch Vaughn, Principal Systems Engineer at Arista, for a session on optimizing data center strategies with Arista's innovative technologies. He will cover how to position Arista effectively in the data center, highlight the advantages of a single OS and CloudVision with AVD for streamlined operations and explain the Arista licensing model for EOS features and CloudVision. The session will also touch on the hardware lifecycle management, the value of AVD with real-world deployment metrics, and Arista's approach to code quality through CVE metrics. Mitch will share insights into commonly deployed platforms, and discuss tools for enhanced visibility, real-time bug scrubs, and proactive CVE notifications. |
-    | __November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. |
+    | __October 14__ | Data Center Networking Solutions & Operations in the Era of DOGE | Join Mitch Vaughn, Principal Systems Engineer at Arista, for a session on optimizing data center strategies with Arista's innovative technologies. He will cover how to position Arista effectively in the data center, highlight the advantages of a single OS and CloudVision with AVD for streamlined operations and explain the Arista licensing model for EOS features and CloudVision. The session will also touch on the hardware lifecycle management, the value of AVD with real-world deployment metrics, and Arista's approach to code quality through CVE metrics. Mitch will share insights into commonly deployed platforms, and discuss tools for enhanced visibility, real-time bug scrubs, and proactive CVE notifications. For channel partners only. |
+    | __November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. For channel partners only. |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
