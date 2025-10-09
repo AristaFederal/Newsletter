@@ -237,7 +237,7 @@ Arista hosts various events throughout the year for you! Members of our team org
 
 -   __Arista Network Webinars Series with Carahsoft__
 
-*CHANNEL PARTNER ONLY*
+    __For Channel Partners Only__
 
     <a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
       <img src="img/arista-carasoft-v2.png"/>
