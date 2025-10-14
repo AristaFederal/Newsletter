@@ -20,13 +20,9 @@ We hope everyone successfully navigated the fiscal year-end rush and is ready to
 
 In this edition we share two exciting articles:
 
-* __Introduction to Arista EOS — Simplifying Networking, Powering Innovation__
+* __Introduction to Arista EOS — Simplifying Networking, Powering Innovation__ -- Arista Technical Solutions Engineer Elumalai Neelamegam provides a comprehensive overview of Arista's Extensible Operating System (EOS) architecture, exploring its innovative design principles and core components.
 
-Arista Technical Solutions Engineer Elumalai Neelamegam provides a comprehensive overview of Arista's Extensible Operating System (EOS) architecture, exploring its innovative design principles and core components.
-
-* __Simplifying Campus Network Operations with CloudVision Network Hierarch__
-
-Arista Advanced Services Engineer Alex Bojko shares valuable insights on CloudVision offering practical takeaways for our Federal and System Integrator customers
+* __Simplifying Campus Network Operations with CloudVision Network Hierarch__ -- Arista Advanced Services Engineer Alex Bojko shares valuable insights on CloudVision offering practical takeaways for our Federal and System Integrator customers
 
 We always welcome your feedback, ideas, and requests at fed@aristafederal.com.
 
