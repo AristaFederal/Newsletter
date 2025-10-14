@@ -9,7 +9,7 @@
 </script>
 
 <a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
+  <img src="../img/arista-federal-logo.png" />
 </a>
 
 # Welcome to the September 2025 Edition of the Arista Federal Newsletter!
@@ -39,7 +39,7 @@ https://blogs.arista.com/blog/cloudvision-the-first-decade-2025
 </a>
 
 <a href="https://blogs.arista.com/blog" target="_blank">
-  <img src="img/blog.png" />
+  <img src="../img/blog.png" />
 </a>
 
 ---

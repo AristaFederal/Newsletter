@@ -9,12 +9,28 @@
 </script>
 
 <a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
+  <img src="../img/arista-federal-logo.png" />
 </a>
 
 # Welcome to the October 2025 Edition of the Arista Federal Newsletter!
 
+Happy Government New Year!
 
+We hope everyone successfully navigated the fiscal year-end rush and is ready to kick off FY26 with fresh momentum. As the Government reopens for business and programs accelerate, it’s the perfect time to refocus on mission priorities and innovation. At Arista, we're excited to continue partnering with our Federal and System Integrator customers to simplify operations, strengthen security, and power the next wave of mission success.  
+
+In this edition we share two exciting articles:
+
+* __Introduction to Arista EOS — Simplifying Networking, Powering Innovation__
+
+Arista Technical Solutions Engineer Elumalai Neelamegam provides a comprehensive overview of Arista's Extensible Operating System (EOS) architecture, exploring its innovative design principles and core components.
+
+* __Simplifying Campus Network Operations with CloudVision Network Hierarch__
+
+Arista Advanced Services Engineer Alex Bojko shares valuable insights on CloudVision offering practical takeaways for our Federal and System Integrator customers
+
+We always welcome your feedback, ideas, and requests at fed@aristafederal.com.
+
+Thank you for reading the Arista Federal Newsletter — your trusted source for innovation, industry insight, and mission-focused networking solutions for Federal Agencies and System Integrators.
 
 ---
 
@@ -22,7 +38,7 @@
 
 
 <a href="https://blogs.arista.com/blog" target="_blank">
-  <img src="img/blog.png" />
+  <img src="../img/blog.png" />
 </a>
 
 ---
