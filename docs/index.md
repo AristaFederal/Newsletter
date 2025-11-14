@@ -28,11 +28,11 @@ In this month’s newsletter, you’ll find:
 
     Arista & Palo Alto announced a deepened Arista-Palo Alto partnership to deliver a modern Enterprise security architecture based on Arista MSS with "smart hooks" into an EOS EVPN fabric, and integrated with the Palo Alto NGFW management suite. The solution delivers holistic zero-trust security for both east-west and north-south traffic with optimized Firewall performance, improved resilience, and a much simplified network design to enable granular control of the traffic redirected to Firewalls in distributed Enterprise Data Centers.
 
-    __[ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"]__(https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
+    [ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
 
-    [__Arista Blog__] - https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security
+    [__Arista Blog__] (https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
 
-    __Palo Alto Blog__ - https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/
+    [Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
 
 * __Arista’s Smart System Upgrade (SSU)__
 
@@ -125,13 +125,11 @@ The steps and commands utilized are outlined here, generically. You can also (an
   ![Inventory List](img/Nov25_pic5.png)
   <figcaption></figcaption>
 </figure>
-
 6. For switches using MLAG: 
 <figure markdown="span">
   ![Inventory List](img/Nov25_pic6.png)
   <figcaption></figcaption>7
 </figure>
-
 Transfer new EOS image onto device via USB, FTP, SCP, HTTP
 
 7. Prep device to boot from new image **EOS would be the version you are upgrading to** and wr mem
