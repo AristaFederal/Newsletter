@@ -28,11 +28,11 @@ In this month’s newsletter, you’ll find:
 
     Arista & Palo Alto announced a deepened Arista-Palo Alto partnership to deliver a modern Enterprise security architecture based on Arista MSS with "smart hooks" into an EOS EVPN fabric, and integrated with the Palo Alto NGFW management suite. The solution delivers holistic zero-trust security for both east-west and north-south traffic with optimized Firewall performance, improved resilience, and a much simplified network design to enable granular control of the traffic redirected to Firewalls in distributed Enterprise Data Centers.
 
-    [ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
+        [ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
 
-    [Arista Blog](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
+        [Arista Blog](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
 
-    [Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
+        [Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
 
 * __Arista’s Smart System Upgrade (SSU)__
 
@@ -102,52 +102,46 @@ The steps and commands utilized are outlined here, generically. You can also (an
       <figcaption></figcaption>
     </figure>
 2. Ensure space is available for new EOS + logs
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic2.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic2.png)
+      <figcaption></figcaption>
+    </figure>
 3. Verify connectivity for management
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic3.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic3.png)
+      <figcaption></figcaption>
+    </figure>
 4. Verify configuration supports SSU. Fix errors presented, as required. 
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic4.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic4.png)
+      <figcaption></figcaption>
+    </figure>
 5. For BGP / MP-BGP **Ensure all BGP sessions are stable; for BGP within a specific VRF, use ‘graceful-restart’ within the respective VRF
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic5.png)
-  <figcaption></figcaption>
-</figure>
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic5.png)
+      <figcaption></figcaption>
+    </figure>
 6. For switches using MLAG: 
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic6.png)
-  <figcaption></figcaption>7
-</figure>
-Transfer new EOS image onto device via USB, FTP, SCP, HTTP
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic6.png)
+      <figcaption></figcaption>7
+    </figure>
+    __Transfer new EOS image onto device via USB, FTP, SCP, HTTP__
 7. Prep device to boot from new image **EOS would be the version you are upgrading to** and wr mem
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic7.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic7.png)
+      <figcaption></figcaption>
+    </figure>
 8. Reboot the device
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic8.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic8.png)
+      <figcaption></figcaption>
+    </figure>
 9. Verify new EOS version is utilized
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic9.png)
-  <figcaption></figcaption>
-</figure>
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic9.png)
+      <figcaption></figcaption>
+    </figure>
 
 The dual supervisor version is utilized in nearly the same method; however, there are some nuances with the process of rebooting to be aware of. Namely, that the secondary supervisor receives the image from the primary and both are restarted together. 
 
