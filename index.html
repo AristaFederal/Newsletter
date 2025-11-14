@@ -745,7 +745,7 @@ Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allo
 <li>For switches using MLAG: 
     <figure markdown="span">
       <img alt="Inventory List" src="img/Nov25_pic6.png" />
-      <figcaption></figcaption>7
+      <figcaption></figcaption>
     </figure>
     <strong>Transfer new EOS image onto device via USB, FTP, SCP, HTTP</strong></li>
 <li>Prep device to boot from new image <strong>EOS would be the version you are upgrading to</strong> and wr mem
@@ -776,25 +776,17 @@ Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allo
 <p>Here are the three pillars that have made eAPI a favorite among network engineers and DevOps teams worldwide:</p>
 <ol>
 <li>Comprehensiveness
-With Arista’s eAPI, customers can access any state and configure any properties on the switch that they could otherwise do over the CLI.</li>
-</ol>
-<p>Every command available in the CLI is accessible via eAPI. From <code>show interfaces</code> to full configuration sessions (<code>configure terminal</code> → multiple commands → <code>end</code>), you get 100% parity with interactive sessions.</p>
-<ol>
-<li>
-<p>Ease of Use &amp; Flexibility
-The simplicity of this protocol and the availability of third-party JSON clients means that eAPI is language agnostic and can integrate into any existing infrastructure and workflow. Additionally, on-box, interactive documentation for the API and return values make writing new programs simple.</p>
-</li>
-<li>
-<p>Language-agnostic: Works with Python, Go, Ruby, PowerShell – any language with an HTTPS client.  </p>
-</li>
+    With Arista’s eAPI, customers can access any state and configure any properties on the switch that they could otherwise do over the CLI.
+    Every command available in the CLI is accessible via eAPI. From <code>show interfaces</code> to full configuration sessions (<code>configure terminal</code> → multiple commands → <code>end</code>), you get 100% parity with interactive sessions.</li>
+<li>Ease of Use &amp; Flexibility
+    The simplicity of this protocol and the availability of third-party JSON clients means that eAPI is language agnostic and can integrate into any existing infrastructure and workflow. Additionally, on-box, interactive documentation for the API and return values make writing new programs simple.<ul>
+<li>Language-agnostic: Works with Python, Go, Ruby, PowerShell – any language with an HTTPS client.  </li>
 <li>Built-in interactive documentation: Just point your browser to <code>https://&lt;switch-ip&gt;/eapi</code> after enabling the service.  </li>
-<li>
-<p>On-box API explorer at <code>https://&lt;switch-ip&gt;/eapi/spec</code> lets you test commands live.</p>
+<li>On-box API explorer at <code>https://&lt;switch-ip&gt;/eapi/spec</code> lets you test commands live</li>
+</ul>
 </li>
-<li>
-<p>Rock-Solid Stability
-Arista ensures that a command’s structured output will remain compatible with multiple future versions of EOS. The compatibility allows end users to confidently develop critical applications without compromising their ability to upgrade to newer EOS releases and gain additional features. Furthermore, this enables scripts to operate cleanly in data centers running multiple versions of EOS without compromising eAPI’s simplicity.</p>
-</li>
+<li>Rock-Solid Stability
+    Arista ensures that a command’s structured output will remain compatible with multiple future versions of EOS. The compatibility allows end users to confidently develop critical applications without compromising their ability to upgrade to newer EOS releases and gain additional features. Furthermore, this enables scripts to operate cleanly in data centers running multiple versions of EOS without compromising eAPI’s simplicity.</li>
 </ol>
 <p>Arista guarantees backward compatibility of structured output across multiple EOS releases. Upgrade your switches without breaking your automation scripts – a promise that removes the biggest barrier to adopting new features.</p>
 <figure>
