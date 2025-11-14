@@ -9,7 +9,7 @@
 </script>
 
 <a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
+  <img src="../img/arista-federal-logo.png" />
 </a>
 
 # Welcome to the October 2025 Edition of the Arista Federal Newsletter!
@@ -34,7 +34,7 @@ Thank you for reading the Arista Federal Newsletter — your trusted source for 
 
 
 <a href="https://blogs.arista.com/blog" target="_blank">
-  <img src="img/blog.png" />
+  <img src="../img/blog.png" />
 </a>
 
 ---

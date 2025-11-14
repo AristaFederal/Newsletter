@@ -25,6 +25,7 @@ From all of us at Arista Federal, we wish you and your families a safe, joyful, 
 In this month’s newsletter, you’ll find:
 
 * __Arista and Palo Alto Networks Strengthen Partnership in the New Age of AI Security__
+
 Arista & Palo Alto announced a deepened Arista-Palo Alto partnership to deliver a modern Enterprise security architecture based on Arista MSS with "smart hooks" into an EOS EVPN fabric, and integrated with the Palo Alto NGFW management suite. The solution delivers holistic zero-trust security for both east-west and north-south traffic with optimized Firewall performance, improved resilience, and a much simplified network design to enable granular control of the traffic redirected to Firewalls in distributed Enterprise Data Centers.
 
 __ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"__
@@ -35,6 +36,7 @@ __Arista Blog__ - https://blogs.arista.com/blog/arista-and-palo-alto-networks-st
 __Palo Alto Blog__ - https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/
 
 * __Arista’s Smart System Upgrade (SSU)__
+
 Arista Federal SE Casey Durst explores the benefits of Smart System Upgrade (SSU) — a capability that brings new levels of network agility and uptime. With SSU, you can perform software upgrades on Arista switches while keeping traffic flowing — no lengthy downtime, no complex manual work, and no juggling dashboards. It’s a smarter, more efficient way to maintain and evolve your network without disruption.
 Unlock the Power of Programmatic Networking with Arista EOS API (eAPI)
 
@@ -63,6 +65,7 @@ Some time ago while supporting ongoing kinetic military operations it was the ti
 While the pressure for your restarts and reboots may not be at the same level or may very well exceed it, Arista Networks provides Smart System Upgrades (SSU) or ‘Hitless’ upgrades across DataCenter and Campus switching variants which may be one of the most underrated and undervalued capabilities in the Arista arsenal. 
 
 **What is SSU?**
+
 SSU is a solution suite designed to address some of the most complex and challenging tasks facing network administrators - network appliance maintenance. Changes to the underlying network infrastructure can affect large numbers of devices and cause significant outages. Using the flexibility of Arista design to your advantage, there are multiple variations of SSU at your disposal: 
 Leaf SSU enables hitless software upgrade that allows a network operator to upgrade the software while keeping the switch data plane operational during the upgrade. Hitless upgrade is completely seamless to connected hosts ensuring uptime to services and applications to singly attached hosts during a software upgrade. 
 Spine SSU introduces maintenance mode to intelligently insert and remove a spine device from the network by combining protocol based graceful shutdown and traffic redirection hence minimizing loss to application traffic. Maintenance mode enables network operation teams to stay on top of software upgrades, hardware replacements or isolated troubleshooting without taking downtime for applications.
@@ -88,18 +91,21 @@ We have all experienced device reloads with outages and accept it as just a part
 7. Uninterrupted connections: By sending LACP link-state information, the network connections remain active which allows traffic to continue to traverse the device
 8. Intelligent insertion and removal of network elements, customized to the Spine or the Leaf layer
 9. Programmatic interface to tailor upgrades to operating environment
+
+
 The steps and commands utilized are outlined here, generically. You can also (and we would recommend) using CloudVision to execute SSU to ensure success of each device as it completes the upgrade and reboot process. Arista prides itself in quality and simplicity. 
+
 
 1. Save the current configuration:
 <figure markdown="span">
   ![Inventory List](img/Nov25_pic1.png)
-  <figcaption></figcaption>a
+  <figcaption></figcaption>
 </figure>
 
 2. Ensure space is available for new EOS + logs
 <figure markdown="span">
   ![Inventory List](img/Nov25_pic2.png)
-  <figcaption></figcaption>a
+  <figcaption></figcaption>
 </figure>
 
 3. Verify connectivity for management
