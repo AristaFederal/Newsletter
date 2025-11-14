@@ -664,9 +664,12 @@
 <li>
 <p><strong>Arista and Palo Alto Networks Strengthen Partnership in the New Age of AI Security</strong></p>
 <p>Arista &amp; Palo Alto announced a deepened Arista-Palo Alto partnership to deliver a modern Enterprise security architecture based on Arista MSS with "smart hooks" into an EOS EVPN fabric, and integrated with the Palo Alto NGFW management suite. The solution delivers holistic zero-trust security for both east-west and north-south traffic with optimized Firewall performance, improved resilience, and a much simplified network design to enable granular control of the traffic redirected to Firewalls in distributed Enterprise Data Centers.</p>
-<p><a href="https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&amp;utm_medium=brighttalk&amp;utm_campaign=657035">ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"</a></p>
-<p><a href="https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security">Arista Blog</a></p>
-<p><a href="https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/">Palo Alto Blog</a></p>
+<pre><code>[ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&amp;utm_medium=brighttalk&amp;utm_campaign=657035)
+
+[Arista Blog](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
+
+[Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
+</code></pre>
 </li>
 <li>
 <p><strong>Arista’s Smart System Upgrade (SSU)</strong></p>
@@ -719,70 +722,48 @@ Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allo
       <img alt="Inventory List" src="img/Nov25_pic1.png" />
       <figcaption></figcaption>
     </figure></li>
-<li>Ensure space is available for new EOS + logs</li>
+<li>Ensure space is available for new EOS + logs
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic2.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>Verify connectivity for management
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic3.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>Verify configuration supports SSU. Fix errors presented, as required. 
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic4.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>For BGP / MP-BGP **Ensure all BGP sessions are stable; for BGP within a specific VRF, use ‘graceful-restart’ within the respective VRF
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic5.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>For switches using MLAG: 
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic6.png" />
+      <figcaption></figcaption>7
+    </figure>
+    <strong>Transfer new EOS image onto device via USB, FTP, SCP, HTTP</strong></li>
+<li>Prep device to boot from new image <strong>EOS would be the version you are upgrading to</strong> and wr mem
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic7.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>Reboot the device
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic8.png" />
+      <figcaption></figcaption>
+    </figure></li>
+<li>Verify new EOS version is utilized
+    <figure markdown="span">
+      <img alt="Inventory List" src="img/Nov25_pic9.png" />
+      <figcaption></figcaption>
+    </figure></li>
 </ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic2.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>Verify connectivity for management</li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic3.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>Verify configuration supports SSU. Fix errors presented, as required. </li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic4.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>For BGP / MP-BGP **Ensure all BGP sessions are stable; for BGP within a specific VRF, use ‘graceful-restart’ within the respective VRF</li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic5.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>For switches using MLAG: </li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic6.png" />
-<br />
-<figcaption></figcaption>
-7</figure>
-<p>Transfer new EOS image onto device via USB, FTP, SCP, HTTP</p>
-<ol>
-<li>Prep device to boot from new image <strong>EOS would be the version you are upgrading to</strong> and wr mem</li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic7.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>Reboot the device</li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic8.png" />
-<br />
-<figcaption></figcaption>
-</figure>
-<ol>
-<li>Verify new EOS version is utilized</li>
-</ol>
-<figure>
-  <img alt="Inventory List" src="img/Nov25_pic9.png" />
-<br />
-<figcaption></figcaption>
-</figure>
 <p>The dual supervisor version is utilized in nearly the same method; however, there are some nuances with the process of rebooting to be aware of. Namely, that the secondary supervisor receives the image from the primary and both are restarted together. </p>
 <p><strong>Conclusion</strong></p>
 <p>There is no doubt that the opening scenario will bring back memories for many on the Arista Federal team and our customers as each of us has our own scenario that may mimic it. Only you know the risk level of your environment but with Arista Networks, the frustrating era of 0200 maintenance windows to limit network downtime has now paved the way for day-time reboots with little risk to customers, end-users, and in our world, military operations.</p>
