@@ -30,7 +30,7 @@ In this month’s newsletter, you’ll find:
 
     [ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
 
-    [__Arista Blog__] (https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
+    [Arista Blog](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
 
     [Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
 
@@ -97,11 +97,10 @@ The steps and commands utilized are outlined here, generically. You can also (an
 
 
 1. Save the current configuration:
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic1.png)
-  <figcaption></figcaption>
-</figure>
-
+    <figure markdown="span">
+      ![Inventory List](img/Nov25_pic1.png)
+      <figcaption></figcaption>
+    </figure>
 2. Ensure space is available for new EOS + logs
 <figure markdown="span">
   ![Inventory List](img/Nov25_pic2.png)
