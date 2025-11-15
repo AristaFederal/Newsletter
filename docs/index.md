@@ -53,10 +53,10 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 
 ## **Arista Blog**
 
-[![Image Placement][1]][2]
+[![Image Placement][3]][4]
 
-[1]: img/blog.png
-[2]: https://blogs.arista.com/blog
+[3]: img/blog.png
+[4]: https://blogs.arista.com/blog
 
 ---
 ## **SMART… System Upgrade**
