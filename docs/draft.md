@@ -21,9 +21,9 @@ INTRO
 
 ## **Arista Blog**
 
-[![Image Placement][1]][2]
-[1]: img/blog.png
-[2]: https://blogs.arista.com/blog
+[![Image Placement][3]][4]
+[3]: img/blog.png
+[4]: https://blogs.arista.com/blog
 
 
 ---
@@ -45,9 +45,9 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     __For Channel Partners Only__
 
-    [![Image Placement][1]][2]
-    [1]: img/arista-carasoft-v2.png
-    [2]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
+    [![Image Placement][5]][6]
+    [5]: img/arista-carasoft-v2.png
+    [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
