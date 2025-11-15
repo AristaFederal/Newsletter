@@ -8,19 +8,14 @@
 
 </script>
 
-<a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
-</a>
+[![Image Placement][1]][2]
+[1]: img/arista-federal-logo.png
+[2]: http://www.aristafederal.com
+
 
 # Welcome to the December 2025 Edition of the Arista Federal Newsletter!
 
 INTRO
-
-
-[![Image Placement][1]][2]
-
-[1]: img/arista-federal-logo.png
-[2]: http://www.aristafederal.com
 
 ---
 
