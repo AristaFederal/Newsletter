@@ -8,9 +8,11 @@
 
 </script>
 
-<a href="http://www.aristafederal.com" target="_blank">
-  <img src="img/arista-federal-logo.png" />
-</a>
+[![Image Placement][1]][2]
+
+[1]: img/arista-federal-logo.png
+[2]: http://www.aristafederal.com
+
 
 # Welcome to the November 2025 Edition of the Arista Federal Newsletter!
 
@@ -51,10 +53,10 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 
 ## **Arista Blog**
 
+[![Image Placement][1]][2]
 
-<a href="https://blogs.arista.com/blog" target="_blank">
-  <img src="img/blog.png" />
-</a>
+[1]: img/blog.png
+[2]: https://blogs.arista.com/blog
 
 ---
 ## **SMART… System Upgrade**
