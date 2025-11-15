@@ -16,6 +16,11 @@
 
 INTRO
 
+
+[![Image Placement][1][2]]
+[1]: img/arista-federal-logo.png
+[2]: http://www.aristafederal.com
+
 ---
 
 ## **Arista Blog**
@@ -45,7 +50,7 @@ Arista hosts various events throughout the year for you! Members of our team org
     __For Channel Partners Only__
 
     <a href="https://carahevents.carahsoft.com/Event/Details/618442-arista-networks" target="_blank">
-      ![Image Placement](img/arista-carasoft-v2.png")
+      <img src="img/arista-carasoft-v2.png"/>
     </a>
 
     |  Date | Name| Description | 
