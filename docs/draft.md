@@ -17,7 +17,8 @@
 INTRO
 
 
-[![Image Placement][1][2]]
+[![Image Placement][1]][2]
+
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
