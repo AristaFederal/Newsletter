@@ -45,15 +45,10 @@ EVPN redefines this approach by using BGP as a unified control plane for pseudow
 | **Route-Type** | **Name** | **Description** |
 | --- | --- | --- |
 | 1   | Ethernet Auto-Discovery (AD) route | Remote discovery of dual-homed segments |
-| --- | --- | --- |
 | 2   | MAC/Host IP route | Locally learned MAC address and Host IP address |
-| --- | --- | --- |
 | 3   | Inclusive Multicast Ethernet Tag (IMET) Route | EVI membership advertisement |
-| --- | --- | --- |
 | 4   | Ethernet Segment Route | Discover Ethernet Segment peers |
-| --- | --- | --- |
 | 5   | IP Prefix Route | IP prefix advertisement |
-| --- | --- | --- |
 
 The following are the key benefits of EVPN over legacy MPLS VPN services:
 
@@ -70,7 +65,7 @@ EVPN provides multi-tenant support by using BGP as a unified control plane to ca
 The complexity of multiple BGP address families and LDP signaling is no longer required to provide Layer 2 and Layer 3 services. EVPN consolidates Layer 2 and Layer 3 services into a single control plane by using the Route Types for address advertisements. This simplification reduces operational overhead and streamlines service deployment.
 
 <figure markdown>
-![Image Placement](img/dec25_pic1.PNG)
+![Image Placement](img/dec25_pic1.png)
     <figcaption></figcaption>
 </figure>
 
@@ -79,7 +74,7 @@ The complexity of multiple BGP address families and LDP signaling is no longer r
 EVPN is transport agnostic, supporting both MPLS and VXLAN data planes. Multi-tenant Layer 2 and Layer 3 service offerings can span both environments under a shared control plane. This is especially valuable when VXLAN-based data centers are interconnected over a MPLS WAN.
 
 <figure markdown>
-![Image Placement](img/dec25_pic2.PNG)
+![Image Placement](img/dec25_pic2.png)
     <figcaption></figcaption>
 </figure>
 
@@ -92,15 +87,10 @@ EVPN supports Active-Active Multihoming with Ethernet Segment Identifier (ESI). 
 EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.
 
 | **Route-Type** | **Name** | **Description** |
-| --- | --- | --- |
 | 6   | IGMP & MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
-| --- | --- | --- |
 | 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
-| --- | --- | --- |
 | 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |
-| --- | --- | --- |
 | 10  | S-PMSI-AD route | Overlay to Underlay multicast group mapping (VXLAN) |
-| --- | --- | --- |
 
 - **Standards Based**
 
