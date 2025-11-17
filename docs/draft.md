@@ -32,7 +32,85 @@ ARTICLE #1
 
 ---
 
-ARTICLE #2
+## **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
+
+By Jeff Colburn, Systems Engineer, US Federal
+
+For nearly two decades, Multiprotocol Label Switching (MPLS) has served as the foundation of carrier-grade VPN and service delivery. However, as enterprise and service provider networks evolve toward cloud-native, software-defined (SDN), and virtualization-driven architectures, traditional MPLS pseudowire, Layer 2 (VPLS) and Layer 3 VPN (IP-VPN) services increasingly reveal their limitations. Ethernet VPN (EVPN) has emerged as the modern control plane that not only replaces legacy MPLS services but also enhances scalability, flexibility, and operational simplicity across data center, WAN, and campus environments.
+
+Traditional MPLS VPNs, whether pseudowire, IP-VPN or VPLS, use a combination of LDP and BGP to build forwarding tables and isolate customer traffic. While robust, these technologies were designed for static, service-provider-centric environments and lack the simplificity and efficiency required in cloud-scale networks.
+
+EVPN redefines this approach by using BGP as a unified control plane for pseudowire, Layer 2 and Layer 3 VPN services. It introduces a route-type framework that enables MAC and IP information to be distributed efficiently, reducing flooding and improving convergence.
+
+| **Route-Type** | **Name** | **Description** |
+| --- | --- | --- |
+| 1   | Ethernet Auto-Discovery (AD) route | Remote discovery of dual-homed segments |
+| --- | --- | --- |
+| 2   | MAC/Host IP route | Locally learned MAC address and Host IP address |
+| --- | --- | --- |
+| 3   | Inclusive Multicast Ethernet Tag (IMET) Route | EVI membership advertisement |
+| --- | --- | --- |
+| 4   | Ethernet Segment Route | Discover Ethernet Segment peers |
+| --- | --- | --- |
+| 5   | IP Prefix Route | IP prefix advertisement |
+| --- | --- | --- |
+
+The following are the key benefits of EVPN over legacy MPLS VPN services:
+
+- **Control Plane MAC Address Learning**
+
+MAC address learning is accomplished through the control plane using BGP, rather than through VPLS' flood-and-learn mechanism across the data plane. MAC moves and changes are no longer dependent on aging timers and flooding. EVPN's use of BGP provides near-real time updates and faster convergence.
+
+- **Multi-Tenancy Support**
+
+EVPN provides multi-tenant support by using BGP as a unified control plane to carry both Layer 2 and Layer 3 VPN information. Each tenant is assigned a unique EVPN Instance (EVI) identified by a Route Distinguisher (RD) and Route Target (RT), ensuring complete isolation of control and data planes. IP Virtual Routing and Forwarding (VRF) instances are used to isolate each tenant's routed domain, while MAC VRFs provide tenants their own isolated Ethernet domain. EVPN Integrated Routing and Bridging (IRB) permits seamless Layer 2 and Layer 3 connectivity for each tenant. Traffic for each tenant is encapsulated with distinct MPLS service labels, allowing multiple tenants to share the same physical infrastructure while keeping their traffic isolated from each other.
+
+- **Unified Control Plane**
+
+The complexity of multiple BGP address families and LDP signaling is no longer required to provide Layer 2 and Layer 3 services. EVPN consolidates Layer 2 and Layer 3 services into a single control plane by using the Route Types for address advertisements. This simplification reduces operational overhead and streamlines service deployment.
+
+<figure markdown>
+![Image Placement](img/dec25_pic1.PNG)
+    <figcaption></figcaption>
+</figure>
+
+- **Transport Independent**
+
+EVPN is transport agnostic, supporting both MPLS and VXLAN data planes. Multi-tenant Layer 2 and Layer 3 service offerings can span both environments under a shared control plane. This is especially valuable when VXLAN-based data centers are interconnected over a MPLS WAN.
+
+<figure markdown>
+![Image Placement](img/dec25_pic2.PNG)
+    <figcaption></figcaption>
+</figure>
+
+- **Load Balancing & Availability**
+
+EVPN supports Active-Active Multihoming with Ethernet Segment Identifier (ESI). Clients may connect to multiple PEs that are members of the same ESI for improved availability. EVPN advertises ESI membership, enabling Equal Cost Multi Path (ECMP) from the remote PEs. The Designated Forwarder (DF) election mechanism identifies the receiving PE for BUM traffic per ESI, ensuring loop-free redundancy and load balancing.
+
+- **Multicast Support**
+
+EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.
+
+| **Route-Type** | **Name** | **Description** |
+| --- | --- | --- |
+| 6   | IGMP & MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
+| --- | --- | --- |
+| 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
+| --- | --- | --- |
+| 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |
+| --- | --- | --- |
+| 10  | S-PMSI-AD route | Overlay to Underlay multicast group mapping (VXLAN) |
+| --- | --- | --- |
+
+- **Standards Based**
+
+EVPN is a standards-based (RFC 7432) technology with broad multi-vendor interoperability verified across leading networking vendors. EVPN ensures open, future-proof architectures and eliminates the potential for vendor lock-in.
+
+- **Migration Ready**
+
+As VXLAN adoption expands across campus, data center, and WAN environments, EVPN simplifies migration from MPLS to VXLAN. Its shared control plane allows operators to deploy both transports simultaneously, enabling a phased, non-disruptive transition.
+
+While MPLS remains a viable transport option, traditional Layer 2 and Layer 3 VPN services are increasingly inefficient and operationally complex. EVPN provides a transport-independent, unified control plane that delivers these services more efficiently, while allowing seamless coexistence and gradual migration from IP VPN and VPLS to EVPN-based services.
 
 ---
 
