@@ -618,11 +618,37 @@
 <li><strong>Multicast Support</strong></li>
 </ul>
 <p>EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.</p>
-<p>| <strong>Route-Type</strong> | <strong>Name</strong> | <strong>Description</strong> |
-| 6   | IGMP &amp; MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
-| 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
-| 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |
-| 10  | S-PMSI-AD route | Overlay to Underlay multicast group mapping (VXLAN) |</p>
+<table>
+<thead>
+<tr>
+<th><strong>Route-Type</strong></th>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>IGMP &amp; MLD Proxy route</td>
+<td>Advertise and proxy local IGMP joins/leaves</td>
+</tr>
+<tr>
+<td>7</td>
+<td>IGMP/MLD Join Sync route</td>
+<td>Advertise/sync local IGMP Join in multi-home topology</td>
+</tr>
+<tr>
+<td>8</td>
+<td>IGMP/MLD Leave Sync route</td>
+<td>Advertise/sync local IGMP Leave in multi-home topology</td>
+</tr>
+<tr>
+<td>10</td>
+<td>S-PMSI-AD route</td>
+<td>Overlay to Underlay multicast group mapping (VXLAN)</td>
+</tr>
+</tbody>
+</table>
 <ul>
 <li><strong>Standards Based</strong></li>
 </ul>
