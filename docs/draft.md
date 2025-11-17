@@ -87,6 +87,7 @@ EVPN supports Active-Active Multihoming with Ethernet Segment Identifier (ESI). 
 EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.
 
 | **Route-Type** | **Name** | **Description** |
+| --- | --- | --- |
 | 6   | IGMP & MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
 | 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
 | 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |

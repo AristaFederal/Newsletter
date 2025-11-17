@@ -564,19 +564,9 @@
 <td>Remote discovery of dual-homed segments</td>
 </tr>
 <tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
-</tr>
-<tr>
 <td>2</td>
 <td>MAC/Host IP route</td>
 <td>Locally learned MAC address and Host IP address</td>
-</tr>
-<tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
 </tr>
 <tr>
 <td>3</td>
@@ -584,29 +574,14 @@
 <td>EVI membership advertisement</td>
 </tr>
 <tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
-</tr>
-<tr>
 <td>4</td>
 <td>Ethernet Segment Route</td>
 <td>Discover Ethernet Segment peers</td>
 </tr>
 <tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
-</tr>
-<tr>
 <td>5</td>
 <td>IP Prefix Route</td>
 <td>IP prefix advertisement</td>
-</tr>
-<tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
 </tr>
 </tbody>
 </table>
@@ -624,7 +599,7 @@
 </ul>
 <p>The complexity of multiple BGP address families and LDP signaling is no longer required to provide Layer 2 and Layer 3 services. EVPN consolidates Layer 2 and Layer 3 services into a single control plane by using the Route Types for address advertisements. This simplification reduces operational overhead and streamlines service deployment.</p>
 <figure>
-<p><img alt="Image Placement" src="img/dec25_pic1.PNG" />
+<p><img alt="Image Placement" src="../img/dec25_pic1.png" />
     <figcaption></figcaption></p>
 </figure>
 <ul>
@@ -632,7 +607,7 @@
 </ul>
 <p>EVPN is transport agnostic, supporting both MPLS and VXLAN data planes. Multi-tenant Layer 2 and Layer 3 service offerings can span both environments under a shared control plane. This is especially valuable when VXLAN-based data centers are interconnected over a MPLS WAN.</p>
 <figure>
-<p><img alt="Image Placement" src="img/dec25_pic2.PNG" />
+<p><img alt="Image Placement" src="../img/dec25_pic2.png" />
     <figcaption></figcaption></p>
 </figure>
 <ul>
@@ -658,19 +633,9 @@
 <td>Advertise and proxy local IGMP joins/leaves</td>
 </tr>
 <tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
-</tr>
-<tr>
 <td>7</td>
 <td>IGMP/MLD Join Sync route</td>
 <td>Advertise/sync local IGMP Join in multi-home topology</td>
-</tr>
-<tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
 </tr>
 <tr>
 <td>8</td>
@@ -678,19 +643,9 @@
 <td>Advertise/sync local IGMP Leave in multi-home topology</td>
 </tr>
 <tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
-</tr>
-<tr>
 <td>10</td>
 <td>S-PMSI-AD route</td>
 <td>Overlay to Underlay multicast group mapping (VXLAN)</td>
-</tr>
-<tr>
-<td>---</td>
-<td>---</td>
-<td>---</td>
 </tr>
 </tbody>
 </table>
