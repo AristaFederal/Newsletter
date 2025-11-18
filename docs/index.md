@@ -192,7 +192,7 @@ Arista guarantees backward compatibility of structured output across multiple EO
 
 * The server processes the request and collects a structured data model for each command, which will then be converted into JSON. The JSON-RPC 2.0 ‘error’ field is set if a command returns an error. Otherwise, the response is in the ‘result’ field. You can view further documentation on response formats at https:///eapi/spec and overview documentation at https:///eapi/overview. EOS Command Validation over eAPI and embedded EOS Sanity Checks Command and control over eAPI (configuration change or command execution) can optionally be sent with a validation flag, meaning the CLI command will not be executed on the switch but will be parsed by EOS. This function is leveraged by  Arista's AVD  (Architect, Validate, Deploy  ) and  Arista's CloudVision to ensure a CLI command or configuration change is syntactically correct and supported by the target device the platform it is executed against.
 
-Arista AVD  (Architect, Validate, Deploy  -  https://avd.arista.com/5.7/index.html)
+Arista AVD -- [Architect, Validate, Deploy](https://avd.arista.com/5.7/index.html)
 
 Sanity Check functions embedded in EOS can also be programmatically called to validate a syntactically correct config change is also functionally correct. One example is the MLAG Sanity Check - a CLI command call that triggers EOS to query its neighboring MLAG switch to ensure a proposed config change will not disrupt MLAG functionality.
 
@@ -224,8 +224,7 @@ As networks evolve into software-defined infrastructure, tools like eAPI are no 
 
 
 Ready to leave SSH scripts behind?
-Dive into the full technical details in the official whitepaper:  
-(https://www.arista.com/assets/data/pdf/Whitepapers/Arista_eAPI_FINAL.pdf)
+Dive into the full technical details in the official [whitepaper](https://www.arista.com/assets/data/pdf/Whitepapers/Arista_eAPI_FINAL.pdf)
 
 ---
 

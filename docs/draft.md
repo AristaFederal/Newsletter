@@ -34,7 +34,7 @@ ARTICLE #1
 
 ## **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
 
-By Jeff Colburn, Systems Engineer, US Federal
+Jeff Colburn, Systems Engineer, US Federal
 
 For nearly two decades, Multiprotocol Label Switching (MPLS) has served as the foundation of carrier-grade VPN and service delivery. However, as enterprise and service provider networks evolve toward cloud-native, software-defined (SDN), and virtualization-driven architectures, traditional MPLS pseudowire, Layer 2 (VPLS) and Layer 3 VPN (IP-VPN) services increasingly reveal their limitations. Ethernet VPN (EVPN) has emerged as the modern control plane that not only replaces legacy MPLS services but also enhances scalability, flexibility, and operational simplicity across data center, WAN, and campus environments.
 
