@@ -795,7 +795,7 @@ Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allo
 <p>The server processes the request and collects a structured data model for each command, which will then be converted into JSON. The JSON-RPC 2.0 ‘error’ field is set if a command returns an error. Otherwise, the response is in the ‘result’ field. You can view further documentation on response formats at https:///eapi/spec and overview documentation at https:///eapi/overview. EOS Command Validation over eAPI and embedded EOS Sanity Checks Command and control over eAPI (configuration change or command execution) can optionally be sent with a validation flag, meaning the CLI command will not be executed on the switch but will be parsed by EOS. This function is leveraged by  Arista's AVD  (Architect, Validate, Deploy  ) and  Arista's CloudVision to ensure a CLI command or configuration change is syntactically correct and supported by the target device the platform it is executed against.</p>
 </li>
 </ul>
-<p>Arista AVD  (Architect, Validate, Deploy  -  https://avd.arista.com/5.7/index.html)</p>
+<p>Arista AVD -- <a href="https://avd.arista.com/5.7/index.html">Architect, Validate, Deploy</a></p>
 <p>Sanity Check functions embedded in EOS can also be programmatically called to validate a syntactically correct config change is also functionally correct. One example is the MLAG Sanity Check - a CLI command call that triggers EOS to query its neighboring MLAG switch to ensure a proposed config change will not disrupt MLAG functionality.</p>
 <p><strong>Real-World Applications</strong></p>
 <p>Imagine replacing an entire running configuration on hundreds of leaf and spine switches in seconds instead of hours or feeding live interface counters directly into your monitoring stack without custom parsers. Customers are already doing this:</p>
@@ -810,8 +810,7 @@ Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allo
 <p><strong>The Future Is Programmable</strong></p>
 <p>As networks evolve into software-defined infrastructure, tools like eAPI are no longer nice-to-have – they are the way forward. With guaranteed stability, universal language support, and complete CLI coverage, Arista eAPI empowers you to automate everything from day-to-day operations to massive greenfield deployments.</p>
 <p>Ready to leave SSH scripts behind?
-Dive into the full technical details in the official whitepaper:<br />
-(https://www.arista.com/assets/data/pdf/Whitepapers/Arista_eAPI_FINAL.pdf)</p>
+Dive into the full technical details in the official <a href="https://www.arista.com/assets/data/pdf/Whitepapers/Arista_eAPI_FINAL.pdf">whitepaper</a></p>
 <hr />
 <h2 id="upcoming-events"><strong><em>Upcoming Events</em></strong><a class="headerlink" href="#upcoming-events" title="Permanent link">&para;</a></h2>
 <p>Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.</p>

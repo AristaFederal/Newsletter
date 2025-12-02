@@ -118,9 +118,11 @@ Arista hosts various events throughout the year for you! Members of our team org
     [5]: img/arista-carasoft-v2.png
     [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
+Please check back next quarter for our 2026 schedule! 
+
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
-    | __November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. For channel partners only. |
+    | __TBD__ | TBD | TBD |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
