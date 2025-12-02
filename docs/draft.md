@@ -114,11 +114,11 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     __For Channel Partners Only__
 
-    __Please check back next quarter for our 2026 schedule!__
-    
     [![Image Placement][5]][6]
     [5]: img/arista-carasoft-v2.png
     [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
+
+    __Please check back next quarter for our 2026 schedule!__
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
