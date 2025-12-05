@@ -36,6 +36,7 @@ In modern IT environments, the network is more than just a connection backbone, 
 Recognizing these challenges, Arista Networks developed CloudVision to bring “cloud-networking” principles, software-driven automation, standardization, and scalability into enterprise networks of any size. Arista has long been delivering network solutions with a unique software-driven approach to building reliable networks designed around the principles of best practices, standardization, simplification, cost-savings, and automation. 
 
 **What Is CloudVision: Unified, Multi-Domain Network Management Platform**
+
 CloudVision is Arista’s modern, multi-domain network management platform built on cloud networking principles for telemetry, analytics, and automation. Within the automation domain, CloudVision Studios provides GUI-based automation for deploying and managing networks. 
 
 A key component behind this unification is the concept of a global “state repository” called NetDL (Network Data Lake). NetDL aggregates time-series state data streamed from all connected EOS-based devices including configurations, protocol state, hardware status, flow data, and can even integrate third-party data from partner tools. This aggregated, historic and real-time view enables network teams to manage and understand the network as a holistic entity, rather than a collection of individual devices. Since the data is stored in a timeseries, the operator can even go back in time to see a past picture of the network and its state to perform root cause analysis of any encountered problems. This vast wealth of knowledge is utilized by each feature within CloudVision to offer unparalleled visibility into a multi-domain enterprise network.
@@ -53,6 +54,7 @@ Beyond data consolidation, CloudVision supports multiple deployment models. Orga
 </figure>
 
 **CloudVision Portal: Your Single Pane of Glass for NetOps**
+
 The heart of day-to-day interaction with CloudVision is the Web Portal interface. The CloudVision portal combines the most common operational tasks in a web-based dashboard view, decoupled from the underlying hardware. Workflow automation in CloudVision permits operators to execute common deployment and configuration tasks from a single visual touchpoint. 
 
 The portal includes a turnkey solution for Arista’s Zero Touch Provisioning (ZTP) which automates initial device provisioning, ongoing change controls, and device replacements over the operational life cycle of the network. Additionally, the CloudVision portal allows operators the ease of execution on tasks such as firmware upgrades, configuration changes, or compliance audits, which can now be handled in a centralized, workflow-driven manner.This reduces human error, ensures configuration standardization, and simplifies ongoing change management. 
@@ -60,6 +62,7 @@ The portal includes a turnkey solution for Arista’s Zero Touch Provisioning (Z
 Moreover, because CloudVision stores a versioned history of configurations, device state, and software versions, network teams can generate snapshots for pre- and post-change validation and even roll back changes if needed; a critical feature for minimizing risk and ensuring stable operations.
 
 **State Streaming & Real-Time Telemetry: Polling vs Streaming**
+
 Unlike legacy systems which rely on periodic polling or SNMP-based queries, CloudVision employs a state-streaming model: each EOS-based device runs a streaming agent that sends real-time device-state data into NetDL. 
 
 This streaming-based telemetry enables CloudVision to deliver instantaneous visibility into network health from interface statistics, routing and protocol states, flow analytics, to hardware telemetry such as power, temperature, and fan status. That means network teams can spot anomalies, detect intermittent issues, or catch resource exhaustion events as they emerge rather than waiting for the next polling interval. 
@@ -67,7 +70,9 @@ This streaming-based telemetry enables CloudVision to deliver instantaneous visi
 Capturing time-stamped historical data also means the platform supports retrospective analysis: you can “rewind time” to inspect what the network looked like at any previous point. This has proven to be a powerful tool for root-cause analysis of outages or performance regressions. 
 
 **AI/ML:Turning Data into Insights & Proactive Alerts**
-CloudVision doesn’t just store data, it builds intelligence on top of it. By configuring devices to stream device-state and telemetry data to CloudVision, the Analytics Engines along with the CloudVision applications use Machine Learning (ML) algorithms to provide valuable insights into the entire state of the network, highlighting observed anomalies, and providing real-time data, updates, and alerts. 
+
+CloudVision doesn’t just store data, it builds intelligence on top of it. By configuring devices to stream device-state and telemetry data to CloudVision, the 
+Analytics Engines along with the CloudVision applications use Machine Learning (ML) algorithms to provide valuable insights into the entire state of the network, highlighting observed anomalies, and providing real-time data, updates, and alerts. 
 
 <figure markdown>
 ![Image Placement](img/dec25_pic5.png)
@@ -79,6 +84,7 @@ For example, the system applies machine learning models to telemetry streams to 
 For administrators, this means a shift from reactive troubleshooting to proactive network assurance closing the gap between incident detection and remediation, reducing Mean Time to Innocence (MTTI), and helping maintain consistent performance and reliability even as network complexity grows. 
 
 **CloudVision: Seeing is Believing**
+
 As networks continue to grow in complexity across data center, campus, branch, WAN and cloud domains, CloudVision represents a powerful, unified solution to bring simplicity and control. Its cloud-native architecture backed by real-time state streaming, a comprehensive NetDL and embedded AI/ML analytics delivers enterprise-wide visibility, predictive insights, and automation that help eliminate traditional manual toil and reduce human-error risk. 
 
 For organizations seeking to modernize their NetOps, CloudVision offers more than just a management dashboard; it becomes the single pane of glass for real-time monitoring, configuration, compliance and change control across the entire network. By adopting this software-driven, cloud networking approach, enterprises can achieve scalable, reliable operations with faster provisioning, proactive troubleshooting and ongoing compliance ensuring their network scales smoothly to meet the continuously evolving network landscape, enabling operators to meet and exceed current day global business and industry demands. 
