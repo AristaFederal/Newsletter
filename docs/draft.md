@@ -30,6 +30,7 @@ In this month’s newsletter, you’ll find:
    -- Arista Federal SE Jeff Colburn explains how Ethernet VPN (EVPN) has become the modern control plane of choice, one that not only replaces legacy MPLS VPN services, but delivers improved scalability, flexibility, and operational simplicity across data center, WAN, and campus environments. EVPN enables agencies and integrators to modernize their network architecture with an open, standards-based approach that supports today’s cloud-first and mission-critical demands.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
+
 Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
 
 
