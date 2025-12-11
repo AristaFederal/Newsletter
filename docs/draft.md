@@ -14,9 +14,8 @@
 
 
 # Welcome to the December 2025 Edition of the Arista Federal Newsletter!
-
-Welcome to the December 2025 Edition of the Arista Federal Newsletter!
 As we close out another impactful year, December gives us the perfect opportunity to reflect on the progress we’ve made together across the Federal and System Integrator community. From modernizing network architectures to advancing automation and strengthening security, your partnership has helped drive meaningful innovation across the missions we collectively support.
+
 This season also brings a chance to pause and appreciate the collaboration, trust, and shared commitment that have defined 2025. Whether through deployments, briefings, workshops, or long-term planning, we’re grateful for the continued opportunity to work alongside you.
 
 As we head into the holiday season and prepare for an exciting new year, the Arista Federal Team extends our warmest wishes to you and your families. May your holidays be safe, restful, and filled with connection and may 2026 bring new possibilities, new successes, and continued momentum for all of us.
@@ -26,10 +25,9 @@ Happy Holidays from **Arista Federal!**
 In this month’s newsletter, you’ll find:
 
 - **Unlocking a New Era for Enterprise Networking**
-Arista Federal SEs Michael Reyes and Michael Ignoffo highlight how today’s IT environments demand far more from the network than simple connectivity. As organizations scale across data centers, campuses, and cloud environments, network teams are under increasing pressure to deliver availability, security, compliance, and agility all while managing fragmented tools and manual processes that simply can’t keep pace with modern demands.
+  Arista Federal SEs Michael Reyes and Michael Ignoffo highlight how today’s IT environments demand far more from the network than simple connectivity. As organizations scale across data centers, campuses, and cloud environments, network teams are under increasing pressure to deliver availability, security, compliance, and agility all while managing fragmented tools and manual processes that simply can’t keep pace with modern demands.
 - **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
-
-Arista Federal SE Jeff Colburn explains how Ethernet VPN (EVPN) has become the modern control plane of choice, one that not only replaces legacy MPLS VPN services, but delivers improved scalability, flexibility, and operational simplicity across data center, WAN, and campus environments. EVPN enables agencies and integrators to modernize their network architecture with an open, standards-based approach that supports today’s cloud-first and mission-critical demands.
+  Arista Federal SE Jeff Colburn explains how Ethernet VPN (EVPN) has become the modern control plane of choice, one that not only replaces legacy MPLS VPN services, but delivers improved scalability, flexibility, and operational simplicity across data center, WAN, and campus environments. EVPN enables agencies and integrators to modernize their network architecture with an open, standards-based approach that supports today’s cloud-first and mission-critical demands.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
 Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
