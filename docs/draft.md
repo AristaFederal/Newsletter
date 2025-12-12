@@ -47,7 +47,7 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 ---
 
 ## **Unlocking a New Era for Enterprise Networking**
-By: Michael Reyes and Michael Ignoffo, Systems Engineer, US Federal
+By: Michael Reyes, Systems Engineer, US Federal
 
 In modern IT environments, the network is more than just a connection backbone, it is the critical infrastructure that underpins compute, storage, applications, and user access. As enterprises expand across data centers, campuses, and cloud environments, network operations teams are under intense pressure to ensure availability, security, compliance, and agility, often across disparate domains. Traditional network-management tools, relying on manual configuration, polling-based monitoring, and domain-specific systems, are increasingly unable to keep up. 
 
