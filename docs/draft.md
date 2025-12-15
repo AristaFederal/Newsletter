@@ -60,14 +60,14 @@ CloudVision is Arista’s modern, multi-domain network management platform built
 A key component behind this unification is the concept of a global “state repository” called NetDL (Network Data Lake). NetDL aggregates time-series state data streamed from all connected EOS-based devices including configurations, protocol state, hardware status, flow data, and can even integrate third-party data from partner tools. This aggregated, historic and real-time view enables network teams to manage and understand the network as a holistic entity, rather than a collection of individual devices. Since the data is stored in a timeseries, the operator can even go back in time to see a past picture of the network and its state to perform root cause analysis of any encountered problems. This vast wealth of knowledge is utilized by each feature within CloudVision to offer unparalleled visibility into a multi-domain enterprise network.
 
 <figure markdown>
-![Image Placement](img/dec25_pic3.png)
+![Image Placement](img/dec25_pic3a.png)
     <figcaption></figcaption>
 </figure>
 
 Beyond data consolidation, CloudVision supports multiple deployment models. Organizations can deploy it on-premises as physical or virtual appliances or opt for a fully managed cloud model, “CloudVision-as-a-Service (CVaaS)”. The features and user experience remain largely identical across deployment types, giving enterprises flexibility depending on their infrastructure, compliance, and operational preferences. 
 
 <figure markdown>
-![Image Placement](img/dec25_pic4.png)
+![Image Placement](img/dec25_pic4a.png)
     <figcaption></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ CloudVision doesn’t just store data, it builds intelligence on top of it. By c
 Analytics Engines along with the CloudVision applications use Machine Learning (ML) algorithms to provide valuable insights into the entire state of the network, highlighting observed anomalies, and providing real-time data, updates, and alerts. 
 
 <figure markdown>
-![Image Placement](img/dec25_pic5.png)
+![Image Placement](img/dec25_pic5a.png)
     <figcaption></figcaption>
 </figure>
 
