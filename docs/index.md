@@ -9,222 +9,177 @@
 </script>
 
 [![Image Placement][1]][2]
-
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
 
-# Welcome to the November 2025 Edition of the Arista Federal Newsletter!
+# Welcome to the December 2025 Edition of the Arista Federal Newsletter!
+As we close out another impactful year, December gives us the perfect opportunity to reflect on the progress we’ve made together across the Federal and System Integrator community. From modernizing network architectures to advancing automation and strengthening security, your partnership has helped drive meaningful innovation across the missions we collectively support.
 
-As we head into the Thanksgiving season, we want to take a moment to say thank you to our incredible Federal Agencies, System Integrators, and Arista Federal Partners who continue to drive innovation, collaboration, and success across the Federal landscape.
+This season also brings a chance to pause and appreciate the collaboration, trust, and shared commitment that have defined 2025. Whether through deployments, briefings, workshops, or long-term planning, we’re grateful for the continued opportunity to work alongside you.
 
-This time of year is all about gratitude and connection, and we’re truly thankful for the trust and partnership you place in Arista.
+As we head into the holiday season and prepare for an exciting new year, the Arista Federal Team extends our warmest wishes to you and your families. May your holidays be safe, restful, and filled with connection and may 2026 bring new possibilities, new successes, and continued momentum for all of us.
 
-Together, we’re helping agencies modernize their networks, simplify operations, and build the secure, cloud-first infrastructures that our nation depends on every day.
-
-From all of us at Arista Federal, we wish you and your families a safe, joyful, and connected Thanksgiving!
+Happy Holidays from **Arista Federal!**
 
 In this month’s newsletter, you’ll find:
 
-* __Arista and Palo Alto Networks Strengthen Partnership in the New Age of AI Security__
-
-    Arista & Palo Alto announced a deepened Arista-Palo Alto partnership to deliver a modern Enterprise security architecture based on Arista MSS with "smart hooks" into an EOS EVPN fabric, and integrated with the Palo Alto NGFW management suite. The solution delivers holistic zero-trust security for both east-west and north-south traffic with optimized Firewall performance, improved resilience, and a much simplified network design to enable granular control of the traffic redirected to Firewalls in distributed Enterprise Data Centers.
-
-      [ON-Demand Webinar - “Comprehensive Data Center Security for the Age of AI"](https://www.brighttalk.com/webcast/10903/657035?utm_source=Arista&utm_medium=brighttalk&utm_campaign=657035)
-
-      [Arista Blog](https://blogs.arista.com/blog/arista-and-palo-alto-networks-strengthen-partnership-in-the-new-age-of-ai-security)
-
-      [Palo Alto Blog](https://www.paloaltonetworks.com/blog/network-security/palo-alto-networks-arista-networks-partnership/)
-
-* __Arista’s Smart System Upgrade (SSU)__
-
-    Arista Federal SE Casey Durst explores the benefits of Smart System Upgrade (SSU) — a capability that brings new levels of network agility and uptime. With SSU, you can perform software upgrades on Arista switches while keeping traffic flowing — no lengthy downtime, no complex manual work, and no juggling dashboards. It’s a smarter, more efficient way to maintain and evolve your network without disruption.
-
-* __Unlock the Power of Programmatic Networking with Arista EOS API (eAPI)__
-
-    Arista Federal SE Mike Reyes breaks down how Arista’s Extensible Operating System (EOS®) API — eAPI — is transforming network automation.
-
+- **Unlocking a New Era for Enterprise Networking**
+   -- Arista Federal SEs Michael Reyes and Michael Ignoffo highlight how today’s IT environments demand far more from the network than simple connectivity. As organizations scale across data centers, campuses, and cloud environments, network teams are under increasing pressure to deliver availability, security, compliance, and agility all while managing fragmented tools and manual processes that simply can’t keep pace with modern demands.
+- **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
+   -- Arista Federal SE Jeff Colburn explains how Ethernet VPN (EVPN) has become the modern control plane of choice, one that not only replaces legacy MPLS VPN services, but delivers improved scalability, flexibility, and operational simplicity across data center, WAN, and campus environments. EVPN enables agencies and integrators to modernize their network architecture with an open, standards-based approach that supports today’s cloud-first and mission-critical demands.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
 
 Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
+
+
 
 ---
 
 ## **Arista Blog**
 
 [![Image Placement][3]][4]
-
 [3]: img/blog.png
 [4]: https://blogs.arista.com/blog
 
----
-## **SMART… System Upgrade**
-Casey Durst, Systems Engineer, Arista Networks Federal                    
-            
-Some time ago while supporting ongoing kinetic military operations it was the time for the daunting required reboot of network devices for Unclassified and several Classified networks. The careful orchestration of the upgrade timelines ensuring the authorized service interruption window would not impact military operations was complete. We were given a short time to execute a zone-based reboot across the Base Area Network and Data Centers. At first, all was well but during the window we were instructed that the devices need to be back in operation and the maintenance window was canceled. The nine minute reboot could not be expedited and another device came back with the frustrating error outlining corrupted or loss of flash staring at me… tick tok. 
-
-While the pressure for your restarts and reboots may not be at the same level or may very well exceed it, Arista Networks provides Smart System Upgrades (SSU) or ‘Hitless’ upgrades across DataCenter and Campus switching variants which may be one of the most underrated and undervalued capabilities in the Arista arsenal. 
-
-**What is SSU?**
-
-SSU is a solution suite designed to address some of the most complex and challenging tasks facing network administrators - network appliance maintenance. Changes to the underlying network infrastructure can affect large numbers of devices and cause significant outages. Using the flexibility of Arista design to your advantage, there are multiple variations of SSU at your disposal: 
-Leaf SSU enables hitless software upgrade that allows a network operator to upgrade the software while keeping the switch data plane operational during the upgrade. Hitless upgrade is completely seamless to connected hosts ensuring uptime to services and applications to singly attached hosts during a software upgrade. 
-Spine SSU introduces maintenance mode to intelligently insert and remove a spine device from the network by combining protocol based graceful shutdown and traffic redirection hence minimizing loss to application traffic. Maintenance mode enables network operation teams to stay on top of software upgrades, hardware replacements or isolated troubleshooting without taking downtime for applications.
-Regardless of the network model you are operating, be it a spine-leaf topology, MLAG or other, SSU utilizes Arista’s Extensible Operating System’s (EOS) modular architecture to ensure hitless upgrades (when traffic forwarding continues uninterrupted) is available to you. For details on the EOS construct, design, and history please see the October Federal Newsletter as understanding the distributed state database is paramount to understanding how SSU functions. 
-
-SSU orchestrates upgrades using a multi-stage process working carefully with SysDB while ‘siloing’ agents. While silo’ing may have a negative connotation in our lives, in this instance these agents acting independent of one another is used to our advantage because each does not directly impact the other; rather each informs the central SysDB of state changes.
-
-Preparation Phase: Validate and confirm the EOS future image and ensure up to date running configurations are saved. 
-Shutdown: Topology dependent but effectively the re-direction of traffic to MLAG Peers device or maintenance mode for Core spine devices. This traffic re-direction, as applicable, allows for L2 or L3 tables to populate and accept traffic during the upgrade of the primary device. 
-Accelerated boot: Fast boot technology will skip unnecessary hardware initialization and load the required modules, again, based on type of device, topology, and configuration. 
-Reconciliation: A graceful restart of configured protocols (OSPF, BGP, etc) allowing for traffic convergence and updates once- not progressive or consecutive state-based update(s). 
-
-**WIFM: What’s in it for me? (you)**
-
-We have all experienced device reloads with outages and accept it as just a part of doing business. This capability, with the flexibility built-in based on Arista’s EOS and platforms, brings renewed fervor to the planned outage frustration: 
-
-1. Faster reload times: gaining approximately 80% of your time back
-2. Hitless upgrades: upgrade during any point of the business day without impacting users
-3. Traffic Redirection: Maintenance mode or traffic re-direction minimizes disruptions in multi-device architectures
-4. Automation Integration: Use Ansible, Puppet, and Arista’s eAPI
-6. Fault Tolerance: If a fault occurs, only that process restarts and only receives the most recent state changes. We leave the rest of the device and its capability alone. 
-6. Scalable: From a few access devices or massive data center architectures managed via CloudVision, SSU is orchestrated as required by the site admins on their schedule and their capabilities. 
-7. Uninterrupted connections: By sending LACP link-state information, the network connections remain active which allows traffic to continue to traverse the device
-8. Intelligent insertion and removal of network elements, customized to the Spine or the Leaf layer
-9. Programmatic interface to tailor upgrades to operating environment
-
-
-The steps and commands utilized are outlined here, generically. You can also (and we would recommend) using CloudVision to execute SSU to ensure success of each device as it completes the upgrade and reboot process. Arista prides itself in quality and simplicity. 
-
-
-1. Save the current configuration:
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic1.png)
-      <figcaption></figcaption>
-    </figure>
-2. Ensure space is available for new EOS + logs
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic2.png)
-      <figcaption></figcaption>
-    </figure>
-3. Verify connectivity for management
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic3.png)
-      <figcaption></figcaption>
-    </figure>
-4. Verify configuration supports SSU. Fix errors presented, as required. 
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic4.png)
-      <figcaption></figcaption>
-    </figure>
-5. For BGP / MP-BGP **Ensure all BGP sessions are stable; for BGP within a specific VRF, use ‘graceful-restart’ within the respective VRF
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic5.png)
-      <figcaption></figcaption>
-    </figure>
-6. For switches using MLAG: 
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic6.png)
-      <figcaption></figcaption>
-    </figure>
-    __Transfer new EOS image onto device via USB, FTP, SCP, HTTP__
-7. Prep device to boot from new image **EOS would be the version you are upgrading to** and wr mem
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic7.png)
-      <figcaption></figcaption>
-    </figure>
-8. Reboot the device
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic8.png)
-      <figcaption></figcaption>
-    </figure>
-9. Verify new EOS version is utilized
-    <figure markdown="span">
-      ![Inventory List](img/Nov25_pic9.png)
-      <figcaption></figcaption>
-    </figure>
-
-The dual supervisor version is utilized in nearly the same method; however, there are some nuances with the process of rebooting to be aware of. Namely, that the secondary supervisor receives the image from the primary and both are restarted together. 
-
-**Conclusion**
-
-There is no doubt that the opening scenario will bring back memories for many on the Arista Federal team and our customers as each of us has our own scenario that may mimic it. Only you know the risk level of your environment but with Arista Networks, the frustrating era of 0200 maintenance windows to limit network downtime has now paved the way for day-time reboots with little risk to customers, end-users, and in our world, military operations.
 
 ---
 
-## **Unlock the Power of Programmatic Networking with Arista EOS API (eAPI)**
-Mike Reyes, Systems Engineers, Arista Networks Federal 
+## **Unlocking a New Era for Enterprise Networking**
+By: Michael Reyes, Systems Engineer, US Federal
 
-In today’s fast-paced data centers, manual configuration via SSH is no longer enough. Network operators need speed, reliability, and seamless integration with modern automation tools. That’s where Arista’s Extensible Operating System (EOS®) API – better known as eAPI – shines as a game-changer for network automation.
+In modern IT environments, the network is more than just a connection backbone, it is the critical infrastructure that underpins compute, storage, applications, and user access. As enterprises expand across data centers, campuses, and cloud environments, network operations teams are under intense pressure to ensure availability, security, compliance, and agility, often across disparate domains. Traditional network-management tools, relying on manual configuration, polling-based monitoring, and domain-specific systems, are increasingly unable to keep up. 
 
-**What Makes eAPI Stand Out?**
+Recognizing these challenges, Arista Networks developed CloudVision to bring “cloud-networking” principles, software-driven automation, standardization, and scalability into enterprise networks of any size. Arista has long been delivering network solutions with a unique software-driven approach to building reliable networks designed around the principles of best practices, standardization, simplification, cost-savings, and automation. 
 
+**What Is CloudVision: Unified, Multi-Domain Network Management Platform**
 
-Arista EOS offers multiple programmable interfaces for applications. The applications running on the switch or external EOS applications can leverage these interfaces. For example, Arista’s EOS API (eAPI) interface allows applications and scripts complete programmatic control over EOS with a stable and easy-to-use syntax. Once the API is enabled, the switch accepts commands using Arista’s command line interface (CLI) syntax, and responds with machine-readable output and errors serialized in JSON, served over HTTPS.
+CloudVision is Arista’s modern, multi-domain network management platform built on cloud networking principles for telemetry, analytics, and automation. Within the automation domain, CloudVision Studios provides GUI-based automation for deploying and managing networks. 
 
+A key component behind this unification is the concept of a global “state repository” called NetDL (Network Data Lake). NetDL aggregates time-series state data streamed from all connected EOS-based devices including configurations, protocol state, hardware status, flow data, and can even integrate third-party data from partner tools. This aggregated, historic and real-time view enables network teams to manage and understand the network as a holistic entity, rather than a collection of individual devices. Since the data is stored in a timeseries, the operator can even go back in time to see a past picture of the network and its state to perform root cause analysis of any encountered problems. This vast wealth of knowledge is utilized by each feature within CloudVision to offer unparalleled visibility into a multi-domain enterprise network.
 
-Here are the three pillars that have made eAPI a favorite among network engineers and DevOps teams worldwide:
-
-
-1. Comprehensiveness
-    With Arista’s eAPI, customers can access any state and configure any properties on the switch that they could otherwise do over the CLI.
-    Every command available in the CLI is accessible via eAPI. From `show interfaces` to full configuration sessions (`configure terminal` → multiple commands → `end`), you get 100% parity with interactive sessions.
-2. Ease of Use & Flexibility
-    The simplicity of this protocol and the availability of third-party JSON clients means that eAPI is language agnostic and can integrate into any existing infrastructure and workflow. Additionally, on-box, interactive documentation for the API and return values make writing new programs simple.
-    * Language-agnostic: Works with Python, Go, Ruby, PowerShell – any language with an HTTPS client.  
-    * Built-in interactive documentation: Just point your browser to `https://<switch-ip>/eapi` after enabling the service.  
-    * On-box API explorer at `https://<switch-ip>/eapi/spec` lets you test commands live
-3. Rock-Solid Stability
-    Arista ensures that a command’s structured output will remain compatible with multiple future versions of EOS. The compatibility allows end users to confidently develop critical applications without compromising their ability to upgrade to newer EOS releases and gain additional features. Furthermore, this enables scripts to operate cleanly in data centers running multiple versions of EOS without compromising eAPI’s simplicity.
-
-Arista guarantees backward compatibility of structured output across multiple EOS releases. Upgrade your switches without breaking your automation scripts – a promise that removes the biggest barrier to adopting new features.
-
-
-<figure markdown="span">
-  ![Inventory List](img/Nov25_pic10.png)
-  <figcaption>EOS Architecture Overview</figcaption>
+<figure markdown>
+![Image Placement](img/dec25_pic3a.png)
+    <figcaption></figcaption>
 </figure>
 
+Beyond data consolidation, CloudVision supports multiple deployment models. Organizations can deploy it on-premises as physical or virtual appliances or opt for a fully managed cloud model, “CloudVision-as-a-Service (CVaaS)”. The features and user experience remain largely identical across deployment types, giving enterprises flexibility depending on their infrastructure, compliance, and operational preferences. 
 
-* Clients send an HTTP POST request to the server using the lightweight JSON-RPC 2.0 protocol. Requests specify » The “method” to use (at this time, always “runCmds”). » A list of commands to run, for example [‘show interfaces’], or [‘configure’, ‘interface Ethernet 1’, ‘shutdown’] » A “version” number specifying which revision of the model output your script expects (at this time, always “1”).
+<figure markdown>
+![Image Placement](img/dec25_pic4a.png)
+    <figcaption></figcaption>
+</figure>
 
+**CloudVision Portal: Your Single Pane of Glass for NetOps**
 
-* The server processes the request and collects a structured data model for each command, which will then be converted into JSON. The JSON-RPC 2.0 ‘error’ field is set if a command returns an error. Otherwise, the response is in the ‘result’ field. You can view further documentation on response formats at https:///eapi/spec and overview documentation at https:///eapi/overview. EOS Command Validation over eAPI and embedded EOS Sanity Checks Command and control over eAPI (configuration change or command execution) can optionally be sent with a validation flag, meaning the CLI command will not be executed on the switch but will be parsed by EOS. This function is leveraged by  Arista's AVD  (Architect, Validate, Deploy  ) and  Arista's CloudVision to ensure a CLI command or configuration change is syntactically correct and supported by the target device the platform it is executed against.
+The heart of day-to-day interaction with CloudVision is the Web Portal interface. The CloudVision portal combines the most common operational tasks in a web-based dashboard view, decoupled from the underlying hardware. Workflow automation in CloudVision permits operators to execute common deployment and configuration tasks from a single visual touchpoint. 
 
-Arista AVD -- [Architect, Validate, Deploy](https://avd.arista.com/5.7/index.html)
+The portal includes a turnkey solution for Arista’s Zero Touch Provisioning (ZTP) which automates initial device provisioning, ongoing change controls, and device replacements over the operational life cycle of the network. Additionally, the CloudVision portal allows operators the ease of execution on tasks such as firmware upgrades, configuration changes, or compliance audits, which can now be handled in a centralized, workflow-driven manner.This reduces human error, ensures configuration standardization, and simplifies ongoing change management. 
 
-Sanity Check functions embedded in EOS can also be programmatically called to validate a syntactically correct config change is also functionally correct. One example is the MLAG Sanity Check - a CLI command call that triggers EOS to query its neighboring MLAG switch to ensure a proposed config change will not disrupt MLAG functionality.
+Moreover, because CloudVision stores a versioned history of configurations, device state, and software versions, network teams can generate snapshots for pre- and post-change validation and even roll back changes if needed; a critical feature for minimizing risk and ensuring stable operations.
 
+**State Streaming & Real-Time Telemetry: Polling vs Streaming**
 
-**Real-World Applications**
+Unlike legacy systems which rely on periodic polling or SNMP-based queries, CloudVision employs a state-streaming model: each EOS-based device runs a streaming agent that sends real-time device-state data into NetDL. 
 
+This streaming-based telemetry enables CloudVision to deliver instantaneous visibility into network health from interface statistics, routing and protocol states, flow analytics, to hardware telemetry such as power, temperature, and fan status. That means network teams can spot anomalies, detect intermittent issues, or catch resource exhaustion events as they emerge rather than waiting for the next polling interval. 
 
-Imagine replacing an entire running configuration on hundreds of leaf and spine switches in seconds instead of hours or feeding live interface counters directly into your monitoring stack without custom parsers. Customers are already doing this:
+Capturing time-stamped historical data also means the platform supports retrospective analysis: you can “rewind time” to inspect what the network looked like at any previous point. This has proven to be a powerful tool for root-cause analysis of outages or performance regressions. 
 
+**AI/ML:Turning Data into Insights & Proactive Alerts**
 
-* Zero-touch provisioning: Push complete configurations in a single API call.  
-* Integration with Ansible, AVD, and Terraform: Official modules and the Arista Validated Designs (AVD) framework make eAPI the backbone of modern data-center-as-code.  
-* Advanced telemetry: Pull structured `show` command output into Splunk, Elasticsearch, or Grafana with zero transformation effort.
+CloudVision doesn’t just store data, it builds intelligence on top of it. By configuring devices to stream device-state and telemetry data to CloudVision, the 
+Analytics Engines along with the CloudVision applications use Machine Learning (ML) algorithms to provide valuable insights into the entire state of the network, highlighting observed anomalies, and providing real-time data, updates, and alerts. 
 
+<figure markdown>
+![Image Placement](img/dec25_pic5a.png)
+    <figcaption></figcaption>
+</figure>
 
-eAPI’s completeness, stability, and ease of use make it well-suited for various customer applications. 
+For example, the system applies machine learning models to telemetry streams to detect emerging issues before they impact service. By correlating device events, topology context, and historical patterns, CloudVision provides proactive observability that helps pinpoint root causes across the network. 
 
+For administrators, this means a shift from reactive troubleshooting to proactive network assurance closing the gap between incident detection and remediation, reducing Mean Time to Innocence (MTTI), and helping maintain consistent performance and reliability even as network complexity grows. 
 
-For example, traditional network configuration workflows involve connecting to nodes over SSH and setting the configuration command by command. eAPI makes this trivial and allows network operators to replace the entire running configuration for a device in one sequence. eAPI reduces the time to deploy a change and gives the operator a quick feedback loop. eAPI excels at integrating with third-party software. 
+**CloudVision: Seeing is Believing**
 
+As networks continue to grow in complexity across data center, campus, branch, WAN and cloud domains, CloudVision represents a powerful, unified solution to bring simplicity and control. Its cloud-native architecture backed by real-time state streaming, a comprehensive NetDL and embedded AI/ML analytics delivers enterprise-wide visibility, predictive insights, and automation that help eliminate traditional manual toil and reduce human-error risk. 
 
-For example, retrieving structured JSON data from Arista nodes allows developers and operators to easily incorporate EOS nodes into network automation workflows, monitoring, and data center infrastructure management tools. In addition, another use case is for network administrators who wish to configure many nodes programmatically. The robust ecosystem around eAPI has led to integrations with popular open-source toolings such as Arista’s own Arista Validated Designs (AVD) framework and Red Hat’s Ansible Automation Platform.
+For organizations seeking to modernize their NetOps, CloudVision offers more than just a management dashboard; it becomes the single pane of glass for real-time monitoring, configuration, compliance and change control across the entire network. By adopting this software-driven, cloud networking approach, enterprises can achieve scalable, reliable operations with faster provisioning, proactive troubleshooting and ongoing compliance ensuring their network scales smoothly to meet the continuously evolving network landscape, enabling operators to meet and exceed current day global business and industry demands. 
+For more information on CloudVision and any other Arista products or services visit our website at www.arista.com.
 
+---
 
-**The Future Is Programmable**
+## **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
 
+By: Jeff Colburn, Systems Engineer, US Federal
 
-As networks evolve into software-defined infrastructure, tools like eAPI are no longer nice-to-have – they are the way forward. With guaranteed stability, universal language support, and complete CLI coverage, Arista eAPI empowers you to automate everything from day-to-day operations to massive greenfield deployments.
+For nearly two decades, Multiprotocol Label Switching (MPLS) has served as the foundation of carrier-grade VPN and service delivery. However, as enterprise and service provider networks evolve toward cloud-native, software-defined (SDN), and virtualization-driven architectures, traditional MPLS pseudowire, Layer 2 (VPLS) and Layer 3 VPN (IP-VPN) services increasingly reveal their limitations. Ethernet VPN (EVPN) has emerged as the modern control plane that not only replaces legacy MPLS services but also enhances scalability, flexibility, and operational simplicity across data center, WAN, and campus environments.
 
+Traditional MPLS VPNs, whether pseudowire, IP-VPN or VPLS, use a combination of LDP and BGP to build forwarding tables and isolate customer traffic. While robust, these technologies were designed for static, service-provider-centric environments and lack the simplificity and efficiency required in cloud-scale networks.
 
-Ready to leave SSH scripts behind?
-Dive into the full technical details in the official [whitepaper](https://www.arista.com/assets/data/pdf/Whitepapers/Arista_eAPI_FINAL.pdf)
+EVPN redefines this approach by using BGP as a unified control plane for pseudowire, Layer 2 and Layer 3 VPN services. It introduces a route-type framework that enables MAC and IP information to be distributed efficiently, reducing flooding and improving convergence.
+
+| **Route-Type** | **Name** | **Description** |
+| --- | --- | --- |
+| 1   | Ethernet Auto-Discovery (AD) route | Remote discovery of dual-homed segments |
+| 2   | MAC/Host IP route | Locally learned MAC address and Host IP address |
+| 3   | Inclusive Multicast Ethernet Tag (IMET) Route | EVI membership advertisement |
+| 4   | Ethernet Segment Route | Discover Ethernet Segment peers |
+| 5   | IP Prefix Route | IP prefix advertisement |
+
+The following are the key benefits of EVPN over legacy MPLS VPN services:
+
+- **Control Plane MAC Address Learning**
+
+MAC address learning is accomplished through the control plane using BGP, rather than through VPLS' flood-and-learn mechanism across the data plane. MAC moves and changes are no longer dependent on aging timers and flooding. EVPN's use of BGP provides near-real time updates and faster convergence.
+
+- **Multi-Tenancy Support**
+
+EVPN provides multi-tenant support by using BGP as a unified control plane to carry both Layer 2 and Layer 3 VPN information. Each tenant is assigned a unique EVPN Instance (EVI) identified by a Route Distinguisher (RD) and Route Target (RT), ensuring complete isolation of control and data planes. IP Virtual Routing and Forwarding (VRF) instances are used to isolate each tenant's routed domain, while MAC VRFs provide tenants their own isolated Ethernet domain. EVPN Integrated Routing and Bridging (IRB) permits seamless Layer 2 and Layer 3 connectivity for each tenant. Traffic for each tenant is encapsulated with distinct MPLS service labels, allowing multiple tenants to share the same physical infrastructure while keeping their traffic isolated from each other.
+
+- **Unified Control Plane**
+
+The complexity of multiple BGP address families and LDP signaling is no longer required to provide Layer 2 and Layer 3 services. EVPN consolidates Layer 2 and Layer 3 services into a single control plane by using the Route Types for address advertisements. This simplification reduces operational overhead and streamlines service deployment.
+
+<figure markdown>
+![Image Placement](img/dec25_pic1.png)
+    <figcaption></figcaption>
+</figure>
+
+- **Transport Independent**
+
+EVPN is transport agnostic, supporting both MPLS and VXLAN data planes. Multi-tenant Layer 2 and Layer 3 service offerings can span both environments under a shared control plane. This is especially valuable when VXLAN-based data centers are interconnected over a MPLS WAN.
+
+<figure markdown>
+![Image Placement](img/dec25_pic2.png)
+    <figcaption></figcaption>
+</figure>
+
+- **Load Balancing & Availability**
+
+EVPN supports Active-Active Multihoming with Ethernet Segment Identifier (ESI). Clients may connect to multiple PEs that are members of the same ESI for improved availability. EVPN advertises ESI membership, enabling Equal Cost Multi Path (ECMP) from the remote PEs. The Designated Forwarder (DF) election mechanism identifies the receiving PE for BUM traffic per ESI, ensuring loop-free redundancy and load balancing.
+
+- **Multicast Support**
+
+EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.
+
+| **Route-Type** | **Name** | **Description** |
+| --- | --- | --- |
+| 6   | IGMP & MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
+| 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
+| 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |
+| 10  | S-PMSI-AD route | Overlay to Underlay multicast group mapping (VXLAN) |
+
+- **Standards Based**
+
+EVPN is a standards-based (RFC 7432) technology with broad multi-vendor interoperability verified across leading networking vendors. EVPN ensures open, future-proof architectures and eliminates the potential for vendor lock-in.
+
+- **Migration Ready**
+
+As VXLAN adoption expands across campus, data center, and WAN environments, EVPN simplifies migration from MPLS to VXLAN. Its shared control plane allows operators to deploy both transports simultaneously, enabling a phased, non-disruptive transition.
+
+While MPLS remains a viable transport option, traditional Layer 2 and Layer 3 VPN services are increasingly inefficient and operationally complex. EVPN provides a transport-independent, unified control plane that delivers these services more efficiently, while allowing seamless coexistence and gradual migration from IP VPN and VPLS to EVPN-based services.
 
 ---
 
@@ -241,10 +196,11 @@ Arista hosts various events throughout the year for you! Members of our team org
     [5]: img/arista-carasoft-v2.png
     [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
+    __Please check back next quarter for our 2026 schedule!__
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
-    | __November 18__ | Arista Campus Solutions | Discover how Arista is extending its reliable, scalable, and secure networking capabilities to campus environments that are perfect for federal agencies with distributed locations. For channel partners only. |
+    | __TBD__ | TBD | TBD |
 
     [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
 
@@ -272,7 +228,6 @@ Arista hosts various events throughout the year for you! Members of our team org
 </div>
 
 --- 
-
 ## __*Software Updates*__
 <figure markdown>
 ![Image Placement](img/pictureOfCloudVision.jpeg){: style="height:200px;width:300px"}    
@@ -337,7 +292,6 @@ For a list of the most current advisories and notices, click [Here](https://www.
     |  Arista SWAG    |   [Modern Stacking for Campus](https://www.arista.com/en/company/news/press-release/20693-pr-12032024)                | Q1 2025 
     | Arista Multi-Domain Segmentaton Service  | [Arista MSS](https://www.arista.com/en/company/news/press-release/19297-pr-20240430)         | Q3 2024
     | Arista CV UNO  | [CloudVision Universal Network Observability](https://www.arista.com/en/company/news/press-release/19195-pr-20240305)  | Q1 2024
-
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
