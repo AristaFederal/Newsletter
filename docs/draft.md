@@ -25,15 +25,12 @@ We’re excited to continue working alongside you to address the challenges and 
 In this month’s newsletter, you’ll find:
 
 - **Network Ops New Year’s Resolutions (That We Actually Intend to Keep)**
-Arista Federal Client Director Kevin Carey takes a thoughtful and lighthearted look at some of the top New Year’s resolutions for Network Operations teams and how they can be realistically achieved in the year ahead.
+ -- Arista Federal Client Director Kevin Carey takes a thoughtful and lighthearted look at some of the top New Year’s resolutions for Network Operations teams and how they can be realistically achieved in the year ahead.
 
 - **Arista: Building the Network Backbone for Next-Generation AI Training**
-Arista Technical Solutions Engineer Elumalai Neelamegam explores how Arista’s Ethernet-based AI infrastructure delivers scalable, proven results for organizations deploying Intel Habana Gaudi for AI training and why the network is central to performance, efficiency, and cost control.
+ -- Arista Technical Solutions Engineer Elumalai Neelamegam explores how Arista’s Ethernet-based AI infrastructure delivers scalable, proven results for organizations deploying Intel Habana Gaudi for AI training and why the network is central to performance, efficiency, and cost control.
 
-
-
-This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
-
+This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com
 
 ---
 
@@ -172,28 +169,28 @@ By Elumalai Neelamegam - Arista Technical Solutions Engineer
 
 The AI revolution isn't just about processors and storage—it's about the network that connects them. As organizations scale their AI training infrastructure with Intel Habana Gaudi processors, the network becomes the critical enabler of performance, efficiency, and cost-effectiveness.
 
-The AI Training Challenge:
+**The AI Training Challenge:**
 
 Today's AI teams face mounting pressure. According to IDC research, 74% of organizations run 5-10 iterations to train a single model, with 50% rebuilding models weekly or more frequently. This explosion in training workloads demands infrastructure that can scale efficiently without breaking the budget.
 
 The answer lies in a fully integrated approach and the network is where it all comes together.
 
-Why Ethernet Wins for AI at Scale:
+**Why Ethernet Wins for AI at Scale:**
 
 Intel's Habana Gaudi processors broke new ground by integrating ten 100GbE RDMA over Converged Ethernet (RoCE) ports directly on-chip. This isn't just a technical detail, it's a fundamental shift that makes standard Ethernet the ideal fabric for AI training.
 
-The benefits are clear:
+**The benefits are clear:**
 
 Avoid vendor lock-in: Standard Ethernet eliminates proprietary networking constraints
 Scale with flexibility: Use the same technology within servers and across racks
 Lower total cost: Leverage commodity switches instead of specialized interconnects
 Future-proof investments: Build on proven, evolving standards
 
-The Arista Advantage in AI Infrastructure:
+**The Arista Advantage in AI Infrastructure:**
 
 At Arista, we have designed our switching portfolio specifically for the demands of modern AI training. Our solutions power the reference architectures validated with DDN and Supermicro, delivering three distinct network layers:
 
-1. Gaudi Communication Network Switches
+**1. Gaudi Communication Network Switches**
 
 Arista DCS-7060DX4-32: Purpose-built for processor-to-processor communication
 
@@ -202,7 +199,7 @@ Arista DCS-7060DX4-32: Purpose-built for processor-to-processor communication
 Sub-700ns latency for rapid gradient synchronization
 Direct Gaudi-to-Gaudi communication that bypasses CPU overhead
 
-2. Storage & Cluster Management Network Switches
+**2. Storage & Cluster Management Network Switches**
 
 Arista 7170-32C: Optimized for high-speed data transfer
 
@@ -211,7 +208,7 @@ Arista 7170-32C: Optimized for high-speed data transfer
 Sub-800ns latency
 Multi-path redundancy for continuous data availability
 
-3. Management Network Switches
+**3. Management Network Switches**
 
 Arista 7010T: Reliable infrastructure management
 
@@ -219,7 +216,7 @@ Arista 7010T: Reliable infrastructure management
 Layer 3 capabilities for robust traffic management
 Dedicated monitoring and control plane
 
-Real-World Performance:
+**Real-World Performance:**
 
 The validated reference architectures demonstrate impressive results. With just one AI400X2 storage appliance and four Supermicro X12 Gaudi AI servers connected through Arista switches, organizations achieve:
 
@@ -230,7 +227,7 @@ Full network saturation on every link
 
 This architecture scales seamlessly. Deployments with 32 servers and 5 storage appliances have achieved 450 GB/s read and 325 GB/s write throughput—and the architecture has been validated with up to 560 AI accelerator servers.
 
-The Economics of Standard Ethernet:
+**The Economics of Standard Ethernet:**
 
 Here's what many organizations miss: the network represents a significant portion of AI infrastructure costs. By embracing standard Ethernet with Gaudi processors, our customers typically see:
 
@@ -239,7 +236,7 @@ Reduced power consumption through integrated networking
 Lower ongoing operational costs with familiar management tools
 Flexibility to scale incrementally as training demands grow
 
-Designing for Success:
+**Designing for Success:**
 
 A well-architected AI training network follows these principles:
 
@@ -253,11 +250,11 @@ Simplified management: Unified network operations across all tiers
 
 The reference architectures we have validated with DDN and Supermicro embody these principles, giving organizations a proven blueprint for deployment.
 
-Looking Ahead:
+**Looking Ahead:**
 
 As AI models grow more complex and training iterations accelerate, the network will become even more critical. The combination of standard Ethernet, purpose-built Arista switches, and Gaudi's integrated networking creates an infrastructure that's ready for tomorrow's challenges today.
 
-Organizations no longer need to choose between performance, scalability, and cost. With the right network foundation, they can have all three.
+**Organizations no longer need to choose between performance, scalability, and cost. With the right network foundation, they can have all three.**
 Reference : https://www.ddn.com/resources/legacy/supermicro-x12-gaudi-ai-servers/
 
 ---
