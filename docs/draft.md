@@ -73,7 +73,7 @@ As for our own resolution, it’s simple: continue demonstrating to our Federal 
 
 - Validated changes with easy rollback
 
-- **Fewer keystrokes. Fewer regrets.**
+- ***Fewer keystrokes. Fewer regrets.***
 
 **Resolution #2: “We’ll Know About Problems Before Leadership Does”**
 
@@ -95,7 +95,7 @@ As for our own resolution, it’s simple: continue demonstrating to our Federal 
 
 - Network-wide visibility instead of device-by-device guessing
 
-- **For once, the network tells you first.**
+- ***For once, the network tells you first.***
 
 **Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”**
 
@@ -116,7 +116,7 @@ How Arista Helps
 
 - Instant visibility into who changed what and when
 
-- **Blame-free root cause analysis (mostly).**
+- ***Blame-free root cause analysis (mostly).***
 
 **Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”**
 
@@ -132,7 +132,7 @@ How Arista Helps
 
 - Repeatable, testable network builds
 
-- **Consistency beats tribal knowledge.**
+- ***Consistency beats tribal knowledge.***
 
 **Resolution #5: “We Will Make the Network… Boring (In a Good Way)”**
 
@@ -154,7 +154,7 @@ How Arista Helps
 
 - Deterministic, predictable behavior at scale
 
-- **When the network is boring, Ops gets to sleep.**
+- ***When the network is boring, Ops gets to sleep.***
 
 **Bonus Resolution: “We Will Go Home on Time”**
 
@@ -170,7 +170,7 @@ How Arista Helps
 
 - A network that behaves the same way every time
 
-- **Because “always-on” shouldn’t mean “always-on-call.”**
+- ***Because “always-on” shouldn’t mean “always-on-call.”***
 
 **Bottom Line**
 
