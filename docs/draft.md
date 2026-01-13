@@ -13,7 +13,7 @@
 [2]: http://www.aristafederal.com
 
 
-# Welcome to the January 2025 Edition of the Arista Federal Newsletter!
+# Welcome to the January 2026 Edition of the Arista Federal Newsletter!
 Hard to believe it's the beginning of 2026.  Seems like just a year ago it was the start of 2025! 
 
 As we begin the new year, the Arista Federal team would like to wish you a Happy, Healthy, and Prosperous New Year. We appreciate the trust and partnership of our Federal customers and look forward to supporting your priorities in the year ahead.
