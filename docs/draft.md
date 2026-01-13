@@ -51,117 +51,122 @@ With that in mind, here’s a tongue-in-cheek look at a set of New Year’s reso
 
 As for our own resolution, it’s simple: continue demonstrating to our Federal customers how Arista delivers exceptional value through a consistent network operating system (EOS), consistent state management (NetDL), and consistent operations with CloudVision. If we meet our resolution, achieving yours should become a whole lot easier.
 
-Network Ops New Year’s Resolutions
-(That We Actually Intend to Keep)
-Resolution #1: “Not Everything Will Be an Emergency”
-What We Want
+**Network Ops New Year’s Resolutions**
+**(That We Actually Intend to Keep)**
+**Resolution #1: “Not Everything Will Be an Emergency”**
+**What We Want**
 
-Fewer last-minute changes
+- Fewer last-minute changes
 
-More predictable operations
+- More predictable operations
 
-Reality
+**Reality**
 
-If your fingers are on the CLI at 2 a.m., something has already gone wrong.
+- If your fingers are on the CLI at 2 a.m., something has already gone wrong.
+
+**How Arista Helps**
+
+- State-based automation
+
+- Validated changes with easy rollback
+
+- **Fewer keystrokes. Fewer regrets.**
+
+**Resolution #2: “We’ll Know About Problems Before Leadership Does”**
+**What We Want**
+
+- Real-time awareness
+
+- Fewer uncomfortable meetings
+
+**Reality**
+
+- Users should never be your alerting system.
+
+**How Arista Helps**
+
+- Real-time streaming telemetry
+
+- Proactive alerts before users notice
+
+- Network-wide visibility instead of device-by-device guessing
+
+- **For once, the network tells you first.**
+
+**Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”**
+**What We Want**
+
+- Clear audit trails
+
+- Faster root-cause analysis
+
+**Reality**
+
+- Nothing says “fun” like diffing configs during an outage.
 How Arista Helps
 
-State-based automation
+- Full configuration and state history in CloudVision
 
-Validated changes with easy rollback
+- Time-travel troubleshooting (yes, really)
 
-Fewer keystrokes. Fewer regrets.
-Resolution #2: “We’ll Know About Problems Before Leadership Does”
-What We Want
+- Instant visibility into who changed what and when
 
-Real-time awareness
+- **Blame-free root cause analysis (mostly).**
 
-Fewer uncomfortable meetings
+**Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”**
+**Reality**
 
-Reality
+- That config from 2017 probably still works… probably.
+**How Arista Helps**
 
-Users should never be your alerting system.
-How Arista Helps
+- Arista Validated Designs (AVD) for standardized deployments
 
-Real-time streaming telemetry
+- Infrastructure-as-code with Git-based workflows
 
-Proactive alerts before users notice
+- Repeatable, testable network builds
 
-Network-wide visibility instead of device-by-device guessing
+- **Consistency beats tribal knowledge.**
 
-For once, the network tells you first.
+**Resolution #5: “We Will Make the Network… Boring (In a Good Way)”**
+**What We Want**
 
-Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”
-What We Want
+- Fewer incidents
 
-Clear audit trails
+- More mission focus
 
-Faster root-cause analysis
+**Reality**
 
-Reality
+- A boring network is a happy network.
 
-Nothing says “fun” like diffing configs during an outage.
-How Arista Helps
+**How Arista Helps**
 
-Full configuration and state history in CloudVision
+- Single EOS across Campus, Data Center, WAN/Branch/Edge, Internet and Core, and Public Cloud
 
-Time-travel troubleshooting (yes, really)
+- Non-disruptive upgrades
 
-Instant visibility into who changed what and when
+- Deterministic, predictable behavior at scale
 
-Blame-free root cause analysis (mostly).
+- **When the network is boring, Ops gets to sleep.**
 
-Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”
-Reality
+**Bonus Resolution: “We Will Go Home on Time”**
+**Reality**
 
-That config from 2017 probably still works… probably.
-How Arista Helps
+- Networks with high CVE exposure and unnecessary complexity require constant hands-on attention often at nights and on weekends.
 
-Arista Validated Designs (AVD) for standardized deployments
+**How Arista Helps**
 
-Infrastructure-as-code with Git-based workflows
+- Automation reduces firefighting
 
-Repeatable, testable network builds
+- Fewer outages, faster fixes
 
-Consistency beats tribal knowledge.
+- A network that behaves the same way every time
 
-Resolution #5: “We Will Make the Network… Boring (In a Good Way)”
-What We Want
+- **Because “always-on” shouldn’t mean “always-on-call.”**
 
-Fewer incidents
-
-More mission focus
-
-Reality
-
-A boring network is a happy network.
-How Arista Helps
-
-Single EOS across Campus, Data Center, WAN/Branch/Edge, Internet and Core, and Public Cloud
-
-Non-disruptive upgrades
-
-Deterministic, predictable behavior at scale
-
-When the network is boring, Ops gets to sleep.
-
-Bonus Resolution: “We Will Go Home on Time”
-Reality
-
-Networks with high CVE exposure and unnecessary complexity require constant hands-on attention often at nights and on weekends.
-How Arista Helps
-
-Automation reduces firefighting
-
-Fewer outages, faster fixes
-
-A network that behaves the same way every time
-
-Because “always-on” shouldn’t mean “always-on-call.”
-
-Bottom Line
+**Bottom Line**
 Arista helps Federal and DoD network teams spend less time fighting the network and more time supporting the mission. By simplifying operations, improving visibility, and enabling automation at scale, Arista helps Network Ops teams actually keep their New Year’s resolutions without the drama.
 
-Arista Federal wishes you a Happy, Healthy, and Prosperous New Year!
+**Arista Federal wishes you a Happy, Healthy, and Prosperous New Year!**
 
 ---
 ## **Arista - Building the Network Backbone for Next-Generation AI Training**
@@ -255,6 +260,7 @@ The reference architectures we have validated with DDN and Supermicro embody the
 As AI models grow more complex and training iterations accelerate, the network will become even more critical. The combination of standard Ethernet, purpose-built Arista switches, and Gaudi's integrated networking creates an infrastructure that's ready for tomorrow's challenges today.
 
 **Organizations no longer need to choose between performance, scalability, and cost. With the right network foundation, they can have all three.**
+
 Reference : https://www.ddn.com/resources/legacy/supermicro-x12-gaudi-ai-servers/
 
 ---
