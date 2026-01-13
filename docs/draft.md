@@ -52,8 +52,11 @@ With that in mind, here’s a tongue-in-cheek look at a set of New Year’s reso
 As for our own resolution, it’s simple: continue demonstrating to our Federal customers how Arista delivers exceptional value through a consistent network operating system (EOS), consistent state management (NetDL), and consistent operations with CloudVision. If we meet our resolution, achieving yours should become a whole lot easier.
 
 **Network Ops New Year’s Resolutions**
+
 **(That We Actually Intend to Keep)**
+
 **Resolution #1: “Not Everything Will Be an Emergency”**
+
 **What We Want**
 
 - Fewer last-minute changes
@@ -73,6 +76,7 @@ As for our own resolution, it’s simple: continue demonstrating to our Federal 
 - **Fewer keystrokes. Fewer regrets.**
 
 **Resolution #2: “We’ll Know About Problems Before Leadership Does”**
+
 **What We Want**
 
 - Real-time awareness
@@ -94,6 +98,7 @@ As for our own resolution, it’s simple: continue demonstrating to our Federal 
 - **For once, the network tells you first.**
 
 **Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”**
+
 **What We Want**
 
 - Clear audit trails
@@ -114,9 +119,11 @@ How Arista Helps
 - **Blame-free root cause analysis (mostly).**
 
 **Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”**
+
 **Reality**
 
 - That config from 2017 probably still works… probably.
+
 **How Arista Helps**
 
 - Arista Validated Designs (AVD) for standardized deployments
@@ -128,6 +135,7 @@ How Arista Helps
 - **Consistency beats tribal knowledge.**
 
 **Resolution #5: “We Will Make the Network… Boring (In a Good Way)”**
+
 **What We Want**
 
 - Fewer incidents
@@ -149,6 +157,7 @@ How Arista Helps
 - **When the network is boring, Ops gets to sleep.**
 
 **Bonus Resolution: “We Will Go Home on Time”**
+
 **Reality**
 
 - Networks with high CVE exposure and unnecessary complexity require constant hands-on attention often at nights and on weekends.
@@ -164,6 +173,7 @@ How Arista Helps
 - **Because “always-on” shouldn’t mean “always-on-call.”**
 
 **Bottom Line**
+
 Arista helps Federal and DoD network teams spend less time fighting the network and more time supporting the mission. By simplifying operations, improving visibility, and enabling automation at scale, Arista helps Network Ops teams actually keep their New Year’s resolutions without the drama.
 
 **Arista Federal wishes you a Happy, Healthy, and Prosperous New Year!**
