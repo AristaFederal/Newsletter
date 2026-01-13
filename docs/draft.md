@@ -13,7 +13,28 @@
 [2]: http://www.aristafederal.com
 
 
-# INTRO
+# Welcome to the January 2025 Edition of the Arista Federal Newsletter!
+Hard to believe it's the beginning of 2026.  Seems like just a year ago it was the start of 2025! 
+
+As we begin the new year, the Arista Federal team would like to wish you a Happy, Healthy, and Prosperous New Year. We appreciate the trust and partnership of our Federal customers and look forward to supporting your priorities in the year ahead.
+
+Arista is a recognized network leader, uniquely positioned to deliver best-in-class solutions across Campus, Data Center, WAN, and AI infrastructure. With a consistent operating model built on EOS, NetDL, and CloudVision, we help organizations simplify operations, improve reliability, and scale with confidence.
+
+We’re excited to continue working alongside you to address the challenges and opportunities ahead and to support your mission with proven, cloud-scale networking solutions.
+
+In this month’s newsletter, you’ll find:
+
+- **Network Ops New Year’s Resolutions (That We Actually Intend to Keep)**
+Arista Federal Client Director Kevin Carey takes a thoughtful and lighthearted look at some of the top New Year’s resolutions for Network Operations teams and how they can be realistically achieved in the year ahead.
+
+- **Arista: Building the Network Backbone for Next-Generation AI Training**
+Arista Technical Solutions Engineer Elumalai Neelamegam explores how Arista’s Ethernet-based AI infrastructure delivers scalable, proven results for organizations deploying Intel Habana Gaudi for AI training and why the network is central to performance, efficiency, and cost control.
+
+
+
+This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
+
+
 ---
 
 ## **Arista Blog**
@@ -24,10 +45,221 @@
 
 
 ---
-ARTICLE 1
----
+## **Network Ops New Year’s Resolutions (That We Actually Intend to Keep)**
+By Kevin Carey, Arista Federal Client Director
 
-ARTICLE 2
+Happy New Year! This is the time of year when we all make New Year’s resolutions — some realistic, some optimistic, and a few that quietly assume everything will finally behave the way it’s supposed to. While not every resolution is easy, even the stretch goals are achievable with enough focus, discipline, and ideally, fewer surprises.
+
+With that in mind, here’s a tongue-in-cheek look at a set of New Year’s resolutions inspired by Network Operations teams. These goals are absolutely attainable, especially with a little help from Arista.
+
+As for our own resolution, it’s simple: continue demonstrating to our Federal customers how Arista delivers exceptional value through a consistent network operating system (EOS), consistent state management (NetDL), and consistent operations with CloudVision. If we meet our resolution, achieving yours should become a whole lot easier.
+
+Network Ops New Year’s Resolutions
+(That We Actually Intend to Keep)
+Resolution #1: “Not Everything Will Be an Emergency”
+What We Want
+
+Fewer last-minute changes
+
+More predictable operations
+
+Reality
+
+If your fingers are on the CLI at 2 a.m., something has already gone wrong.
+How Arista Helps
+
+State-based automation
+
+Validated changes with easy rollback
+
+Fewer keystrokes. Fewer regrets.
+Resolution #2: “We’ll Know About Problems Before Leadership Does”
+What We Want
+
+Real-time awareness
+
+Fewer uncomfortable meetings
+
+Reality
+
+Users should never be your alerting system.
+How Arista Helps
+
+Real-time streaming telemetry
+
+Proactive alerts before users notice
+
+Network-wide visibility instead of device-by-device guessing
+
+For once, the network tells you first.
+
+Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”
+What We Want
+
+Clear audit trails
+
+Faster root-cause analysis
+
+Reality
+
+Nothing says “fun” like diffing configs during an outage.
+How Arista Helps
+
+Full configuration and state history in CloudVision
+
+Time-travel troubleshooting (yes, really)
+
+Instant visibility into who changed what and when
+
+Blame-free root cause analysis (mostly).
+
+Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”
+Reality
+
+That config from 2017 probably still works… probably.
+How Arista Helps
+
+Arista Validated Designs (AVD) for standardized deployments
+
+Infrastructure-as-code with Git-based workflows
+
+Repeatable, testable network builds
+
+Consistency beats tribal knowledge.
+
+Resolution #5: “We Will Make the Network… Boring (In a Good Way)”
+What We Want
+
+Fewer incidents
+
+More mission focus
+
+Reality
+
+A boring network is a happy network.
+How Arista Helps
+
+Single EOS across Campus, Data Center, WAN/Branch/Edge, Internet and Core, and Public Cloud
+
+Non-disruptive upgrades
+
+Deterministic, predictable behavior at scale
+
+When the network is boring, Ops gets to sleep.
+
+Bonus Resolution: “We Will Go Home on Time”
+Reality
+
+Networks with high CVE exposure and unnecessary complexity require constant hands-on attention often at nights and on weekends.
+How Arista Helps
+
+Automation reduces firefighting
+
+Fewer outages, faster fixes
+
+A network that behaves the same way every time
+
+Because “always-on” shouldn’t mean “always-on-call.”
+
+Bottom Line
+Arista helps Federal and DoD network teams spend less time fighting the network and more time supporting the mission. By simplifying operations, improving visibility, and enabling automation at scale, Arista helps Network Ops teams actually keep their New Year’s resolutions without the drama.
+
+Arista Federal wishes you a Happy, Healthy, and Prosperous New Year!
+
+---
+## **Arista - Building the Network Backbone for Next-Generation AI Training**
+By Elumalai Neelamegam - Arista Technical Solutions Engineer
+
+The AI revolution isn't just about processors and storage—it's about the network that connects them. As organizations scale their AI training infrastructure with Intel Habana Gaudi processors, the network becomes the critical enabler of performance, efficiency, and cost-effectiveness.
+
+The AI Training Challenge:
+
+Today's AI teams face mounting pressure. According to IDC research, 74% of organizations run 5-10 iterations to train a single model, with 50% rebuilding models weekly or more frequently. This explosion in training workloads demands infrastructure that can scale efficiently without breaking the budget.
+
+The answer lies in a fully integrated approach and the network is where it all comes together.
+
+Why Ethernet Wins for AI at Scale:
+
+Intel's Habana Gaudi processors broke new ground by integrating ten 100GbE RDMA over Converged Ethernet (RoCE) ports directly on-chip. This isn't just a technical detail, it's a fundamental shift that makes standard Ethernet the ideal fabric for AI training.
+
+The benefits are clear:
+
+Avoid vendor lock-in: Standard Ethernet eliminates proprietary networking constraints
+Scale with flexibility: Use the same technology within servers and across racks
+Lower total cost: Leverage commodity switches instead of specialized interconnects
+Future-proof investments: Build on proven, evolving standards
+
+The Arista Advantage in AI Infrastructure:
+
+At Arista, we have designed our switching portfolio specifically for the demands of modern AI training. Our solutions power the reference architectures validated with DDN and Supermicro, delivering three distinct network layers:
+
+1. Gaudi Communication Network Switches
+
+Arista DCS-7060DX4-32: Purpose-built for processor-to-processor communication
+
+32 ports of 400GbE connectivity in 1U
+25.6 Tb/s non-blocking bandwidth
+Sub-700ns latency for rapid gradient synchronization
+Direct Gaudi-to-Gaudi communication that bypasses CPU overhead
+
+2. Storage & Cluster Management Network Switches
+
+Arista 7170-32C: Optimized for high-speed data transfer
+
+32 ports of 100GbE connectivity in 1U
+6.4 Tb/s non-blocking bandwidth
+Sub-800ns latency
+Multi-path redundancy for continuous data availability
+
+3. Management Network Switches
+
+Arista 7010T: Reliable infrastructure management
+
+48 x 1GbE ports plus 4 x 10G SFP+ uplinks
+Layer 3 capabilities for robust traffic management
+Dedicated monitoring and control plane
+
+Real-World Performance:
+
+The validated reference architectures demonstrate impressive results. With just one AI400X2 storage appliance and four Supermicro X12 Gaudi AI servers connected through Arista switches, organizations achieve:
+
+Over 90 GBps throughput per storage appliance
+Linear scaling as compute nodes are added
+Balanced, even performance distribution across all servers
+Full network saturation on every link
+
+This architecture scales seamlessly. Deployments with 32 servers and 5 storage appliances have achieved 450 GB/s read and 325 GB/s write throughput—and the architecture has been validated with up to 560 AI accelerator servers.
+
+The Economics of Standard Ethernet:
+
+Here's what many organizations miss: the network represents a significant portion of AI infrastructure costs. By embracing standard Ethernet with Gaudi processors, our customers typically see:
+
+40% better price-performance compared to traditional AI compute solutions
+Reduced power consumption through integrated networking
+Lower ongoing operational costs with familiar management tools
+Flexibility to scale incrementally as training demands grow
+
+Designing for Success:
+
+A well-architected AI training network follows these principles:
+
+Non-blocking topology: Every path operates at full bandwidth without contention
+
+Redundant connections: Multiple paths ensure continuous operation even during failures
+
+Optimized placement: Strategic port connections minimize latency and maximize throughput
+
+Simplified management: Unified network operations across all tiers
+
+The reference architectures we have validated with DDN and Supermicro embody these principles, giving organizations a proven blueprint for deployment.
+
+Looking Ahead:
+
+As AI models grow more complex and training iterations accelerate, the network will become even more critical. The combination of standard Ethernet, purpose-built Arista switches, and Gaudi's integrated networking creates an infrastructure that's ready for tomorrow's challenges today.
+
+Organizations no longer need to choose between performance, scalability, and cost. With the right network foundation, they can have all three.
+Reference : https://www.ddn.com/resources/legacy/supermicro-x12-gaudi-ai-servers/
+
 ---
 
 ## __*Upcoming Events*__  
