@@ -108,7 +108,8 @@ As for our own resolution, it’s simple: continue demonstrating to our Federal 
 **Reality**
 
 - Nothing says “fun” like diffing configs during an outage.
-How Arista Helps
+
+**How Arista Helps**
 
 - Full configuration and state history in CloudVision
 
