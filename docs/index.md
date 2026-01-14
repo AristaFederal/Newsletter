@@ -13,27 +13,24 @@
 [2]: http://www.aristafederal.com
 
 
-# Welcome to the December 2025 Edition of the Arista Federal Newsletter!
-As we close out another impactful year, December gives us the perfect opportunity to reflect on the progress we’ve made together across the Federal and System Integrator community. From modernizing network architectures to advancing automation and strengthening security, your partnership has helped drive meaningful innovation across the missions we collectively support.
+# Welcome to the January 2026 Edition of the Arista Federal Newsletter!
+Hard to believe it's the beginning of 2026.  Seems like just a year ago it was the start of 2025! 
 
-This season also brings a chance to pause and appreciate the collaboration, trust, and shared commitment that have defined 2025. Whether through deployments, briefings, workshops, or long-term planning, we’re grateful for the continued opportunity to work alongside you.
+As we begin the new year, the Arista Federal team would like to wish you a Happy, Healthy, and Prosperous New Year. We appreciate the trust and partnership of our Federal customers and look forward to supporting your priorities in the year ahead.
 
-As we head into the holiday season and prepare for an exciting new year, the Arista Federal Team extends our warmest wishes to you and your families. May your holidays be safe, restful, and filled with connection and may 2026 bring new possibilities, new successes, and continued momentum for all of us.
+Arista is a recognized network leader, uniquely positioned to deliver best-in-class solutions across Campus, Data Center, WAN, and AI infrastructure. With a consistent operating model built on EOS, NetDL, and CloudVision, we help organizations simplify operations, improve reliability, and scale with confidence.
 
-Happy Holidays from **Arista Federal!**
+We’re excited to continue working alongside you to address the challenges and opportunities ahead and to support your mission with proven, cloud-scale networking solutions.
 
 In this month’s newsletter, you’ll find:
 
-- **Unlocking a New Era for Enterprise Networking**
-   -- Arista Federal SEs Michael Reyes and Michael Ignoffo highlight how today’s IT environments demand far more from the network than simple connectivity. As organizations scale across data centers, campuses, and cloud environments, network teams are under increasing pressure to deliver availability, security, compliance, and agility all while managing fragmented tools and manual processes that simply can’t keep pace with modern demands.
-- **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
-   -- Arista Federal SE Jeff Colburn explains how Ethernet VPN (EVPN) has become the modern control plane of choice, one that not only replaces legacy MPLS VPN services, but delivers improved scalability, flexibility, and operational simplicity across data center, WAN, and campus environments. EVPN enables agencies and integrators to modernize their network architecture with an open, standards-based approach that supports today’s cloud-first and mission-critical demands.
+- **Network Ops New Year’s Resolutions (That We Actually Intend to Keep)**
+ -- Arista Federal Client Director Kevin Carey takes a thoughtful and lighthearted look at some of the top New Year’s resolutions for Network Operations teams and how they can be realistically achieved in the year ahead.
 
-This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com.
+- **Arista: Building the Network Backbone for Next-Generation AI Training**
+ -- Arista Technical Solutions Engineer Elumalai Neelamegam explores how Arista’s Ethernet-based AI infrastructure delivers scalable, proven results for organizations deploying Intel Habana Gaudi for AI training and why the network is central to performance, efficiency, and cost control.
 
-Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
-
-
+This newsletter is for you and we welcome your feedback, ideas, and requests at fed@aristafederal.com
 
 ---
 
@@ -45,141 +42,236 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 
 
 ---
+## **Network Ops New Year’s Resolutions (That We Actually Intend to Keep)**
+By Kevin Carey, Arista Federal Client Director
 
-## **Unlocking a New Era for Enterprise Networking**
-By: Michael Reyes, Systems Engineer, US Federal
+Happy New Year! This is the time of year when we all make New Year’s resolutions — some realistic, some optimistic, and a few that quietly assume everything will finally behave the way it’s supposed to. While not every resolution is easy, even the stretch goals are achievable with enough focus, discipline, and ideally, fewer surprises.
 
-In modern IT environments, the network is more than just a connection backbone, it is the critical infrastructure that underpins compute, storage, applications, and user access. As enterprises expand across data centers, campuses, and cloud environments, network operations teams are under intense pressure to ensure availability, security, compliance, and agility, often across disparate domains. Traditional network-management tools, relying on manual configuration, polling-based monitoring, and domain-specific systems, are increasingly unable to keep up. 
+With that in mind, here’s a tongue-in-cheek look at a set of New Year’s resolutions inspired by Network Operations teams. These goals are absolutely attainable, especially with a little help from Arista.
 
-Recognizing these challenges, Arista Networks developed CloudVision to bring “cloud-networking” principles, software-driven automation, standardization, and scalability into enterprise networks of any size. Arista has long been delivering network solutions with a unique software-driven approach to building reliable networks designed around the principles of best practices, standardization, simplification, cost-savings, and automation. 
+As for our own resolution, it’s simple: continue demonstrating to our Federal customers how Arista delivers exceptional value through a consistent network operating system (EOS), consistent state management (NetDL), and consistent operations with CloudVision. If we meet our resolution, achieving yours should become a whole lot easier.
 
-**What Is CloudVision: Unified, Multi-Domain Network Management Platform**
+**Network Ops New Year’s Resolutions**
 
-CloudVision is Arista’s modern, multi-domain network management platform built on cloud networking principles for telemetry, analytics, and automation. Within the automation domain, CloudVision Studios provides GUI-based automation for deploying and managing networks. 
+**(That We Actually Intend to Keep)**
 
-A key component behind this unification is the concept of a global “state repository” called NetDL (Network Data Lake). NetDL aggregates time-series state data streamed from all connected EOS-based devices including configurations, protocol state, hardware status, flow data, and can even integrate third-party data from partner tools. This aggregated, historic and real-time view enables network teams to manage and understand the network as a holistic entity, rather than a collection of individual devices. Since the data is stored in a timeseries, the operator can even go back in time to see a past picture of the network and its state to perform root cause analysis of any encountered problems. This vast wealth of knowledge is utilized by each feature within CloudVision to offer unparalleled visibility into a multi-domain enterprise network.
+**Resolution #1: “Not Everything Will Be an Emergency”**
 
-<figure markdown>
-![Image Placement](img/dec25_pic3a.png)
-    <figcaption></figcaption>
-</figure>
+**What We Want**
 
-Beyond data consolidation, CloudVision supports multiple deployment models. Organizations can deploy it on-premises as physical or virtual appliances or opt for a fully managed cloud model, “CloudVision-as-a-Service (CVaaS)”. The features and user experience remain largely identical across deployment types, giving enterprises flexibility depending on their infrastructure, compliance, and operational preferences. 
+- Fewer last-minute changes
 
-<figure markdown>
-![Image Placement](img/dec25_pic4a.png)
-    <figcaption></figcaption>
-</figure>
+- More predictable operations
 
-**CloudVision Portal: Your Single Pane of Glass for NetOps**
+**Reality**
 
-The heart of day-to-day interaction with CloudVision is the Web Portal interface. The CloudVision portal combines the most common operational tasks in a web-based dashboard view, decoupled from the underlying hardware. Workflow automation in CloudVision permits operators to execute common deployment and configuration tasks from a single visual touchpoint. 
+- If your fingers are on the CLI at 2 a.m., something has already gone wrong.
 
-The portal includes a turnkey solution for Arista’s Zero Touch Provisioning (ZTP) which automates initial device provisioning, ongoing change controls, and device replacements over the operational life cycle of the network. Additionally, the CloudVision portal allows operators the ease of execution on tasks such as firmware upgrades, configuration changes, or compliance audits, which can now be handled in a centralized, workflow-driven manner.This reduces human error, ensures configuration standardization, and simplifies ongoing change management. 
+**How Arista Helps**
 
-Moreover, because CloudVision stores a versioned history of configurations, device state, and software versions, network teams can generate snapshots for pre- and post-change validation and even roll back changes if needed; a critical feature for minimizing risk and ensuring stable operations.
+- State-based automation
 
-**State Streaming & Real-Time Telemetry: Polling vs Streaming**
+- Validated changes with easy rollback
 
-Unlike legacy systems which rely on periodic polling or SNMP-based queries, CloudVision employs a state-streaming model: each EOS-based device runs a streaming agent that sends real-time device-state data into NetDL. 
+- ***Fewer keystrokes. Fewer regrets.***
 
-This streaming-based telemetry enables CloudVision to deliver instantaneous visibility into network health from interface statistics, routing and protocol states, flow analytics, to hardware telemetry such as power, temperature, and fan status. That means network teams can spot anomalies, detect intermittent issues, or catch resource exhaustion events as they emerge rather than waiting for the next polling interval. 
+**Resolution #2: “We’ll Know About Problems Before Leadership Does”**
 
-Capturing time-stamped historical data also means the platform supports retrospective analysis: you can “rewind time” to inspect what the network looked like at any previous point. This has proven to be a powerful tool for root-cause analysis of outages or performance regressions. 
+**What We Want**
 
-**AI/ML:Turning Data into Insights & Proactive Alerts**
+- Real-time awareness
 
-CloudVision doesn’t just store data, it builds intelligence on top of it. By configuring devices to stream device-state and telemetry data to CloudVision, the 
-Analytics Engines along with the CloudVision applications use Machine Learning (ML) algorithms to provide valuable insights into the entire state of the network, highlighting observed anomalies, and providing real-time data, updates, and alerts. 
+- Fewer uncomfortable meetings
 
-<figure markdown>
-![Image Placement](img/dec25_pic5a.png)
-    <figcaption></figcaption>
-</figure>
+**Reality**
 
-For example, the system applies machine learning models to telemetry streams to detect emerging issues before they impact service. By correlating device events, topology context, and historical patterns, CloudVision provides proactive observability that helps pinpoint root causes across the network. 
+- Users should never be your alerting system.
 
-For administrators, this means a shift from reactive troubleshooting to proactive network assurance closing the gap between incident detection and remediation, reducing Mean Time to Innocence (MTTI), and helping maintain consistent performance and reliability even as network complexity grows. 
+**How Arista Helps**
 
-**CloudVision: Seeing is Believing**
+- Real-time streaming telemetry
 
-As networks continue to grow in complexity across data center, campus, branch, WAN and cloud domains, CloudVision represents a powerful, unified solution to bring simplicity and control. Its cloud-native architecture backed by real-time state streaming, a comprehensive NetDL and embedded AI/ML analytics delivers enterprise-wide visibility, predictive insights, and automation that help eliminate traditional manual toil and reduce human-error risk. 
+- Proactive alerts before users notice
 
-For organizations seeking to modernize their NetOps, CloudVision offers more than just a management dashboard; it becomes the single pane of glass for real-time monitoring, configuration, compliance and change control across the entire network. By adopting this software-driven, cloud networking approach, enterprises can achieve scalable, reliable operations with faster provisioning, proactive troubleshooting and ongoing compliance ensuring their network scales smoothly to meet the continuously evolving network landscape, enabling operators to meet and exceed current day global business and industry demands. 
-For more information on CloudVision and any other Arista products or services visit our website at www.arista.com.
+- Network-wide visibility instead of device-by-device guessing
+
+- ***For once, the network tells you first.***
+
+**Resolution #3: “We’ll Stop Asking ‘Who Changed This?’”**
+
+**What We Want**
+
+- Clear audit trails
+
+- Faster root-cause analysis
+
+**Reality**
+
+- Nothing says “fun” like diffing configs during an outage.
+How Arista Helps
+
+- Full configuration and state history in CloudVision
+
+- Time-travel troubleshooting (yes, really)
+
+- Instant visibility into who changed what and when
+
+- ***Blame-free root cause analysis (mostly).***
+
+**Resolution #4: “We Will Stop Copy-Pasting Configs from Old Projects”**
+
+**Reality**
+
+- That config from 2017 probably still works… probably.
+
+**How Arista Helps**
+
+- Arista Validated Designs (AVD) for standardized deployments
+
+- Infrastructure-as-code with Git-based workflows
+
+- Repeatable, testable network builds
+
+- ***Consistency beats tribal knowledge.***
+
+**Resolution #5: “We Will Make the Network… Boring (In a Good Way)”**
+
+**What We Want**
+
+- Fewer incidents
+
+- More mission focus
+
+**Reality**
+
+- A boring network is a happy network.
+
+**How Arista Helps**
+
+- Single EOS across Campus, Data Center, WAN/Branch/Edge, Internet and Core, and Public Cloud
+
+- Non-disruptive upgrades
+
+- Deterministic, predictable behavior at scale
+
+- ***When the network is boring, Ops gets to sleep.***
+
+**Bonus Resolution: “We Will Go Home on Time”**
+
+**Reality**
+
+- Networks with high CVE exposure and unnecessary complexity require constant hands-on attention often at nights and on weekends.
+
+**How Arista Helps**
+
+- Automation reduces firefighting
+
+- Fewer outages, faster fixes
+
+- A network that behaves the same way every time
+
+- ***Because “always-on” shouldn’t mean “always-on-call.”***
+
+**Bottom Line**
+
+Arista helps Federal and DoD network teams spend less time fighting the network and more time supporting the mission. By simplifying operations, improving visibility, and enabling automation at scale, Arista helps Network Ops teams actually keep their New Year’s resolutions without the drama.
+
+**Arista Federal wishes you a Happy, Healthy, and Prosperous New Year!**
 
 ---
+## **Arista - Building the Network Backbone for Next-Generation AI Training**
+By Elumalai Neelamegam - Arista Technical Solutions Engineer
 
-## **Benefits of Replacing Legacy MPLS VPN Services with EVPN**
+The AI revolution isn't just about processors and storage—it's about the network that connects them. As organizations scale their AI training infrastructure with Intel Habana Gaudi processors, the network becomes the critical enabler of performance, efficiency, and cost-effectiveness.
 
-By: Jeff Colburn, Systems Engineer, US Federal
+**The AI Training Challenge:**
 
-For nearly two decades, Multiprotocol Label Switching (MPLS) has served as the foundation of carrier-grade VPN and service delivery. However, as enterprise and service provider networks evolve toward cloud-native, software-defined (SDN), and virtualization-driven architectures, traditional MPLS pseudowire, Layer 2 (VPLS) and Layer 3 VPN (IP-VPN) services increasingly reveal their limitations. Ethernet VPN (EVPN) has emerged as the modern control plane that not only replaces legacy MPLS services but also enhances scalability, flexibility, and operational simplicity across data center, WAN, and campus environments.
+Today's AI teams face mounting pressure. According to IDC research, 74% of organizations run 5-10 iterations to train a single model, with 50% rebuilding models weekly or more frequently. This explosion in training workloads demands infrastructure that can scale efficiently without breaking the budget.
 
-Traditional MPLS VPNs, whether pseudowire, IP-VPN or VPLS, use a combination of LDP and BGP to build forwarding tables and isolate customer traffic. While robust, these technologies were designed for static, service-provider-centric environments and lack the simplificity and efficiency required in cloud-scale networks.
+The answer lies in a fully integrated approach and the network is where it all comes together.
 
-EVPN redefines this approach by using BGP as a unified control plane for pseudowire, Layer 2 and Layer 3 VPN services. It introduces a route-type framework that enables MAC and IP information to be distributed efficiently, reducing flooding and improving convergence.
+**Why Ethernet Wins for AI at Scale:**
 
-| **Route-Type** | **Name** | **Description** |
-| --- | --- | --- |
-| 1   | Ethernet Auto-Discovery (AD) route | Remote discovery of dual-homed segments |
-| 2   | MAC/Host IP route | Locally learned MAC address and Host IP address |
-| 3   | Inclusive Multicast Ethernet Tag (IMET) Route | EVI membership advertisement |
-| 4   | Ethernet Segment Route | Discover Ethernet Segment peers |
-| 5   | IP Prefix Route | IP prefix advertisement |
+Intel's Habana Gaudi processors broke new ground by integrating ten 100GbE RDMA over Converged Ethernet (RoCE) ports directly on-chip. This isn't just a technical detail, it's a fundamental shift that makes standard Ethernet the ideal fabric for AI training.
 
-The following are the key benefits of EVPN over legacy MPLS VPN services:
+**The benefits are clear:**
 
-- **Control Plane MAC Address Learning**
+Avoid vendor lock-in: Standard Ethernet eliminates proprietary networking constraints
+Scale with flexibility: Use the same technology within servers and across racks
+Lower total cost: Leverage commodity switches instead of specialized interconnects
+Future-proof investments: Build on proven, evolving standards
 
-MAC address learning is accomplished through the control plane using BGP, rather than through VPLS' flood-and-learn mechanism across the data plane. MAC moves and changes are no longer dependent on aging timers and flooding. EVPN's use of BGP provides near-real time updates and faster convergence.
+**The Arista Advantage in AI Infrastructure:**
 
-- **Multi-Tenancy Support**
+At Arista, we have designed our switching portfolio specifically for the demands of modern AI training. Our solutions power the reference architectures validated with DDN and Supermicro, delivering three distinct network layers:
 
-EVPN provides multi-tenant support by using BGP as a unified control plane to carry both Layer 2 and Layer 3 VPN information. Each tenant is assigned a unique EVPN Instance (EVI) identified by a Route Distinguisher (RD) and Route Target (RT), ensuring complete isolation of control and data planes. IP Virtual Routing and Forwarding (VRF) instances are used to isolate each tenant's routed domain, while MAC VRFs provide tenants their own isolated Ethernet domain. EVPN Integrated Routing and Bridging (IRB) permits seamless Layer 2 and Layer 3 connectivity for each tenant. Traffic for each tenant is encapsulated with distinct MPLS service labels, allowing multiple tenants to share the same physical infrastructure while keeping their traffic isolated from each other.
+**1. Gaudi Communication Network Switches**
 
-- **Unified Control Plane**
+Arista DCS-7060DX4-32: Purpose-built for processor-to-processor communication
 
-The complexity of multiple BGP address families and LDP signaling is no longer required to provide Layer 2 and Layer 3 services. EVPN consolidates Layer 2 and Layer 3 services into a single control plane by using the Route Types for address advertisements. This simplification reduces operational overhead and streamlines service deployment.
+32 ports of 400GbE connectivity in 1U
+25.6 Tb/s non-blocking bandwidth
+Sub-700ns latency for rapid gradient synchronization
+Direct Gaudi-to-Gaudi communication that bypasses CPU overhead
 
-<figure markdown>
-![Image Placement](img/dec25_pic1.png)
-    <figcaption></figcaption>
-</figure>
+**2. Storage & Cluster Management Network Switches**
 
-- **Transport Independent**
+Arista 7170-32C: Optimized for high-speed data transfer
 
-EVPN is transport agnostic, supporting both MPLS and VXLAN data planes. Multi-tenant Layer 2 and Layer 3 service offerings can span both environments under a shared control plane. This is especially valuable when VXLAN-based data centers are interconnected over a MPLS WAN.
+32 ports of 100GbE connectivity in 1U
+6.4 Tb/s non-blocking bandwidth
+Sub-800ns latency
+Multi-path redundancy for continuous data availability
 
-<figure markdown>
-![Image Placement](img/dec25_pic2.png)
-    <figcaption></figcaption>
-</figure>
+**3. Management Network Switches**
 
-- **Load Balancing & Availability**
+Arista 7010T: Reliable infrastructure management
 
-EVPN supports Active-Active Multihoming with Ethernet Segment Identifier (ESI). Clients may connect to multiple PEs that are members of the same ESI for improved availability. EVPN advertises ESI membership, enabling Equal Cost Multi Path (ECMP) from the remote PEs. The Designated Forwarder (DF) election mechanism identifies the receiving PE for BUM traffic per ESI, ensuring loop-free redundancy and load balancing.
+48 x 1GbE ports plus 4 x 10G SFP+ uplinks
+Layer 3 capabilities for robust traffic management
+Dedicated monitoring and control plane
 
-- **Multicast Support**
+**Real-World Performance:**
 
-EVPN enhances multicast functionality using dedicated route types to control group membership and replication. In MPLS environments, Route Types 3, 6, 7, and 8 are used for multicast group signaling and selective replication. Route Type 10 applies to VXLAN environments for optimized overlay multicast group to underlay multicast group mapping.
+The validated reference architectures demonstrate impressive results. With just one AI400X2 storage appliance and four Supermicro X12 Gaudi AI servers connected through Arista switches, organizations achieve:
 
-| **Route-Type** | **Name** | **Description** |
-| --- | --- | --- |
-| 6   | IGMP & MLD Proxy route | Advertise and proxy local IGMP joins/leaves |
-| 7   | IGMP/MLD Join Sync route | Advertise/sync local IGMP Join in multi-home topology |
-| 8   | IGMP/MLD Leave Sync route | Advertise/sync local IGMP Leave in multi-home topology |
-| 10  | S-PMSI-AD route | Overlay to Underlay multicast group mapping (VXLAN) |
+Over 90 GBps throughput per storage appliance
+Linear scaling as compute nodes are added
+Balanced, even performance distribution across all servers
+Full network saturation on every link
 
-- **Standards Based**
+This architecture scales seamlessly. Deployments with 32 servers and 5 storage appliances have achieved 450 GB/s read and 325 GB/s write throughput—and the architecture has been validated with up to 560 AI accelerator servers.
 
-EVPN is a standards-based (RFC 7432) technology with broad multi-vendor interoperability verified across leading networking vendors. EVPN ensures open, future-proof architectures and eliminates the potential for vendor lock-in.
+**The Economics of Standard Ethernet:**
 
-- **Migration Ready**
+Here's what many organizations miss: the network represents a significant portion of AI infrastructure costs. By embracing standard Ethernet with Gaudi processors, our customers typically see:
 
-As VXLAN adoption expands across campus, data center, and WAN environments, EVPN simplifies migration from MPLS to VXLAN. Its shared control plane allows operators to deploy both transports simultaneously, enabling a phased, non-disruptive transition.
+40% better price-performance compared to traditional AI compute solutions
+Reduced power consumption through integrated networking
+Lower ongoing operational costs with familiar management tools
+Flexibility to scale incrementally as training demands grow
 
-While MPLS remains a viable transport option, traditional Layer 2 and Layer 3 VPN services are increasingly inefficient and operationally complex. EVPN provides a transport-independent, unified control plane that delivers these services more efficiently, while allowing seamless coexistence and gradual migration from IP VPN and VPLS to EVPN-based services.
+**Designing for Success:**
+
+A well-architected AI training network follows these principles:
+
+Non-blocking topology: Every path operates at full bandwidth without contention
+
+Redundant connections: Multiple paths ensure continuous operation even during failures
+
+Optimized placement: Strategic port connections minimize latency and maximize throughput
+
+Simplified management: Unified network operations across all tiers
+
+The reference architectures we have validated with DDN and Supermicro embody these principles, giving organizations a proven blueprint for deployment.
+
+**Looking Ahead:**
+
+As AI models grow more complex and training iterations accelerate, the network will become even more critical. The combination of standard Ethernet, purpose-built Arista switches, and Gaudi's integrated networking creates an infrastructure that's ready for tomorrow's challenges today.
+
+**Organizations no longer need to choose between performance, scalability, and cost. With the right network foundation, they can have all three.**
+
+Reference : https://www.ddn.com/resources/legacy/supermicro-x12-gaudi-ai-servers/
 
 ---
 
