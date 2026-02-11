@@ -29,11 +29,11 @@ In this month’s newsletter, you’ll find:
 
 - **The Arista DANZ Monitoring Fabric: Visibility Without Compromise**
 
-Arista Federal Systems Engineer Peter Gore explores how the Arista DANZ Monitoring Fabric (DMF) delivers centralized, end-to-end network visibility across hybrid infrastructures ensuring the right data reaches the right tools at the right time, without impacting production traffic.
+    Arista Federal Systems Engineer Peter Gore explores how the Arista DANZ Monitoring Fabric (DMF) delivers centralized, end-to-end network visibility across hybrid infrastructures ensuring the right data reaches the right tools at the right time, without impacting production traffic.
 
 - **Arista Networks Delivering Media and Entertainment Solutions**
 
-Ryan Morris and Gerard Phillips, Arista Systems Engineers and Media & Entertainment Technical Leads, provide valuable insight into how Arista delivers the performance, timing precision, and reliability required for modern IP-based video and audio distribution across Federal and mission-critical environments.
+    Ryan Morris and Gerard Phillips, Arista Systems Engineers and Media & Entertainment Technical Leads, provide valuable insight into how Arista delivers the performance, timing precision, and reliability required for modern IP-based video and audio distribution across Federal and mission-critical environments.
 
   
 This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
