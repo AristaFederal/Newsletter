@@ -332,6 +332,8 @@ representatives to inquire how Arista’s Media Solutions can operate in your fa
 ## __*Upcoming Events*__  
 Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.
 
+Our 2026 schedule has not been released yet; here is a link to the replays of the 2025 Webinars: <https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
+
 <div class="grid cards" markdown>
 
 -   __Arista Network Webinars Series with Carahsoft__
