@@ -329,7 +329,7 @@ representatives to inquire how Arista’s Media Solutions can operate in your fa
 
 ---
 
-## __*2026 Webinar Series — Coming Soon__
+## __*2026 Webinar Series — Coming Soon*__
 
 Our 2026 webinar schedule will be announced shortly, and we look forward to your participation in another year of insightful and informative sessions. In the meantime, we invite you to explore the recordings from our 2025 webinar series featuring valuable discussions, technical deep dives, and best practices across key networking topics.
 
