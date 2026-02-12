@@ -287,7 +287,7 @@ Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen belo
 
 **Monitoring Accuracy of Boundary Clock compared to upstream GM**
 
-![Image Placement][8]{width=400}
+![Image Placement][8]{width=500}
 [8]: img/jan26_pic4.png
 
 
