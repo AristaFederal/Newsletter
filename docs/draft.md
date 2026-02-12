@@ -52,7 +52,7 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 
 ---
 
-## The Arista DANZ Monitoring Fabric: Visibility Without Compromise
+## **The Arista DANZ Monitoring Fabric: Visibility Without Compromise**
 By: Peter Gore, Systems Engineer, US Federal
 
 In today’s complex Federal and mission-critical environments, network visibility is no longer
@@ -66,7 +66,7 @@ architected for pervasive, organization-wide visibility. It’s a platform desig
 fundamental challenge of infrastructure visibility, solves getting the right data to the right tools at
 the right time, without compromising network performance.
 
-**What Is the Arista DANZ Monitoring Fabric?**
+### **What Is the Arista DANZ Monitoring Fabric?**
 
 At its core, Arista DMF is a network packet broker solution that sits between your production
 network and your monitoring and security tools. Essentially, it as an intelligent traffic director for
@@ -82,7 +82,7 @@ infrastructure. This architectural approach means you can add, remove, or reconf
 monitoring tools without ever touching production traffic, eliminating a major source of risk and
 operational complexity.
 
-**The Business Case: Why Organizations Deploy Arista DMF**
+### **The Business Case: Why Organizations Deploy Arista DMF**
 
 The benefits of implementing a monitoring fabric extend far beyond the IT department. Here&#39;s
 what organizations gain:
@@ -139,7 +139,7 @@ Machine&quot; capabilities. Operators can record petabytes of traffic and &quot;
 with a few clicks, accelerating root-cause analysis after a security incident and providing a clear
 audit trail of historical network events.
 
-**Arista Integration: Arista CloudVision &amp; Arista DMF**
+### **Arista Integration: Arista CloudVision &amp; Arista DMF**
 
 A critical advantage for federal operators is the seamless integration between Arista CloudVision
 (CV) and Arista DMF, providing a &quot;Single Pane of Glass&quot; for both the production and
@@ -163,7 +163,7 @@ instantly determine if a performance lag is a network hotspot or an application-
 New switches added to the visibility fabric are automatically discovered and provisioned by the
 DMF Controller, enabling rapid deployment in field offices or forward-deployed environments.
 
-**The Bottom Line**
+### **The Bottom Line**
 
 Arista DANZ Monitoring Fabric (DMF) transforms network visibility from a fragmented,
 reactive capability into a strategic asset. Organizations gain the complete visibility needed to
@@ -181,7 +181,141 @@ achieve full-spectrum visibility, operational consistency, and proactive control
 compromise.
 
 ---
-## ARTICLE 2
+
+## **Arista Networks Delivering Media and Entertainment Solutions**
+
+By Ryan Morris &amp; Gerard Phillips, Systems Engineers, Arista Media &amp; Entertainment Technical Leads
+
+The distribution of video and audio content over IP Networks has become commonplace over
+the last 10 years. Led by the global-scale, live sports producers, major broadcasters have
+converted from traditional SDI to SMPTE ST-2110 networked workflows, deploying networks of
+every conceivable scale. While led by global sports broadcasters, the benefits are recognized
+widely, and we now see the transformation across daily broadcasts, training and promotional
+events, houses of worship, and video distribution of content within large corporations, and
+government buildings. For years, Arista has been at the core of these media distribution
+network transformations for a number of reasons.
+
+**Software Reliability:**
+
+Two key requirements of any SMPTE ST-2110 network are Multicast Delivery, and Precision
+Time Protocol (PTP) distribution. These happen to be the exact requirements that the Low-
+Latency trading industry needs, and which Arista has been servicing almost since its inception.
+Arista understands the importance of media content and the ramifications of losing even a
+packet of video, and thus, continues to implement testing infrastructures that reflect real-life
+deployments, to ensure that these broadcast systems remain reliable at both low and high
+scale. Current broadcast systems may require many tens of thousands of multicast groups and
+hundreds of PTP clients on a single switch - and Arista ensures this support for content creators
+and distributors is available.
+
+**Partnerships:**
+
+Arista has developed partnerships with all the major broadcast vendors that improve customer
+workflows from not only an orchestration perspective, but a monitoring and visibility one as well.
+SMPTE ST-2110 networks have been deployed for years now - the standard is mature, and
+systems are extremely reliable when designed using best practices. However, what was
+missing for early adopters of the standard was the knowledge of what was successful, or not
+successful, from a flow routing perspective. Broadcast engineering teams were apprehensive
+about the lack of insight provided by these systems, when compared to an SDI router where
+tally was common. But now, with broadcast vendors integrating with our orchestration solutions
+(Media Control Service, MCS), and other vendors subscribing to real-time telemetry, the
+network ceases to be a black box, and a fuller understanding of the immediate events taking
+place in a media distribution network are provided to the customers and users.
+
+**Orchestration Software:**
+
+Arista Media Control Service (MCS) is a multicast flow orchestration solution designed with the
+many facets of broadcast workflow standards in mind, as well as a satisfying broadcast operator
+experience. Arista MCS acts as an interface between the control panel of the broadcast
+operator and the IP network. It facilitates the conversion of broadcast operations to network
+operations. Arista MCS manages and monitors real-time broadcast workflows over IP networks
+with a deterministic high-performance service and an easy-to-use API interface. Broadcast
+controllers integrate with this API interface to provision multicast flows required to support
+SMPTE ST2110, ST2022, AES67 and many other flow types.
+
+Key advantages of MCS include:
+- Faster than traditional multicast routing protocols
+- Bandwidth protection, from oversubscription and larger than expected flow provisioning
+- Real-time notifications that broadcast controllers and other network monitoring
+tools can subscribe to - provides crucial information for system health and routing
+status of the media workflow
+
+
+[PIC 1]
+
+**Strong PTP Stack:**
+
+Designing a reliable Precision Time Protocol (PTP) network is an absolute requirement for any
+SMPTE 2110 network. Senders and receivers must be locked to a common clock to ensure
+
+video and audio alignment, multi-channel audio operation, as well as to ensure that switching
+between video sources on a receiver is clean and does not produce a broken signal.
+
+Possibly the most important decision to make, from a network perspective, to build a resilient
+PTP network is determining what sort of clock your networking switch should be configured as:
+Boundary Clock or Transparent Clock. Generally, in these types of deployments, we see
+Boundary Clock as the clock of choice.
+
+**Why Boundary Clock?**
+
+1. Basic configuration:
+
+Boundary Clocks do not depend on unicast or multicast routing - they lock to an
+upstream GM (or upstream Boundary Clock), and distribute timing on PTP enabled
+interfaces based on that upstream clock.
+Both global and per interface configurations are simple, but care must be taken to
+ensure that the messaging rates are consistent between connected interfaces,
+especially the announce interval.
+
+2. Flexibility:
+
+As the image above specifies, the messaging rates in a Boundary Clock are provisioned
+on a per interface basis. This is helpful as there are some devices that may require a
+different announce interval than the majority of other devices connected to the network.
+This can easily be achieved by simply modifying the message rate on those specific
+interfaces.
+
+3. Increased Visibility:
+
+Boundary Clocks provide significant visibility into the accuracy of GM, which can be
+extremely useful when tracking performance during events that trigger a Best Master
+Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen below.
+
+**PTP Message Counters Per Interface**
+
+[PIC 2]
+
+**Monitoring Accuracy of Boundary Clock compared to upstream GM**
+
+[PIC 3]
+
+This type of data is streamable as well and can be made to be presented clearly in CloudVision
+(CVP and CVaaS) and other third-party monitoring tools.
+
+For example, as viewable in CVP:
+
+[PIC 4]
+[PIC 5]
+[PIC 6]
+[PIC 7]
+
+PTP topology views, event-based alarms, and streaming of PTP counters allow network
+operators to understand the behavior of a PTP network, and its performance, in real-time.
+Additionally, given that CloudVision stores this data in a time-series database, users can
+examine these events from a prior date to gain better insight into possible PTP changes that
+propagated in the network.
+In summary, Arista is a core partner in the media and entertainment industry&#39;s transition to IP
+and SMPTE ST-2110 workflows. Its success is built on providing reliable software with robust
+Multicast and PTP support, fostering key partnerships for enhanced visibility, offering the
+powerful Media Control Service (MCS) orchestration software, and ensuring a strong PTP stack
+with preferred Boundary Clock deployments. These solutions enable reliable, high-performance,
+and transparent media distribution networks, cementing Arista&#39;s position as a leader in this
+critical technological evolution.
+
+For more information pertaining to Arista’s Media and Entertainment solutions, including
+webinars, best practice documentation, white papers, and customer success stories, please visit
+us at <https://www.arista.com/en/solutions/media-entertainment>. Or reach out to your account
+representatives to inquire how Arista’s Media Solutions can operate in your facility.
+
 ---
 
 ## __*Upcoming Events*__  
