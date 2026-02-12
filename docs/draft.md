@@ -329,10 +329,17 @@ representatives to inquire how Arista’s Media Solutions can operate in your fa
 
 ---
 
-## __*Upcoming Events*__  
-Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations! Click on the boxes below to be directed to Arista's website for lists of Webinars and Events.
+## __*2026 Webinar Series — Coming Soon__
 
-Our 2026 schedule has not been released yet; here is a link to the replays of the 2025 Webinars: <https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
+Our 2026 webinar schedule will be announced shortly, and we look forward to your participation in another year of insightful and informative sessions. In the meantime, we invite you to explore the recordings from our 2025 webinar series featuring valuable discussions, technical deep dives, and best practices across key networking topics.
+
+2025 Webinar replays are available here: 
+
+<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
+
+Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 sessions.
+
+<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
 
 <div class="grid cards" markdown>
 
@@ -344,7 +351,6 @@ Our 2026 schedule has not been released yet; here is a link to the replays of th
     [20]: img/arista-carasoft-v2.png
     [21]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
-    __Please check back next quarter for our 2026 schedule!__
 
     |  Date | Name| Description | 
     | :-----------: | :-----------: | :-----------: |
