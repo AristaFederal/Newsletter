@@ -281,13 +281,13 @@ Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen belo
 
 **PTP Message Counters Per Interface**
 
-![Image Placement][7]{width=400}
+![Image Placement][7]{width=600}
 [7]: img/jan26_pic3.png
 
 
 **Monitoring Accuracy of Boundary Clock compared to upstream GM**
 
-![Image Placement][8]{width=500}
+![Image Placement][8]{width=550}
 [8]: img/jan26_pic4.png
 
 
