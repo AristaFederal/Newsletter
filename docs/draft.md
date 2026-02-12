@@ -240,8 +240,8 @@ tools can subscribe to - provides crucial information for system health and rout
 status of the media workflow
 
 
-[![Image Placement][5]]
-[5]: img/blog.png
+![Image Placement][5]
+[5]: img/jan26_pic1.png
 
 **Strong PTP Stack:**
 
@@ -278,14 +278,14 @@ Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen belo
 
 **PTP Message Counters Per Interface**
 
-[![Image Placement][6]]
-[6]: img/blog.png
+![Image Placement][6]
+[6]: img/jan26_pic2.png
 
 
 **Monitoring Accuracy of Boundary Clock compared to upstream GM**
 
-[![Image Placement][7]]
-[7]: img/blog.png
+![Image Placement][7]
+[7]: img/jan26_pic3.png
 
 
 This type of data is streamable as well and can be made to be presented clearly in CloudVision
@@ -293,17 +293,17 @@ This type of data is streamable as well and can be made to be presented clearly 
 
 For example, as viewable in CVP:
 
-[![Image Placement][8]]
-[8]: img/blog.png
+![Image Placement][8]
+[8]: img/jan26_pic4.png
 
-[![Image Placement][9]]
-[9]: img/blog.png
+![Image Placement][9]
+[9]: img/jan26_pic5.png
 
-[![Image Placement][10]]
-[10]: img/blog.png
+![Image Placement][10]
+[10]: img/jan26_pic6.png
 
-[![Image Placement][11]]
-[11]: img/blog.png
+![Image Placement][11]
+[11]: img/jan26_pic7.png
 
 
 PTP topology views, event-based alarms, and streaming of PTP counters allow network
