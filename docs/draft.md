@@ -265,6 +265,9 @@ interfaces based on that upstream clock.
 Both global and per interface configurations are simple, but care must be taken to
 ensure that the messaging rates are consistent between connected interfaces,
 especially the announce interval.
+![Image Placement][6]
+[6]: img/jan26_pic2.png
+
 2. Flexibility:
 As the image above specifies, the messaging rates in a Boundary Clock are provisioned
 on a per interface basis. This is helpful as there are some devices that may require a
@@ -278,14 +281,14 @@ Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen belo
 
 **PTP Message Counters Per Interface**
 
-![Image Placement][6]
-[6]: img/jan26_pic2.png
+![Image Placement][7]
+[6]: img/jan26_pic3.png
 
 
 **Monitoring Accuracy of Boundary Clock compared to upstream GM**
 
-![Image Placement][7]
-[7]: img/jan26_pic3.png
+![Image Placement][8]
+[7]: img/jan26_pic4.png
 
 
 This type of data is streamable as well and can be made to be presented clearly in CloudVision
@@ -293,17 +296,17 @@ This type of data is streamable as well and can be made to be presented clearly 
 
 For example, as viewable in CVP:
 
-![Image Placement][8]
-[8]: img/jan26_pic4.png
-
 ![Image Placement][9]
-[9]: img/jan26_pic5.png
+[8]: img/jan26_pic5.png
 
 ![Image Placement][10]
-[10]: img/jan26_pic6.png
+[9]: img/jan26_pic6.png
 
 ![Image Placement][11]
-[11]: img/jan26_pic7.png
+[10]: img/jan26_pic7.png
+
+![Image Placement][12]
+[11]: img/jan26_pic8.png
 
 
 PTP topology views, event-based alarms, and streaming of PTP counters allow network
@@ -335,9 +338,9 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     __For Channel Partners Only__
 
-    [![Image Placement][12]][13]
-    [12]: img/arista-carasoft-v2.png
-    [13]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
+    [![Image Placement][20]][21]
+    [20]: img/arista-carasoft-v2.png
+    [21]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
     __Please check back next quarter for our 2026 schedule!__
 
