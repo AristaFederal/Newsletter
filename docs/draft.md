@@ -184,7 +184,7 @@ compromise.
 
 ## **Arista Networks Delivering Media and Entertainment Solutions**
 
-By Ryan Morris &amp; Gerard Phillips, Systems Engineers, Arista Media &amp; Entertainment Technical Leads
+By: Ryan Morris &amp; Gerard Phillips, Systems Engineers, Arista Media &amp; Entertainment Technical Leads
 
 The distribution of video and audio content over IP Networks has become commonplace over
 the last 10 years. Led by the global-scale, live sports producers, major broadcasters have
@@ -240,7 +240,8 @@ tools can subscribe to - provides crucial information for system health and rout
 status of the media workflow
 
 
-[PIC 1]
+[![Image Placement][5]]
+[5]: img/blog.png
 
 **Strong PTP Stack:**
 
@@ -258,45 +259,52 @@ Boundary Clock as the clock of choice.
 **Why Boundary Clock?**
 
 1. Basic configuration:
-
 Boundary Clocks do not depend on unicast or multicast routing - they lock to an
 upstream GM (or upstream Boundary Clock), and distribute timing on PTP enabled
 interfaces based on that upstream clock.
 Both global and per interface configurations are simple, but care must be taken to
 ensure that the messaging rates are consistent between connected interfaces,
 especially the announce interval.
-
 2. Flexibility:
-
 As the image above specifies, the messaging rates in a Boundary Clock are provisioned
 on a per interface basis. This is helpful as there are some devices that may require a
 different announce interval than the majority of other devices connected to the network.
 This can easily be achieved by simply modifying the message rate on those specific
 interfaces.
-
 3. Increased Visibility:
-
 Boundary Clocks provide significant visibility into the accuracy of GM, which can be
 extremely useful when tracking performance during events that trigger a Best Master
 Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen below.
 
 **PTP Message Counters Per Interface**
 
-[PIC 2]
+[![Image Placement][6]]
+[6]: img/blog.png
+
 
 **Monitoring Accuracy of Boundary Clock compared to upstream GM**
 
-[PIC 3]
+[![Image Placement][7]]
+[7]: img/blog.png
+
 
 This type of data is streamable as well and can be made to be presented clearly in CloudVision
 (CVP and CVaaS) and other third-party monitoring tools.
 
 For example, as viewable in CVP:
 
-[PIC 4]
-[PIC 5]
-[PIC 6]
-[PIC 7]
+[![Image Placement][8]]
+[8]: img/blog.png
+
+[![Image Placement][9]]
+[9]: img/blog.png
+
+[![Image Placement][10]]
+[10]: img/blog.png
+
+[![Image Placement][11]]
+[11]: img/blog.png
+
 
 PTP topology views, event-based alarms, and streaming of PTP counters allow network
 operators to understand the behavior of a PTP network, and its performance, in real-time.
@@ -327,9 +335,9 @@ Arista hosts various events throughout the year for you! Members of our team org
 
     __For Channel Partners Only__
 
-    [![Image Placement][5]][6]
-    [5]: img/arista-carasoft-v2.png
-    [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
+    [![Image Placement][12]][13]
+    [12]: img/arista-carasoft-v2.png
+    [13]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
 
     __Please check back next quarter for our 2026 schedule!__
 
