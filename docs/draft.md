@@ -17,7 +17,7 @@
 
 **USA – USA – USA!** As we celebrate and show our support for Team USA at the 2026 Winter Games in Milan, Italy, we’re proud to share this month’s Arista Federal Newsletter highlighting how Arista continues to perform at a Gold Medal level in delivering mission-critical networking.
 
-Just as Olympians train for precision, consistency, and peak performance, Arista is built for operational excellence. As a recognized network leader, Arista delivers best-in-class solutions across Campus, Data Center, WAN, and AI infrastructure. With a consistent operating model powered by EOS, NetDL, and CloudVision, we help organizations simplify operations, enhance reliability, and scale with confidence.
+Just as Olympians train for precision, consistency, and peak performance, Arista is built for operational excellence. As a recognized network leader, Arista delivers best-in-class solutions across Campus, Data Center, WAN, and AI infrastructure. A consistent operating model powered by EOS, NetDL, and CloudVision helps organizations simplify operations, enhance reliability, and scale with confidence.
 
 We’re proud to stand on the podium alongside our Federal and System Integrator partners and look forward to continuing our work together supporting your mission, overcoming new challenges, and delivering Gold Medal-level performance in the year ahead. 
 
