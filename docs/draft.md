@@ -281,7 +281,7 @@ Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen belo
 
 **PTP Message Counters Per Interface**
 
-![Image Placement][7]
+![Image Placement][7]{width=50}
 [7]: img/jan26_pic3.png
 
 
