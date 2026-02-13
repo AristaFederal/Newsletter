@@ -33,7 +33,8 @@ theme:
 
 nav:
   - www.aristafederal.com: http://www.aristafederal.com
-  - January 2026: index.md
+  - February 2026: index.md
+  - January 2026: January2026.md
   - December 2025: December2025.md
   - November 2025: November2025.md
   - October 2025: October2025.md
