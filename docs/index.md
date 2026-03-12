@@ -426,8 +426,6 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 ---
 
 
-
-
 ## __* Product Updates*__
 
 ![Image Placememt](img/Product_image.png)
