@@ -537,9 +537,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#odernizing-campus-networks-with-arista-swag" class="md-nav__link">
+  <a href="#modernizing-campus-networks-with-arista-swag" class="md-nav__link">
     <span class="md-ellipsis">
-      odernizing Campus Networks with Arista SWAG
+      Modernizing Campus Networks with Arista SWAG
     </span>
   </a>
   
@@ -657,35 +657,81 @@ visit: <a href="https://www.training.arista.com/">https://www.training.arista.co
 <p><img alt="Image Placement" src="../img/mar26_pic7.png" /></p>
 <p><img alt="Image Placement" src="../img/mar26_pic8.png" /></p>
 <hr />
-<h2 id="odernizing-campus-networks-with-arista-swag"><strong>odernizing Campus Networks with Arista SWAG</strong><a class="headerlink" href="#odernizing-campus-networks-with-arista-swag" title="Permanent link">&para;</a></h2>
-<p>By: Michael Harrison,Arista Systems Engineer</p>
+<h2 id="modernizing-campus-networks-with-arista-swag"><strong>Modernizing Campus Networks with Arista SWAG</strong><a class="headerlink" href="#modernizing-campus-networks-with-arista-swag" title="Permanent link">&para;</a></h2>
+<p>By: Michael Harrison, Arista Systems Engineer</p>
 <p><strong>Overview</strong></p>
 <p>Traditional switch stacking has long been a bottleneck for campus networks, characterized by proprietary hardware, limited scale, and rigid physical constraints. Arista <strong>Switch Aggregation Group (SWAG)</strong> redefines this model by leveraging standard Ethernet to group currently supporting 16 switches under a single management IP, theoretically up to <strong>48 switches</strong> in future releases. </p>
-<p><strong>Strategic Value</strong>
-- <strong>Operational Simplicity</strong>: Manage dozens of switches as a single virtual chassis through a single CLI and IP address, significantly reducing administrative overhead.
-- <strong>Cost Reduction</strong>: Conserve scarce IP addresses and potentially reduce licensing costs for third-party tools that charge per managed endpoint.
-- <strong>Architectural Freedom: Break free from "closet-bound" stacking. SWAG allows switches to be distributed across floors or buildings using standard fiber optics.
-- </strong>Enhanced Resiliency**: Unlike legacy stacks where a single software failure can crash the entire group, SWAG utilizes Arista EOS’s modular architecture to provide hitless upgrades and superior fault isolation.</p>
-<p><strong>Transitioning from Legacy Stacking to Arista SWAG</strong>
-<strong>1. The Limitations of Legacy Stacking</strong>
-For decades, campus networks relied on "stacking" to simplify management. However, this came at a high technical cost:
-- <strong>Proprietary Lock-in</strong>: Special stacking cables and modules increased CAPEX and limited physical distance to a few meters.
-- <strong>Brittle Control Planes</strong>: Many legacy stacks share a single control plane (fate-sharing), meaning a bug on one switch often downs the entire stack.
-- <strong>Scalability Caps</strong>: Most vendors cap stacks at 8–12 switches, forcing net-admins to manage dozens of separate stacks in large buildings.</p>
+<p><strong>Strategic Value</strong></p>
+<ul>
+<li>
+<p><strong>Operational Simplicity</strong>: Manage dozens of switches as a single virtual chassis through a single CLI and IP address, significantly reducing administrative overhead.</p>
+</li>
+<li>
+<p><strong>Cost Reduction</strong>: Conserve scarce IP addresses and potentially reduce licensing costs for third-party tools that charge per managed endpoint.</p>
+</li>
+<li>
+<p><strong>Architectural Freedom</strong>: Break free from "closet-bound" stacking. SWAG allows switches to be distributed across floors or buildings using standard fiber optics.</p>
+</li>
+<li>
+<p><strong>Enhanced Resiliency</strong>: Unlike legacy stacks where a single software failure can crash the entire group, SWAG utilizes Arista EOS’s modular architecture to provide hitless upgrades and superior fault isolation.</p>
+</li>
+</ul>
+<p><strong>Transitioning from Legacy Stacking to Arista SWAG</strong></p>
+<p><strong>1. The Limitations of Legacy Stacking</strong></p>
+<p>For decades, campus networks relied on "stacking" to simplify management. However, this came at a high technical cost:</p>
+<ul>
+<li>
+<p><strong>Proprietary Lock-in</strong>: Special stacking cables and modules increased CAPEX and limited physical distance to a few meters.</p>
+</li>
+<li>
+<p><strong>Brittle Control Planes</strong>: Many legacy stacks share a single control plane (fate-sharing), meaning a bug on one switch often downs the entire stack.</p>
+</li>
+<li>
+<p><strong>Scalability Caps</strong>: Most vendors cap stacks at 8–12 switches, forcing net-admins to manage dozens of separate stacks in large buildings.</p>
+</li>
+</ul>
 <p><img alt="Image Placement" src="../img/mar26_pic9.png" /></p>
-<p><strong>2. Technical Architecture of Arista SWAG</strong>
-Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model using standard Ethernet as the backplane.
-- <strong>Standard Interconnects</strong>: SWAG uses standard front-panel ports (1G to 100G) and optics, allowing for campus-wide distribution.
-- <strong>Role-Based Hierarchy</strong>: A SWAG cluster consists of two Supervisors (Active/Standby) and multiple Worker nodes. This mirrors the architecture of a high-end modular chassis like the Arista 7500 series.
-- <strong>Topology Versatility</strong>: While legacy stacks are limited to rings or chains, SWAG supports modern Leaf-Spine (LSS) designs, providing higher bandwidth and better redundancy.</p>
+<p><strong>2. Technical Architecture of Arista SWAG</strong></p>
+<p>Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model using standard Ethernet as the backplane.</p>
+<ul>
+<li>
+<p><strong>Standard Interconnects</strong>: SWAG uses standard front-panel ports (1G to 100G) and optics, allowing for campus-wide distribution.</p>
+</li>
+<li>
+<p><strong>Role-Based Hierarchy</strong>: A SWAG cluster consists of two Supervisors (Active/Standby) and multiple Worker nodes. This mirrors the architecture of a high-end modular chassis like the Arista 7500 series.</p>
+</li>
+<li>
+<p><strong>Topology Versatility</strong>: While legacy stacks are limited to rings or chains, SWAG supports modern Leaf-Spine (LSS) designs, providing higher bandwidth and better redundancy.</p>
+</li>
+</ul>
 <p><img alt="Image Placement" src="../img/mar26_pic10.png" /></p>
 <p><strong>3. Operational Advantages</strong></p>
-<p>| Capability        | Impact of Arista SWAG           |
-| :-----------: |:-------------: |     :----:        |
-|Scale  Scales to 48 members, 4x more than leading legacy alternatives.
-|Upgrades|  Supports Smart System Upgrades (SSU) for hitless maintenance.|
-|Management|    Centralized via CloudVision, offering real-time telemetry and AI-driven insights.|
-|Flexibility|   Decouples management from physical proximity; switches can be anywhere a fiber reaches.|</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Capability</th>
+<th style="text-align: center;">Impact of Arista SWAG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Scale  Scales to 48 members, 4x more than leading legacy alternatives.</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Upgrades</td>
+<td style="text-align: center;">Supports Smart System Upgrades (SSU) for hitless maintenance.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Management</td>
+<td style="text-align: center;">Centralized via CloudVision, offering real-time telemetry and AI-driven insights.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Flexibility</td>
+<td style="text-align: center;">Decouples management from physical proximity; switches can be anywhere a fiber reaches.</td>
+</tr>
+</tbody>
+</table>
 <p><strong>4. Conclusion: The Path Forward</strong></p>
 <p>Arista SWAG allows organizations to migrate gracefully from legacy environments. By adopting an Ethernet-based, software-defined stacking model, enterprises can eliminate proprietary hardware costs, simplify their IP management, and build a campus network that matches the resiliency of a modern data center.</p>
 <hr />

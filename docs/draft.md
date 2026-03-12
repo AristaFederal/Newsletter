@@ -134,12 +134,12 @@ Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model usin
  
 **3. Operational Advantages**
 
-| Capability        | Impact of Arista SWAG|
+|Capability|Impact of Arista SWAG|
 | :-----------: |:-------------: | 
-|Scale	Scales to 48 members, 4x more than leading legacy alternatives.
-|Upgrades|	Supports Smart System Upgrades (SSU) for hitless maintenance.|
-|Management|	Centralized via CloudVision, offering real-time telemetry and AI-driven insights.|
-|Flexibility|	Decouples management from physical proximity; switches can be anywhere a fiber reaches.|
+|Scale| Scales to 48 members, 4x more than leading legacy alternatives.|
+|Upgrades|Supports Smart System Upgrades (SSU) for hitless maintenance.|
+|Management|Centralized via CloudVision, offering real-time telemetry and AI-driven insights.|
+|Flexibility|Decouples management from physical proximity; switches can be anywhere a fiber reaches.|
 
 **4. Conclusion: The Path Forward**
 
