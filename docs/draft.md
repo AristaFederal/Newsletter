@@ -76,9 +76,6 @@ visit: <https://www.training.arista.com/>
 ![Image Placement][5]
 [5]: img/mar26_pic5.png
 
-![Image Placement][6]
-[6]: img/mar26_pic6.png
-
 ![Image Placement][7]
 [7]: img/mar26_pic7.png
 
