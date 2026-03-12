@@ -23,9 +23,11 @@ At Arista, we focus on delivering the performance, reliability, and operational 
 In this month’s newsletter, you’ll find:
 
 - **Maximize Your Arista Investment with the Arista Training Academy**
+
     Arista Federal Client Director John Corlett explains how the Arista Training Academy equips network engineers with the hands-on skills needed to fully leverage Arista technologies. Discover how the new All-Access Training Pass provides flexible training and certification to help teams build real-world expertise across modern network environments.
 
 - **Modernizing Campus Networks with Arista SWAG**
+
     Arista Systems Engineer Michael Harrison explains how Arista Switch Aggregation Group (SWAG) redefines traditional campus stacking by using standard Ethernet to simplify management, improve resiliency, and scale campus networks far beyond legacy limitations. Learn how SWAG enables organizations to modernize their campus architecture while reducing complexity and operational overhead.
 
 
