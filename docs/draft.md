@@ -144,7 +144,7 @@ Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model usin
 
 Arista SWAG allows organizations to migrate gracefully from legacy environments. By adopting an Ethernet-based, software-defined stacking model, enterprises can eliminate proprietary hardware costs, simplify their IP management, and build a campus network that matches the resiliency of a modern data center.
 
-**_Hitless upgrade planned for later 2026.
+**_Hitless upgrade planned for later 2026._
 
 ---
 
