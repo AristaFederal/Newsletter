@@ -89,7 +89,7 @@ By: Michael Harrison, Arista Systems Engineer
 
 **Overview**
 
-Traditional switch stacking has long been a bottleneck for campus networks, characterized by proprietary hardware, limited scale, and rigid physical constraints. Arista **Switch Aggregation Group (SWAG)** redefines this model by leveraging standard Ethernet to group currently supporting 16 switches under a single management IP, theoretically up to **48 switches** in future releases. 
+Traditional switch stacking has long been a bottleneck for campus networks, characterized by proprietary hardware, limited scale, and rigid physical constraints. Arista **Switch Aggregation Group (SWAG)** redefines this model by leveraging standard Ethernet to group currently supporting 8 switches under a single management IP, theoretically up to **48 switches** in future releases. 
 
 **Strategic Value**
 
@@ -99,7 +99,7 @@ Traditional switch stacking has long been a bottleneck for campus networks, char
 
 - **Architectural Freedom**: Break free from "closet-bound" stacking. SWAG allows switches to be distributed across floors or buildings using standard fiber optics.
 
-- **Enhanced Resiliency**: Unlike legacy stacks where a single software failure can crash the entire group, SWAG utilizes Arista EOS’s modular architecture to provide hitless upgrades and superior fault isolation.
+- **Enhanced Resiliency**: Unlike legacy stacks where a single software failure can crash the entire group, SWAG utilizes Arista EOS’s modular architecture to provide hitless** upgrades and superior fault isolation.
  
 
 **Transitioning from Legacy Stacking to Arista SWAG**
@@ -136,7 +136,7 @@ Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model usin
 |Capability|Impact of Arista SWAG|
 | :-----------: |:-------------: | 
 |Scale| Scales to 48 members, 4x more than leading legacy alternatives.|
-|Upgrades|Supports Smart System Upgrades (SSU) for hitless maintenance.|
+|Upgrades|Supports Smart System Upgrades (SSU) for hitless** maintenance.|
 |Management|Centralized via CloudVision, offering real-time telemetry and AI-driven insights.|
 |Flexibility|Decouples management from physical proximity; switches can be anywhere a fiber reaches.|
 
@@ -144,7 +144,7 @@ Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model usin
 
 Arista SWAG allows organizations to migrate gracefully from legacy environments. By adopting an Ethernet-based, software-defined stacking model, enterprises can eliminate proprietary hardware costs, simplify their IP management, and build a campus network that matches the resiliency of a modern data center.
 
-
+**_Hitless upgrade on roadmap_
 
 ---
 
