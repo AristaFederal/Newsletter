@@ -13,33 +13,28 @@
 [2]: http://www.aristafederal.com
 
 
-# Welcome to the February 2026 Edition of the Arista Federal Newsletter!
+# Welcome to the March 2026 Edition of the Arista Federal Newsletter!
+As we celebrate St. Patrick’s Day on March 17th and the wearing of the green, it’s a good reminder that while a little luck is always welcome, success in today’s mission-critical environments depends on preparation, performance, and the right technology foundation. As Federal agencies and System Integrators continue advancing initiatives around automation, AI, and secure infrastructure, the network plays an increasingly strategic role.
 
-**USA – USA – USA!** As we celebrate and show our support for Team USA at the 2026 Winter Games in Milan, Italy, we’re proud to share this month’s Arista Federal Newsletter highlighting how Arista continues to perform at a Gold Medal level in delivering mission-critical networking.
+At Arista, we focus on delivering the performance, reliability, and operational simplicity needed to support these evolving mission requirements. Our consistent architecture helps organizations scale with confidence, reduce complexity, lower operational costs, and keep their networks running smoothly—no four-leaf clover required.
 
-Just as Olympians train for precision, consistency, and peak performance, Arista is built for operational excellence. As a recognized network leader, Arista delivers best-in-class solutions across Campus, Data Center, WAN, and AI infrastructure. A consistent operating model powered by EOS, NetDL, and CloudVision helps organizations simplify operations, enhance reliability, and scale with confidence.
-
-We’re proud to stand on the podium alongside our Federal and System Integrator partners and look forward to continuing our work together supporting your mission, overcoming new challenges, and delivering Gold Medal-level performance in the year ahead. 
-
-Together, let’s push forward, aim higher, and deliver Gold Medal performance with Arista Networks.  
+☘️ May your networks run smoothly, your missions succeed, and a little luck of the Irish follow you along the way.  Sláinte ☘️
 
 In this month’s newsletter, you’ll find:
 
+- **Maximize Your Arista Investment with the Arista Training Academy**
+
+    Arista Federal Client Director John Corlett explains how the Arista Training Academy equips network engineers with the hands-on skills needed to fully leverage Arista technologies. Discover how the new All-Access Training Pass provides flexible training and certification to help teams build real-world expertise across modern network environments.
+
+- **Modernizing Campus Networks with Arista SWAG**
+
+    Arista Systems Engineer Michael Harrison explains how Arista Switch Aggregation Group (SWAG) redefines traditional campus stacking by using standard Ethernet to simplify management, improve resiliency, and scale campus networks far beyond legacy limitations. Learn how SWAG enables organizations to modernize their campus architecture while reducing complexity and operational overhead.
 
 
-- **The Arista DANZ Monitoring Fabric: Visibility Without Compromise**
 
-    Arista Federal Systems Engineer Peter Gore explores how the Arista DANZ Monitoring Fabric (DMF) delivers centralized, end-to-end network visibility across hybrid infrastructures ensuring the right data reaches the right tools at the right time, without impacting production traffic.
-
-- **Arista Networks Delivering Media and Entertainment Solutions**
-
-    Ryan Morris and Gerard Phillips, Arista Systems Engineers and Media & Entertainment Technical Leads, provide valuable insight into how Arista delivers the performance, timing precision, and reliability required for modern IP-based video and audio distribution across Federal and mission-critical environments.
-
-  
 This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
 
 Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
-
 
 ---
 
@@ -49,283 +44,103 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 [3]: img/blog.png
 [4]: https://blogs.arista.com/blog
 
-
 ---
 
-## **The Arista DANZ Monitoring Fabric: Visibility Without Compromise**
-By: Peter Gore, Systems Engineer, US Federal
+## **Maximize Your Arista Investment with the Arista Training Academy**
 
-In today’s complex Federal and mission-critical environments, network visibility is no longer
-optional—it&#39;s essential. Security teams need to see threats, operations teams need to troubleshoot
-performance issues, and compliance officers need to prove they&#39;re monitoring the right traffic.
-But here&#39;s the problem: most organizations are unaware of various parts of their infrastructure,
-caused by patchwork solutions that create gaps.
+By: John Corlett, Arista Federal Client Director
 
-The Arista DANZ Monitoring Fabric (DMF) is a next-generation network packet broker (NPB)
-architected for pervasive, organization-wide visibility. It’s a platform designed to solve the
-fundamental challenge of infrastructure visibility, solves getting the right data to the right tools at
-the right time, without compromising network performance.
+You’ve invested in Arista networking so now empower your team to get the most from it. Maximizing the
+value of your network means ensuring your engineers have the skills needed to fully leverage their
+capabilities. Whether you’re onboarding a new network engineer or helping experienced engineers
+deepen their expertise with Arista technologies, the Arista Training Academy provides the resources to
+help your team succeed through structured learning tracks, hands-on labs, and practical certification
+exams.
 
-### **What Is the Arista DANZ Monitoring Fabric?**
+The Arista Training Academy offers a fast, flexible way for network engineers to build real-world expertise
+across campus, data center, automation, AI, and cloud networking.
 
-At its core, Arista DMF is a network packet broker solution that sits between your production
-network and your monitoring and security tools. Essentially, it as an intelligent traffic director for
-your network visibility infrastructure.
+To make training even more accessible, Arista has introduced the All-Access Training Pass. For $4,995,
+organizations receive one year of unlimited access to the full Arista training catalog, covering a wide range
+of real-world networking technologies and operational workflows.
 
-The platform aggregates traffic from across your physical, virtual, and cloud environments, then
-filters, deduplicates, and optimizes that traffic before delivering it to your monitoring
-tools—whether those are intrusion detection systems, application performance monitoring
-platforms, forensic recorders, or any other tool that needs network data to function.
+The All-Access Pass also includes 40 hours of hands-on lab time per track, allowing engineers to practice
+deployments and operational workflows in realistic environments. In addition, the pass includes one
+certification exam attempt, which can be used toward any Arista Associate or Specialist certification.
+These exams focus on validating real-world operational knowledge rather than memorization. They are
+open book and do not require travel to a testing center, making certification both flexible and accessible.
 
-Arista DMF creates a fabric layer that separates your production network from your monitoring
-infrastructure. This architectural approach means you can add, remove, or reconfigure
-monitoring tools without ever touching production traffic, eliminating a major source of risk and
-operational complexity.
-
-### **The Business Case: Why Organizations Deploy Arista DMF**
-
-The benefits of implementing a monitoring fabric extend far beyond the IT department. Here&#39;s
-what organizations gain:
-
-**Complete Visibility Across Hybrid Environments**
-
-Modern networks span on-premises data centers, private clouds, and public cloud platforms.
-Arista DMF provides a unified visibility layer across all of these environments, eliminating blind
-spots that attackers exploit and troubleshooting nightmares that cost organizations millions in
-downtime.
-
-**Tool Optimization and Cost Savings**
-
-Monitoring and security tools are expensive—often priced based on the traffic volume they process. Arista DMF dramatically reduces tool costs by deduplicating packets, filtering out
-irrelevant traffic, and load-balancing across tool clusters. Organizations commonly see 40-60%
-reductions in the data volume sent to tools, which translates directly to lower licensing costs and
-extended tool lifespan. Instead of overprovisioning expensive tools to handle peak traffic, you
-can right-size your investment.
-
-**Improved Security Posture**
-
-You can&#39;t protect what you can&#39;t see. Arista DMF ensures that security tools receive exactly the
-traffic they need to detect threats—no more, no less. Advanced filtering capabilities mean you
-can send encrypted traffic to decryption tools, application traffic to application-aware security
-tools, and everything else to your general-purpose systems. This precision dramatically improves
-detection rates and reduces false positives.
-
-**Operational Agility**
-
-Network teams spend countless hours on change requests to add monitoring capabilities. With
-Arista DMF, those changes happen in the fabric layer through software configuration, not
-through risky production network changes. Need to start monitoring a new application, a new
-security tool? Spin up monitoring within a very short period of time and start seeing results
-immediately!
-
-**Future-Proofing Your Investment**
-
-Technology changes, but your monitoring infrastructure shouldn&#39;t need to be ripped and replaced
-every few years. Arista DMF creates an abstraction layer that makes your monitoring
-architecture tool-agnostic and protocol-agnostic. This flexibility protects your investment as your
-technology stack evolves.
-
-**Compliance and Audit Support**
-
-Regulatory frameworks increasingly require organizations to demonstrate comprehensive
-monitoring capabilities. Arista DMF provides the evidence that you&#39;re seeing and analyzing the
-traffic you claim to monitor, with full audit trails of what&#39;s being monitored, where traffic is
-flowing, and how tools are being utilized.
-
-**Network Time Machine for Forensics**
-
-For forensic investigations, DMF includes Recorder Nodes that provide &quot;Network Time
-Machine&quot; capabilities. Operators can record petabytes of traffic and &quot;replay&quot; past conversations
-with a few clicks, accelerating root-cause analysis after a security incident and providing a clear
-audit trail of historical network events.
-
-### **Arista Integration: Arista CloudVision &amp; Arista DMF**
-
-A critical advantage for federal operators is the seamless integration between Arista CloudVision
-(CV) and Arista DMF, providing a &quot;Single Pane of Glass&quot; for both the production and
-monitoring networks.
-
-**Automated Visibility (Auto-SPAN)**
-
-The DMF Controller communicates directly with CloudVision to retrieve the production device
-inventory. DMF can automatically configure SPAN sessions or L2GRE tunnels on any Arista
-EOS switch managed by CloudVision, ensuring that visibility follows the workload without
-manual CLI intervention.
-
-**Unified Observability with CloudVision UNO**
-
-CloudVision Universal Network Observability (CV UNO) leverages DMF as a high-fidelity data
-source. It creates a comprehensive application-to-network graph, allowing federal IT teams to
-instantly determine if a performance lag is a network hotspot or an application-level event.
-
-**Zero-Touch Monitoring (ZTM)**
-
-New switches added to the visibility fabric are automatically discovered and provisioned by the
-DMF Controller, enabling rapid deployment in field offices or forward-deployed environments.
-
-### **The Bottom Line**
-
-Arista DANZ Monitoring Fabric (DMF) transforms network visibility from a fragmented,
-reactive capability into a strategic asset. Organizations gain the complete visibility needed to
-secure modern networks, the efficiency to maximize tool investments, and the agility to adapt as
-business needs evolve.
-
-- Complete, end-to-end visibility
-- Improved security and threat detection
-- Reduced monitoring and tool costs
-- Operational agility without production risk
-- A scalable, future-ready visibility architecture
-
-With the combined power of Arista DMF and Arista CloudVision, Federal organizations can
-achieve full-spectrum visibility, operational consistency, and proactive control—without
-compromise.
-
----
-
-## **Arista Networks Delivering Media and Entertainment Solutions**
-
-By: Ryan Morris &amp; Gerard Phillips, Systems Engineers, Arista Media &amp; Entertainment Technical Leads
-
-The distribution of video and audio content over IP Networks has become commonplace over
-the last 10 years. Led by the global-scale, live sports producers, major broadcasters have
-converted from traditional SDI to SMPTE ST-2110 networked workflows, deploying networks of
-every conceivable scale. While led by global sports broadcasters, the benefits are recognized
-widely, and we now see the transformation across daily broadcasts, training and promotional
-events, houses of worship, and video distribution of content within large corporations, and
-government buildings. For years, Arista has been at the core of these media distribution
-network transformations for a number of reasons.
-
-**Software Reliability:**
-
-Two key requirements of any SMPTE ST-2110 network are Multicast Delivery, and Precision
-Time Protocol (PTP) distribution. These happen to be the exact requirements that the Low-
-Latency trading industry needs, and which Arista has been servicing almost since its inception.
-Arista understands the importance of media content and the ramifications of losing even a
-packet of video, and thus, continues to implement testing infrastructures that reflect real-life
-deployments, to ensure that these broadcast systems remain reliable at both low and high
-scale. Current broadcast systems may require many tens of thousands of multicast groups and
-hundreds of PTP clients on a single switch - and Arista ensures this support for content creators
-and distributors is available.
-
-**Partnerships:**
-
-Arista has developed partnerships with all the major broadcast vendors that improve customer
-workflows from not only an orchestration perspective, but a monitoring and visibility one as well.
-SMPTE ST-2110 networks have been deployed for years now - the standard is mature, and
-systems are extremely reliable when designed using best practices. However, what was
-missing for early adopters of the standard was the knowledge of what was successful, or not
-successful, from a flow routing perspective. Broadcast engineering teams were apprehensive
-about the lack of insight provided by these systems, when compared to an SDI router where
-tally was common. But now, with broadcast vendors integrating with our orchestration solutions
-(Media Control Service, MCS), and other vendors subscribing to real-time telemetry, the
-network ceases to be a black box, and a fuller understanding of the immediate events taking
-place in a media distribution network are provided to the customers and users.
-
-**Orchestration Software:**
-
-Arista Media Control Service (MCS) is a multicast flow orchestration solution designed with the
-many facets of broadcast workflow standards in mind, as well as a satisfying broadcast operator
-experience. Arista MCS acts as an interface between the control panel of the broadcast
-operator and the IP network. It facilitates the conversion of broadcast operations to network
-operations. Arista MCS manages and monitors real-time broadcast workflows over IP networks
-with a deterministic high-performance service and an easy-to-use API interface. Broadcast
-controllers integrate with this API interface to provision multicast flows required to support
-SMPTE ST2110, ST2022, AES67 and many other flow types.
-
-Key advantages of MCS include:
-- Faster than traditional multicast routing protocols
-- Bandwidth protection, from oversubscription and larger than expected flow provisioning
-- Real-time notifications that broadcast controllers and other network monitoring
-tools can subscribe to - provides crucial information for system health and routing
-status of the media workflow
-
+To learn more about the Arista Training Academy and the All-Access Training Pass,
+visit: <https://www.training.arista.com/>
 
 ![Image Placement][5]
-[5]: img/jan26_pic1.png
+[5]: img/mar26_pic5.png
 
-**Strong PTP Stack:**
+![Image Placement][7]
+[7]: img/mar26_pic7.png
 
-Designing a reliable Precision Time Protocol (PTP) network is an absolute requirement for any
-SMPTE 2110 network. Senders and receivers must be locked to a common clock to ensure
+![Image Placement][8]
+[8]: img/mar26_pic8.png
 
-video and audio alignment, multi-channel audio operation, as well as to ensure that switching
-between video sources on a receiver is clean and does not produce a broken signal.
+---
+## **Modernizing Campus Networks with Arista SWAG**
 
-Possibly the most important decision to make, from a network perspective, to build a resilient
-PTP network is determining what sort of clock your networking switch should be configured as:
-Boundary Clock or Transparent Clock. Generally, in these types of deployments, we see
-Boundary Clock as the clock of choice.
+By: Michael Harrison, Arista Systems Engineer
 
-**Why Boundary Clock?**
+**Overview**
 
-1. Basic configuration:
-Boundary Clocks do not depend on unicast or multicast routing - they lock to an
-upstream GM (or upstream Boundary Clock), and distribute timing on PTP enabled
-interfaces based on that upstream clock.
-Both global and per interface configurations are simple, but care must be taken to
-ensure that the messaging rates are consistent between connected interfaces,
-especially the announce interval.
-![Image Placement][6]
-[6]: img/jan26_pic2.png
+Traditional switch stacking has long been a bottleneck for campus networks, characterized by proprietary hardware, limited scale, and rigid physical constraints. Arista **Switch Aggregation Group (SWAG)** redefines this model by leveraging standard Ethernet to group currently supporting 8 switches under a single management IP, theoretically up to **48 switches** in future releases. 
 
-2. Flexibility:
-As the image above specifies, the messaging rates in a Boundary Clock are provisioned
-on a per interface basis. This is helpful as there are some devices that may require a
-different announce interval than the majority of other devices connected to the network.
-This can easily be achieved by simply modifying the message rate on those specific
-interfaces.
-3. Increased Visibility:
-Boundary Clocks provide significant visibility into the accuracy of GM, which can be
-extremely useful when tracking performance during events that trigger a Best Master
-Clock Algorithm (BMCA) to elect a new GM. Examples of such data can be seen below.
+**Strategic Value**
 
-**PTP Message Counters Per Interface**
+- **Operational Simplicity**: Manage dozens of switches as a single virtual chassis through a single CLI and IP address, significantly reducing administrative overhead.
 
-![Image Placement][7]{width=650}
-[7]: img/jan26_pic3.png
+- **Cost Reduction**: Conserve scarce IP addresses and potentially reduce licensing costs for third-party tools that charge per managed endpoint.
 
+- **Architectural Freedom**: Break free from "closet-bound" stacking. SWAG allows switches to be distributed across floors or buildings using standard fiber optics.
+ 
 
-**Monitoring Accuracy of Boundary Clock compared to upstream GM**
+**Transitioning from Legacy Stacking to Arista SWAG**
 
-![Image Placement][8]{width=600}
-[8]: img/jan26_pic4.png
+**1. The Limitations of Legacy Stacking**
 
+For decades, campus networks relied on "stacking" to simplify management. However, this came at a high technical cost:
 
-This type of data is streamable as well and can be made to be presented clearly in CloudVision
-(CVP and CVaaS) and other third-party monitoring tools.
+- **Proprietary Lock-in**: Special stacking cables and modules increased CAPEX and limited physical distance to a few meters.
 
-For example, as viewable in CVP:
+- **Brittle Control Planes**: Many legacy stacks share a single control plane (fate-sharing), meaning a bug on one switch often downs the entire stack.
+
+- **Scalability Caps**: Most vendors cap stacks at 8–12 switches, forcing net-admins to manage dozens of separate stacks in large buildings.
 
 ![Image Placement][9]
-[9]: img/jan26_pic5.png
+[9]: img/mar26_pic9.png 
+
+**2. Technical Architecture of Arista SWAG**
+
+Arista SWAG (Switch Aggregation Group) implements a "virtual chassis" model using standard Ethernet as the backplane.
+
+- **Standard Interconnects**: SWAG uses standard front-panel ports (1G to 100G) and optics, allowing for campus-wide distribution.
+
+- **Role-Based Hierarchy**: A SWAG cluster consists of two Supervisors (Active/Standby) and multiple Worker nodes. This mirrors the architecture of a high-end modular chassis like the Arista 7500 series.
+
+- **Topology Versatility**: While legacy stacks are limited to rings or chains, SWAG supports modern Leaf-Spine (LSS) designs, providing higher bandwidth and better redundancy.
 
 ![Image Placement][10]
-[10]: img/jan26_pic6.png
+[10]: img/mar26_pic10.png 
 
-![Image Placement][11]
-[11]: img/jan26_pic7.png
+ 
+**3. Operational Advantages**
 
-![Image Placement][12]
-[12]: img/jan26_pic8.png
+|Capability|Impact of Arista SWAG|
+| :-----------: |:-------------: | 
+|Scale| Scales to 48 members, 4x more than leading legacy alternatives.|
+|Management|Centralized via CloudVision, offering real-time telemetry and AI-driven insights.|
+|Flexibility|Decouples management from physical proximity; switches can be anywhere a fiber reaches.|
 
+**4. Conclusion: The Path Forward**
 
-PTP topology views, event-based alarms, and streaming of PTP counters allow network
-operators to understand the behavior of a PTP network, and its performance, in real-time.
-Additionally, given that CloudVision stores this data in a time-series database, users can
-examine these events from a prior date to gain better insight into possible PTP changes that
-propagated in the network.
-In summary, Arista is a core partner in the media and entertainment industry&#39;s transition to IP
-and SMPTE ST-2110 workflows. Its success is built on providing reliable software with robust
-Multicast and PTP support, fostering key partnerships for enhanced visibility, offering the
-powerful Media Control Service (MCS) orchestration software, and ensuring a strong PTP stack
-with preferred Boundary Clock deployments. These solutions enable reliable, high-performance,
-and transparent media distribution networks, cementing Arista&#39;s position as a leader in this
-critical technological evolution.
+Arista SWAG allows organizations to migrate gracefully from legacy environments. By adopting an Ethernet-based, software-defined stacking model, enterprises can eliminate proprietary hardware costs, simplify their IP management, and build a campus network that matches the resiliency of a modern data center.
 
-For more information pertaining to Arista’s Media and Entertainment solutions, including
-webinars, best practice documentation, white papers, and customer success stories, please visit
-us at <https://www.arista.com/en/solutions/media-entertainment>. Or reach out to your account
-representatives to inquire how Arista’s Media Solutions can operate in your facility.
 
 ---
 
