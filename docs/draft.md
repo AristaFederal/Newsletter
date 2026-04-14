@@ -25,11 +25,13 @@ Welcome home, Artemis II - your success is inspiring the next era of exploration
 In this month’s newsletter, you’ll find:
 
 - **Why Federal Customers Should Focus on TCO and Not Just Purchase Price**
+
     Arista Federal Client Director Kevin Carey breaks down why Total Cost of Ownership (TCO) should be the primary driver in networking decisions and how operational complexity, security, and lifecycle management often outweigh the initial purchase price.
 
     If you’re evaluating network investments for long-term mission success, this is worth a read.
 
 - **Arista Announces XPO High-Density Liquid Cooled Pluggable Optics**
+
     As Federal agencies advance AI, HPC, and data-intensive mission capabilities, the network must evolve to keep pace. Arista’s introduction of XPO high-density, liquid-cooled pluggable optics represents a significant step forward delivering the scale, performance, and efficiency required to support next-generation AI architectures in DoD, Intelligence, and research environments.
 
 
@@ -236,7 +238,6 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 </div>
 
 --- 
-
 ## __*Software Updates*__
 ![Image Placememt](img/software_upgrades_condensed.png)
 
@@ -244,9 +245,9 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.23.10M <br> 4.34.5M <br> 4.33.7M <br> 4.35.2F | March 2nd, 2026 <br> February 25th, 2026 <br> February 24th, 2026 <br> February 17th, 2026 |
-| __CVP__           | Portal 2025.3.2 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | February 12th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
-| __DMF__           | 8.9.0 | February 13th, 2026 |
+| __EOS__           | 4.36.0F <br> 4.35.3.1F <br> 4.35.3F <br> 4.23.10M | April 9th, 2026 <br> April 8th, 2026 <br> March 20th, 2026 <br> March 2nd, 2026 |
+| __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
+| __DMF__           | 8.6.3 | March 18th, 2026 |
 | __CV-CUE__         | 21.0.0 | January 16th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
 | __TerminAttr__     | 1.42.1 | February 4th, 2026 |
@@ -266,12 +267,10 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 *Stay informed on the latest platform security and field notice updates.*
 
 ### **Security Advisories**
-* **Hardware IPSec** — [Security Advisory 0134](https://www.arista.com/en/support/advisories-notices/security-advisory/23419-security-advisory-0134){: target="_blank" } <br> *(February 17th, 2026)*
-* **ETM NGFW** — [Security Advisory 0133](https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133){: target="_blank" } <br> *(February 3rd, 2026)*
+* **runC** — [Security Advisory 0135](https://www.arista.com/en/support/advisories-notices/security-advisory/23784-security-advisory-0135){: target="_blank" } <br> *(April 7th, 2026)*
 
 ### **Field Notices**
-* **CV-CUE: Depreciation of IAPC via Wireless Manager** — [Field Notice 0124](https://www.arista.com/en/support/advisories-notices/field-notice/23398-field-notice-0124){: target="_blank" } <br> *(February 3rd, 2026)*
-* **CV-CUE: Depreciation of Probed SSID** — [Field Notice 0123](https://www.arista.com/en/support/advisories-notices/field-notice/23397-field-notice-0123){: target="_blank" } <br> *(February 3rd, 2026)*
+* **CV-CUE Release Process** — [Field Notice 0125](https://www.arista.com/en/support/advisories-notices/field-notice/23698-field-notice-0125){: target="_blank" } <br> *(March 11th, 2026)*
 
 <br>
 
@@ -280,27 +279,42 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 ---
 
 
+
+
 ## __* Product Updates*__
 
 ![Image Placememt](img/Product_image.png)
 
-
 *Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
 
-
-
-### **New Product Releases** 
-* **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
-
+### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **February 18th, 2026** — [DMF Node DCA-DM-AN450](https://www.arista.com/en/support/advisories-notices/end-of-sale/23436-end-of-sale-end-of-life-for-arista-analytics-node-appliance-dca-dm-an450){: target="_blank" } 
-* **February 18th, 2026** — [DMF Node DCA-DM-C450](https://www.arista.com/en/support/advisories-notices/end-of-sale/23435-end-of-sale-end-of-life-for-arista-dmf-controller-appliance-dca-dm-c450){: target="_blank" } 
-* **February 2nd, 2026** — [CloudVision Portal 2024.2](https://www.arista.com/en/support/advisories-notices/end-of-support/23396-end-of-software-support-for-cloudvision-portal-2024-2-release-train){: target="_blank" } 
+* **April 10th, 2026** — [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-36S Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-48YC8 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series){: target="_blank" } 
+* **April 10th, 2026** — [DCS-7280CR3K-32P4, DCS-7280CR3K-32D4, DCS-7280CR3MK-32P4 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series){: target="_blank" }
+* **March 13th, 2026** — [EOS-4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30){: target="_blank" } 
 
 <br>
 
 [View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
+
+
+
+
+
+---
+
+## Don't Forget! 
+Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
+
+![Image Placememt](img/ACE.png)
+
+[Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
+
+---
+
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
