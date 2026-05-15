@@ -162,57 +162,12 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 ---
 
-## __*2026 Webinar Series — Coming Soon*__
-
-Our 2026 webinar schedule will be announced shortly, and we look forward to your participation in another year of insightful and informative sessions. In the meantime, we invite you to explore the recordings from our 2025 webinar series featuring valuable discussions, technical deep dives, and best practices across key networking topics.
-
-2025 Webinar replays are available here: 
-
-<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
-
-Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 sessions.
-
-<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
-
-<div class="grid cards" markdown>
-
--   __Arista Network Webinars Series with Carahsoft__
-
-    __For Channel Partners Only__
-
-    [![Image Placement][5]][6]
-    [5]: img/arista-carasoft-v2.png
-    [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
-
-
-    |  Date | Name| Description | 
-    | :-----------: | :-----------: | :-----------: |
-    | __TBD__ | TBD | TBD |
-
-    [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
-
-</div>
-
-
-<div class="grid cards" markdown>
-
--   __Webinars__  
-
-    --- 
+## __Webinars__  
 
     We make is easy for you to view products that are of interest, all virtually! Technical memebers of the team showcase outstading explanation of the products. Click below to see our list of Webinars. 
 
     [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button}
 
--   __Events__ 
-
-    ---
-    Join us in person to get a closer look in our list of produts and solution, as well as get the chance to meet members of the team. Click below to see our list of ipcoming Events. 
-
-    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button }
-
-
-</div>
 
 --- 
 ## __*Software Updates*__
