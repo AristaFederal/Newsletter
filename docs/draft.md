@@ -162,11 +162,28 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 ---
 
-## __Webinars__  
+## __Webinars and Events__  
+
+<div class="grid cards" markdown>
+
+-   __Webinars__  
+
+    --- 
 
     We make is easy for you to view products that are of interest, all virtually! Technical memebers of the team showcase outstading explanation of the products. Click below to see our list of Webinars. 
 
     [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button}
+
+-   __Events__ 
+
+    ---
+    Join us in person to get a closer look in our list of produts and solution, as well as get the chance to meet members of the team. Click below to see our list of ipcoming Events. 
+
+    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button }
+
+
+</div>
+
 
 
 --- 
