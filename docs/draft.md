@@ -123,10 +123,9 @@ The 2026 NPS results further reinforce Arista’s commitment to delivering not o
 innovative technology, but also an exceptional “customer experience”.
 
 ---
-
 ## **Arista and the Department of War: Sharing Innovation for the Mission!**
 
-By Michael Alvarez, Systems Engineer, US Federal
+By Michael Alvarez - Systems Engineer, US Federal
 
 **Mission Critical**
 
