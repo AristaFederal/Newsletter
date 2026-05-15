@@ -34,7 +34,7 @@ In this month’s newsletter, you’ll find:
 
 
 
-This newsletter is for you and we welcome your feedback, ideas, and requests at f <fed@aristafederal.com>.
+This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
 
 Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
 
@@ -159,6 +159,7 @@ There are many protocols to help with creating a lossless environment for reliab
 **DoW and the Arista Advantage**
 
 We know all of this sounds very complex and overwhelming, but Arista is ready to support Federal solutions and innovations with support for open standards, best practices documentation and world class Engineering support. Arista is already known for its industry leading quality in hardware and software with its single binary operating system, Extensible Operating System (EOS).  This is the core across our platform ecosystem that makes it all work.  Arista’s Engineering excellence over the years with the growth of AI/ML datacenter networking is now being leveraged within the DoW today. Arista has products with high radix port offerings and up to 800G speeds across our 7800/2780R-Series and 7060X-Series. Our switches are purpose built for premium lossless, high bandwidth and low latency networking for RDMA based solutions.  This, along with EOS, ease of acclimation to our products, support of traffic management solutions, adjustable buffer allocation schemes for RoCE deployments serve the DoW across most solutions.  Trust that Arista Federal is ready to meet your challenges at every step of the way. 
+
 ---
 
 ## __*2026 Webinar Series — Coming Soon*__
