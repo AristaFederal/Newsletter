@@ -28,6 +28,7 @@ In this month’s newsletter, you’ll find:
     Exceptional technology is only part of the equation; world-class customer support truly defines long-term success.
 
 - **Arista and the Department of War: Sharing Innovation for the Mission!**
+
     Arista Systems Engineer Michael Alvarez explores how modern networking technologies support next-generation mission requirements across the Department of Defense.
 
     As Federal agencies continue modernizing infrastructure to support AI, HPC, and advanced analytics, this article highlights why Arista is uniquely positioned to help customers accelerate innovation while reducing operational complexity.
