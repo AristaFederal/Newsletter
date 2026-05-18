@@ -187,6 +187,7 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 
 --- 
+
 ## __*Software Updates*__
 ![Image Placememt](img/software_upgrades_condensed.png)
 
@@ -194,9 +195,9 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.36.0F <br> 4.35.3.1F <br> 4.35.3F <br> 4.23.10M | April 9th, 2026 <br> April 8th, 2026 <br> March 20th, 2026 <br> March 2nd, 2026 |
+| __EOS__           | 4.33.8M <br> 4.22.11M <br> 4.34.6M <br> 4.35.4M | May 12th, 2026 <br> May 6th, 2026 <br> May 6th, 2026 <br> May 23rd, 2026 |
 | __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
-| __DMF__           | 8.6.3 | March 18th, 2026 |
+| __DMF__           | 8.10.0 | April 22nd, 2026 |
 | __CV-CUE__         | 21.0.0 | January 16th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
 | __TerminAttr__     | 1.42.1 | February 4th, 2026 |
@@ -213,13 +214,17 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 ![Image Placememt](img/Security_image_2.png)
 
-*Stay informed on the latest platform security and field notice updates.*
+*Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
 
 ### **Security Advisories**
-* **runC** — [Security Advisory 0135](https://www.arista.com/en/support/advisories-notices/security-advisory/23784-security-advisory-0135){: target="_blank" } <br> *(April 7th, 2026)*
+* **Dirty Frag Vulnerability** — [Security Advisory 0138](https://www.arista.com/en/support/advisories-notices/security-advisory/24019-security-advisory-0138){: target="_blank" } <br> *(May 8th, 2026)*
+* **Tunnel Decapsulation Configuration** — [Security Advisory 0137](https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137){: target="_blank" } <br> *(May 5th, 2026)*
+* **Copy Fail Vulnerability** — [Security Advisory 0136](https://www.arista.com/en/support/advisories-notices/security-advisory/24004-security-advisory-0136){: target="_blank" } <br> *(May 1st, 2026)*
 
 ### **Field Notices**
-* **CV-CUE Release Process** — [Field Notice 0125](https://www.arista.com/en/support/advisories-notices/field-notice/23698-field-notice-0125){: target="_blank" } <br> *(March 11th, 2026)*
+* **CloudEOS Pay As You Go** — [Field Notice 0128](https://www.arista.com/en/support/advisories-notices/field-notice/24021-field-notice-0128){: target="_blank" } <br> *(May 11th, 2026)*
+* **Default Option Change in the Access Point Upgrade Feature in CV-CUE** — [Field Notice 0127](https://www.arista.com/en/support/advisories-notices/field-notice/24016-field-notice-0127){: target="_blank" } <br> *(May 5th, 2026)*
+* **TerminAttr** — [Field Notice 0126](https://www.arista.com/en/support/advisories-notices/field-notice/24003-field-notice-0126){: target="_blank" } <br> *(May 4th, 2026)*
 
 <br>
 
@@ -239,11 +244,8 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 ### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **April 10th, 2026** — [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-36S Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-48YC8 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-32P4, DCS-7280CR3K-32D4, DCS-7280CR3MK-32P4 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series){: target="_blank" }
-* **March 13th, 2026** — [EOS-4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30){: target="_blank" } 
+* **May 15th, 2026** — [VeloCloud Security VNF Services](https://www.arista.com/en/support/advisories-notices/end-of-support/24027-end-of-availability-for-velocloud-security-vnf-services){: target="_blank" } 
+
 
 <br>
 
@@ -255,7 +257,7 @@ We know all of this sounds very complex and overwhelming, but Arista is ready to
 
 ---
 
-## Don't Forget! 
+## Did You Know? 
 Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
 
 ![Image Placememt](img/ACE.png)
@@ -263,6 +265,14 @@ Arista has revamped their certifications! The new **Arista Certified Engineer (A
 [Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
 
 ---
+
+
+
+---
+## *Your Southwest Regional Team is Here to Support Your Success.* 
+
+![Image Placememt](img/Arista_Banner.png)
+
 
 
 ---
