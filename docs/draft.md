@@ -265,17 +265,6 @@ Arista has revamped their certifications! The new **Arista Certified Engineer (A
 [Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
 
 ---
-
-
-
----
-## *Your Southwest Regional Team is Here to Support Your Success.* 
-
-![Image Placememt](img/Arista_Banner.png)
-
-
-
----
 # *Feel Free to Reach Out To Us For Your Network Needs* 
 <figure markdown>
 ![Image Placement](img/pictureOfNetworks.jpeg){: style="height:300px;width:800px"}  
