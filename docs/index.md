@@ -12,27 +12,26 @@
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
-# Welcome to the April 2026 Edition of the Arista Federal Newsletter!
-Welcome to the April edition of the Arista Federal Newsletter. This month, citizens across the United States and around the world celebrate the remarkable success of the Artemis II mission, marking a historic milestone as humanity ventures once again beyond Earth's orbit, travels around the far side of the Moon, and safely returns to Earth.
+# Welcome to the May 2026 Edition of the Arista Federal Newsletter!
 
-We extend our congratulations to NASA, the astronauts, and the countless engineers, scientists, and mission teams whose dedication and expertise made this achievement possible. We also recognize the critical contributions of Federal agencies and Federal System Integrators who supported this mission, demonstrating the power of collaboration, innovation, and precision execution in advancing both national and global objectives.
+May is a month of meaningful celebration and remembrance. We recognize and appreciate all mothers for the tremendous impact they have on our families, communities, and future generations. As Memorial Day approaches, we also pause to honor and remember the brave men and women who made the ultimate sacrifice in service to our nation.
+In this edition, we continue highlighting the technologies, customer successes, and strategic initiatives helping Federal agencies and System Integrators modernize infrastructure for the future through automation, AI networking, operational simplicity, and secure, resilient architectures.
 
-
-Welcome home, Artemis II - your success is inspiring the next era of exploration.
-
-"The universe is a pretty big place. If it's just us, seems like an awful waste of space." - Carl Sagan - American Astronomer
+“A hero is someone who has given his or her life to something bigger than oneself.” — Joseph Campbell (1904–1987) - American writer.
 
 In this month’s newsletter, you’ll find:
 
-- **Why Federal Customers Should Focus on TCO and Not Just Purchase Price**
+- **Arista TAC Continues to Set the Standard for Customer Success**
 
-    Arista Federal Client Director Kevin Carey breaks down why Total Cost of Ownership (TCO) should be the primary driver in networking decisions and how operational complexity, security, and lifecycle management often outweigh the initial purchase price.
+    Arista Federal Client Director Kevin Carey highlights why Arista TAC continues to stand apart and the operational value it delivers to Federal customers supporting classified, AI/HPC, data center, campus, and WAN environments.
 
-    If you’re evaluating network investments for long-term mission success, this is worth a read.
+    Exceptional technology is only part of the equation; world-class customer support truly defines long-term success.
 
-- **Arista Announces XPO High-Density Liquid Cooled Pluggable Optics**
+- **Arista and the Department of War: Sharing Innovation for the Mission!**
 
-    As Federal agencies advance AI, HPC, and data-intensive mission capabilities, the network must evolve to keep pace. Arista’s introduction of XPO high-density, liquid-cooled pluggable optics represents a significant step forward delivering the scale, performance, and efficiency required to support next-generation AI architectures in DoD, Intelligence, and research environments.
+    Arista Systems Engineer Michael Alvarez explores how modern networking technologies support next-generation mission requirements across the Department of Defense.
+
+    As Federal agencies continue modernizing infrastructure to support AI, HPC, and advanced analytics, this article highlights why Arista is uniquely positioned to help customers accelerate innovation while reducing operational complexity.
 
 
 
@@ -49,173 +48,121 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 [4]: https://blogs.arista.com/blog
 
 ---
+## **Arista TAC Continues to Set the Standard for Customer Success**
 
-## **Why Federal Customers Should Focus on TCO and Not Just Purchase Price**
+By Kevin Carey – Arista Federal Client Director
 
-By Kevin Carey - Arista Federal Client Director
+Arista Networks continues to demonstrate why its Technical Assistance Center (TAC) is
+recognized as one of the industry’s premier support organizations. In 2026, Arista TAC
+improved upon its already exceptional previous NPS score of 87, achieving an industry-
+leading Net Promoter Score (NPS) of 89, with 94% of customers reporting a strongly
+positive experience.
 
-In Federal environments, networking decisions are often influenced by upfront costs or contract vehicles. However, the true financial impact of a network is realized over time through operations, staffing, downtime, security exposure, and lifecycle complexity. This is why Total Cost of Ownership (TCO) matters more than ever.
+These results reflect Arista’s relentless focus on customer success, operational
+excellence, and technical expertise. For many customers, Arista TAC is one of the
+company’s strongest differentiators and a key reason why organizations choose and
+remain with Arista.
 
-A network that is difficult to operate, hard to automate, and complex to secure will quickly erode any perceived savings at purchase. Over a typical 3-5 year lifecycle, Operational Expenses (OpEx) consistently outweigh initial Capital Expenditures (CapEx).
+Unlike traditional support organizations that rely on multiple escalation tiers and scripted
+workflows, Arista TAC is built around a highly technical, engineering-driven support
+model focused on accelerating problem resolution and enhancing the “customer
+experience”. Customers work directly with experienced network engineers who possess
+deep expertise in Arista EOS and modern network architecture.
 
-**Majority of the costs associated with network infrastructures:**
+**Why Arista TAC Stands Apart**
 
-![Image Placement][11]
-[11]: img/apr26_pic11.png
+Arista TAC provides:
 
-**Where the Real Costs Are**
+- 24x7 global technical support
+- Direct access to highly skilled network engineers
+- Hardware and software troubleshooting
+- EOS software support and upgrade guidance
+- Configuration assistance and operational best practices
+- RMA coordination and proactive operational guidance
 
-The majority of network costs are not in the hardware itself, but in:
+A key differentiator is the close alignment between TAC and Arista’s EOS engineering
+teams, enabling faster root-cause analysis, rapid issue resolution, and tighter feedback
+loops between customers and development.
 
-- Ongoing operations and staffing
-- Manual processes and inefficiencies
-- Downtime and troubleshooting
-- Security management and vulnerability remediation
-- Licensing complexity and lifecycle management
+**Operational Value for Federal Customers**
 
-**Why Arista Is Different**
+For Federal organizations, where mission continuity, operational simplicity, and rapid
+issue resolution are critical, the value of a world-class support organization cannot be
+overstated.
 
-Built for Operational Efficiency
+Because Arista operates a single EOS operating system across campus, data center,
+WAN, and AI environments, TAC engineers develop deep platform expertise across the
+entire portfolio. This consistency enables:
 
-Arista was designed with an operations-first architecture, delivering measurable cost advantages across the entire lifecycle:
+- Faster troubleshooting and reduced escalation delays
+- Shorter Mean Time to Resolution (MTTR)
+- Lower operational overhead
+- More accurate operational guidance
+- Reduced lifecycle complexity
 
-- A single operating system (EOS) across campus, data center, WAN, and AI environments
-- Automation and streaming telemetry built-in, not bolted on
-- Simple, transparent licensing
-- Non-disruptive upgrades and longer hardware lifecycles
-- Open, standards-based Ethernet
+Arista’s software quality and architectural consistency also contribute to fewer critical
+issues, lower CVE exposure, and fewer emergency maintenance events. As a result,
+many TAC engagements are consultative and operationally focused rather than crisis
+driven.
 
-![Image Placement][12]
-[12]: img/apr26_pic12.png
+**A Trusted Operational Partner**
 
-**What This Means for Federal Customers**
+Customers often view Arista TAC as an extension of their own operational teams.
+Beyond troubleshooting, TAC regularly assists customers with:
 
-These architectural advantages translate into real, measurable outcomes:
+- Design guidance
+- Automation workflows
+- EOS upgrades and migrations
+- Best practices and feature adoption
+- Operational optimization
 
-- Lower operational overhead and reduced staffing requirements
-- Faster, safer network changes with less risk
-- Reduced downtime and improved mean time to resolution (MTTR)
-- Simplified compliance, auditing, and vulnerability management
-- Infrastructure that scales efficiently to support AI and evolving mission needs
+This partnership-oriented approach helps Federal customers confidently deploy and
+operate next-generation networking technologies across mission-critical, classified,
+AI/HPC, campus, and data center environments.
 
-**Proven TCO Impact**
+The 2026 NPS results further reinforce Arista’s commitment to delivering not only
+innovative technology, but also an exceptional “customer experience”.
 
-Customers transitioning from traditional architectures to Arista typically realize 45-50% reductions in TCO over five years, driven by:
+---
+## **Arista and the Department of War: Sharing Innovation for the Mission!**
 
-- Reduced operational labor
-- Simplified licensing and renewals
-- Improved reliability and uptime
-- Extended platform lifecycles
+By Michael Alvarez - Systems Engineer, US Federal
 
-These savings often exclude additional benefits such as power and space efficiency. Arista platforms typically consume 60-80% less power and require less rack space than competing solutions further strengthening the overall TCO advantage.
+**Mission Critical**
 
-![Image Placement][13]
-[13]: img/apr26_pic13.png
+When we think of the Department of War (DoW), we think of phrases such as “mission critical”, “supporting warfighter efforts” and “saving lives”.  These are the calls that invigorate and motivate the workforce within the DoW with purpose and initiative to innovate. Recently, it has been decided that the status quo of the mission was not keeping pace with our adversaries around the world and there was fear that The United States was falling behind in that initiative and innovation.
 
-**Security & CVE Cost Reduction**
+**The Need for Speed**
 
-Managing Common Vulnerabilities and Exposures (CVEs) is a major operational burden for Federal organizations. Each vulnerability requires analysis, prioritization, and remediation often consuming significant time and resources.
+In 2024, an effort within Congress to bolster defense innovation was made by creating the House Defense Modernization Caucus.  The purpose?  To shift the paradigm by working to streamline and accelerate the DoW’s Authority to Operate (ATO) process, providing attractive offerings to increase the hiring speed of industry talent and increase classified space access for private sector companies to come in and innovate.  Most importantly, they wanted the Department of War to lean on more modern software-centric and commercial-of-the-shelf (COTS) solutions.  They wanted to leverage this in a way where the wheel could stop being re-invented and to repurpose foundational solutions across multiple environments.  This would be the key to identifying challenges, streamlining innovation and reducing time and waste.
 
-Large enterprises can spend thousands of person-hours annually, sometimes exceeding \$1M in operational costs, just managing vulnerabilities across multiple vendors and platforms.
+**RDMA in Play**
 
-Arista's advantage comes from software quality and architectural consistency:
+Recently, Arista Federal has seen many of its customers more commonly adopt mission based software applications leaning heavily into the use of Remote Direct Memory Access (RDMA) over Converged Ethernet (RoCE) protocol.  This architectural concept allows software applications to bypass a host CPU’s TCP/IP stack to achieve faster data transfers.  In essence, faster data analysis and processing, faster early warning systems, faster response in the battle space.  Think back to those phrases mentioned earlier. 
 
-- A single, consistent EOS code base
-- Fewer bugs and vulnerabilities
-- Reduced frequency and severity of CVEs
-- Less need for emergency patching and maintenance windows
+**RDMA…Cutting Edge?**
 
-The result is lower operational burden and more time focused on mission-critical objectives rather than constant remediation.
+No, not really.  RDMA has existed as far back as 2003 with the inception of the RDMA Consortium. It was developed to approach more efficient ways to move data between endpoints across a network with high throughput and low latency. However, to really achieve this goal, the right network technology needs to be able to support RDMA.
 
-**_Arista's best in class software quality ratings for several of their switch and wireless network operating systems._**
+**The Birth of RDMA over Converged Ethernet (RoCEv1)**
 
-![Image Placement][14]
-[14]: img/apr26_pic14.png
+In 2010, the Infiniband Trade Association released an initial version of RoCEv1 to support RDMA applications across an ethernet environment. This effectively enabled RDMA to work over Ethernet, operating at the Ethernet link layer (Layer 2). There were many benefits to the RoCEv1 protocol. It allowed for ethernet compatibility, efficient data transfer while reducing latency and CPU utilization. This produced a unique opportunity to create small local network environments, supported over an Infiniband fiber based switch fabric. Works great in small clustering, but scaling is limited and the solution is expensive. Additional detractors include RoCEv1’s lack of IP routing (L3) support making it obsolete for large data network deployments. Because of the need for lossless ethernet, it was also extremely complex to configure and manage when performing that limited scaling.
 
-**Bottom Line**
+**Round two with RoCEv2**
 
-Arista's lower TCO is not driven by pricing tactics-it is the result of deliberate architectural choices:
+Eventually, a need arose for a more flexible Ethernet-based environment that was truly high-scale. There was a growing demand for an efficient and cost-effective network ecosystem for RDMA-based applications. In 2014, InfiniBand specification version 1.3 was introduced to support IP routing, known as RoCEv2. RoCEv2, unlike RoCEv1, uses UDP/IP to be routable across different subnets, allowing for larger network scales and a more budget-friendly alternative vs traditional InfiniBand L2 environments, while still meeting similar performance metrics. In addition, lessons learned over a decade afforded speed increases, enhanced security and new congestion control frameworks. RoCEv2 encapsulation, in the form of UDP/IP packets for RDMA, can and does provide an inherently lossy data transfer, but not without help. It’s important to remember that building a lossless environment can be a complex challenge. To have the scalability and provide packet transfers in transfer order requires careful configuration or tuning. This is where Arista offers a strong competitive advantage in helping to reduce the complexity for our customers.
 
-- Operational consistency
-- Automation by default
-- Transparent licensing
-- Open Ethernet standards
+**Alphabet Soup**
 
-These principles enable Federal organizations to operate at scale with fewer resources, fewer tools, and significantly less risk.
+There are many protocols to help with creating a lossless environment for reliable packet transfer. Explicit Congestion Notification (ECN) marks packets for endpoint notification of network congestion before buffers overflow. Priority-based Flow Control (PFC) is a link-level flow control mechanism that pauses traffic on specific priority queues rather than stopping all traffic on a link. Data Center Quantized Congestion Notification (DCQCN) is an end-to-end congestion control algorithm combining ECN and PFC functions for RoCEv2. Dynamic and Cluster Load Balancing (DLB and CLB) are also introduced for congestion management. DLB uses egress interface utilization as part of load-balancing calculation and makes flow polarization and overlap much less likely. CLB is an Arista specific solution, which expands congestion control by allowing leaf and spine switches to look at hardware tables for RoCE flow identification. This allows for flow tracking used in ECMP load-balancing to prevent polarization. Packet trimming is a congestion management technique used to minimize latency and accelerate recovery during packet drops. Instead of fully dropping a congested packet, a network switch trims away the data payload but retains the essential packet headers, forwarding only the header to the destination to notify it to retransmit the packet. All this built-in intelligence to traffic management provides a solution matched for every use case. 
 
-In an era of constrained budgets and increasing mission demands, the network must be an enabler, not a cost center.
+**DoW and the Arista Advantage**
 
-![Image Placement][15]
-[15]: img/apr26_pic15.png
-
-**Additional Insight**
-
-For a deeper, data-driven perspective on TCO, see:  
-**"Arista Total Cost of Ownership - Managing Network Infrastructures"**
-
-**Muhammed Abdulla Marakkoottathil (MM)**, an independent Network Engineer, provides a clear, data-driven view of where customers are realizing meaningful cost savings.
-
-<https://www.networkbachelor.com/arista-network-advantage-lower-tco-with-power-efficient-platforms/>
-
-**Let's Continue the Conversation**
-
-Reach out to your Arista Federal Client Director to discuss how Arista can support your mission while reducing total cost of ownership.
+We know all of this sounds very complex and overwhelming, but Arista is ready to support Federal solutions and innovations with support for open standards, best practices documentation and world class Engineering support. Arista is already known for its industry leading quality in hardware and software with its single binary operating system, Extensible Operating System (EOS).  This is the core across our platform ecosystem that makes it all work.  Arista’s Engineering excellence over the years with the growth of AI/ML datacenter networking is now being leveraged within the DoW today. Arista has products with high radix port offerings and up to 800G speeds across our 7800/2780R-Series and 7060X-Series. Our switches are purpose built for premium lossless, high bandwidth and low latency networking for RDMA based solutions.  This, along with EOS, ease of acclimation to our products, support of traffic management solutions, adjustable buffer allocation schemes for RoCE deployments serve the DoW across most solutions.  Trust that Arista Federal is ready to meet your challenges at every step of the way. 
 
 ---
 
-## **Arista Announces XPO High-Density Liquid Cooled Pluggable Optics**
-
-As Federal agencies accelerate investments in AI, High Performance Computing (HPC), and mission-critical data platforms, the underlying network infrastructure must evolve to support unprecedented scale, performance, and efficiency.
-Arista is redefining AI networking by forming a multi-source agreement (MSA) for XPO, a revolutionary 12.8 Tbps liquid-cooled pluggable optics module purpose-built for next-generation AI scale-out architectures.
-
-XPO delivers a 4x increase in density and record-breaking throughput, enabling organizations across the DoD, Intelligence Community, and Federal research environments to scale AI workloads more efficiently while addressing power, space, and thermal constraints common in modern and classified data centers.
-
-For Federal customers, this translates into:
-
-- Greater compute density for AI/ML and analytics workloads
-- Improved performance for large-scale model training and inference
-- Reduced power and cooling requirements in constrained environments
-- Scalable infrastructure to support evolving mission demands
-
-To learn more, please review the resources below:
-
-- Watch the XPO Video <https://www.youtube.com/watch?v=0t4F95TwSG0>
-- Executive Blog: AI Datacenters are Reshaping the Optics Industry <https://blogs.arista.com/blog/ai-datacenters-are-reshaping-the-optics-industry>
-- Whitepaper: XPO: Redefining Pluggable Optics for AI Networking <https://www.arista.com/assets/data/pdf/Whitepapers/XPO-Whitepaper.pdf>
-
----
-
-## __*2026 Webinar Series — Coming Soon*__
-
-Our 2026 webinar schedule will be announced shortly, and we look forward to your participation in another year of insightful and informative sessions. In the meantime, we invite you to explore the recordings from our 2025 webinar series featuring valuable discussions, technical deep dives, and best practices across key networking topics.
-
-2025 Webinar replays are available here: 
-
-<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
-
-Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 sessions.
-
-<https://www.carahsoft.com/content-hubs/arista-networks-resources/federal-IT-modernization-webinar-series>
-
-<div class="grid cards" markdown>
-
--   __Arista Network Webinars Series with Carahsoft__
-
-    __For Channel Partners Only__
-
-    [![Image Placement][5]][6]
-    [5]: img/arista-carasoft-v2.png
-    [6]: https://carahevents.carahsoft.com/Event/Details/618442-arista-networks
-
-
-    |  Date | Name| Description | 
-    | :-----------: | :-----------: | :-----------: |
-    | __TBD__ | TBD | TBD |
-
-    [Register Here](https://carahevents.carahsoft.com/Event/Details/618442-arista-networks){.md-button}
-
-</div>
-
+## __Webinars and Events__  
 
 <div class="grid cards" markdown>
 
@@ -237,7 +184,10 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 
 </div>
 
+
+
 --- 
+
 ## __*Software Updates*__
 ![Image Placememt](img/software_upgrades_condensed.png)
 
@@ -245,9 +195,9 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.36.0F <br> 4.35.3.1F <br> 4.35.3F <br> 4.23.10M | April 9th, 2026 <br> April 8th, 2026 <br> March 20th, 2026 <br> March 2nd, 2026 |
+| __EOS__           | 4.33.8M <br> 4.22.11M <br> 4.34.6M <br> 4.35.4M | May 12th, 2026 <br> May 6th, 2026 <br> May 6th, 2026 <br> May 23rd, 2026 |
 | __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
-| __DMF__           | 8.6.3 | March 18th, 2026 |
+| __DMF__           | 8.10.0 | April 22nd, 2026 |
 | __CV-CUE__         | 21.0.0 | January 16th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
 | __TerminAttr__     | 1.42.1 | February 4th, 2026 |
@@ -264,13 +214,17 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 
 ![Image Placememt](img/Security_image_2.png)
 
-*Stay informed on the latest platform security and field notice updates.*
+*Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
 
 ### **Security Advisories**
-* **runC** — [Security Advisory 0135](https://www.arista.com/en/support/advisories-notices/security-advisory/23784-security-advisory-0135){: target="_blank" } <br> *(April 7th, 2026)*
+* **Dirty Frag Vulnerability** — [Security Advisory 0138](https://www.arista.com/en/support/advisories-notices/security-advisory/24019-security-advisory-0138){: target="_blank" } <br> *(May 8th, 2026)*
+* **Tunnel Decapsulation Configuration** — [Security Advisory 0137](https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137){: target="_blank" } <br> *(May 5th, 2026)*
+* **Copy Fail Vulnerability** — [Security Advisory 0136](https://www.arista.com/en/support/advisories-notices/security-advisory/24004-security-advisory-0136){: target="_blank" } <br> *(May 1st, 2026)*
 
 ### **Field Notices**
-* **CV-CUE Release Process** — [Field Notice 0125](https://www.arista.com/en/support/advisories-notices/field-notice/23698-field-notice-0125){: target="_blank" } <br> *(March 11th, 2026)*
+* **CloudEOS Pay As You Go** — [Field Notice 0128](https://www.arista.com/en/support/advisories-notices/field-notice/24021-field-notice-0128){: target="_blank" } <br> *(May 11th, 2026)*
+* **Default Option Change in the Access Point Upgrade Feature in CV-CUE** — [Field Notice 0127](https://www.arista.com/en/support/advisories-notices/field-notice/24016-field-notice-0127){: target="_blank" } <br> *(May 5th, 2026)*
+* **TerminAttr** — [Field Notice 0126](https://www.arista.com/en/support/advisories-notices/field-notice/24003-field-notice-0126){: target="_blank" } <br> *(May 4th, 2026)*
 
 <br>
 
@@ -290,11 +244,8 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 ### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **April 10th, 2026** — [CloudVision Portal 2024.3 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23791-end-of-software-support-for-cloudvision-portal-2024-3-release-train){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-36S Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23790-end-of-sale-of-the-arista-dcs-7280cr3k-36s-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-48YC8 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23789-end-of-sale-of-the-arista-dcs-7280sr3k-48yc8-series){: target="_blank" } 
-* **April 10th, 2026** — [DCS-7280CR3K-32P4, DCS-7280CR3K-32D4, DCS-7280CR3MK-32P4 Series Switches](https://www.arista.com/en/support/advisories-notices/end-of-sale/23788-end-of-sale-of-the-arista-dcs-7280cr3k-32p4-dcs-7280cr3k-32d4-and-dcs-7280cr3mk-32p4-series){: target="_blank" }
-* **March 13th, 2026** — [EOS-4.30 Release Train](https://www.arista.com/en/support/advisories-notices/end-of-support/23728-end-of-software-support-for-eos-4-30){: target="_blank" } 
+* **May 15th, 2026** — [VeloCloud Security VNF Services](https://www.arista.com/en/support/advisories-notices/end-of-support/24027-end-of-availability-for-velocloud-security-vnf-services){: target="_blank" } 
+
 
 <br>
 
@@ -306,15 +257,12 @@ Stay tuned for more details, and we hope you’ll join us for the upcoming 2026 
 
 ---
 
-## Don't Forget! 
+## Did You Know? 
 Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
 
 ![Image Placememt](img/ACE.png)
 
 [Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
-
----
-
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
