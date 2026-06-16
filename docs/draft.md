@@ -28,12 +28,15 @@ Those same principles of leadership and preparedness are increasingly important 
 In this month’s newsletter, you’ll find:
 
 - **Arista’s Strategic Advantage in the AI-Era Threat Landscape** 
+
     Arista Federal Client Director Kevin Carey explores Arista's perspective on emerging AI-driven cybersecurity initiatives, including Mythos and Project Glasswing, and discusses how Arista continues to invest in AI-enhanced software assurance, architectural resiliency, and operational security to help customers stay ahead of an increasingly sophisticated threat landscape.  
 
 - **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking**
+
     Arista Federal Systems Engineer Lee Gillespie examines how Arista Multi-Domain Segmentation Services (MSS) helps federal agencies, defense organizations, and critical infrastructure operators implement Zero Trust architectures through dynamic segmentation, policy enforcement, and threat containment across distributed environments.
 
 - **Arista Networks Positioned as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN**
+
     We also highlight Arista Networks' continued industry leadership, named as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure. This recognition reflects Arista's commitment to innovation, operational simplicity, cloud-native architecture, and delivering exceptional outcomes for our customers across Federal, Defense, and enterprise environments.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
