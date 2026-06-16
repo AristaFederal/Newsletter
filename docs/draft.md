@@ -62,25 +62,25 @@ This shift represents a major inflection point in cybersecurity. Security is no 
 
 This is more than an evolution in cybersecurity; it is a fundamental paradigm shift. Organizations are no longer defending solely against human adversaries. They are increasingly defending against autonomous AI reasoning engines and intelligent agents capable of operating at machine speed, scaling vulnerability discovery, analysis, exploit development, and attack methodologies far beyond traditional human-driven cyber operations.
 
-Anthropic’s “Mythos” (often referred to as *Claude Mythos* or *Mythos Preview*) initiative has received significant attention across the cybersecurity industry because it highlights a rapidly evolving reality: AI is accelerating both innovation and cybersecurity risk at an unprecedented pace. As AI models become more capable, the speed at which vulnerabilities can be discovered, analyzed, and potentially weaponized is increasing dramatically.
+Anthropic’s “Mythos” (often referred to as **Claude Mythos** or **Mythos Preview**) initiative has received significant attention across the cybersecurity industry because it highlights a rapidly evolving reality: AI is accelerating both innovation and cybersecurity risk at an unprecedented pace. As AI models become more capable, the speed at which vulnerabilities can be discovered, analyzed, and potentially weaponized is increasing dramatically.
 
-For our customers, understanding how technology providers are adapting to this rapidly evolving threat landscape is increasingly important. That is why we felt it was valuable to share Arista’s perspective and highlight Arista’s recent Statement on AI-Enhanced Security and Resilience. The statement reinforces several areas where Arista has long differentiated itself, including EOS architectural resiliency and modularity, historically low CVE exposure, reduced attack surface through secure-by-design engineering, operational stability, efficient remediation processes, and ongoing investment in advanced security validation and testing. A link to the statement is provided below in the References section.
+For our customers, understanding how technology providers are adapting to this rapidly evolving threat landscape is increasingly important. That is why we felt it was valuable to share Arista’s perspective and highlight Arista’s recent Statement on ***AI-Enhanced Security and Resilience***. The statement reinforces several areas where Arista has long differentiated itself, including EOS architectural resiliency and modularity, historically low CVE exposure, reduced attack surface through secure-by-design engineering, operational stability, efficient remediation processes, and ongoing investment in advanced security validation and testing. ***A link to the statement is provided below in the References section***.
 
 We believe customers value transparency and proactive communication, particularly as AI-driven cybersecurity discussions continue to gain momentum across government and industry. By sharing this information, Arista Federal is helping customers stay informed about both the evolving threat environment and the steps Arista is taking to ensure our platforms continue to deliver the reliability, security, and operational simplicity our customers depend on.
 
 **What Are Mythos and Project Glasswing?**
 
-Mythos is widely viewed within the cybersecurity industry as a next-generation AI cyber model designed to assist in vulnerability discovery, exploit analysis, and advanced security research.
+**Mythos** is widely viewed within the cybersecurity industry as a next-generation AI cyber model designed to assist in vulnerability discovery, exploit analysis, and advanced security research.
 
-Project Glasswing is a broader industry initiative focused on AI-enhanced vulnerability discovery and advanced defensive testing methodologies. Significantly, Arista was selected by Anthropic as one of a limited number of collaborators participating in Project Glasswing. This recognition reflects Arista's longstanding commitment to software quality, security engineering, and architectural resilience. 
+**Project Glasswing** is a broader industry initiative focused on AI-enhanced vulnerability discovery and advanced defensive testing methodologies. Significantly, Arista was selected by Anthropic as one of a limited number of collaborators participating in Project Glasswing. This recognition reflects Arista's longstanding commitment to software quality, security engineering, and architectural resilience. 
 
 The objective is straightforward: use AI defensively to identify and mitigate vulnerabilities before adversaries can weaponize the same capabilities offensively. These technologies are changing the cybersecurity equation by lowering the barrier to entry and accelerating the pace, scale, and sophistication of cyber threats.
 Arista recognized this shift early. We are integrating AI-driven vulnerability discovery and assessment capabilities into our software development and testing lifecycle, complementing existing security disciplines, including:
 
-- Static and Dynamic Application Security Testing (SAST/DAST)
-- Human-led threat modeling
-- Extreme and edge-case testing
-- Automated security validation pipelines
+- **Static and Dynamic Application Security Testing (SAST/DAST)**
+- **Human-led threat modeling**
+- **Extreme and edge-case testing**
+- **Automated security validation pipelines**
  
 The result is a proactive security posture designed to identify and remediate issues before software is released into production environments.
 
@@ -88,7 +88,7 @@ The result is a proactive security posture designed to identify and remediate is
 
 The rise of AI-driven cyber capabilities reinforces a critical truth in network security: architecture matters. Many legacy networking platforms were developed decades ago using monolithic operating system designs that create broader attack surfaces, larger blast radius, and operational dependencies. As vulnerabilities emerge, these platforms often require disruptive remediation efforts, broad patch cycles, and increased operational risk.
 
-Arista’s Zero Trust strategy is built around a simple but important principle: the network itself becomes an active security enforcement platform — not just a transport layer. Instead of relying solely on perimeter-based security models, Arista focuses on continuous verification, segmentation, visibility, and operational automation across the entire infrastructure.
+Arista’s Zero Trust strategy is built around a simple but important principle: **the network itself becomes an active security enforcement platform — not just a transport layer**. Instead of relying solely on perimeter-based security models, Arista focuses on continuous verification, segmentation, visibility, and operational automation across the entire infrastructure.
 
 **Arista EOS was Architected Differently from the Beginning.**
 
@@ -96,21 +96,23 @@ Arista EOS was architected differently from the beginning. Its modular, state-sh
 Arista’s Zero Trust posture is strengthened by EOS architecture itself.
 This approach provides Arista with a major strategic advantage in the AI era:
 
-- Reduced attack surface
-- Lower vulnerability density
-- Smaller operational blast radius
-- Faster remediation workflows
-- Greater infrastructure stability
+- **Reduced attack surface**
+- **Lower vulnerability density**
+- **Smaller operational blast radius**
+- **Faster remediation workflows**
+- **Greater infrastructure stability**
  
 EOS and its modular, state-sharing architecture is one of the key reasons Arista has historically maintained comparatively low CVE exposure across its networking portfolio.
-Operational Speed Becomes a Strategic Weapon
+
+**Operational Speed Becomes a Strategic Weapon**
+
 In an AI-accelerated threat environment:
 
-- Speed is critical
-- Speed of identification
-- Speed of visibility
-- Speed of analysis
-- Speed of remediation
+- **Speed is critical**
+- **Speed of identification**
+- **Speed of visibility**
+- **Speed of analysis**
+- **Speed of remediation**
  
 This is where the broader Arista portfolio creates a unique competitive advantage.
 
@@ -124,7 +126,7 @@ By combining real-time visibility with automation and analytics, CloudVision ena
 
 **Arista Multi-Domain Segmentation Services (MSS)**
 
-MSS extends Zero Trust principles across enterprise, cloud, campus, and mission-critical environments by enabling identity-aware segmentation and policy-based traffic control throughout the network. MSS helps organizations reduce exposure and contain threats before they can spread.
+**MSS** extends Zero Trust principles across enterprise, cloud, campus, and mission-critical environments by enabling identity-aware segmentation and policy-based traffic control throughout the network. MSS helps organizations reduce exposure and contain threats before they can spread.
 
 As AI-driven attack methodologies continue to evolve, the ability to rapidly contain potential compromise is becoming just as important as preventing initial access. MSS enables organizations to define, automate, and enforce segmentation policies that reduce operational blast radius without the complexity traditionally associated with segmentation architectures.
 
@@ -132,14 +134,14 @@ Integrated with CloudVision, EOS, AGNI, and NDR, MSS serves as a foundational co
 
 **Arista AGNI (Arista Guardian For Network Identity)**
 
-As organizations embrace AI while defending against AI-accelerated cyber threats, maintaining visibility into users, devices, applications, and network activity has never been more critical. Arista AGNI (Arista Guardian for Network Identity) delivers identity-based network access control. AGNI is designed keeping in mind the 5-S fundamentals of network designing — simplicity, scalability, security, stability, and savings (cost-effective). It integrates with all the major Identity and Access Management (IAM) products to support Single Sign-On (SSO). Its intuitive and easy user interface offers managing and monitoring the entire network from a central, single pane of glass.. Keeping in mind the future of security, this solution can also drive users towards a more secure, password-less technology such as digital certificates. 
+As organizations embrace AI while defending against AI-accelerated cyber threats, maintaining visibility into users, devices, applications, and network activity has never been more critical. **Arista AGNI (Arista Guardian for Network Identity)** delivers identity-based network access control. AGNI is designed keeping in mind the 5-S fundamentals of network designing — simplicity, scalability, security, stability, and savings (cost-effective). It integrates with all the major Identity and Access Management (IAM) products to support Single Sign-On (SSO). Its intuitive and easy user interface offers managing and monitoring the entire network from a central, single pane of glass.. Keeping in mind the future of security, this solution can also drive users towards a more secure, password-less technology such as digital certificates. 
 
-By correlating information across users, devices, applications, and infrastructure, AGNI provides real-time visibility into network behavior, identity, and risk posture. Integrated with EOS, CloudVision, MSS, and NDR, AGNI enhances network access control with identity intelligence, behavioral context, and comprehensive visibility across the environment. Together, these capabilities enable organizations to quickly detect suspicious activity, limit lateral movement, dynamically isolate compromised devices, and reduce response times. Simply put, AGNI helps organizations answer critical questions: What is happening across the network, who is involved, and is it normal?
+By correlating information across users, devices, applications, and infrastructure, AGNI provides real-time visibility into network behavior, identity, and risk posture. Integrated with EOS, CloudVision, MSS, and NDR, AGNI enhances network access control with identity intelligence, behavioral context, and comprehensive visibility across the environment. Together, these capabilities enable organizations to quickly detect suspicious activity, limit lateral movement, dynamically isolate compromised devices, and reduce response times. Simply put, AGNI helps organizations answer critical questions: **What is happening across the network, who is involved, and is it normal?**
 
 AGNI serves as a force multiplier for security and operations teams. By combining identity awareness, segmentation, automated policy enforcement, and AI-driven operational insights, Arista helps transform cybersecurity from a reactive process into a proactive, resilient strategy designed to defend against increasingly sophisticated, machine-speed attacks while supporting Zero Trust initiatives and mission-critical operations.
 ##Arista Network Detection and Response (NDR)##
 
-NDR provides continuous visibility, behavioral analytics, and AI-driven threat detection across enterprise, cloud, and mission-critical environments. By leveraging the network as a primary source of security intelligence, NDR enables organizations to rapidly identify, investigate, and respond to advanced threats before they become operationally significant.
+**NDR** provides continuous visibility, behavioral analytics, and AI-driven threat detection across enterprise, cloud, and mission-critical environments. By leveraging the network as a primary source of security intelligence, NDR enables organizations to rapidly identify, investigate, and respond to advanced threats before they become operationally significant.
 
 As cyber adversaries increasingly leverage automation and artificial intelligence to accelerate attacks, traditional signature-based security tools are often insufficient to detect sophisticated threats, lateral movement, insider risks, and previously unknown attack techniques. NDR addresses this challenge by continuously analyzing network behavior, identifying anomalies, and delivering actionable intelligence in real time.
 
@@ -213,9 +215,9 @@ By Lee Gillespie -- Acting CEO
 
 **What is Arista MSS?**
 
-Arista MSS is a security service built as an extension of Arista’s core Extensible Operating System (EOS) and centrally managed via the CloudVision orchestration platform.
+**Arista MSS** is a security service built as an extension of Arista’s core **Extensible Operating System (EOS)** and centrally managed via the **CloudVision** orchestration platform.
 
-Instead of tying security policies to brittle network boundaries like IP subnets or VLANs, MSS allows security and network teams to define granular "microperimeters" based on endpoint identity. Whether an endpoint is an engineering laptop, an IP camera, or a database workload in a VXLAN EVPN fabric, MSS groups them dynamically by intent. Policies are then configured centrally and enforced directly at the network hardware level at wire-speed lines.
+Instead of tying security policies to brittle network boundaries like IP subnets or VLANs, MSS allows security and network teams to define granular **"microperimeters" based on endpoint identity**. Whether an endpoint is an engineering laptop, an IP camera, or a database workload in a VXLAN EVPN fabric, MSS groups them dynamically by intent. Policies are then configured centrally and enforced directly at the network hardware level at wire-speed lines.
 
 **Core Architecture and Key Capabilities**
  
@@ -273,7 +275,7 @@ As enterprise networks continue to grow in complexity — with more devices, mor
 ---
 ## **Arista Networks Positioned as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN**
 
-Arista Release Date - 2026-05-20
+**Arista Release Date - 2026-05-20**    
 
 One of the most significant developments for Arista this year is our recognition as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure. This recognition reflects Arista’s continued momentum beyond the data center and into the enterprise campus, where organizations are increasingly seeking simpler operations, stronger security, AI-driven insights, and unified networking architecture.
 
