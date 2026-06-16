@@ -603,15 +603,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#arista-network-detection-and-response-ndr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Arista Network Detection and Response (NDR)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#arista-networks-multi-domain-segmentation-services-mss-for-zero-trust-networking" class="md-nav__link">
     <span class="md-ellipsis">
       Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking
@@ -837,7 +828,7 @@ This approach provides Arista with a major strategic advantage in the AI era:</p
 <p>As organizations embrace AI while defending against AI-accelerated cyber threats, maintaining visibility into users, devices, applications, and network activity has never been more critical. <strong>Arista AGNI (Arista Guardian for Network Identity)</strong> delivers identity-based network access control. AGNI is designed keeping in mind the 5-S fundamentals of network designing — simplicity, scalability, security, stability, and savings (cost-effective). It integrates with all the major Identity and Access Management (IAM) products to support Single Sign-On (SSO). Its intuitive and easy user interface offers managing and monitoring the entire network from a central, single pane of glass.. Keeping in mind the future of security, this solution can also drive users towards a more secure, password-less technology such as digital certificates. </p>
 <p>By correlating information across users, devices, applications, and infrastructure, AGNI provides real-time visibility into network behavior, identity, and risk posture. Integrated with EOS, CloudVision, MSS, and NDR, AGNI enhances network access control with identity intelligence, behavioral context, and comprehensive visibility across the environment. Together, these capabilities enable organizations to quickly detect suspicious activity, limit lateral movement, dynamically isolate compromised devices, and reduce response times. Simply put, AGNI helps organizations answer critical questions: <strong>What is happening across the network, who is involved, and is it normal?</strong></p>
 <p>AGNI serves as a force multiplier for security and operations teams. By combining identity awareness, segmentation, automated policy enforcement, and AI-driven operational insights, Arista helps transform cybersecurity from a reactive process into a proactive, resilient strategy designed to defend against increasingly sophisticated, machine-speed attacks while supporting Zero Trust initiatives and mission-critical operations.</p>
-<h2 id="arista-network-detection-and-response-ndr">Arista Network Detection and Response (NDR)<a class="headerlink" href="#arista-network-detection-and-response-ndr" title="Permanent link">&para;</a></h2>
+<p><strong>Arista Network Detection and Response (NDR)</strong></p>
 <p><strong>NDR</strong> provides continuous visibility, behavioral analytics, and AI-driven threat detection across enterprise, cloud, and mission-critical environments. By leveraging the network as a primary source of security intelligence, NDR enables organizations to rapidly identify, investigate, and respond to advanced threats before they become operationally significant.</p>
 <p>As cyber adversaries increasingly leverage automation and artificial intelligence to accelerate attacks, traditional signature-based security tools are often insufficient to detect sophisticated threats, lateral movement, insider risks, and previously unknown attack techniques. NDR addresses this challenge by continuously analyzing network behavior, identifying anomalies, and delivering actionable intelligence in real time.</p>
 <p>When integrated with CloudVision, MSS, AGNI, and EOS, NDR becomes a critical component of a unified cyber-defense architecture that combines visibility, analytics, automation, and operational resiliency to strengthen security across the entire infrastructure.
@@ -875,10 +866,10 @@ Arista’s strategy is different.</p>
 <p>AI-driven cybersecurity capabilities like Mythos and Project Glasswing represent a major industry evolution. The pace of vulnerability discovery and cyber operations will continue to accelerate, and organizations relying on legacy operational models will face growing challenges keeping pace with machine-speed threats.</p>
 <p>Arista is positioned differently. By combining resilient architecture, AI-enhanced software assurance, operational automation, and real-time visibility, Arista is helping federal agencies and enterprise organizations prepare for the next generation of cybersecurity challenges while maintaining the operational simplicity, stability, and security modern mission environments demand.
 The future of cyber resilience will belong to organizations that can combine architectural strength with operational speed and that is exactly where Arista leads.</p>
-<p>References:
-Arista Statement on AI-Enhanced Security and Resilience:</p>
-<p><www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf>
-Arista Security Advisories:</p>
+<p>References:</p>
+<p>Arista Statement on AI-Enhanced Security and Resilience:</p>
+<p><a href="https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf">https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf</a></p>
+<p>Arista Security Advisories:</p>
 <p><a href="https://www.arista.com/en/support/advisories-notices">https://www.arista.com/en/support/advisories-notices</a></p>
 <p>Arista EOS Hardening Guide:</p>
 <p><a href="https://arista.my.site.com/AristaCommunity/s/article/arista-eos-hardening-guide">https://arista.my.site.com/AristaCommunity/s/article/arista-eos-hardening-guide</a></p>
@@ -896,21 +887,21 @@ Arista Security Advisories:</p>
 <p><img alt="Image Placement" src="../img/June26_pic11.png" /></p>
 <ol>
 <li>
-<p>Endpoint Identity and Microperimeter Tagging</p>
+<p><strong>Endpoint Identity and Microperimeter Tagging</strong></p>
 <p>The foundation of MSS is its ability to identify endpoints and workloads and assign them to <strong>microperimeter groups</strong> using tags. Rather than relying on static IP addresses, MSS connects to external identity and management sources — including NAC systems (such as Cisco ISE, ClearPass, and Forescout), CMDBs (like ServiceNow), IPAM systems, VMware vSphere/vCenter, and Arista's own AGNI (network identity service) — to dynamically discover and tag devices as they join the network.</p>
 <p>This means segmentation policies follow the identity of the endpoint, not its location on the network.</p>
 </li>
 <li>
-<p>Zero Trust Policy Planning with Traffic Mapping</p>
+<p><strong>Zero Trust Policy Planning with Traffic Mapping</strong></p>
 <p>Before any policy is enforced, MSS maps all communications within and across network domains. Using CloudVision's <strong>Policy Builder</strong> and <strong>ZTX (Zero Trust Exchange)</strong> monitoring nodes, the platform observes traffic flows and generates recommended policies that permit only trusted, observed communications. Security teams can review, audit, and refine these recommendations before deploying them — reducing the risk of accidentally blocking legitimate traffic.</p>
 </li>
 <li>
-<p>Microperimeter Enforcement in the network or redirect to Firewall
-    Once policies are defined, MSS distributes them to <strong>Arista EOS-powered switches</strong>, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.</p>
+<p><strong>Microperimeter Enforcement in the network or redirect to Firewall</strong></p>
+<p>Once policies are defined, MSS distributes them to <strong>Arista EOS-powered switches</strong>, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.</p>
 <p>For traffic requiring deeper inspection, MSS can redirect flows to a <strong>third-party firewall</strong> (such as Palo Alto Networks with Panorama) for stateful Layer 4–7 analysis — providing the best of both worlds.</p>
 </li>
 <li>
-<p>Continuous Monitoring &amp; Visibility</p>
+<p><strong>Continuous Monitoring &amp; Visibility</strong></p>
 <p>The MSS dashboard provides unified network telemetry. It continuously logs traffic anomalies, flags real-time policy violations, and surfaces hidden network dependencies. This visibility cycle allows network operators to dynamically adjust firewall rules or isolate infected nodes instantly before threats spread.</p>
 <p>One of MSS's most significant differentiators is its <strong>consistent architecture across campus, branch, and data center environments</strong> — all managed through a single CloudVision platform and enforced by the same EOS binary running on every Arista switch. There are no separate management planes, no policy translation layers, and no coverage gaps between domains.</p>
 </li>
