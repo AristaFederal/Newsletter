@@ -215,7 +215,7 @@ Arista’s Zero Trust Networking:
 ---
 ## **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking**
 
-By Lee Gillespie -- Acting CEO
+By Lee Gillespie, Systems Engineer, US Federal
 
 **What is Arista MSS?**
 
