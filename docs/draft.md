@@ -225,8 +225,8 @@ Instead of tying security policies to brittle network boundaries like IP subnets
 
 **Core Architecture and Key Capabilities**
  
-![Image Placement][11]
-[11]: img/June26_pic11.png
+![Image Placement][12]
+[12]: img/June26_pic12.png
 
 1. **Endpoint Identity and Microperimeter Tagging**
 
@@ -270,8 +270,8 @@ Similarly, MSS has no dependency on proprietary network protocols, meaning it ca
 
 **Conclusion**
  
-![Image Placement][12]
-[12]: img/June26_pic12.png
+![Image Placement][11]
+[11]: img/June26_pic11.png
 
 Arista MSS represents a significant maturation in how enterprises can approach network security. By combining agentless operation, protocol independence, consistent multi-domain coverage, and deep integration with both Arista's own platform and third-party security tools, MSS eliminates the tradeoffs that have historically made microsegmentation either too complex to implement or too narrow in scope to be effective.
 
