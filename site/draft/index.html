@@ -897,42 +897,42 @@ Arista Security Advisories:</p>
 <ol>
 <li>
 <p>Endpoint Identity and Microperimeter Tagging</p>
-<p>The foundation of MSS is its ability to identify endpoints and workloads and assign them to microperimeter groups using tags. Rather than relying on static IP addresses, MSS connects to external identity and management sources — including NAC systems (such as Cisco ISE, ClearPass, and Forescout), CMDBs (like ServiceNow), IPAM systems, VMware vSphere/vCenter, and Arista's own AGNI (network identity service) — to dynamically discover and tag devices as they join the network.</p>
+<p>The foundation of MSS is its ability to identify endpoints and workloads and assign them to <strong>microperimeter groups</strong> using tags. Rather than relying on static IP addresses, MSS connects to external identity and management sources — including NAC systems (such as Cisco ISE, ClearPass, and Forescout), CMDBs (like ServiceNow), IPAM systems, VMware vSphere/vCenter, and Arista's own AGNI (network identity service) — to dynamically discover and tag devices as they join the network.</p>
 <p>This means segmentation policies follow the identity of the endpoint, not its location on the network.</p>
 </li>
 <li>
 <p>Zero Trust Policy Planning with Traffic Mapping</p>
-<p>Before any policy is enforced, MSS maps all communications within and across network domains. Using CloudVision's Policy Builder and ZTX (Zero Trust Exchange) monitoring nodes, the platform observes traffic flows and generates recommended policies that permit only trusted, observed communications. Security teams can review, audit, and refine these recommendations before deploying them — reducing the risk of accidentally blocking legitimate traffic.</p>
+<p>Before any policy is enforced, MSS maps all communications within and across network domains. Using CloudVision's <strong>Policy Builder</strong> and <strong>ZTX (Zero Trust Exchange)</strong> monitoring nodes, the platform observes traffic flows and generates recommended policies that permit only trusted, observed communications. Security teams can review, audit, and refine these recommendations before deploying them — reducing the risk of accidentally blocking legitimate traffic.</p>
 </li>
 <li>
 <p>Microperimeter Enforcement in the network or redirect to Firewall
-    Once policies are defined, MSS distributes them to Arista EOS-powered switches, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.</p>
-<p>For traffic requiring deeper inspection, MSS can redirect flows to a third-party firewall (such as Palo Alto Networks with Panorama) for stateful Layer 4–7 analysis — providing the best of both worlds.</p>
+    Once policies are defined, MSS distributes them to <strong>Arista EOS-powered switches</strong>, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.</p>
+<p>For traffic requiring deeper inspection, MSS can redirect flows to a <strong>third-party firewall</strong> (such as Palo Alto Networks with Panorama) for stateful Layer 4–7 analysis — providing the best of both worlds.</p>
 </li>
 <li>
 <p>Continuous Monitoring &amp; Visibility</p>
 <p>The MSS dashboard provides unified network telemetry. It continuously logs traffic anomalies, flags real-time policy violations, and surfaces hidden network dependencies. This visibility cycle allows network operators to dynamically adjust firewall rules or isolate infected nodes instantly before threats spread.</p>
-<p>One of MSS's most significant differentiators is its consistent architecture across campus, branch, and data center environments — all managed through a single CloudVision platform and enforced by the same EOS binary running on every Arista switch. There are no separate management planes, no policy translation layers, and no coverage gaps between domains.</p>
+<p>One of MSS's most significant differentiators is its <strong>consistent architecture across campus, branch, and data center environments</strong> — all managed through a single CloudVision platform and enforced by the same EOS binary running on every Arista switch. There are no separate management planes, no policy translation layers, and no coverage gaps between domains.</p>
 </li>
 </ol>
 <p><strong>Architectural Distinctions: Why Arista MSS Stands Out</strong></p>
 <p>Unlike proprietary, monolithic alternatives on the market, Arista's approach focuses on simplicity and multi-vendor viability:</p>
 <ul>
 <li>
-<p>No Proprietary Tagging: Many legacy switch vendors require proprietary packet-tagging protocols to enforce group-based policies. Arista MSS relies on standard Ethernet and open VXLAN BGP EVPN overlay fabrics, enabling it to coexist with third-party network hardware.</p>
+<p><strong>No Proprietary Tagging:</strong> Many legacy switch vendors require proprietary packet-tagging protocols to enforce group-based policies. Arista MSS relies on standard Ethernet and open VXLAN BGP EVPN overlay fabrics, enabling it to coexist with third-party network hardware.</p>
 </li>
 <li>
-<p>Agentless Architecture: Security is completely managed within the network fabric. There is no need to deploy, maintain, or update heavy security software agents on individual servers or endpoint devices, which is critical for legacy systems and IoT devices where agents cannot be installed.</p>
+<p><strong>Agentless Architecture:</strong> Security is completely managed within the network fabric. There is no need to deploy, maintain, or update heavy security software agents on individual servers or endpoint devices, which is critical for legacy systems and IoT devices where agents cannot be installed.</p>
 </li>
 <li>
-<p>Deep Firewall Ecosystem Integration: Rather than forcing enterprises onto a proprietary firewall solution, Arista MSS natively integrates via open APIs with leading Next-Generation Firewalls (NGFWs), such as Palo Alto Networks Panorama and cloud proxies like Zscaler. The network automatically discovers the firewalls via Link Layer Discovery Protocol (LLDP) and offloads basic rule enforcement to the switches, allowing the firewalls to dedicate 100% of their compute capacity to threat inspection.</p>
+<p><strong>Deep Firewall Ecosystem Integration:</strong> Rather than forcing enterprises onto a proprietary firewall solution, Arista MSS natively integrates via open APIs with leading Next-Generation Firewalls (NGFWs), such as Palo Alto Networks Panorama and cloud proxies like Zscaler. The network automatically discovers the firewalls via Link Layer Discovery Protocol (LLDP) and offloads basic rule enforcement to the switches, allowing the firewalls to dedicate 100% of their compute capacity to threat inspection.</p>
 </li>
 </ul>
-<p>A key architectural decision that sets MSS apart is its agentless approach. Unlike many competing solutions, MSS does not require software agents to be installed on endpoints. This matters enormously for:</p>
+<p>A key architectural decision that sets MSS apart is its <strong>agentless approach</strong>. Unlike many competing solutions, MSS does not require software agents to be installed on endpoints. This matters enormously for:</p>
 <ul>
-<li>IoT and OT devices that cannot host agents</li>
-<li>Legacy systems running unsupported operating systems</li>
-<li>Third-party equipment where agent installation is not permitted</li>
+<li><strong>IoT and OT devices</strong> that cannot host agents</li>
+<li><strong>Legacy systems</strong> running unsupported operating systems</li>
+<li><strong>Third-party equipment</strong> where agent installation is not permitted</li>
 </ul>
 <p>Similarly, MSS has no dependency on proprietary network protocols, meaning it can be deployed in heterogeneous environments without requiring a full network refresh or vendor lock-in at the switching layer.</p>
 <p><strong>Conclusion</strong></p>

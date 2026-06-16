@@ -139,7 +139,8 @@ As organizations embrace AI while defending against AI-accelerated cyber threats
 By correlating information across users, devices, applications, and infrastructure, AGNI provides real-time visibility into network behavior, identity, and risk posture. Integrated with EOS, CloudVision, MSS, and NDR, AGNI enhances network access control with identity intelligence, behavioral context, and comprehensive visibility across the environment. Together, these capabilities enable organizations to quickly detect suspicious activity, limit lateral movement, dynamically isolate compromised devices, and reduce response times. Simply put, AGNI helps organizations answer critical questions: **What is happening across the network, who is involved, and is it normal?**
 
 AGNI serves as a force multiplier for security and operations teams. By combining identity awareness, segmentation, automated policy enforcement, and AI-driven operational insights, Arista helps transform cybersecurity from a reactive process into a proactive, resilient strategy designed to defend against increasingly sophisticated, machine-speed attacks while supporting Zero Trust initiatives and mission-critical operations.
-##Arista Network Detection and Response (NDR)##
+
+**Arista Network Detection and Response (NDR)**
 
 **NDR** provides continuous visibility, behavioral analytics, and AI-driven threat detection across enterprise, cloud, and mission-critical environments. By leveraging the network as a primary source of security intelligence, NDR enables organizations to rapidly identify, investigate, and respond to advanced threats before they become operationally significant.
 
@@ -188,9 +189,12 @@ Arista is positioned differently. By combining resilient architecture, AI-enhanc
 The future of cyber resilience will belong to organizations that can combine architectural strength with operational speed and that is exactly where Arista leads.
 
 References:
+
 Arista Statement on AI-Enhanced Security and Resilience:
 
-<www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf>
+
+<https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf>
+
 Arista Security Advisories:
 
 <https://www.arista.com/en/support/advisories-notices>
@@ -224,22 +228,23 @@ Instead of tying security policies to brittle network boundaries like IP subnets
 ![Image Placement][11]
 [11]: img/June26_pic11.png
 
-1. Endpoint Identity and Microperimeter Tagging
+1. **Endpoint Identity and Microperimeter Tagging**
 
     The foundation of MSS is its ability to identify endpoints and workloads and assign them to **microperimeter groups** using tags. Rather than relying on static IP addresses, MSS connects to external identity and management sources — including NAC systems (such as Cisco ISE, ClearPass, and Forescout), CMDBs (like ServiceNow), IPAM systems, VMware vSphere/vCenter, and Arista's own AGNI (network identity service) — to dynamically discover and tag devices as they join the network.
 
     This means segmentation policies follow the identity of the endpoint, not its location on the network.
 
-2. Zero Trust Policy Planning with Traffic Mapping
+2. **Zero Trust Policy Planning with Traffic Mapping**
 
     Before any policy is enforced, MSS maps all communications within and across network domains. Using CloudVision's **Policy Builder** and **ZTX (Zero Trust Exchange)** monitoring nodes, the platform observes traffic flows and generates recommended policies that permit only trusted, observed communications. Security teams can review, audit, and refine these recommendations before deploying them — reducing the risk of accidentally blocking legitimate traffic.
 
-3. Microperimeter Enforcement in the network or redirect to Firewall
+3. **Microperimeter Enforcement in the network or redirect to Firewall**
+
     Once policies are defined, MSS distributes them to **Arista EOS-powered switches**, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.
 
     For traffic requiring deeper inspection, MSS can redirect flows to a **third-party firewall** (such as Palo Alto Networks with Panorama) for stateful Layer 4–7 analysis — providing the best of both worlds.
 
-4. Continuous Monitoring & Visibility
+4. **Continuous Monitoring & Visibility**
 
     The MSS dashboard provides unified network telemetry. It continuously logs traffic anomalies, flags real-time policy violations, and surfaces hidden network dependencies. This visibility cycle allows network operators to dynamically adjust firewall rules or isolate infected nodes instantly before threats spread.
 
