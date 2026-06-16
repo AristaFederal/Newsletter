@@ -184,23 +184,31 @@ The future of cyber resilience will belong to organizations that can combine arc
 
 References:
 Arista Statement on AI-Enhanced Security and Resilience:
-www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf
+
+<www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf>
 Arista Security Advisories:
-https://www.arista.com/en/support/advisories-notices
+
+<https://www.arista.com/en/support/advisories-notices>
+
 Arista EOS Hardening Guide:
-https://arista.my.site.com/AristaCommunity/s/article/arista-eos-hardening-guide
+
+<https://arista.my.site.com/AristaCommunity/s/article/arista-eos-hardening-guide>
+
 Arista Vulnerability Management Process:
-https://www.arista.com/en/support/product-documentation/vulnerability-management-process
+
+<https://www.arista.com/en/support/product-documentation/vulnerability-management-process>
+
 Arista’s Zero Trust Networking:
-https://www.arista.com/en/solutions/security
+
+<https://www.arista.com/en/solutions/security>
 
 
 ---
-## **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking##
+## **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking**
 
 By Lee Gillespie -- Acting CEO
 
-##What is Arista MSS?##
+**What is Arista MSS?**
 
 Arista MSS is a security service built as an extension of Arista’s core Extensible Operating System (EOS) and centrally managed via the CloudVision orchestration platform.
 
@@ -273,9 +281,13 @@ For Federal agencies and mission-critical organizations pursuing modernization, 
 ![Image Placement][13]
 [13]: img/June26_pic13.png
 
-Arista Press release: https://www.arista.com/en/company/news/press-release/24030-pr-20260520
+Arista Press release: 
 
-Report Download: https://solutions.arista.com/gartner-2026-wired-wireless-mq
+<https://www.arista.com/en/company/news/press-release/24030-pr-20260520>
+
+Report Download: 
+
+<https://solutions.arista.com/gartner-2026-wired-wireless-mq>
 
 ---
 ## __Webinars and Events__  
