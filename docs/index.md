@@ -12,32 +12,36 @@
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
-# Welcome to the May 2026 Edition of the Arista Federal Newsletter!
+# Welcome to the June 2026 edition of the Arista Federal Newsletter, created for our valued Federal Agency and System Integrator customers.
 
-May is a month of meaningful celebration and remembrance. We recognize and appreciate all mothers for the tremendous impact they have on our families, communities, and future generations. As Memorial Day approaches, we also pause to honor and remember the brave men and women who made the ultimate sacrifice in service to our nation.
-In this edition, we continue highlighting the technologies, customer successes, and strategic initiatives helping Federal agencies and System Integrators modernize infrastructure for the future through automation, AI networking, operational simplicity, and secure, resilient architectures.
+June provides an opportunity to reflect on two important American traditions: Flag Day and Father's Day.
+On June 14, we commemorate Flag Day, honoring the adoption of the United States flag in 1777 and recognizing the enduring principles of freedom, service, and national unity that our flag represents. For those of us serving Federal agencies, the Department of War, Federal System Integrators, and critical infrastructure organizations, Flag Day is also a reminder of the mission-focused work performed every day to protect and strengthen our nation's security and technological leadership.
 
-“A hero is someone who has given his or her life to something bigger than oneself.” — Joseph Campbell (1904–1987) - American writer.
+"When we honor our flag, we honor what we stand for as a Nation—freedom, equality, justice, and hope." — President Ronald Reagan
+
+In June we also celebrate Father's Day, recognizing the fathers, mentors, veterans, and role models who have shaped our lives through their leadership, sacrifice, and commitment to future generations. Their example reminds us of the importance of stewardship, resilience, and investing in those who will carry our missions forward.
+
+“To be the father of a nation is a great honor, but to be the father of a family is a greater joy.” — Nelson Mandela - Former President of South Africa
+
+Those same principles of leadership and preparedness are increasingly important as we navigate one of the most significant technological shifts in decades. Artificial Intelligence is rapidly transforming both innovation and cybersecurity. As AI accelerates vulnerability discovery, threat analysis, and cyber operations, organizations must rethink how they build resilient, secure-by-design architectures capable of defending against machine-speed threats.
 
 In this month’s newsletter, you’ll find:
 
-- **Arista TAC Continues to Set the Standard for Customer Success**
+- **Arista’s Strategic Advantage in the AI-Era Threat Landscape** 
 
-    Arista Federal Client Director Kevin Carey highlights why Arista TAC continues to stand apart and the operational value it delivers to Federal customers supporting classified, AI/HPC, data center, campus, and WAN environments.
+    Arista Federal Client Director Kevin Carey explores Arista's perspective on emerging AI-driven cybersecurity initiatives, including Mythos and Project Glasswing, and discusses how Arista continues to invest in AI-enhanced software assurance, architectural resiliency, and operational security to help customers stay ahead of an increasingly sophisticated threat landscape.  
 
-    Exceptional technology is only part of the equation; world-class customer support truly defines long-term success.
+- **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking**
 
-- **Arista and the Department of War: Sharing Innovation for the Mission!**
+    Arista Federal Systems Engineer Lee Gillespie examines how Arista Multi-Domain Segmentation Services (MSS) helps federal agencies, defense organizations, and critical infrastructure operators implement Zero Trust architectures through dynamic segmentation, policy enforcement, and threat containment across distributed environments.
 
-    Arista Systems Engineer Michael Alvarez explores how modern networking technologies support next-generation mission requirements across the Department of Defense.
+- **Arista Networks Positioned as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN**
 
-    As Federal agencies continue modernizing infrastructure to support AI, HPC, and advanced analytics, this article highlights why Arista is uniquely positioned to help customers accelerate innovation while reducing operational complexity.
-
-
+    We also highlight Arista Networks' continued industry leadership, named as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure. This recognition reflects Arista's commitment to innovation, operational simplicity, cloud-native architecture, and delivering exceptional outcomes for our customers across Federal, Defense, and enterprise environments.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
 
-Thank you for reading the Arista Federal Newsletter — your go-to source for the latest innovations, industry insights, and mission-focused networking solutions for Federal Agencies and System Integrators.
+As always, thank you for your partnership and trust in Arista. We remain committed to helping our customers build secure, resilient, and modern network infrastructures that support mission success today and well into the future.
 
 ---
 
@@ -48,120 +52,254 @@ Thank you for reading the Arista Federal Newsletter — your go-to source for th
 [4]: https://blogs.arista.com/blog
 
 ---
-## **Arista TAC Continues to Set the Standard for Customer Success**
+## **Arista’s Strategic Advantage in the AI-Era Threat Landscape**
 
 By Kevin Carey – Arista Federal Client Director
 
-Arista Networks continues to demonstrate why its Technical Assistance Center (TAC) is
-recognized as one of the industry’s premier support organizations. In 2026, Arista TAC
-improved upon its already exceptional previous NPS score of 87, achieving an industry-
-leading Net Promoter Score (NPS) of 89, with 94% of customers reporting a strongly
-positive experience.
+Arista is helping customers stay ahead in an increasingly AI-driven threat landscape. As AI continues to accelerate vulnerability discovery and cyber risk across the industry, our focus remains on delivering secure, resilient infrastructure for Federal Agencies, Federal System Integrators, Defense organizations, and critical infrastructure environments.
 
-These results reflect Arista’s relentless focus on customer success, operational
-excellence, and technical expertise. For many customers, Arista TAC is one of the
-company’s strongest differentiators and a key reason why organizations choose and
-remain with Arista.
+This shift represents a major inflection point in cybersecurity. Security is no longer defined solely by how quickly vulnerabilities can be patched. The challenge now is designing architectures and operational frameworks that are resilient by design, minimizing exposure, rapidly identifying risk, and containing threats before they become operationally significant.
 
-Unlike traditional support organizations that rely on multiple escalation tiers and scripted
-workflows, Arista TAC is built around a highly technical, engineering-driven support
-model focused on accelerating problem resolution and enhancing the “customer
-experience”. Customers work directly with experienced network engineers who possess
-deep expertise in Arista EOS and modern network architecture.
+This is more than an evolution in cybersecurity; it is a fundamental paradigm shift. Organizations are no longer defending solely against human adversaries. They are increasingly defending against autonomous AI reasoning engines and intelligent agents capable of operating at machine speed, scaling vulnerability discovery, analysis, exploit development, and attack methodologies far beyond traditional human-driven cyber operations.
 
-**Why Arista TAC Stands Apart**
+Anthropic’s “Mythos” (often referred to as **Claude Mythos** or **Mythos Preview**) initiative has received significant attention across the cybersecurity industry because it highlights a rapidly evolving reality: AI is accelerating both innovation and cybersecurity risk at an unprecedented pace. As AI models become more capable, the speed at which vulnerabilities can be discovered, analyzed, and potentially weaponized is increasing dramatically.
 
-Arista TAC provides:
+For our customers, understanding how technology providers are adapting to this rapidly evolving threat landscape is increasingly important. That is why we felt it was valuable to share Arista’s perspective and highlight Arista’s recent Statement on ***AI-Enhanced Security and Resilience***. The statement reinforces several areas where Arista has long differentiated itself, including EOS architectural resiliency and modularity, historically low CVE exposure, reduced attack surface through secure-by-design engineering, operational stability, efficient remediation processes, and ongoing investment in advanced security validation and testing. ***A link to the statement is provided below in the References section***.
 
-- 24x7 global technical support
-- Direct access to highly skilled network engineers
-- Hardware and software troubleshooting
-- EOS software support and upgrade guidance
-- Configuration assistance and operational best practices
-- RMA coordination and proactive operational guidance
+We believe customers value transparency and proactive communication, particularly as AI-driven cybersecurity discussions continue to gain momentum across government and industry. By sharing this information, Arista Federal is helping customers stay informed about both the evolving threat environment and the steps Arista is taking to ensure our platforms continue to deliver the reliability, security, and operational simplicity our customers depend on.
 
-A key differentiator is the close alignment between TAC and Arista’s EOS engineering
-teams, enabling faster root-cause analysis, rapid issue resolution, and tighter feedback
-loops between customers and development.
+**What Are Mythos and Project Glasswing?**
 
-**Operational Value for Federal Customers**
+**Mythos** is widely viewed within the cybersecurity industry as a next-generation AI cyber model designed to assist in vulnerability discovery, exploit analysis, and advanced security research.
 
-For Federal organizations, where mission continuity, operational simplicity, and rapid
-issue resolution are critical, the value of a world-class support organization cannot be
-overstated.
+**Project Glasswing** is a broader industry initiative focused on AI-enhanced vulnerability discovery and advanced defensive testing methodologies. Significantly, Arista was selected by Anthropic as one of a limited number of collaborators participating in Project Glasswing. This recognition reflects Arista's longstanding commitment to software quality, security engineering, and architectural resilience. 
 
-Because Arista operates a single EOS operating system across campus, data center,
-WAN, and AI environments, TAC engineers develop deep platform expertise across the
-entire portfolio. This consistency enables:
+The objective is straightforward: use AI defensively to identify and mitigate vulnerabilities before adversaries can weaponize the same capabilities offensively. These technologies are changing the cybersecurity equation by lowering the barrier to entry and accelerating the pace, scale, and sophistication of cyber threats.
+Arista recognized this shift early. We are integrating AI-driven vulnerability discovery and assessment capabilities into our software development and testing lifecycle, complementing existing security disciplines, including:
 
-- Faster troubleshooting and reduced escalation delays
-- Shorter Mean Time to Resolution (MTTR)
-- Lower operational overhead
-- More accurate operational guidance
-- Reduced lifecycle complexity
+- **Static and Dynamic Application Security Testing (SAST/DAST)**
+- **Human-led threat modeling**
+- **Extreme and edge-case testing**
+- **Automated security validation pipelines**
+ 
+The result is a proactive security posture designed to identify and remediate issues before software is released into production environments.
 
-Arista’s software quality and architectural consistency also contribute to fewer critical
-issues, lower CVE exposure, and fewer emergency maintenance events. As a result,
-many TAC engagements are consultative and operationally focused rather than crisis
-driven.
+**Architecture Matters More Than Ever**
 
-**A Trusted Operational Partner**
+The rise of AI-driven cyber capabilities reinforces a critical truth in network security: architecture matters. Many legacy networking platforms were developed decades ago using monolithic operating system designs that create broader attack surfaces, larger blast radius, and operational dependencies. As vulnerabilities emerge, these platforms often require disruptive remediation efforts, broad patch cycles, and increased operational risk.
 
-Customers often view Arista TAC as an extension of their own operational teams.
-Beyond troubleshooting, TAC regularly assists customers with:
+Arista’s Zero Trust strategy is built around a simple but important principle: **the network itself becomes an active security enforcement platform — not just a transport layer**. Instead of relying solely on perimeter-based security models, Arista focuses on continuous verification, segmentation, visibility, and operational automation across the entire infrastructure.
 
-- Design guidance
-- Automation workflows
-- EOS upgrades and migrations
-- Best practices and feature adoption
-- Operational optimization
+**Arista EOS was Architected Differently from the Beginning.**
 
-This partnership-oriented approach helps Federal customers confidently deploy and
-operate next-generation networking technologies across mission-critical, classified,
-AI/HPC, campus, and data center environments.
+Arista EOS was architected differently from the beginning. Its modular, state-sharing design provides control and data plane separation, process and protocol isolation, fault containment, operational resiliency, and targeted remediation capabilities. By isolating software agents and containing issues to specific processes, EOS helps prevent faults from cascading across the operating system.
+Arista’s Zero Trust posture is strengthened by EOS architecture itself.
+This approach provides Arista with a major strategic advantage in the AI era:
 
-The 2026 NPS results further reinforce Arista’s commitment to delivering not only
-innovative technology, but also an exceptional “customer experience”.
+- **Reduced attack surface**
+- **Lower vulnerability density**
+- **Smaller operational blast radius**
+- **Faster remediation workflows**
+- **Greater infrastructure stability**
+ 
+EOS and its modular, state-sharing architecture is one of the key reasons Arista has historically maintained comparatively low CVE exposure across its networking portfolio.
+
+**Operational Speed Becomes a Strategic Weapon**
+
+In an AI-accelerated threat environment:
+
+- **Speed is critical**
+- **Speed of identification**
+- **Speed of visibility**
+- **Speed of analysis**
+- **Speed of remediation**
+ 
+This is where the broader Arista portfolio creates a unique competitive advantage.
+
+**Arista CloudVision**
+
+CloudVision serves as the operational command center for modern enterprise, cloud, and mission-critical networks. More than a traditional management platform, CloudVision provides centralized visibility, automation, telemetry, analytics, and orchestration across the entire network infrastructure, enabling organizations to operate with greater speed, consistency, and security.
+
+In an AI-driven threat landscape, operational awareness is just as important as threat prevention. CloudVision delivers a comprehensive, real-time inventory of network devices, software versions, configurations, and operational state across the environment. This visibility enables organizations to quickly assess potential exposure when new vulnerabilities are identified, determine which systems may be affected, prioritize remediation efforts, and better understand their overall attack surface.
+
+By combining real-time visibility with automation and analytics, CloudVision enables organizations to move beyond reactive network management and toward proactive operational resiliency. Integrated with EOS, MSS, AGNI, and NDR, CloudVision delivers the operational intelligence needed to rapidly identify risk, accelerate remediation, simplify vulnerability management, and maintain mission continuity across increasingly complex and distributed environments.
+
+**Arista Multi-Domain Segmentation Services (MSS)**
+
+**MSS** extends Zero Trust principles across enterprise, cloud, campus, and mission-critical environments by enabling identity-aware segmentation and policy-based traffic control throughout the network. MSS helps organizations reduce exposure and contain threats before they can spread.
+
+As AI-driven attack methodologies continue to evolve, the ability to rapidly contain potential compromise is becoming just as important as preventing initial access. MSS enables organizations to define, automate, and enforce segmentation policies that reduce operational blast radius without the complexity traditionally associated with segmentation architectures.
+
+Integrated with CloudVision, EOS, AGNI, and NDR, MSS serves as a foundational component of Arista’s Zero Trust strategy, combining visibility, policy enforcement, automation, and threat containment into a unified operational security framework.
+
+**Arista AGNI (Arista Guardian For Network Identity)**
+
+As organizations embrace AI while defending against AI-accelerated cyber threats, maintaining visibility into users, devices, applications, and network activity has never been more critical. **Arista AGNI (Arista Guardian for Network Identity)** delivers identity-based network access control. AGNI is designed keeping in mind the 5-S fundamentals of network designing — simplicity, scalability, security, stability, and savings (cost-effective). It integrates with all the major Identity and Access Management (IAM) products to support Single Sign-On (SSO). Its intuitive and easy user interface offers managing and monitoring the entire network from a central, single pane of glass.. Keeping in mind the future of security, this solution can also drive users towards a more secure, password-less technology such as digital certificates. 
+
+By correlating information across users, devices, applications, and infrastructure, AGNI provides real-time visibility into network behavior, identity, and risk posture. Integrated with EOS, CloudVision, MSS, and NDR, AGNI enhances network access control with identity intelligence, behavioral context, and comprehensive visibility across the environment. Together, these capabilities enable organizations to quickly detect suspicious activity, limit lateral movement, dynamically isolate compromised devices, and reduce response times. Simply put, AGNI helps organizations answer critical questions: **What is happening across the network, who is involved, and is it normal?**
+
+AGNI serves as a force multiplier for security and operations teams. By combining identity awareness, segmentation, automated policy enforcement, and AI-driven operational insights, Arista helps transform cybersecurity from a reactive process into a proactive, resilient strategy designed to defend against increasingly sophisticated, machine-speed attacks while supporting Zero Trust initiatives and mission-critical operations.
+
+**Arista Network Detection and Response (NDR)**
+
+**NDR** provides continuous visibility, behavioral analytics, and AI-driven threat detection across enterprise, cloud, and mission-critical environments. By leveraging the network as a primary source of security intelligence, NDR enables organizations to rapidly identify, investigate, and respond to advanced threats before they become operationally significant.
+
+As cyber adversaries increasingly leverage automation and artificial intelligence to accelerate attacks, traditional signature-based security tools are often insufficient to detect sophisticated threats, lateral movement, insider risks, and previously unknown attack techniques. NDR addresses this challenge by continuously analyzing network behavior, identifying anomalies, and delivering actionable intelligence in real time.
+
+When integrated with CloudVision, MSS, AGNI, and EOS, NDR becomes a critical component of a unified cyber-defense architecture that combines visibility, analytics, automation, and operational resiliency to strengthen security across the entire infrastructure.
+Together, CloudVision, MSS, AGNI, NDR, and EOS create a comprehensive operational security framework where visibility, automation, analytics, policy enforcement, and architectural resiliency work together to reduce risk, accelerate response, and strengthen mission assurance.
+In an AI-driven threat landscape, success is no longer determined solely by how quickly organizations can patch vulnerabilities. It is determined by how effectively they can identify risk, contain threats, automate response, and maintain operational continuity. This is where Arista’s architecture and operational model provide a distinct strategic advantage.
+
+**Arista’s Zero Trust Model Is Different**
+
+Many vendors approach Zero Trust by layering multiple standalone security products onto the network.
+Arista’s strategy is different.
+
+Arista embeds security directly into the operational fabric by combining:
+
+- EOS resiliency
+- CloudVision orchestration
+- MSS segmentation
+- AGNI intelligence
+- NDR analytics
+- Real-time telemetry and automation
+
+The result is a unified operational model where:
+
+- The network becomes the sensor
+- The network becomes the enforcement layer
+- Security becomes operationally integrated
+- Visibility and response happen in real time
+
+In the AI era, Zero Trust is no longer just about authentication or segmentation. It is about building infrastructure that can:
+
+- Continuously validate trust
+- Detect anomalies rapidly
+- Contain threats immediately
+- Automate operational response
+- Maintain mission continuity under pressure
+
+Arista’s Zero Trust strategy is designed specifically for that reality, helping Federal Agencies, Federal System Integrators, Defense organizations, and critical infrastructure operators reduce operational risk while improving security, resiliency, and visibility across modern distributed environments.
+
+**Arista Is Strategically Positioned for the Future**
+
+AI-driven cybersecurity capabilities like Mythos and Project Glasswing represent a major industry evolution. The pace of vulnerability discovery and cyber operations will continue to accelerate, and organizations relying on legacy operational models will face growing challenges keeping pace with machine-speed threats.
+
+Arista is positioned differently. By combining resilient architecture, AI-enhanced software assurance, operational automation, and real-time visibility, Arista is helping federal agencies and enterprise organizations prepare for the next generation of cybersecurity challenges while maintaining the operational simplicity, stability, and security modern mission environments demand.
+The future of cyber resilience will belong to organizations that can combine architectural strength with operational speed and that is exactly where Arista leads.
+
+References:
+
+Arista Statement on AI-Enhanced Security and Resilience:
+
+
+<https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf>
+
+Arista Security Advisories:
+
+<https://www.arista.com/en/support/advisories-notices>
+
+Arista EOS Hardening Guide:
+
+<https://arista.my.site.com/AristaCommunity/s/article/arista-eos-hardening-guide>
+
+Arista Vulnerability Management Process:
+
+<https://www.arista.com/en/support/product-documentation/vulnerability-management-process>
+
+Arista’s Zero Trust Networking:
+
+<https://www.arista.com/en/solutions/security>
+
 
 ---
-## **Arista and the Department of War: Sharing Innovation for the Mission!**
+## **Arista Networks Multi-Domain Segmentation Services (MSS) For Zero Trust Networking**
 
-By Michael Alvarez - Systems Engineer, US Federal
+By Lee Gillespie, Systems Engineer, US Federal
 
-**Mission Critical**
+**What is Arista MSS?**
 
-When we think of the Department of War (DoW), we think of phrases such as “mission critical”, “supporting warfighter efforts” and “saving lives”.  These are the calls that invigorate and motivate the workforce within the DoW with purpose and initiative to innovate. Recently, it has been decided that the status quo of the mission was not keeping pace with our adversaries around the world and there was fear that The United States was falling behind in that initiative and innovation.
+**Arista MSS** is a security service built as an extension of Arista’s core **Extensible Operating System (EOS)** and centrally managed via the **CloudVision** orchestration platform.
 
-**The Need for Speed**
+Instead of tying security policies to brittle network boundaries like IP subnets or VLANs, MSS allows security and network teams to define granular **"microperimeters" based on endpoint identity**. Whether an endpoint is an engineering laptop, an IP camera, or a database workload in a VXLAN EVPN fabric, MSS groups them dynamically by intent. Policies are then configured centrally and enforced directly at the network hardware level at wire-speed lines.
 
-In 2024, an effort within Congress to bolster defense innovation was made by creating the House Defense Modernization Caucus.  The purpose?  To shift the paradigm by working to streamline and accelerate the DoW’s Authority to Operate (ATO) process, providing attractive offerings to increase the hiring speed of industry talent and increase classified space access for private sector companies to come in and innovate.  Most importantly, they wanted the Department of War to lean on more modern software-centric and commercial-of-the-shelf (COTS) solutions.  They wanted to leverage this in a way where the wheel could stop being re-invented and to repurpose foundational solutions across multiple environments.  This would be the key to identifying challenges, streamlining innovation and reducing time and waste.
+**Core Architecture and Key Capabilities**
+ 
+![Image Placement][12]
+[12]: img/June26_pic12.png
 
-**RDMA in Play**
+1. **Endpoint Identity and Microperimeter Tagging**
 
-Recently, Arista Federal has seen many of its customers more commonly adopt mission based software applications leaning heavily into the use of Remote Direct Memory Access (RDMA) over Converged Ethernet (RoCE) protocol.  This architectural concept allows software applications to bypass a host CPU’s TCP/IP stack to achieve faster data transfers.  In essence, faster data analysis and processing, faster early warning systems, faster response in the battle space.  Think back to those phrases mentioned earlier. 
+    The foundation of MSS is its ability to identify endpoints and workloads and assign them to **microperimeter groups** using tags. Rather than relying on static IP addresses, MSS connects to external identity and management sources — including NAC systems (such as Cisco ISE, ClearPass, and Forescout), CMDBs (like ServiceNow), IPAM systems, VMware vSphere/vCenter, and Arista's own AGNI (network identity service) — to dynamically discover and tag devices as they join the network.
 
-**RDMA…Cutting Edge?**
+    This means segmentation policies follow the identity of the endpoint, not its location on the network.
 
-No, not really.  RDMA has existed as far back as 2003 with the inception of the RDMA Consortium. It was developed to approach more efficient ways to move data between endpoints across a network with high throughput and low latency. However, to really achieve this goal, the right network technology needs to be able to support RDMA.
+2. **Zero Trust Policy Planning with Traffic Mapping**
 
-**The Birth of RDMA over Converged Ethernet (RoCEv1)**
+    Before any policy is enforced, MSS maps all communications within and across network domains. Using CloudVision's **Policy Builder** and **ZTX (Zero Trust Exchange)** monitoring nodes, the platform observes traffic flows and generates recommended policies that permit only trusted, observed communications. Security teams can review, audit, and refine these recommendations before deploying them — reducing the risk of accidentally blocking legitimate traffic.
 
-In 2010, the Infiniband Trade Association released an initial version of RoCEv1 to support RDMA applications across an ethernet environment. This effectively enabled RDMA to work over Ethernet, operating at the Ethernet link layer (Layer 2). There were many benefits to the RoCEv1 protocol. It allowed for ethernet compatibility, efficient data transfer while reducing latency and CPU utilization. This produced a unique opportunity to create small local network environments, supported over an Infiniband fiber based switch fabric. Works great in small clustering, but scaling is limited and the solution is expensive. Additional detractors include RoCEv1’s lack of IP routing (L3) support making it obsolete for large data network deployments. Because of the need for lossless ethernet, it was also extremely complex to configure and manage when performing that limited scaling.
+3. **Microperimeter Enforcement in the network or redirect to Firewall**
 
-**Round two with RoCEv2**
+    Once policies are defined, MSS distributes them to **Arista EOS-powered switches**, which enforce them at wire speed using a stateless tagging engine. This switch-based enforcement model overcomes a key limitation of traditional ACL-based segmentation: TCAM (Ternary Content Addressable Memory) exhaustion. By using an advanced tagging engine, MSS optimizes hardware utilization and scales far beyond what traditional ACLs allow.
 
-Eventually, a need arose for a more flexible Ethernet-based environment that was truly high-scale. There was a growing demand for an efficient and cost-effective network ecosystem for RDMA-based applications. In 2014, InfiniBand specification version 1.3 was introduced to support IP routing, known as RoCEv2. RoCEv2, unlike RoCEv1, uses UDP/IP to be routable across different subnets, allowing for larger network scales and a more budget-friendly alternative vs traditional InfiniBand L2 environments, while still meeting similar performance metrics. In addition, lessons learned over a decade afforded speed increases, enhanced security and new congestion control frameworks. RoCEv2 encapsulation, in the form of UDP/IP packets for RDMA, can and does provide an inherently lossy data transfer, but not without help. It’s important to remember that building a lossless environment can be a complex challenge. To have the scalability and provide packet transfers in transfer order requires careful configuration or tuning. This is where Arista offers a strong competitive advantage in helping to reduce the complexity for our customers.
+    For traffic requiring deeper inspection, MSS can redirect flows to a **third-party firewall** (such as Palo Alto Networks with Panorama) for stateful Layer 4–7 analysis — providing the best of both worlds.
 
-**Alphabet Soup**
+4. **Continuous Monitoring & Visibility**
 
-There are many protocols to help with creating a lossless environment for reliable packet transfer. Explicit Congestion Notification (ECN) marks packets for endpoint notification of network congestion before buffers overflow. Priority-based Flow Control (PFC) is a link-level flow control mechanism that pauses traffic on specific priority queues rather than stopping all traffic on a link. Data Center Quantized Congestion Notification (DCQCN) is an end-to-end congestion control algorithm combining ECN and PFC functions for RoCEv2. Dynamic and Cluster Load Balancing (DLB and CLB) are also introduced for congestion management. DLB uses egress interface utilization as part of load-balancing calculation and makes flow polarization and overlap much less likely. CLB is an Arista specific solution, which expands congestion control by allowing leaf and spine switches to look at hardware tables for RoCE flow identification. This allows for flow tracking used in ECMP load-balancing to prevent polarization. Packet trimming is a congestion management technique used to minimize latency and accelerate recovery during packet drops. Instead of fully dropping a congested packet, a network switch trims away the data payload but retains the essential packet headers, forwarding only the header to the destination to notify it to retransmit the packet. All this built-in intelligence to traffic management provides a solution matched for every use case. 
+    The MSS dashboard provides unified network telemetry. It continuously logs traffic anomalies, flags real-time policy violations, and surfaces hidden network dependencies. This visibility cycle allows network operators to dynamically adjust firewall rules or isolate infected nodes instantly before threats spread.
 
-**DoW and the Arista Advantage**
+    One of MSS's most significant differentiators is its **consistent architecture across campus, branch, and data center environments** — all managed through a single CloudVision platform and enforced by the same EOS binary running on every Arista switch. There are no separate management planes, no policy translation layers, and no coverage gaps between domains.
 
-We know all of this sounds very complex and overwhelming, but Arista is ready to support Federal solutions and innovations with support for open standards, best practices documentation and world class Engineering support. Arista is already known for its industry leading quality in hardware and software with its single binary operating system, Extensible Operating System (EOS).  This is the core across our platform ecosystem that makes it all work.  Arista’s Engineering excellence over the years with the growth of AI/ML datacenter networking is now being leveraged within the DoW today. Arista has products with high radix port offerings and up to 800G speeds across our 7800/2780R-Series and 7060X-Series. Our switches are purpose built for premium lossless, high bandwidth and low latency networking for RDMA based solutions.  This, along with EOS, ease of acclimation to our products, support of traffic management solutions, adjustable buffer allocation schemes for RoCE deployments serve the DoW across most solutions.  Trust that Arista Federal is ready to meet your challenges at every step of the way. 
+**Architectural Distinctions: Why Arista MSS Stands Out**
+
+Unlike proprietary, monolithic alternatives on the market, Arista's approach focuses on simplicity and multi-vendor viability:
+
+- **No Proprietary Tagging:** Many legacy switch vendors require proprietary packet-tagging protocols to enforce group-based policies. Arista MSS relies on standard Ethernet and open VXLAN BGP EVPN overlay fabrics, enabling it to coexist with third-party network hardware.
+
+- **Agentless Architecture:** Security is completely managed within the network fabric. There is no need to deploy, maintain, or update heavy security software agents on individual servers or endpoint devices, which is critical for legacy systems and IoT devices where agents cannot be installed.
+
+- **Deep Firewall Ecosystem Integration:** Rather than forcing enterprises onto a proprietary firewall solution, Arista MSS natively integrates via open APIs with leading Next-Generation Firewalls (NGFWs), such as Palo Alto Networks Panorama and cloud proxies like Zscaler. The network automatically discovers the firewalls via Link Layer Discovery Protocol (LLDP) and offloads basic rule enforcement to the switches, allowing the firewalls to dedicate 100% of their compute capacity to threat inspection.
+
+A key architectural decision that sets MSS apart is its **agentless approach**. Unlike many competing solutions, MSS does not require software agents to be installed on endpoints. This matters enormously for:
+
+- **IoT and OT devices** that cannot host agents
+- **Legacy systems** running unsupported operating systems
+- **Third-party equipment** where agent installation is not permitted
+
+Similarly, MSS has no dependency on proprietary network protocols, meaning it can be deployed in heterogeneous environments without requiring a full network refresh or vendor lock-in at the switching layer.
+
+**Conclusion**
+ 
+![Image Placement][11]
+[11]: img/June26_pic11.png
+
+Arista MSS represents a significant maturation in how enterprises can approach network security. By combining agentless operation, protocol independence, consistent multi-domain coverage, and deep integration with both Arista's own platform and third-party security tools, MSS eliminates the tradeoffs that have historically made microsegmentation either too complex to implement or too narrow in scope to be effective.
+
+As enterprise networks continue to grow in complexity — with more devices, more domains, and more sophisticated threats — solutions like Arista MSS that deliver unified, identity-based segmentation at wire speed will become not just best practice, but a baseline requirement for any organization serious about network security.
 
 ---
+## **Arista Networks Positioned as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN**
 
+**Arista Release Date - 2026-05-20**    
+
+One of the most significant developments for Arista this year is our recognition as a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure. This recognition reflects Arista’s continued momentum beyond the data center and into the enterprise campus, where organizations are increasingly seeking simpler operations, stronger security, AI-driven insights, and unified networking architecture.
+
+Gartner's Magic Quadrant is one of the most closely watched evaluations in the networking industry, providing customers with an independent assessment of a vendor's vision and ability to execute. We believe Arista's position as a Leader validates our commitment to delivering a modern, software-driven networking platform built on EOS®, CloudVision®, and AI-powered operations that span the data center, campus, and edge.
+
+For Federal agencies and mission-critical organizations pursuing modernization, operational efficiency, and Zero Trust initiatives, this recognition further demonstrates why Arista continues to gain market share and challenge legacy networking approaches with a more resilient, automated, and cloud-scale architecture.
+
+![Image Placement][13]
+[13]: img/June26_pic13.png
+
+Arista Press release: 
+
+<https://www.arista.com/en/company/news/press-release/24030-pr-20260520>
+
+Report Download: 
+
+<https://solutions.arista.com/gartner-2026-wired-wireless-mq>
+
+---
 ## __Webinars and Events__  
 
 <div class="grid cards" markdown>
