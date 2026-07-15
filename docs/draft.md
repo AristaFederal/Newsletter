@@ -114,18 +114,22 @@ By Michael Harrison, Arista Federal Systems Engineer
 Arista Networks has expanded its Cognitive Campus Networking Portfolio, bringing enterprise networking to mission-critical edge environments. The new ruggedized switches are engineered to operate reliably in industrial facilities, tactical deployments, outdoor installations, and other harsh environments. Built to withstand extreme temperatures, vibration, mechanical shock, and electrical noise, and featuring an IP30-rated enclosure, these platforms extend the power of Arista EOS to locations where reliability and resilience are paramount.
 
 **Ruggedized Campus Switches (710HXP Series) - Available now.**
+
 - Industrial Hardware Form Factors:
+
     - CCS-710HXP-28TXH: Standard 1RU rack-mount platform optimized for edge enclosure placement.
-<figure markdown>
-![Image Placememt](img/July26_pic3.png)
-    <figcaption>1RU rack mount: Arista CCS-710HXP-28TXH-4S</figcaption>
-</figure>
+    
+        <figure markdown>
+        ![Image Placememt](img/July26_pic3.png)
+            <figcaption>1RU rack mount: Arista CCS-710HXP-28TXH-4S</figcaption>
+        </figure>
 
     - CCS-710HXP-20TNH: Compact, ruggedized DIN rail-mount model designed for heavy machinery panels, utilities, and space-constrained enclosures.
-<figure markdown>
-![Image Placememt](img/July26_pic4.png)
-    <figcaption>DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply</figcaption>
-</figure>
+
+        <figure markdown>
+        ![Image Placememt](img/July26_pic4.png)
+            <figcaption>DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply</figcaption>
+        </figure>
 
     - Extreme Hardening Standards:
 
