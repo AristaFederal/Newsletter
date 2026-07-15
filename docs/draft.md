@@ -15,6 +15,7 @@
 # Welcome to the July 2026 edition of the Arista Federal Newsletter, created for our valued Federal Agency and System Integrator customers.
 
 This month, our nation celebrated a truly historic milestone: **America's 250th Birthday**. From the incredible fireworks over our Nation's Capital and celebrations taking place across the country, Independence Day reminds us of the vision, courage, and determination that have defined the United States for two and a half centuries.
+
 At Arista Federal, we're proud to support the federal agencies, military services, intelligence community, federal systems integrators, and industry partners who continue that legacy every day. Whether defending our nation, securing critical infrastructure, advancing scientific discovery, or delivering essential government services, these organizations rely on resilient, secure, and innovative networking to accomplish their missions.
 
 As we celebrate America's Semiquincentennial, we're reminded that innovation has always been one of our nation's greatest strengths. That same spirit continues to drive the next generation of technology from AI-powered infrastructure and automation to secure, cloud-scale networking designed for the missions that matter most.
@@ -29,9 +30,11 @@ John Adams' historic 1776 vision
 In this month’s newsletter, you’ll find:
 
 - **One Operating System to Run Them All: Why EOS Matters for Federal Agencies**
+
     Arista Federal Account Manager Heather Hogan explains why **Arista EOS** is a powerful differentiator for federal agencies facing staffing shortages, cybersecurity mandates, and increasing operational complexity.
 
 - **Arista Introduces Ruggedized Switching**
+
     Arista Federal Systems Engineer Michael Harrison explores how Arista's new **Ruggedized Switching Portfolio** extends the power of EOS beyond the traditional enterprise campus to industrial facilities, outdoor deployments, tactical environments, and other mission-critical edge locations.    Arista's Ruggedized Switches are engineered to withstand extreme temperatures, vibration, and mechanical shock, delivering the same operational consistency, security, automation, and reliability that customers expect from Arista.
 
 This newsletter is for you and we welcome your feedback, ideas, and requests at <fed@aristafederal.com>.
@@ -113,22 +116,30 @@ Arista Networks has expanded its Cognitive Campus Networking Portfolio, bringing
 **Ruggedized Campus Switches (710HXP Series) - Available now.**
 - Industrial Hardware Form Factors:
     - CCS-710HXP-28TXH: Standard 1RU rack-mount platform optimized for edge enclosure placement.
+<figure markdown>
 ![Image Placememt](img/July26_pic3.png)
-1RU rack mount: Arista CCS-710HXP-28TXH-4S
+    <figcaption>1RU rack mount: Arista CCS-710HXP-28TXH-4S</figcaption>
+</figure>
 
     - CCS-710HXP-20TNH: Compact, ruggedized DIN rail-mount model designed for heavy machinery panels, utilities, and space-constrained enclosures.
+<figure markdown>
 ![Image Placememt](img/July26_pic4.png)
-DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply
+    <figcaption>DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply</figcaption>
+</figure>
 
     - Extreme Hardening Standards:
+
         - Temperature Range: Operates seamlessly in non-climate-controlled environments from -40°C to 75°C.
         - Infiltration Defenses: Features an IP30-rated enclosure, protecting the circuitry against dust and solid particle entries over 2.5 mm.
         - Structural Resilience: Fully certified to withstand industrial-grade physical impact, continuous vibrations, and mechanical shock.
                                             
     - Enterprise Power Over Ethernet (PoE): 
         - Configurable with high-power PoE options offering 30W, 60W, and up to 90W per port. This allows a single switch to natively power industrial IP cameras, heavy-duty IoT gateways, and high-performance access points without requiring separate power injectors.
+
     - Unified Codebase Continuity: 
+
         - Unlike typical industrial switches that rely on stripped-down firmware, the 710HXP platforms run the exact same modular Arista EOS® codebase as the data center line. This allows enterprise network teams to seamlessly deploy identical VXLAN/EVPN segmentation, network automation hooks, and CloudVision Real-Time Telemetry APIs uniformly across the entire corporate fabric.
+
     - **Features: 
         - **General:** VLAN for VoIP, ZTP, eAPI, Maintenance Mode, Cognitive PoE, Universal SWI and L3 Subinterfaces.
         - **L2:** STP/RST/MST/(RPVST+), 4096 VLAN IDs, 256 active VLANs, LACP, Q-in-Q, VLAN Translation, Storm Control, Protected ports, IGMP v1/v2/v3 snooping, Loop protect and MLAG.
@@ -141,8 +152,6 @@ DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply
 Arista Networks has launched its new 710HXP Series ruggedized switching platforms (CCS-710HXP-28TXH and CCS-710HXP-20TNH), extending their Cognitive Campus Networking Portfolio into harsh, non-climate-controlled industrial and outdoor environments. Arista is unifying IT (Information Technology) and OT (Operational Technology) networks by delivering full-scale data center software capabilities, enterprise-grade security, and high-power PoE inside hardware built to survive extreme physical environments. These platforms run the exact same modular Arista EOS codebase used on all our platforms. This simplifies Network Management, Enterprise IT teams can manage harsh edge environments using their existing data center tools, automation hooks, and CloudVision telemetry.
 
  
-
-
 ---
 ## __Webinars and Events__  
 
