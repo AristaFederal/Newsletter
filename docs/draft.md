@@ -115,36 +115,36 @@ Arista Networks has expanded its Cognitive Campus Networking Portfolio, bringing
 
 **Ruggedized Campus Switches (710HXP Series) - Available now.**
 
-- Industrial Hardware Form Factors:
+- **Industrial Hardware Form Factors:**
 
-    - CCS-710HXP-28TXH: Standard 1RU rack-mount platform optimized for edge enclosure placement.
-    
+    - **CCS-710HXP-28TXH:** Standard 1RU rack-mount platform optimized for edge enclosure placement.
+
         <figure markdown>
         ![Image Placememt](img/July26_pic3.png)
             <figcaption>1RU rack mount: Arista CCS-710HXP-28TXH-4S</figcaption>
         </figure>
 
-    - CCS-710HXP-20TNH: Compact, ruggedized DIN rail-mount model designed for heavy machinery panels, utilities, and space-constrained enclosures.
+    - **CCS-710HXP-20TNH:** Compact, ruggedized DIN rail-mount model designed for heavy machinery panels, utilities, and space-constrained enclosures.
 
         <figure markdown>
         ![Image Placememt](img/July26_pic4.png)
             <figcaption>DIN rail mount: Arista CCS-710HXP-20TNH-4S, external power supply</figcaption>
         </figure>
 
-    - Extreme Hardening Standards:
+    - **Extreme Hardening Standards:**
 
-        - Temperature Range: Operates seamlessly in non-climate-controlled environments from -40°C to 75°C.
-        - Infiltration Defenses: Features an IP30-rated enclosure, protecting the circuitry against dust and solid particle entries over 2.5 mm.
-        - Structural Resilience: Fully certified to withstand industrial-grade physical impact, continuous vibrations, and mechanical shock.
+        - **Temperature Range:** Operates seamlessly in non-climate-controlled environments from -40°C to 75°C.
+        - **Infiltration Defenses:** Features an IP30-rated enclosure, protecting the circuitry against dust and solid particle entries over 2.5 mm.
+        - **Structural Resilience:** Fully certified to withstand industrial-grade physical impact, continuous vibrations, and mechanical shock.
                                             
-    - Enterprise Power Over Ethernet (PoE): 
+    - **Enterprise Power Over Ethernet (PoE):**
         - Configurable with high-power PoE options offering 30W, 60W, and up to 90W per port. This allows a single switch to natively power industrial IP cameras, heavy-duty IoT gateways, and high-performance access points without requiring separate power injectors.
 
-    - Unified Codebase Continuity: 
+    - **Unified Codebase Continuity:** 
 
         - Unlike typical industrial switches that rely on stripped-down firmware, the 710HXP platforms run the exact same modular Arista EOS® codebase as the data center line. This allows enterprise network teams to seamlessly deploy identical VXLAN/EVPN segmentation, network automation hooks, and CloudVision Real-Time Telemetry APIs uniformly across the entire corporate fabric.
 
-    - **Features: 
+    - **Features:**
         - **General:** VLAN for VoIP, ZTP, eAPI, Maintenance Mode, Cognitive PoE, Universal SWI and L3 Subinterfaces.
         - **L2:** STP/RST/MST/(RPVST+), 4096 VLAN IDs, 256 active VLANs, LACP, Q-in-Q, VLAN Translation, Storm Control, Protected ports, IGMP v1/v2/v3 snooping, Loop protect and MLAG.
         - **L3:** OSPF, OSPFv3, BGP, MP-BGP, IS-IS, RIPv2, 64-way ECMP, BFD, VRRP, 8 VRFs, Route Maps, Selective Route Download and PBR.
