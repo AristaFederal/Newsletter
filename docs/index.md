@@ -157,7 +157,13 @@ Arista Networks has launched its new 710HXP Series ruggedized switching platform
 
  
 ---
-## __Webinars and Events__  
+
+
+## __*Upcoming Events*__  
+Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations!  
+
+Click on the boxes below to be directed to Arista's website for additional lists of Webinars and Events.
+
 
 <div class="grid cards" markdown>
 
@@ -165,33 +171,32 @@ Arista Networks has launched its new 710HXP Series ruggedized switching platform
 
     --- 
 
-    We make is easy for you to view products that are of interest, all virtually! Technical memebers of the team showcase outstading explanation of the products. Click below to see our list of Webinars. 
+    We make it easy for you to view products that are of interest, all virtually! Technical members of the team showcase outstanding explanations of the products. Click below to see our list of Webinars. 
 
-    [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button}
+    [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button target="_blank"}
 
 -   __Events__ 
 
     ---
-    Join us in person to get a closer look in our list of produts and solution, as well as get the chance to meet members of the team. Click below to see our list of ipcoming Events. 
+    Join us in person to get a closer look at our list of products and solutions, as well as get the chance to meet members of the team. Click below to see our list of upcoming Events. 
 
-    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button }
+    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button target="_blank" }
 
 
 </div>
-
-
 
 --- 
 
 ## __*Software Updates*__
 ![Image Placememt](img/software_upgrades_condensed.png)
 
+
 *Stay informed on the latest software updates across all Arista products and services.*
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.33.8M <br> 4.22.11M <br> 4.34.6M <br> 4.35.4M | May 12th, 2026 <br> May 6th, 2026 <br> May 6th, 2026 <br> May 23rd, 2026 |
-| __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
+| __EOS__           | 4.36.1F <br> 4.33.7.1 | June 17th, 2026 <br> June 16th, 2026 |
+| __CVP__           | Portal 2026.1.1 <br> Appliance 7.1.1 <br> Sensor 1.4.1 | June 15th, 2026 <br> April 8th, 2026 <br> June 15th, 2026 |
 | __DMF__           | 8.10.0 | April 22nd, 2026 |
 | __CV-CUE__         | 21.0.0 | January 16th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
@@ -199,9 +204,6 @@ Arista Networks has launched its new 710HXP Series ruggedized switching platform
 | __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 6.4.1 | December 19th, 2025 |
 
 [View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
-
-
-
 
 ---
 
@@ -212,23 +214,21 @@ Arista Networks has launched its new 710HXP Series ruggedized switching platform
 *Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
 
 ### **Security Advisories**
-* **Dirty Frag Vulnerability** — [Security Advisory 0138](https://www.arista.com/en/support/advisories-notices/security-advisory/24019-security-advisory-0138){: target="_blank" } <br> *(May 8th, 2026)*
-* **Tunnel Decapsulation Configuration** — [Security Advisory 0137](https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137){: target="_blank" } <br> *(May 5th, 2026)*
-* **Copy Fail Vulnerability** — [Security Advisory 0136](https://www.arista.com/en/support/advisories-notices/security-advisory/24004-security-advisory-0136){: target="_blank" } <br> *(May 1st, 2026)*
+* **TerminAttr** — [Security Advisory 143](https://www.arista.com/en/support/advisories-notices/security-advisory/24112-security-advisory-0143){: target="_blank" } <br> *(June 23rd, 2026)*
+* **Next-Hop Redirection Features** — [Security Advisory 142](https://www.arista.com/en/support/advisories-notices/security-advisory/24111-security-advisory-0142){: target="_blank" } <br> *(June 23rd, 2026)*
+* **Access Point AirSnitch Attacks** — [Security Advisory 141](https://www.arista.com/en/support/advisories-notices/security-advisory/24108-security-advisory-0141){: target="_blank" } <br> *(June 16th, 2026)*
+* **Secure Boot** — [Security Advisory 140](https://www.arista.com/en/support/advisories-notices/security-advisory/24074-security-advisory-0140){: target="_blank" } <br> *(June 3rd, 2026)*
 
 ### **Field Notices**
-* **CloudEOS Pay As You Go** — [Field Notice 0128](https://www.arista.com/en/support/advisories-notices/field-notice/24021-field-notice-0128){: target="_blank" } <br> *(May 11th, 2026)*
-* **Default Option Change in the Access Point Upgrade Feature in CV-CUE** — [Field Notice 0127](https://www.arista.com/en/support/advisories-notices/field-notice/24016-field-notice-0127){: target="_blank" } <br> *(May 5th, 2026)*
-* **TerminAttr** — [Field Notice 0126](https://www.arista.com/en/support/advisories-notices/field-notice/24003-field-notice-0126){: target="_blank" } <br> *(May 4th, 2026)*
+* **Roaming for Wi-Fi 7 Windows clients with Intel BE201 adapters** — [Field Notice 130](https://www.arista.com/en/support/advisories-notices/field-notice/24110-field-notice-0130){: target="_blank" } <br> *(June 18th, 2026)*
+* **Transmission Failures and Throughput Issues in AP Firmware 21.1.0F-81** — [Field Notice 129](https://www.arista.com/en/support/advisories-notices/field-notice/24107-field-notice-0129){: target="_blank" } <br> *(June 16th, 2026)*
 
 <br>
 
-[View All Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
+[View All of the Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
+
 
 ---
-
-
-
 
 ## __* Product Updates*__
 
@@ -239,15 +239,14 @@ Arista Networks has launched its new 710HXP Series ruggedized switching platform
 ### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **May 15th, 2026** — [VeloCloud Security VNF Services](https://www.arista.com/en/support/advisories-notices/end-of-support/24027-end-of-availability-for-velocloud-security-vnf-services){: target="_blank" } 
+* **June 25th, 2026** — [DMF Software Support for 7260X3](https://www.arista.com/en/support/advisories-notices/end-of-support/24116-end-of-dmf-software-support-for-7260x3){: target="_blank" }
+* **June 15th, 2026** — [DCS-7130-48EHS Series](https://www.arista.com/en/support/advisories-notices/end-of-sale/24106-end-of-sale-of-the-arista-dcs-7130-48ehs-series){: target="_blank" }
+* **June 1st, 2026** — [DCA-300-CV](https://www.arista.com/en/support/advisories-notices/end-of-sale/24073-end-of-sale-of-dca-300-cv){: target="_blank" }
 
 
 <br>
 
 [View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
-
-
-
 
 
 ---
@@ -258,6 +257,7 @@ Arista has revamped their certifications! The new **Arista Certified Engineer (A
 ![Image Placememt](img/ACE.png)
 
 [Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
+
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
