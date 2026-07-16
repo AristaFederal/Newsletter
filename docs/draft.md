@@ -22,7 +22,7 @@ As we celebrate America's Semiquincentennial, we're reminded that innovation has
 
 Although the fireworks have faded, the spirit of Independence Day continues. From all of us at **Arista Federal**, we hope you and your families had a safe, memorable, and meaningful Fourth of July.
 
-Happy 250th Birthday, America! 🇺🇸  
+Happy 250th Birthday, America!
 
 "It ought to be solemnized with Pomp and Parade, with Shews, Games, Sports, Guns, Bells, Bonfires, and Illuminations from one End of this Continent to the other from this Time forward forevermore." 
 John Adams' historic 1776 vision
