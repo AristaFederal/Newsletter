@@ -77,6 +77,7 @@ We have heard this before, right? How many things in your life are marketed to t
 Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal sales team will ensure the devices you procure meet the Government requirements.
 
 EOS (Extensible Operating System): &gt;4.32
+
 CloudVision Portal: &gt;2024.1.0
 
 **Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS! 
