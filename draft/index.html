@@ -647,15 +647,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-final-element-in-october-will-be-the-verification-that-the-device-is-in-inventory-and-turned-over-for-baseline-configuration-for-operations-and-security-and-exiting-ztp-mode" class="md-nav__link">
-    <span class="md-ellipsis">
-      The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode.
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#the-hidden-cost-of-delaying-your-network-switch-refresh" class="md-nav__link">
     <span class="md-ellipsis">
       The Hidden Cost of Delaying Your Network Switch Refresh
@@ -792,10 +783,18 @@
 <p>This month, we pay tribute to one of America's greatest Olympians, <strong>Jesse Owens</strong>, whose performance at the <strong>1936 Berlin Summer Olympics</strong> transcended athletics and became one of the defining moments in modern history.</p>
 <p>Competing before the world on a stage designed to showcase Nazi propaganda, Owens carried the hopes of the free world on his shoulders. Through extraordinary determination, courage, and character, he shattered racist ideology by winning <strong>four gold medals</strong>, setting Olympic records in each of his individual events and helping Team USA capture gold in the 4x100-meter relay. His achievements remain a powerful reminder that excellence, integrity, and perseverance will always triumph over division and intolerance.</p>
 <p><strong>Jesse Owens' Four Gold Medal Performances:</strong>
-- <strong>100-Meter Dash</strong> – Gold Medal (August 3, 1936) -  Won his first gold medal, tying the world record with a time of <strong>10.3 seconds</strong>.
-- <strong>Long Jump</strong> – Gold Medal (August 4, 1936) -  Won his second gold with an Olympic record jump of <strong>8.06 meters (26 ft 5¼ in)</strong>.
-- <strong>200-Meter Dash</strong> – Gold Medal (August 5, 1936) -  Won his third gold medal while setting a new Olympic record of <strong>20.7 seconds</strong>.
-- <strong>4x100-Meter Relay</strong> – Gold Medal (August 9, 1936) -  Anchored the U.S. team to victory, winning his fourth gold medal and helping set a new world record of <strong>39.8 seconds</strong>.  </p>
+- <strong>100-Meter Dash</strong> – Gold Medal (August 3, 1936) -  Won his first gold medal, tying the world record with a time of <strong>10.3 seconds</strong>.</p>
+<ul>
+<li>
+<p><strong>Long Jump</strong> – Gold Medal (August 4, 1936) -  Won his second gold with an Olympic record jump of <strong>8.06 meters (26 ft 5¼ in)</strong>.</p>
+</li>
+<li>
+<p><strong>200-Meter Dash</strong> – Gold Medal (August 5, 1936) -  Won his third gold medal while setting a new Olympic record of <strong>20.7 seconds</strong>.</p>
+</li>
+<li>
+<p><strong>4x100-Meter Relay</strong> – Gold Medal (August 9, 1936) -  Anchored the U.S. team to victory, winning his fourth gold medal and helping set a new world record of <strong>39.8 seconds</strong>.  </p>
+</li>
+</ul>
 <p>Nearly ninety years later, Owens' legacy continues to inspire not only in sports but also in leadership, innovation, and the pursuit of excellence.</p>
 <p>At <strong>Arista Networks</strong>, we share a similar philosophy: success isn't built on complexity, it's built on consistency, preparation, and execution. Just as Jesse Owens mastered the fundamentals to perform at the highest level, Arista has built its reputation on a single, consistent operating system - <strong>EOS</strong> - that powers everything from the campus edge to the AI data center. One operating system, one automation framework, one management platform, and one uncompromising standard of reliability.</p>
 <p>For our federal customers, where every mission demands resilience, security, and operational simplicity, consistency is far more than a technical advantage; it is a mission advantage. Whether supporting the warfighter, enabling secure government services, or accelerating AI initiatives, Arista helps agencies achieve gold-medal performance through an architecture that is simple, scalable, secure, and built for mission success.</p>
@@ -829,14 +828,14 @@
 CloudVision Portal: &gt;2024.1.0</p>
 <p>**Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS! </p>
 <p>Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?</p>
-<pre><code>1) DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
-    a) Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
-    b) Default Gateway for the switch that routes to CVP
-    c) NTP. Time synchronization is vital for registering to CVP
-    d) DNS Server &amp;amp; DNS Domain (optional)
-    e) Option 67: Bootfile (https://&amp;lt;CVPIP&amp;gt;/ztp/bootstrap).
-2) A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
-3) An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
+<pre><code>1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
+    a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
+    b. Default Gateway for the switch that routes to CVP
+    c. NTP. Time synchronization is vital for registering to CVP
+    d. DNS Server &amp;amp; DNS Domain (optional)
+    e. Option 67: Bootfile (https://&amp;lt;CVPIP&amp;gt;/ztp/bootstrap).
+2. A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
+3. An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
 </code></pre>
 <p><strong>Figure 1: ZTP Process</strong>
 <img alt="Image Placememt" src="../img/Aug26_pic1.png" /></p>
@@ -845,12 +844,13 @@ CloudVision Portal: &gt;2024.1.0</p>
 <p>One of the other considerations is whether this site will use a dedicated Out of Band Management (OOBM) network. If a dedicated OOBM will be used, simply connect the Management port to the OOBM and ensure routing. If an OOBM will not be available, any data port may be used to support the ZTP process. Configuring the switch for in-band connectivity to CVP takes a little bit more planning but is not difficult. CloudVision’s Change Control process and rollback functionality ensures you don’t lose connectivity accidentally. </p>
 <p>Now you’re at your site, you have confirmed the above outline is online, and you have access to CVP for inventory management… you’re ready to go. </p>
 <p>This ends Part One overview of ZTP with Arista. Hopefully, you understand that the baseline requirements are significantly less challenging than previous iterations or other vendors. Come back next month as we explain Part Two: Execution.</p>
-<p><strong>Zero Touch Provisioning</strong>
-<strong>Part Two: Execution</strong></p>
+<p><strong>Zero Touch Provisioning</strong></p>
+<p><strong>Part Two: Execution</strong></p>
 <p>Come back in September for the next iteration of the ZTP process! We will detail the environment setup, outline how ZTP processes communications from device to CloudVision, how to engage or disengage, restart, or replace a device. We will also provide sample working configurations for the topics covered in Part One.</p>
-<p><strong>Zero Touch Provisioning</strong>
-<strong>Part Three: Verification and Device Configuration</strong></p>
-<h2 id="the-final-element-in-october-will-be-the-verification-that-the-device-is-in-inventory-and-turned-over-for-baseline-configuration-for-operations-and-security-and-exiting-ztp-mode">The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode.<a class="headerlink" href="#the-final-element-in-october-will-be-the-verification-that-the-device-is-in-inventory-and-turned-over-for-baseline-configuration-for-operations-and-security-and-exiting-ztp-mode" title="Permanent link">&para;</a></h2>
+<p><strong>Zero Touch Provisioning</strong></p>
+<p><strong>Part Three: Verification and Device Configuration</strong></p>
+<p>The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode.</p>
+<hr />
 <h2 id="the-hidden-cost-of-delaying-your-network-switch-refresh"><strong>The Hidden Cost of Delaying Your Network Switch Refresh</strong><a class="headerlink" href="#the-hidden-cost-of-delaying-your-network-switch-refresh" title="Permanent link">&para;</a></h2>
 <p>By Kevin Carey – Arista Federal Client Director</p>
 <p>Organizations often delay refreshing their network infrastructure to defer capital expenditures, but the true cost of postponing a switch upgrade is rarely reflected in the budget. As network hardware ages, organizations face rising operational expenses, increased cybersecurity risks, and reduced agility often resulting in a significantly higher total cost of ownership than a proactive, well-planned refresh.</p>
