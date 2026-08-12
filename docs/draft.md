@@ -68,7 +68,7 @@ Some time ago, I would deploy networks in areas that were both geographically ch
 
 Part One provides an overview of the process. Part Two will cover setting up the environment to support ZTP. Part Three will walk through the ZTP process end to end, including deploying a configuration and exiting ZTP mode.
 
-**Part One- Overview**
+**Part One: Overview**
 
 Zero Touch Provisioning (ZTP) serves as Arista’s streamlined answer for automating device deployments. It enables the swift rollout of network assets without the necessity for on-site engineering presence. Engineered to harness the full potential of Arista’s Extensible Operating System (EOS), ZTP delivers a versatile, hands-off framework that accelerates installation timelines, minimizes manual mistakes, and scales across diverse operational environments while, most importantly, can be used by any network engineer skill level in your organization.
 
@@ -83,14 +83,14 @@ CloudVision Portal: &gt;2024.1.0
 
 Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?
 
-    1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
-        a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
-        b. Default Gateway for the switch that routes to CVP
-        c. NTP. Time synchronization is vital for registering to CVP
-        d. DNS Server &amp; DNS Domain (optional)
-        e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).
-    2. A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
-    3. An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
+1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
+    a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
+    b. Default Gateway for the switch that routes to CVP
+    c. NTP. Time synchronization is vital for registering to CVP
+    d. DNS Server &amp; DNS Domain (optional)
+    e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).
+2. A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
+3. An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
 
 **Figure 1: ZTP Process**
 ![Image Placememt](img/Aug26_pic1.png)
