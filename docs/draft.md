@@ -64,66 +64,70 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 
 Casey Durst, SE and Brady Schulman, ASE, Arista Networks Federal
 
-Some time ago, I would deploy networks in areas that were both geographically challenging and personnel constrained. The closest to ‘zero touch’ we would get was Lance Corporal Durst getting a text file with the configurations and copy / pasting into the switch and then using COA 5 (Hope) to bring the device online (IYKYK). While times have changed and technology has surpassed this copy / paste / hope method, Arista Networks focuses on support to all our customers and prospective customer base. That means, the Marine or Sailor or Soldier need not be burdened with complex configuration guides that have built-in assumptions but rather, explain in a step-by-step method how to utilize modern technologies. It is our intent to lay out the entire Zero Touch Provisioning (ZTP) process into a three-part series which can be compiled and sent to those in need for their use and, most importantly, garner their feedback to allow us to focus on what matters to them.
+Some time ago, I would deploy networks in areas that were both geographically challenging and personnel constrained. The closest to ‘zero touch’ we would get was Lance Corporal Durst getting a text file with the configurations and copy / pasting into the switch and then using COA 5 (Hope) to bring the device online (IYKYK). While times have changed and technology has surpassed this copy / paste / hope method, Arista Networks focuses on support to all our customers and prospective customer base. That means, the Marine or Sailor or Soldier need not be burdened with complex configuration guides that have built-in assumptions but rather, explain in a step-by-step method how to utilize modern technologies. It is our intent to lay out the entire Zero Touch Provisioning (ZTP) process into a three-part series which can be compiled and sent to those in need for their use and, most importantly, garner their feedback to allow us to focus on what matters to them. 
 
 Part One provides an overview of the process. Part Two will cover setting up the environment to support ZTP. Part Three will walk through the ZTP process end to end, including deploying a configuration and exiting ZTP mode.
 
+
 **Part One: Overview**
 
-Zero Touch Provisioning (ZTP) serves as Arista’s streamlined answer for automating device deployments. It enables the swift rollout of network assets without the necessity for on-site engineering presence. Engineered to harness the full potential of Arista’s Extensible Operating System (EOS), ZTP delivers a versatile, hands-off framework that accelerates installation timelines, minimizes manual mistakes, and scales across diverse operational environments while, most importantly, can be used by any network engineer skill level in your organization.
+Zero Touch Provisioning (ZTP) serves as Arista’s streamlined answer for automating device deployments. It enables the swift rollout of network assets without the necessity for on-site engineering presence. Engineered to harness the full potential of Arista’s Extensible Operating System (EOS), ZTP delivers a versatile, hands-off framework that accelerates installation timelines, minimizes manual mistakes, and scales across diverse operational environments while, most importantly, can be used by any network engineer skill level in your organization. 
 
 We have heard this before, right? How many things in your life are marketed to this “it just works” methodology but are more complex than just doing what we have historically done? As with anything, setting the conditions for your deployment is key to enabling the full spectrum of ZTP- and we’re here to provide an outline of those requirements- so it does “just work.”
 
-Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal sales team will ensure the devices you procure meet the Government requirements.
+Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal sales team will ensure the devices you procure meet the Government requirements: 
+
 
 EOS (Extensible Operating System): &gt;4.32
 
 CloudVision Portal: &gt;2024.1.0
 
-**Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS! 
+**Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS!
 
 Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?
 
 1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
 
-    a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
+    a.  Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites. 
 
-    b. Default Gateway for the switch that routes to CVP
+    b.  Default Gateway for the switch that routes to CVP
 
-    c. NTP. Time synchronization is vital for registering to CVP
+    c.  NTP. Time synchronization is vital for registering to CVP
 
-    d. DNS Server &amp; DNS Domain (optional)
+    d.  DNS Server & DNS Domain (optional)
 
-    e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).
+    e.  Option 67: Bootfile (https://<CVPIP>/ztp/bootstrap). 
 
-2. A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
+2.  A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
 
-3. An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
+3.  An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed. 
+
 
 **Figure 1: ZTP Process**
 ![Image Placememt](img/Aug26_pic1.png)
 
-Figure 1 above provides a high-level overview of the process. ZTP is enabled by default on all switches that come from the factory. No extra step is required by the network admin! ZTP starts by trying to figure out how to communicate on the network. It looks for a DHCP server accessible via any connected network cable, management or data plane. The DHCP server provides instructions on how to reach the next required component, CloudVision Portal. 
+Figure 1 above provides a high-level overview of the process. ZTP is enabled by default on all switches that come from the factory. No extra step is required by the network admin! ZTP starts by trying to figure out how to communicate on the network. It looks for a DHCP server accessible via any connected network cable, management or data plane. The DHCP server provides instructions on how to reach the next required component, CloudVision Portal.
 
 CVP provides the switch with a basic running configuration to boot and establish communications back to CVP. CVP will validate the hardware of the switch and, if allowed by policy, add the switch to the active inventory. 
 
-One of the other considerations is whether this site will use a dedicated Out of Band Management (OOBM) network. If a dedicated OOBM will be used, simply connect the Management port to the OOBM and ensure routing. If an OOBM will not be available, any data port may be used to support the ZTP process. Configuring the switch for in-band connectivity to CVP takes a little bit more planning but is not difficult. CloudVision’s Change Control process and rollback functionality ensures you don’t lose connectivity accidentally. 
-
+One of the other considerations is whether this site will use a dedicated Out of Band Management (OOBM) network. If a dedicated OOBM will be used, simply connect the Management port to the OOBM and ensure routing. If an OOBM will not be available, any data port may be used to support the ZTP process. Configuring the switch for in-band connectivity to CVP takes a little bit more planning but is not difficult. CloudVision’s Change Control process and rollback functionality ensures you don’t lose connectivity accidentally.
+ 
 Now you’re at your site, you have confirmed the above outline is online, and you have access to CVP for inventory management… you’re ready to go. 
 
-This ends Part One overview of ZTP with Arista. Hopefully, you understand that the baseline requirements are significantly less challenging than previous iterations or other vendors. Come back next month as we explain Part Two: Execution.
+This ends Part One overview of ZTP with Arista. Hopefully, you understand that the baseline requirements are significantly less challenging than previous iterations or other vendors. Come back next month as we explain Part Two: Execution. 
+
 
 **Zero Touch Provisioning**
 
 **Part Two: Execution**
 
-Come back in September for the next iteration of the ZTP process! We will detail the environment setup, outline how ZTP processes communications from device to CloudVision, how to engage or disengage, restart, or replace a device. We will also provide sample working configurations for the topics covered in Part One.
+Come back in September for the next iteration of the ZTP process! We will detail the environment setup, outline how ZTP processes communications from device to CloudVision, how to engage or disengage, restart, or replace a device.  We will also provide sample working configurations for the topics covered in Part One.
 
 **Zero Touch Provisioning**
 
 **Part Three: Verification and Device Configuration**
 
-The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode.
+The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode. 
 
 ---
 
