@@ -74,7 +74,7 @@ Zero Touch Provisioning (ZTP) serves as Arista’s streamlined answer for automa
 
 We have heard this before, right? How many things in your life are marketed to this “it just works” methodology but are more complex than just doing what we have historically done? As with anything, setting the conditions for your deployment is key to enabling the full spectrum of ZTP- and we’re here to provide an outline of those requirements- so it does “just work.”
 
-Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal SE will ensure the devices you procure meet the Government requirements:
+Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal sales team will ensure the devices you procure meet the Government requirements.
 
 EOS (Extensible Operating System): &gt;4.32
 CloudVision Portal: &gt;2024.1.0
