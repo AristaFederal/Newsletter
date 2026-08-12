@@ -22,8 +22,11 @@ Competing before the world on a stage designed to showcase Nazi propaganda, Owen
 
 **Jesse Owens' Four Gold Medal Performances:**
 - **100-Meter Dash** – Gold Medal (August 3, 1936) -  Won his first gold medal, tying the world record with a time of **10.3 seconds**.
+
 - **Long Jump** – Gold Medal (August 4, 1936) -  Won his second gold with an Olympic record jump of **8.06 meters (26 ft 5¼ in)**.
+
 - **200-Meter Dash** – Gold Medal (August 5, 1936) -  Won his third gold medal while setting a new Olympic record of **20.7 seconds**.
+
 - **4x100-Meter Relay** – Gold Medal (August 9, 1936) -  Anchored the U.S. team to victory, winning his fourth gold medal and helping set a new world record of **39.8 seconds**.  
 
 Nearly ninety years later, Owens' legacy continues to inspire not only in sports but also in leadership, innovation, and the pursuit of excellence.
@@ -80,14 +83,14 @@ CloudVision Portal: &gt;2024.1.0
 
 Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?
 
-    1) DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
-        a) Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
-        b) Default Gateway for the switch that routes to CVP
-        c) NTP. Time synchronization is vital for registering to CVP
-        d) DNS Server &amp; DNS Domain (optional)
-        e) Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).
-    2) A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
-    3) An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
+    1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
+        a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
+        b. Default Gateway for the switch that routes to CVP
+        c. NTP. Time synchronization is vital for registering to CVP
+        d. DNS Server &amp; DNS Domain (optional)
+        e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).
+    2. A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
+    3. An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.
 
 **Figure 1: ZTP Process**
 ![Image Placememt](img/Aug26_pic1.png)
@@ -103,14 +106,17 @@ Now you’re at your site, you have confirmed the above outline is online, and y
 This ends Part One overview of ZTP with Arista. Hopefully, you understand that the baseline requirements are significantly less challenging than previous iterations or other vendors. Come back next month as we explain Part Two: Execution.
 
 **Zero Touch Provisioning**
+
 **Part Two: Execution**
 
 Come back in September for the next iteration of the ZTP process! We will detail the environment setup, outline how ZTP processes communications from device to CloudVision, how to engage or disengage, restart, or replace a device. We will also provide sample working configurations for the topics covered in Part One.
 
 **Zero Touch Provisioning**
+
 **Part Three: Verification and Device Configuration**
 
 The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode.
+
 ---
 
 ## **The Hidden Cost of Delaying Your Network Switch Refresh**
