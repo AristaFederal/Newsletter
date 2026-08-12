@@ -829,13 +829,17 @@ CloudVision Portal: &gt;2024.1.0</p>
 <p>**Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS! </p>
 <p>Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?</p>
 <ol>
-<li>DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
-    a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.
-    b. Default Gateway for the switch that routes to CVP
-    c. NTP. Time synchronization is vital for registering to CVP
-    d. DNS Server &amp; DNS Domain (optional)
-    e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).</li>
-<li>A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.</li>
+<li>
+<p>DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:</p>
+<p>a. Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites.</p>
+<p>b. Default Gateway for the switch that routes to CVP</p>
+<p>c. NTP. Time synchronization is vital for registering to CVP</p>
+<p>d. DNS Server &amp; DNS Domain (optional)</p>
+<p>e. Option 67: Bootfile (https://&lt;CVPIP&gt;/ztp/bootstrap).</p>
+</li>
+<li>
+<p>A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.</p>
+</li>
 <li>An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed.</li>
 </ol>
 <p><strong>Figure 1: ZTP Process</strong>
