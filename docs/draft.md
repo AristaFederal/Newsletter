@@ -21,6 +21,7 @@ This month, we pay tribute to one of America's greatest Olympians, **Jesse Owens
 Competing before the world on a stage designed to showcase Nazi propaganda, Owens carried the hopes of the free world on his shoulders. Through extraordinary determination, courage, and character, he shattered racist ideology by winning **four gold medals**, setting Olympic records in each of his individual events and helping Team USA capture gold in the 4x100-meter relay. His achievements remain a powerful reminder that excellence, integrity, and perseverance will always triumph over division and intolerance.
 
 **Jesse Owens' Four Gold Medal Performances:**
+
 - **100-Meter Dash** – Gold Medal (August 3, 1936) -  Won his first gold medal, tying the world record with a time of **10.3 seconds**.
 
 - **Long Jump** – Gold Medal (August 4, 1936) -  Won his second gold with an Olympic record jump of **8.06 meters (26 ft 5¼ in)**.
@@ -60,6 +61,33 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 [4]: https://blogs.arista.com/blog
 
 ---
+
+## **The Hidden Cost of Delaying Your Network Switch Refresh**
+
+By Kevin Carey – Arista Federal Client Director
+
+Organizations often delay refreshing their network infrastructure to defer capital expenditures, but the true cost of postponing a switch upgrade is rarely reflected in the budget. As network hardware ages, organizations face rising operational expenses, increased cybersecurity risks, and reduced agility often resulting in a significantly higher total cost of ownership than a proactive, well-planned refresh.
+
+Legacy switches eventually reach End of Support (EoS), leaving organizations without access to critical software updates, security patches, and vendor support. At the same time, aging hardware becomes more susceptible to failures, driving up maintenance costs, increasing unplanned downtime, and consuming valuable IT resources. Older platforms also struggle to support today&#39;s bandwidth-intensive applications, AI workloads, high-performance computing (HPC), next-generation Wi-Fi, and Zero Trust initiatives, creating bottlenecks that can directly impact mission-critical operations.
+
+The rapid advancement of Artificial Intelligence (AI) makes delaying a network refresh even more costly. AI is fundamentally reshaping how Federal agencies and enterprises operate, driving unprecedented demand for higher bandwidth, ultra-low latency, real-time telemetry, and high-performance east-west traffic. Whether enabling AI-powered cybersecurity, large language models (LLMs), predictive analytics, mission planning, or autonomous systems, AI workloads place far greater demands on network infrastructure than traditional applications. Organizations that fail to develop a network modernization strategy today risk limiting their ability to adopt AI tomorrow. Even if large-scale AI deployments are still several years away, establishing a modernization roadmap now ensures the network can evolve alongside rapidly changing mission requirements without disruptive, last-minute upgrades.
+
+Another often-overlooked cost is operational complexity. Supporting multiple generations of networking hardware, operating systems, and management platforms increases configuration inconsistencies, lengthens troubleshooting cycles, expands training requirements, and slows the deployment of new capabilities. These hidden inefficiencies quietly increase operational expenses year after year while limiting an organization&#39;s ability to innovate.
+
+This is where Arista Networks delivers a distinct advantage. Rather than simply replacing legacy hardware, Arista provides a modern networking architecture purpose-built to simplify operations while supporting the next generation of mission requirements. Built on the industry&#39;s proven Extensible Operating System (EOS), Arista delivers a single, consistent software image across campus, data center, AI fabrics, and routing platforms. This architectural consistency dramatically reduces operational complexity, shortens learning curves, simplifies lifecycle management, and enables IT teams to automate and manage the entire network through a common operational framework.
+
+Arista&#39;s CloudVision platform extends these capabilities by providing centralized management, streaming telemetry, compliance monitoring, automated provisioning, and comprehensive network-wide visibility. Rather than reacting to outages after they occur, organizations gain continuous insight into network health, enabling them to proactively identify issues, enforce configuration compliance, and accelerate troubleshooting before users are impacted. The result is greater operational efficiency, lower operating costs, faster service delivery, and improved mission readiness.
+
+Arista is also leading the next evolution of network operations with Arista AVA (Autonomous Virtual Assist), an innovative Agentic AI platform designed to transform how networks are managed. Unlike traditional AI assistants that simply answer questions, AVA functions as an intelligent operations partner. It understands user intent, correlates telemetry across the network, identifies root causes, recommends remediation steps, and can automate routine operational tasks. Powered by Arista&#39;s rich telemetry, the CloudVision data lake, and decades of networking expertise, AVA enables IT teams to resolve issues faster, reduce manual effort, and improve operational resilience. As Agentic AI reshapes enterprise IT, Arista is leading the industry by embedding AI directly into network operations, helping Federal organizations transition from reactive network management to autonomous, intelligent operations.
+
+This uniquely positions Arista to help agencies not only build networks capable of supporting AI workloads but also use AI to operate those networks more efficiently. By combining EOS, CloudVision, and AVA, Arista delivers a unified operational platform that simplifies management today while laying the foundation for the autonomous, AI-driven networks of tomorrow. For Federal agencies facing increasing mission demands, evolving cyber threats, and constrained budgets, this integrated approach represents a transformational shift in how networks are deployed, secured, automated, and optimized.
+
+Unlike traditional networking vendors that require multiple operating systems, management platforms, feature licenses, and operational models across different product families, Arista offers a single, unified architecture that seamlessly scales from the campus edge to the data center, cloud, and AI infrastructure. This consistency not only simplifies operations but also reduces training requirements, minimizes human error, accelerates deployments, and protects long-term technology investments. As agencies modernize and prepare for AI-driven missions, Arista provides a stable, future-ready foundation that can evolve without requiring wholesale architectural changes.
+
+Network refreshes should no longer be viewed as simply replacing aging hardware and should be recognized as a strategic investment in mission readiness, cybersecurity, operational efficiency, and AI preparedness. By proactively modernizing with Arista, Federal agencies and defense organizations can reduce total cost of ownership, strengthen their security posture, simplify network operations, and build a scalable, future-ready network
+
+---
+
 ## **Zero Touch. Total Domination.**
 
 Casey Durst, SE and Brady Schulman, ASE, Arista Networks Federal
@@ -128,32 +156,6 @@ Come back in September for the next iteration of the ZTP process! We will detail
 **Part Three: Verification and Device Configuration**
 
 The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode. 
-
----
-
-## **The Hidden Cost of Delaying Your Network Switch Refresh**
-
-By Kevin Carey – Arista Federal Client Director
-
-Organizations often delay refreshing their network infrastructure to defer capital expenditures, but the true cost of postponing a switch upgrade is rarely reflected in the budget. As network hardware ages, organizations face rising operational expenses, increased cybersecurity risks, and reduced agility often resulting in a significantly higher total cost of ownership than a proactive, well-planned refresh.
-
-Legacy switches eventually reach End of Support (EoS), leaving organizations without access to critical software updates, security patches, and vendor support. At the same time, aging hardware becomes more susceptible to failures, driving up maintenance costs, increasing unplanned downtime, and consuming valuable IT resources. Older platforms also struggle to support today&#39;s bandwidth-intensive applications, AI workloads, high-performance computing (HPC), next-generation Wi-Fi, and Zero Trust initiatives, creating bottlenecks that can directly impact mission-critical operations.
-
-The rapid advancement of Artificial Intelligence (AI) makes delaying a network refresh even more costly. AI is fundamentally reshaping how Federal agencies and enterprises operate, driving unprecedented demand for higher bandwidth, ultra-low latency, real-time telemetry, and high-performance east-west traffic. Whether enabling AI-powered cybersecurity, large language models (LLMs), predictive analytics, mission planning, or autonomous systems, AI workloads place far greater demands on network infrastructure than traditional applications. Organizations that fail to develop a network modernization strategy today risk limiting their ability to adopt AI tomorrow. Even if large-scale AI deployments are still several years away, establishing a modernization roadmap now ensures the network can evolve alongside rapidly changing mission requirements without disruptive, last-minute upgrades.
-
-Another often-overlooked cost is operational complexity. Supporting multiple generations of networking hardware, operating systems, and management platforms increases configuration inconsistencies, lengthens troubleshooting cycles, expands training requirements, and slows the deployment of new capabilities. These hidden inefficiencies quietly increase operational expenses year after year while limiting an organization&#39;s ability to innovate.
-
-This is where Arista Networks delivers a distinct advantage. Rather than simply replacing legacy hardware, Arista provides a modern networking architecture purpose-built to simplify operations while supporting the next generation of mission requirements. Built on the industry&#39;s proven Extensible Operating System (EOS), Arista delivers a single, consistent software image across campus, data center, AI fabrics, and routing platforms. This architectural consistency dramatically reduces operational complexity, shortens learning curves, simplifies lifecycle management, and enables IT teams to automate and manage the entire network through a common operational framework.
-
-Arista&#39;s CloudVision platform extends these capabilities by providing centralized management, streaming telemetry, compliance monitoring, automated provisioning, and comprehensive network-wide visibility. Rather than reacting to outages after they occur, organizations gain continuous insight into network health, enabling them to proactively identify issues, enforce configuration compliance, and accelerate troubleshooting before users are impacted. The result is greater operational efficiency, lower operating costs, faster service delivery, and improved mission readiness.
-
-Arista is also leading the next evolution of network operations with Arista AVA (Autonomous Virtual Assist), an innovative Agentic AI platform designed to transform how networks are managed. Unlike traditional AI assistants that simply answer questions, AVA functions as an intelligent operations partner. It understands user intent, correlates telemetry across the network, identifies root causes, recommends remediation steps, and can automate routine operational tasks. Powered by Arista&#39;s rich telemetry, the CloudVision data lake, and decades of networking expertise, AVA enables IT teams to resolve issues faster, reduce manual effort, and improve operational resilience. As Agentic AI reshapes enterprise IT, Arista is leading the industry by embedding AI directly into network operations, helping Federal organizations transition from reactive network management to autonomous, intelligent operations.
-
-This uniquely positions Arista to help agencies not only build networks capable of supporting AI workloads but also use AI to operate those networks more efficiently. By combining EOS, CloudVision, and AVA, Arista delivers a unified operational platform that simplifies management today while laying the foundation for the autonomous, AI-driven networks of tomorrow. For Federal agencies facing increasing mission demands, evolving cyber threats, and constrained budgets, this integrated approach represents a transformational shift in how networks are deployed, secured, automated, and optimized.
-
-Unlike traditional networking vendors that require multiple operating systems, management platforms, feature licenses, and operational models across different product families, Arista offers a single, unified architecture that seamlessly scales from the campus edge to the data center, cloud, and AI infrastructure. This consistency not only simplifies operations but also reduces training requirements, minimizes human error, accelerates deployments, and protects long-term technology investments. As agencies modernize and prepare for AI-driven missions, Arista provides a stable, future-ready foundation that can evolve without requiring wholesale architectural changes.
-
-Network refreshes should no longer be viewed as simply replacing aging hardware and should be recognized as a strategic investment in mission readiness, cybersecurity, operational efficiency, and AI preparedness. By proactively modernizing with Arista, Federal agencies and defense organizations can reduce total cost of ownership, strengthen their security posture, simplify network operations, and build a scalable, future-ready network
 
 ---
 ## __Webinars and Events__  
