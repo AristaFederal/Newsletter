@@ -57,7 +57,6 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 ---
 
 ##Racing Against Machine-Speed Threats: How Arista Is Using AI##
-
 By Ken Duda (Arista Founder, President and CTO) and Jason Bevis (Arista VP and CISO) 
  
 ![Image Placememt](img/Sep26_pic3.png)
@@ -136,11 +135,9 @@ References
 
 ---
 
-##Zero Touch Provisioning with Arista
-
+##Zero Touch Provisioning with Arista##
 **Part Two: Environment Setup & Execution**
-
-Bu Casey Durst (SE) and Brady Schulman (ASE)
+By Casey Durst (SE) and Brady Schulman (ASE)
 
 In Part One, we covered the "why" of ZTP and laid out the minimum bar you need to clear before a device will even attempt to provision itself: EOS and CVP version minimums, a single cable to a single port and a DHCP server handing out the right options. Now it's time to actually build that environment, walk through what's happening on the wire when a switch boots for the first time and cover the day-two operational questions that always come up: how do I pull a device out of ZTP? How do I put it back in ZTP? Is it ready for configurations? Focusing again on that young Marine, Sailor, or Soldier we will walk through these steps to ensure any level of expertise can execute ZTP. 
  
@@ -148,9 +145,9 @@ In Part One, we covered the "why" of ZTP and laid out the minimum bar you need t
  
 ZTP is measurably simplified by the use of DHCP. Remember, the switch has no configuration, no IP address, and no idea where CVP lives until DHCP tells it. At a minimum, your scope needs to hand out a routable address, a default gateway that can reach CVP and NTP, and Option 67 pointing to the CVP bootstrap script. A synchronized device clock is necessary to ensure proper enrollment of SSL certificates.  DNS is optional and only required if the bootfile-name field will reference the CVP server by hostname instead of IP address. 
  
-Here's a sample scope using ISC DHCP ('dhcpd.conf') for a subnet dedicated to ZTP:
+Here's a sample scope using ISC DHCP (`dhcpd.conf`) for a subnet dedicated to ZTP:
  
-''' 
+```
 subnet 10.10.50.0 netmask 255.255.255.0 {
   range 10.10.50.100 10.10.50.200;
   option routers 10.10.50.1;
@@ -161,7 +158,7 @@ subnet 10.10.50.0 netmask 255.255.255.0 {
   default-lease-time 600;
   max-lease-time 600;
 }
-'''
+```
 
 A few things worth calling out:
 
@@ -208,29 +205,29 @@ Understanding this handshake step by step is worth your time because it makes tr
 **Engaging, Disengaging, and Restarting ZTP**
 
 If you need to configure a switch by hand rather than let it provision through CVP, like a lab device, for example, you can cancel ZTP from the console:
-'''
+```
 switch# zerotouch cancel
-'''
+```
 
 This drops the switch into a normal EOS CLI session without applying any configuration letting you configure it manually.
 
 If you desire to prevent ZTP from occurring on the switch in the future for any reason, use: 
-'''
+```
 switch# zerotouch disable
-'''
+```
 
 To re-enter ZTP mode on a previously configured device, you have two options:
-'''
+```
 switch# zerotouch enable
-'''
+```
 
 - This re-enables ZTP and reboots the switch, wiping the startup configuration in the process; use it deliberately.
 
 Alternatively, a full wipe accomplishes the same end state and is the more common method in the field:
-'''
+```
 switch# write erase
 switch# reload
-'''
+```
 
 On reload, since there's no startup-config present, EOS defaults back into ZTP mode automatically and the device restarts the discovery process described above from scratch.
 
@@ -239,12 +236,12 @@ If a device is mid-ZTP and something goes sideways (bad DHCP lease or unreachabl
 **Quick Verification Commands**
 
 A short reference for the console while you're standing in front of a rack:
-'''
+```
 switch# show zerotouch
 switch# show boot
 switch# show management api http-commands   ! confirms API/streaming reachability post-provision
-'''
-'show zerotouch' - in particular tells you immediately whether the device considers itself still in ZTP mode, mid-process, or already disabled. This is the first thing to check any time a device "isn't doing anything."
+```
+`show zerotouch` - in particular tells you immediately whether the device considers itself still in ZTP mode, mid-process, or already disabled. This is the first thing to check any time a device "isn't doing anything."
 
 As you can see, many of these parts will merge in areas while being distinct in other areas. Be ready for our last installment next month!
 
