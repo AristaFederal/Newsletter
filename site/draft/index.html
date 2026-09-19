@@ -765,8 +765,8 @@ Twenty-five years later, the memories remain vivid. For many of us, it is one of
 </ul>
 <hr />
 <h2 id="zero-touch-provisioning-with-arista">Zero Touch Provisioning with Arista<a class="headerlink" href="#zero-touch-provisioning-with-arista" title="Permanent link">&para;</a></h2>
-<p><strong>Part Two: Environment Setup &amp; Execution</strong>
-By Casey Durst (SE) and Brady Schulman (ASE)</p>
+<p><strong>Part Two: Environment Setup &amp; Execution</strong></p>
+<p>By Casey Durst (SE) and Brady Schulman (ASE)</p>
 <p>In Part One, we covered the "why" of ZTP and laid out the minimum bar you need to clear before a device will even attempt to provision itself: EOS and CVP version minimums, a single cable to a single port and a DHCP server handing out the right options. Now it's time to actually build that environment, walk through what's happening on the wire when a switch boots for the first time and cover the day-two operational questions that always come up: how do I pull a device out of ZTP? How do I put it back in ZTP? Is it ready for configurations? Focusing again on that young Marine, Sailor, or Soldier we will walk through these steps to ensure any level of expertise can execute ZTP. </p>
 <p><strong>Setting Up the Environment</strong></p>
 <p>ZTP is measurably simplified by the use of DHCP. Remember, the switch has no configuration, no IP address, and no idea where CVP lives until DHCP tells it. At a minimum, your scope needs to hand out a routable address, a default gateway that can reach CVP and NTP, and Option 67 pointing to the CVP bootstrap script. A synchronized device clock is necessary to ensure proper enrollment of SSL certificates.  DNS is optional and only required if the bootfile-name field will reference the CVP server by hostname instead of IP address. </p>
