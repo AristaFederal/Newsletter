@@ -279,48 +279,6 @@ The final element in October will outline Zero Touch Replacement and verificatio
 
 --- 
 
-## __*Software Updates*__
-![Image Placememt](img/software_upgrades_condensed.png)
-
-*Stay informed on the latest software updates across all Arista products and services.*
-
-|  Software    | Version      |  Release Date |
-| :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.33.8M <br> 4.22.11M <br> 4.34.6M <br> 4.35.4M | May 12th, 2026 <br> May 6th, 2026 <br> May 6th, 2026 <br> May 23rd, 2026 |
-| __CVP__           | Portal 2026.1.0 <br> Appliance 7.1.0 <br> Sensor 1.3.0 | March 30th, 2026 <br> September 2nd, 2025 <br> December 5th, 2025 |
-| __DMF__           | 8.10.0 | April 22nd, 2026 |
-| __CV-CUE__         | 21.0.0 | January 16th, 2026 |
-| __Arista NDR__     | 5.3.5 | July 16th, 2025 |
-| __TerminAttr__     | 1.42.1 | February 4th, 2026 |
-| __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 6.4.1 | December 19th, 2025 |
-
-[View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
-
-
-
-
----
-
-## __* Security Advisories and Field Notices*__
-
-![Image Placememt](img/Security_image_2.png)
-
-*Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
-
-### **Security Advisories**
-* **Dirty Frag Vulnerability** — [Security Advisory 0138](https://www.arista.com/en/support/advisories-notices/security-advisory/24019-security-advisory-0138){: target="_blank" } <br> *(May 8th, 2026)*
-* **Tunnel Decapsulation Configuration** — [Security Advisory 0137](https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137){: target="_blank" } <br> *(May 5th, 2026)*
-* **Copy Fail Vulnerability** — [Security Advisory 0136](https://www.arista.com/en/support/advisories-notices/security-advisory/24004-security-advisory-0136){: target="_blank" } <br> *(May 1st, 2026)*
-
-### **Field Notices**
-* **CloudEOS Pay As You Go** — [Field Notice 0128](https://www.arista.com/en/support/advisories-notices/field-notice/24021-field-notice-0128){: target="_blank" } <br> *(May 11th, 2026)*
-* **Default Option Change in the Access Point Upgrade Feature in CV-CUE** — [Field Notice 0127](https://www.arista.com/en/support/advisories-notices/field-notice/24016-field-notice-0127){: target="_blank" } <br> *(May 5th, 2026)*
-* **TerminAttr** — [Field Notice 0126](https://www.arista.com/en/support/advisories-notices/field-notice/24003-field-notice-0126){: target="_blank" } <br> *(May 4th, 2026)*
-
-<br>
-
-[View All Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
-
 ---
 
 
@@ -342,18 +300,73 @@ The final element in October will outline Zero Touch Replacement and verificatio
 
 [View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
 
+---
 
 
+## __*Software Updates*__
+![Image Placememt](img/software_upgrades_condensed.png)
+
+
+*Stay informed on the latest software updates across all Arista products and services.*
+
+|  Software    | Version      |  Release Date |
+| :-----------: | :-----------: | :-----------: |
+| __EOS__           | 4.35.6M <br> 4.34.8M <br> 4.33.10M <br> 4.36.2F | August 18th, 2026 <br> August 18th, 2026 <br> August 18th, 2026 <br> August 15th, 2026 |
+| __CVP__           | Portal 2026.2.0 <br> Appliance 7.2.0 <br> Sensor 1.4.2 | June 23rd, 2026 <br> July 2nd, 2026 <br> July 8th, 2026 |
+| __DMF__           | 8.10.0 | April 22nd, 2026 |
+| __CV-CUE__         | 2026.2.0 | May 21st, 2026 |
+| __Arista NDR__     | 5.3.5 | July 16th, 2025 |
+| __TerminAttr__     | 1.45.1 | July 10th, 2026 |
+| __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 7.0.0 | July 2026 |
+
+
+
+[View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
+
+---
+
+## __* Security Advisories and Field Notices*__
+
+![Image Placememt](img/Security_image_2.png)
+
+*Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
+
+### **Security Advisories**
+* **VeloCloud Orchestrator SQL Injection** — [Security Advisory 0145](https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145){: target="_blank" } <br> *(July 27th, 2026)*
+* **VeloCloud Orchestrator On-Prem Privileged Escalation** — [Security Advisory 0144](https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144){: target="_blank" } <br> *(July 27th, 2026)*
+
+### **Field Notices**
+* **Deprecation of EOS SWAG rpr Redundancy Mode** — [Field Notice 134](https://www.arista.com/en/support/advisories-notices/field-notice/24450-field-notice-0134){: target="_blank" } <br> *(August 18th, 2026)*
+* **CloudVision Cluster Replay CLI Commands** — [Field Notice 133](https://www.arista.com/en/support/advisories-notices/field-notice/24406-field-notice-0133){: target="_blank" } <br> *(August 6th, 2026)*
+
+<br>
+
+[View All of the Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
 
 
 ---
 
-## Did You Know? 
-Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
 
-![Image Placememt](img/ACE.png)
 
-[Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
+
+## __* Product Updates*__
+
+![Image Placememt](img/Product_image.png)
+
+*Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
+
+### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
+
+###  **End of Sale / End of Software Support**
+* **August 18th, 2026** — [DCA-AGNI-100](https://www.arista.com/en/support/advisories-notices/end-of-sale/24498-end-of-sale-notice-of-dca-agni-100){: target="_blank" }
+* **August 13th, 2026** — [DCA-NDR-NCC10](https://www.arista.com/en/support/advisories-notices/end-of-sale/24449-end-of-sale-of-the-arista-dca-ndr-ncc10){: target="_blank" }
+* **August 3rd, 2026** — [DCS-7060DX5-32](https://www.arista.com/en/support/advisories-notices/end-of-sale/24369-end-of-sale-of-the-arista-dcs-7060dx5-32-model-of-the-7060x5-series){: target="_blank" }
+* **August 3rd, 2026** — [DCS-7060CX5-56D8](https://www.arista.com/en/support/advisories-notices/end-of-sale/24368-end-of-sale-of-the-arista-dcs-7060cx5-56d8-model-of-the-7060x5-series){: target="_blank" }
+
+
+<br>
+
+[View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
