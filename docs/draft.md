@@ -12,41 +12,35 @@
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
-# Welcome to the August 2026 edition of the Arista Federal Newsletter, created for our valued Federal Agency and Federal System Integrator partners.
+# Remembering September 11 — 25 Years Later
 
-Each month, we strive to do more than share technology updates. We highlight people, events, and moments in history that embody the qualities we value most: leadership, innovation, resilience, integrity, and the relentless pursuit of excellence. We hope these stories not only inform but also inspire, reminding us that the greatest achievements often come from individuals and organizations willing to challenge conventional thinking and rise above adversity.
+As we share the September edition of the Arista Federal Newsletter, we do so with a profound sense of remembrance and reflection. This year marks the 25th anniversary of September 11, 2001 — a day that forever changed our nation and the lives of so many Americans.
+Twenty-five years later, the memories remain vivid. For many of us, it is one of those moments in history when we can still remember exactly where we were and what we were doing as the events of that morning unfolded.
 
-This month, we pay tribute to one of America's greatest Olympians, **Jesse Owens**, whose performance at the **1936 Berlin Summer Olympics** transcended athletics and became one of the defining moments in modern history.
+We remember the nearly 3,000 souls who lost their lives that day, the heartbreaking final calls to loved ones, and the extraordinary courage of the passengers and crew of United Flight 93, who chose to fight back against the hijackers despite knowing the tremendous risk they faced.
 
-Competing before the world on a stage designed to showcase Nazi propaganda, Owens carried the hopes of the free world on his shoulders. Through extraordinary determination, courage, and character, he shattered racist ideology by winning **four gold medals**, setting Olympic records in each of his individual events and helping Team USA capture gold in the 4x100-meter relay. His achievements remain a powerful reminder that excellence, integrity, and perseverance will always triumph over division and intolerance.
+We remember the firefighters, police officers, EMTs, first responders, members of our military and intelligence community, and everyday Americans who stepped forward during our nation's darkest hours. Their courage, sacrifice, and commitment to one another demonstrated the very best of America.
 
-**Jesse Owens' Four Gold Medal Performances:**
+We also recognize that the impact of September 11 did not end that day. Over 9,000 first responders, recovery workers, survivors, and others have since lost their lives to 9/11-related illnesses, while many more continue to live with the physical and emotional effects today.
 
-- **100-Meter Dash** – Gold Medal (August 3, 1936) -  Won his first gold medal, tying the world record with a time of **10.3 seconds**.
+For those of us who have the privilege of working with and supporting the Federal, Defense, Intelligence, and National Security communities, this anniversary carries special meaning. We see firsthand the dedication of the men and women whose mission is to protect our country, our critical infrastructure, and the freedoms we enjoy every day. We are grateful for their service and proud to support their missions.
 
-- **Long Jump** – Gold Medal (August 4, 1936) -  Won his second gold with an Olympic record jump of **8.06 meters (26 ft 5¼ in)**.
+Twenty-five years later, may we never forget not only the tragedy and those we lost, but also the strength, compassion, resilience, and unity that brought our country together in the days that followed.
 
-- **200-Meter Dash** – Gold Medal (August 5, 1936) -  Won his third gold medal while setting a new Olympic record of **20.7 seconds**.
+May we continue to honor their memory through service, gratitude, and a shared commitment to protecting the nation they loved.
 
-- **4x100-Meter Relay** – Gold Medal (August 9, 1936) -  Anchored the U.S. team to victory, winning his fourth gold medal and helping set a new world record of **39.8 seconds**.  
-
-Nearly ninety years later, Owens' legacy continues to inspire not only in sports but also in leadership, innovation, and the pursuit of excellence.
-
-At **Arista Networks**, we share a similar philosophy: success isn't built on complexity, it's built on consistency, preparation, and execution. Just as Jesse Owens mastered the fundamentals to perform at the highest level, Arista has built its reputation on a single, consistent operating system - **EOS** - that powers everything from the campus edge to the AI data center. One operating system, one automation framework, one management platform, and one uncompromising standard of reliability.
-
-For our federal customers, where every mission demands resilience, security, and operational simplicity, consistency is far more than a technical advantage; it is a mission advantage. Whether supporting the warfighter, enabling secure government services, or accelerating AI initiatives, Arista helps agencies achieve gold-medal performance through an architecture that is simple, scalable, secure, and built for mission success.
-
-As you read this month's newsletter, we hope Jesse Owens' story serves as a reminder that the greatest victories are not measured solely by medals or milestones, but by the courage to lead, the discipline to prepare, and the lasting impact we leave on those who follow.
+**We remember. We honor. We will never forget.**
 
 In this month’s newsletter, you’ll find:
 
-- **The Hidden Cost of Delaying Your Network Switch Refresh**
+- **Racing Against Machine-Speed Threats: How Arista Is Using AI**
 
-    Arista Federal Client Director Kevin Carey explains why delaying a network refresh may save capital in the short term but often results in higher long-term costs through increased downtime, cybersecurity risk, operational complexity, and limited AI readiness. Learn why network modernization is a strategic investment and how Arista's unified platform powered by EOS, CloudVision, and AVA helps Federal agencies reduce total cost of ownership, simplify operations, strengthen security, and build resilient, AI-ready networks for the future.
+    In this important Arista blog article, Ken Duda (Arista Founder, President and CTO) and Jason Bevis (Arista VP and CISO) discuss how AI is accelerating both vulnerability discovery and the speed of cyber threats and how Arista is harnessing that same technology to strengthen our defenses. By integrating advanced AI capabilities throughout our software development and security processes, Arista is working to identify vulnerabilities earlier, respond faster, and build even greater resilience into EOS and our customers’ networks.
 
-- **Three-Part Technical Series: Zero Touch. Total Domination**
+- **Zero Touch Provisioning with Arista — Part Two: Environment Setup & Execution**
 
-    In the first installment of this exciting three-part series, Arista Federal's Casey Durst (SE) and Brady Schulman (ASE) demystify Zero Touch Provisioning (ZTP) and show how Arista makes rapid, secure, and repeatable network deployments a reality. This month, they cover the fundamentals and prerequisites for ZTP. In September, they'll walk through the complete environment setup and execution process, and in October, they'll demonstrate device verification, automated configuration, and operational handoff. Whether you're just getting started or looking to simplify large-scale deployments, this is a series you won't want to miss.
+    In Part Two of our Zero Touch Provisioning (ZTP) series, Arista Federal's Casey Durst (SE) and Brady Schulman (ASE) move from the “why” to the “how.” This installment provides a practical look at setting up the ZTP environment, securely onboarding switches through Arista CloudVision, troubleshooting deployment, and simplifying device replacement all designed to make network deployment faster, more consistent, and easier to execute in the field.
+
 
 We welcome your feedback, ideas, and requests for this newsletter at <fed@aristafederal.com.>
 
@@ -62,100 +56,203 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 
 ---
 
-## **The Hidden Cost of Delaying Your Network Switch Refresh**
+##Racing Against Machine-Speed Threats: How Arista Is Using AI##
 
-By Kevin Carey – Arista Federal Client Director
+By Ken Duda (Arista Founder, President and CTO) and Jason Bevis (Arista VP and CISO) 
+ 
+![Image Placememt](img/Sep26_pic3.png)
 
-Organizations often delay refreshing their network infrastructure to defer capital expenditures, but the true cost of postponing a switch upgrade is rarely reflected in the budget. As network hardware ages, organizations face rising operational expenses, increased cybersecurity risks, and reduced agility often resulting in a significantly higher total cost of ownership than a proactive, well-planned refresh.
+Two decades into our journey, quality remains Arista's absolute top priority: networking you can count on. Thus, product security is a first principle, not an afterthought. The threat landscape we're operating in today is changing faster than at any point in our history, and we want to talk directly to our customers about how we're responding and about a few things you should expect from us over the weeks and months ahead.
 
-Legacy switches eventually reach End of Support (EoS), leaving organizations without access to critical software updates, security patches, and vendor support. At the same time, aging hardware becomes more susceptible to failures, driving up maintenance costs, increasing unplanned downtime, and consuming valuable IT resources. Older platforms also struggle to support today&#39;s bandwidth-intensive applications, AI workloads, high-performance computing (HPC), next-generation Wi-Fi, and Zero Trust initiatives, creating bottlenecks that can directly impact mission-critical operations.
+Using AI within our software development lifecycle, as well as in our security programs, is not new to us, including for discovering vulnerabilities and testing our software before release. Over the past few months, we've been collaborating with Anthropic, Google, OpenAI, and others to integrate new AI-enabled security capabilities from foundation models into our existing software security pipeline. Through access to models such as Mythos and Daybreak and being invited early as a key infrastructure supplier into partnerships like Project Glasswing, we've been layering AI-driven vulnerability discovery and assessment onto our established security [vulnerability management process.](https://www.arista.com/en/support/product-documentation/vulnerability-management-process) The result is a more thorough security review process operating at a much faster machine pace. We've been using this capability proactively to find vulnerabilities in our own software before anyone else does.
 
-The rapid advancement of Artificial Intelligence (AI) makes delaying a network refresh even more costly. AI is fundamentally reshaping how Federal agencies and enterprises operate, driving unprecedented demand for higher bandwidth, ultra-low latency, real-time telemetry, and high-performance east-west traffic. Whether enabling AI-powered cybersecurity, large language models (LLMs), predictive analytics, mission planning, or autonomous systems, AI workloads place far greater demands on network infrastructure than traditional applications. Organizations that fail to develop a network modernization strategy today risk limiting their ability to adopt AI tomorrow. Even if large-scale AI deployments are still several years away, establishing a modernization roadmap now ensures the network can evolve alongside rapidly changing mission requirements without disruptive, last-minute upgrades.
+That work has paid off, and we have already released several of these fixes. Next week, we will publish a batch of security advisories covering several issues along with detailed remediation guidance for each. We're [pre-announcing this,](https://www.arista.com/en/support/advisories-notices/security-advisory/24535-security-advisory-0148) ahead of the detailed disclosures, so your teams have a heads-up. For at least the next few months, while we address the issues discovered with these new tools, we expect an elevated volume of security advisories and batched releases. We know that a predictable rhythm is easier to plan around, staff for, and roll into existing change-control processes than advisories that show up piecemeal with no warning.
 
-Another often-overlooked cost is operational complexity. Supporting multiple generations of networking hardware, operating systems, and management platforms increases configuration inconsistencies, lengthens troubleshooting cycles, expands training requirements, and slows the deployment of new capabilities. These hidden inefficiencies quietly increase operational expenses year after year while limiting an organization&#39;s ability to innovate.
+**We Say This With Real Empathy**
 
-This is where Arista Networks delivers a distinct advantage. Rather than simply replacing legacy hardware, Arista provides a modern networking architecture purpose-built to simplify operations while supporting the next generation of mission requirements. Built on the industry&#39;s proven Extensible Operating System (EOS), Arista delivers a single, consistent software image across campus, data center, AI fabrics, and routing platforms. This architectural consistency dramatically reduces operational complexity, shortens learning curves, simplifies lifecycle management, and enables IT teams to automate and manage the entire network through a common operational framework.
+We're heading into a period when frontier AI can find and weaponize software flaws in minutes rather than months. That capability cuts both ways: it's why our AI-enabled security efforts work, and it's also why the volume of vulnerabilities disclosed across the application and infrastructure software industries worldwide is set to spike, and “patch-and-pray” was never a strategy built for this pace.
 
-Arista&#39;s CloudVision platform extends these capabilities by providing centralized management, streaming telemetry, compliance monitoring, automated provisioning, and comprehensive network-wide visibility. Rather than reacting to outages after they occur, organizations gain continuous insight into network health, enabling them to proactively identify issues, enforce configuration compliance, and accelerate troubleshooting before users are impacted. The result is greater operational efficiency, lower operating costs, faster service delivery, and improved mission readiness.
+The people on the front lines of this fight are already stretched thin, fielding advisories from dozens of vendors, triaging what actually matters to their environment, and finding maintenance windows in networks that were never supposed to go down. They deserve better tools and a better architecture to work from, and that is our ongoing commitment to you: not just more security advisories, but security advisories delivered in a way you can actually plan around, backed by architectural advantages we've spent two decades building into Arista EOS and capabilities designed to limit how much damage any particular vulnerability can cause.
 
-Arista is also leading the next evolution of network operations with Arista AVA (Autonomous Virtual Assist), an innovative Agentic AI platform designed to transform how networks are managed. Unlike traditional AI assistants that simply answer questions, AVA functions as an intelligent operations partner. It understands user intent, correlates telemetry across the network, identifies root causes, recommends remediation steps, and can automate routine operational tasks. Powered by Arista&#39;s rich telemetry, the CloudVision data lake, and decades of networking expertise, AVA enables IT teams to resolve issues faster, reduce manual effort, and improve operational resilience. As Agentic AI reshapes enterprise IT, Arista is leading the industry by embedding AI directly into network operations, helping Federal organizations transition from reactive network management to autonomous, intelligent operations.
+**The Arista Architectural Advantage**
 
-This uniquely positions Arista to help agencies not only build networks capable of supporting AI workloads but also use AI to operate those networks more efficiently. By combining EOS, CloudVision, and AVA, Arista delivers a unified operational platform that simplifies management today while laying the foundation for the autonomous, AI-driven networks of tomorrow. For Federal agencies facing increasing mission demands, evolving cyber threats, and constrained budgets, this integrated approach represents a transformational shift in how networks are deployed, secured, automated, and optimized.
+We think about defense in two complementary layers: defending the network itself and defending the rest of your infrastructure with the network. Both matter, and both are more relevant than ever in an AI-accelerated threat environment.
 
-Unlike traditional networking vendors that require multiple operating systems, management platforms, feature licenses, and operational models across different product families, Arista offers a single, unified architecture that seamlessly scales from the campus edge to the data center, cloud, and AI infrastructure. This consistency not only simplifies operations but also reduces training requirements, minimizes human error, accelerates deployments, and protects long-term technology investments. As agencies modernize and prepare for AI-driven missions, Arista provides a stable, future-ready foundation that can evolve without requiring wholesale architectural changes.
+**Defend the Network**
 
-Network refreshes should no longer be viewed as simply replacing aging hardware and should be recognized as a strategic investment in mission readiness, cybersecurity, operational efficiency, and AI preparedness. By proactively modernizing with Arista, Federal agencies and defense organizations can reduce total cost of ownership, strengthen their security posture, simplify network operations, and build a scalable, future-ready network
+Historically, customers have labored through the legacy vendor experience where a “software upgrade” was often a greater business risk than living with bugs, old features, and even security issues in the deployed code! If this seems backward, it is! All too often, when customers replace one of these legacy vendors with Arista, we find them running old and even unsupported software trains, afraid of what might break if they touch the network OS. From a security perspective, this, of course, means they continue to operate with the risk posed by these unpatched bugs and vulnerabilities.
+
+Of course, as we jump into this new world where software updates are even more frequent, operators need to trust the underlying software enough to upgrade quickly to the latest version without fear of something breaking on the network. That trust depends on three requirements: finding ways to qualify new software faster, running a genuinely modern operating model that lets you upgrade quickly and without interruption, and having real confidence that your network operating system delivers the highest quality in every release.
+ 
+![Image Placememt](img/Sep26_pic4.png)
+
+At Arista, our best customer experience is delivered in our latest software. Not only is it the highest quality, but it also offers customers access to the latest technology, capabilities, and economics. We deliver that value based on a strong architectural foundation that includes:
+
+- **A single high-quality operating system.** Arista has invested heavily to ensure our platforms run the same codebase. This means all of our testing, all of our red-teaming, and now all of our AI-assisted review efforts concentrate on a single target rather than being spread thin and diluted across a fragmented product line or divergent code branches. That discipline is what lets us stand behind a simple promise: the newest EOS release is also the highest-quality release, so you can move to it with confidence instead of waiting it out. We believe this is a significant reason Arista has maintained one of the lowest CVE counts in the industry over the last two decades.
+- **Limiting vulnerability impact through control-plane and data-plane separation.** EOS keeps software management and hardware forwarding architecturally separate, so a failure or exploit in the control plane does not translate into a failure of the data plane. Traffic continues to flow even if there is a defect in the control plane.
+- **A seamless and modern upgrade process.** Within EOS, individual software agents are isolated from one another. An issue affecting one protocol agent stays contained to that agent rather than spreading through the system. This means that we can ship a targeted fix to the affected component and deliver it via our Smart System Upgrade (SSU). This capability installs the fix and minimizes network disruption. That combination, isolated fixes plus fast, non-disruptive upgrades, is what turns "patch available" into "patched" without a maintenance window standing in the way.
+- **A compliance dashboard to streamline staying up to date.** When a security advisory lands, CloudVision helps you immediately see the affected parts of your infrastructure and the release with the resolution. It also provides an automated workflow to manage change control for rolling out the fix. This real-time visibility turns a stressful advisory day into a manageable one.
+
+While the industry as a whole will see an increase in the absolute number of security advisories, we do believe that our architectural advantages enable us to have an order-of-magnitude fewer. Just as importantly, the risk and impact of individual advisories will also be lower due to the preemptive mitigations we have in place. And finally, the process of upgrading to the latest version will remain as efficient and streamlined as possible.
+
+**Defend With the Network**
+
+The same architectural thinking extends beyond EOS itself. The network is one of the few places in your environment that sees everything, every user, every device, every workload, every flow, which is exactly why it belongs at the center of a zero trust strategy rather than bolted on at the perimeter. As we've laid out in more depth on our [Zero Trust Networking solutions page,](https://www.arista.com/en/solutions/security) Arista's approach maps directly to the functions the CISA Zero Trust Maturity Model calls for: segmentation, traffic management, encryption, resilience, visibility, automation, and governance, delivered as one integrated architecture instead of a stack of disconnected point products. We organize that architecture around three jobs the network must perform for you every day.
+
+![Image Placememt](img/Sep26_pic5.png)
+
+
+Taken together, this is what we mean by architectural resilience: an approach in which, even if a vulnerability exists, its blast radius is small, its impact is contained, and you have the tools to identify, prioritize, and remediate it on your own schedule rather than in a panic.
+
+**The Broader Role of AI for Software Security**
+
+It would be a mistake, though, for anyone, us included, to think about AI in security purely as a vulnerability-discovery story. While headline-grabbing zero-days get the attention, discovery alone is not where the most important defensive work happens.
+
+The real transformation happens when organizations embed domain-specific AI harnesses directly across the entire software development lifecycle (SDLC). By using a dedicated, model-agnostic harness with the same class of models we use to find flaws, as AI tooling across our products, we can enhance our development processes. For instance, not all vulnerabilities are created equally. By using dedicated shared libraries and harnesses for threat modeling, generating dynamic secure coding docs, and spinning up AI proof-of-concept code to validate reachability and exploitability, we stress-test our architecture before code is released. To keep this scalable across all products, we’ve implemented cost-validation structures in our harnesses, optimizing token efficiency and reducing false positives through internal feedback loops. Even though AI is important at the heart of these practices, AI with a human-in-the-loop can help us ensure AI implements controls that mitigate and remediate flaws safely and effectively.
+
+**New AI Enhanced Vulnerability Management**
+ 
+![Image Placememt](img/Sep26_pic6.png)
+
+Working at the frontier with these model providers, where the restrictions have been removed, allows us to move beyond basic prompting. By leveraging agentic loops and graph-based AI frameworks, our security testing maps complex control flows and systemic dependencies that traditional static analysis misses. Shifting these advanced AI tactics left allows us to intercept flaws during initial design and code creation, cutting vulnerability debt at the source.
+
+This proactive stance and leveraging state-of-the-art coding practices in alignment with security testing and prevention are critical. As attackers increasingly weaponize performant open-weight models, defensive speeds must outpace adversary adaptation. We are meeting that threat by scaling AI directly into specialized operational domains such as OS hardening, mapping code changes against strict compliance and regulatory frameworks, and feeding incident telemetry back into our harness testing to instantly identify, patch, and validate flaws in similar code paths.
+
+Our view is that the vendors and security teams who benefit most from this next wave of AI will be those who use AI across the entire lifecycle, discovery, prioritization, containment, and response, while keeping the underlying architecture resilient enough that no single finding becomes a crisis. That's the foundation we're building on with an enhanced software development lifecycle, and it's the framework we'd encourage you to hold your other vendors to as well.
+
+**What Happens Next**
+
+To be direct about what to expect: over the coming week, watch for a first batch of security advisories from Arista, each with a software fix and remediation guidance included. We encourage you to make sure you're subscribed to our [security advisories now,](https://www.arista.com/en/support/advisories-notices) so nothing lands in your inbox as a surprise, and to use CloudVision's Compliance Dashboard to get ahead on triage as soon as the advisories are live.
+
+We know asking security teams to prepare for “more advisories, but on a schedule” is an unusual thing to pre-announce. We're doing it because we'd rather you hear it from us, with time to plan, than discover it the hard way. That's the partnership we're aiming for as this next era of AI-accelerated security unfolds, and we'll keep talking to you openly as it does.
+
+References
+
+- [Arista's Statement on AI-Enhanced Security and Resilience](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf)
+- [Arista Vulnerability Management Policy](https://www.arista.com/en/support/product-documentation/vulnerability-management-process)
+- [Webinar with Arista, Anthropic, and Palo Alto Networks: Defending the Keys to the Kingdom](https://www.arista.com/en/24739-keys-to-the-kingdom-webinar) – Reply from Sept 9, 2026 Webinar
+- [Arista Zero Trust Networking Solutions](https://www.arista.com/en/solutions/security)
+- [Arista Security Advisories](https://www.arista.com/en/support/advisories-notices)
 
 ---
 
-## **Zero Touch. Total Domination.**
+##Zero Touch Provisioning with Arista
 
-Casey Durst, SE and Brady Schulman, ASE, Arista Networks Federal
+**Part Two: Environment Setup & Execution**
 
-Some time ago, I would deploy networks in areas that were both geographically challenging and personnel constrained. The closest to ‘zero touch’ we would get was Lance Corporal Durst getting a text file with the configurations and copy / pasting into the switch and then using COA 5 (Hope) to bring the device online (IYKYK). While times have changed and technology has surpassed this copy / paste / hope method, Arista Networks focuses on support to all our customers and prospective customer base. That means, the Marine or Sailor or Soldier need not be burdened with complex configuration guides that have built-in assumptions but rather, explain in a step-by-step method how to utilize modern technologies. It is our intent to lay out the entire Zero Touch Provisioning (ZTP) process into a three-part series which can be compiled and sent to those in need for their use and, most importantly, garner their feedback to allow us to focus on what matters to them. 
+Bu Casey Durst (SE) and Brady Schulman (ASE)
 
-Part One provides an overview of the process. Part Two will cover setting up the environment to support ZTP. Part Three will walk through the ZTP process end to end, including deploying a configuration and exiting ZTP mode.
-
-
-**Part One: Overview**
-
-Zero Touch Provisioning (ZTP) serves as Arista’s streamlined answer for automating device deployments. It enables the swift rollout of network assets without the necessity for on-site engineering presence. Engineered to harness the full potential of Arista’s Extensible Operating System (EOS), ZTP delivers a versatile, hands-off framework that accelerates installation timelines, minimizes manual mistakes, and scales across diverse operational environments while, most importantly, can be used by any network engineer skill level in your organization. 
-
-We have heard this before, right? How many things in your life are marketed to this “it just works” methodology but are more complex than just doing what we have historically done? As with anything, setting the conditions for your deployment is key to enabling the full spectrum of ZTP- and we’re here to provide an outline of those requirements- so it does “just work.”
-
-Let’s get the minimum version identified: ZTP requires platforms with Trusted Platform Chip (TPM) with the minimum versions for FIPS (140-3) requirements. Your Federal sales team will ensure the devices you procure meet the Government requirements: 
-
-
-EOS (Extensible Operating System): &gt;4.32
-
-CloudVision Portal: &gt;2024.1.0
-
-**Arista is now shipping all devices with EOS newer than 4.32. Also, note that ZTP will not work over a port-channel. Just keep it simple: one cable, one port. Remember, Arista utilizes one operating system across all route / switch platforms- so you don’t have to go dig to find out what OS works on what platform. Save time and your frustration with EOS!
-
-Now that we have those minimums, we need to verify our operational environment is staged to support ZTP. What is needed?
-
-1. DHCP server runs locally or on another area of the network. There are numerous DHCP server types and methods that we cannot attempt to walk through here. Part Two of this series will demonstrate one typical example. Whatever your environment looks like, ensure that these DHCP options are configured to support your ZTP devices:
-
-    a.  Subnet range that can reach your CloudVision Portal. If your CVP is remote there will be unique challenges to overcome such as whitelisting or routing to adjacent or external sites. 
-
-    b.  Default Gateway for the switch that routes to CVP
-
-    c.  NTP. Time synchronization is vital for registering to CVP
-
-    d.  DNS Server & DNS Domain (optional)
-
-    e.  Option 67: Bootfile (https://<CVPIP>/ztp/bootstrap). 
-
-2.  A CloudVision Portal instance that is already configured and accessible. We will not address this in this article, but numerous resources exist to ensure a properly configured CVP. Configuring the Compliance Token and ZTP Permitted Devices in CVP will be covered in Part Two of this series.
-
-3.  An Arista switch with enough space in its new environment (rack / power), a cable that connects to an upstream device, and proper communications to the DHCP server and all other requirements. Ensure accessibility and all grounding requirements are completed. 
-
-
-**Figure 1: ZTP Process**
-![Image Placememt](img/Aug26_pic1.png)
-
-Figure 1 above provides a high-level overview of the process. ZTP is enabled by default on all switches that come from the factory. No extra step is required by the network admin! ZTP starts by trying to figure out how to communicate on the network. It looks for a DHCP server accessible via any connected network cable, management or data plane. The DHCP server provides instructions on how to reach the next required component, CloudVision Portal.
-
-CVP provides the switch with a basic running configuration to boot and establish communications back to CVP. CVP will validate the hardware of the switch and, if allowed by policy, add the switch to the active inventory. 
-
-One of the other considerations is whether this site will use a dedicated Out of Band Management (OOBM) network. If a dedicated OOBM will be used, simply connect the Management port to the OOBM and ensure routing. If an OOBM will not be available, any data port may be used to support the ZTP process. Configuring the switch for in-band connectivity to CVP takes a little bit more planning but is not difficult. CloudVision’s Change Control process and rollback functionality ensures you don’t lose connectivity accidentally.
+In Part One, we covered the "why" of ZTP and laid out the minimum bar you need to clear before a device will even attempt to provision itself: EOS and CVP version minimums, a single cable to a single port and a DHCP server handing out the right options. Now it's time to actually build that environment, walk through what's happening on the wire when a switch boots for the first time and cover the day-two operational questions that always come up: how do I pull a device out of ZTP? How do I put it back in ZTP? Is it ready for configurations? Focusing again on that young Marine, Sailor, or Soldier we will walk through these steps to ensure any level of expertise can execute ZTP. 
  
-Now you’re at your site, you have confirmed the above outline is online, and you have access to CVP for inventory management… you’re ready to go. 
+**Setting Up the Environment**
+ 
+ZTP is measurably simplified by the use of DHCP. Remember, the switch has no configuration, no IP address, and no idea where CVP lives until DHCP tells it. At a minimum, your scope needs to hand out a routable address, a default gateway that can reach CVP and NTP, and Option 67 pointing to the CVP bootstrap script. A synchronized device clock is necessary to ensure proper enrollment of SSL certificates.  DNS is optional and only required if the bootfile-name field will reference the CVP server by hostname instead of IP address. 
+ 
+Here's a sample scope using ISC DHCP ('dhcpd.conf') for a subnet dedicated to ZTP:
+ 
+''' 
+subnet 10.10.50.0 netmask 255.255.255.0 {
+  range 10.10.50.100 10.10.50.200;
+  option routers 10.10.50.1;
+  option domain-name-servers 10.10.50.5;
+  option domain-name "corp.local";
+  option ntp-servers 10.10.50.6;
+  option bootfile-name "https://cvp.corp.local/ztp/bootstrap";
+  default-lease-time 600;
+  max-lease-time 600;
+}
+'''
 
-This ends Part One overview of ZTP with Arista. Hopefully, you understand that the baseline requirements are significantly less challenging than previous iterations or other vendors. Come back next month as we explain Part Two: Execution. 
+A few things worth calling out:
 
+- Bootfile-name (Option 67) is the one field that can be challenging. It must be the full URL to the CVP bootstrap endpoint, not a filename on a TFTP server like the old-school PXE days. Arista's ZTP process expects HTTPS. The /ztp/bootstrap location is built into CVP and used for all ZTP devices. It does not need to be customized per device.
+
+- Short lease times are intentional here. During ZTP, the switch is going to reboot itself at least once after it pulls its real configuration and you don't want it holding onto a ZTP-scope lease longer than necessary once it's a production device on a different VLAN.
+
+- If your DHCP server is a dedicated appliance (Infoblox, Windows DHCP, etc.), the concepts map directly. You will just configure Option 67 and the standard options through a different interface.
+ 
+**CloudVision Portal: Onboarding Token and Permitted Devices**
+ 
+While this series focuses on ZTP, if you are manually uploading a device into CVP you must generate an onboarding token and input it into the device which will authorize the device to connect to CVP; the same token may be used for multiple devices. ZTP does this check with the factory certificate so you do not need to do this manually.
+
+1.     The Onboarding Token. This is what authenticates a device's request as coming from a legitimate source rather than an arbitrary box someone plugged into your network. Generate this under CVP's device onboarding settings and it gets referenced automatically as part of the bootstrap process. You won't type it in manually on the switch.
+
+![Image Placememt](img/Sep26_pic1.png)
+
+2.     ZTP Permitted Devices. By default, CVP will be open to all devices. This does provide ease and speed of deployment but does come at a small security risk. A best-practice would be to disable the “Permit all Devices” (see below) toggle and then build your permitted devices list. This is your allow-list within CVP, by serial number and it's the actual gatekeeper. Even with a correct DHCP scope and a reachable CVP, a device whose serial number isn't on this list will check in, get rejected, and sit there rather than being added to inventory. This is by design to ensure a rogue or misplaced switch showing up on your network doesn't silently provision itself into production.
+
+![Image Placememt](img/Sep26_pic2.png)
+ 
+Populate this list ahead of a deployment window using the serial numbers from your purchase order or asset list, not after the device shows up at the loading dock. Nothing stops a "just works" process faster than a field engineer standing in front of a rack waiting on someone in the NOC to add a serial number.
+ 
+**How ZTP Talks to CloudVision**
+
+Understanding this handshake step by step is worth your time because it makes troubleshooting a stalled ZTP process far less mysterious.
+
+- Boot and discovery. A factory-default (or wiped) switch boots with ZTP enabled by default and immediately sends a DHCP discover out every connected interface, both management and data plane alike, until it gets a response.
+
+- DHCP offer. The DHCP server responds with an IP, gateway, NTP, DNS, and Option 67 pointing to the CVP bootstrap URL.
+
+- Bootstrap retrieval. The switch reaches out over HTTPS to that URL and downloads the bootstrap script from CVP.
+
+- Compliance check. The bootstrap script, running with the factory hardware  token, authenticates the hardware and request. CVP checks the switch's serial number against the ZTP Permitted Devices list. 
+
+- Inventory addition and initial configuration. CVP accepts the device and adds it to its inventory. At this point, the device is available for provisioning using standard CVP management workflows. An administrator then assigns the device to the appropriate CVP Container/Network and applies the device's intended configuration using CVP Studios. As part of the CVP-provided configuration, a startup configuration is created for the switch. 
+
+- Configuration apply and reboot. The administrator creates and executes a Change Control that pushes the configuration to the switch. After the configuration is successfully applied, a valid startup configuration exists and ZTP is disabled; it is now a fully provisioned, CVP-managed device.The switch applies the configuration, including a full reboot.
+
+- Steady state. Once up, the switch is a fully managed CVP device that is visible in inventory, subject to Change Control for any future changes, and streaming state back to CVP continuously.
+
+- If a device isn't showing up, work backward through this list: can it get a DHCP lease at all, does it have Option 67, can it reach the CVP URL over HTTPS, and is its serial number actually on the permitted list. Nine times out of ten, a stalled ZTP is one of those four.
+
+**Engaging, Disengaging, and Restarting ZTP**
+
+If you need to configure a switch by hand rather than let it provision through CVP, like a lab device, for example, you can cancel ZTP from the console:
+'''
+switch# zerotouch cancel
+'''
+
+This drops the switch into a normal EOS CLI session without applying any configuration letting you configure it manually.
+
+If you desire to prevent ZTP from occurring on the switch in the future for any reason, use: 
+'''
+switch# zerotouch disable
+'''
+
+To re-enter ZTP mode on a previously configured device, you have two options:
+'''
+switch# zerotouch enable
+'''
+
+- This re-enables ZTP and reboots the switch, wiping the startup configuration in the process; use it deliberately.
+
+Alternatively, a full wipe accomplishes the same end state and is the more common method in the field:
+'''
+switch# write erase
+switch# reload
+'''
+
+On reload, since there's no startup-config present, EOS defaults back into ZTP mode automatically and the device restarts the discovery process described above from scratch.
+
+If a device is mid-ZTP and something goes sideways (bad DHCP lease or unreachable CVP, etc) you generally don't need to wipe anything. Power cycling or reloading the device restarts the discovery process cleanly as long as it hasn't already applied a partial configuration. Check 'show zerotouch' from the console to see where in the process it currently sits before deciding whether a simple reload is enough or whether a zerotouch cancel and manual review is warranted.
+
+**Quick Verification Commands**
+
+A short reference for the console while you're standing in front of a rack:
+'''
+switch# show zerotouch
+switch# show boot
+switch# show management api http-commands   ! confirms API/streaming reachability post-provision
+'''
+'show zerotouch' - in particular tells you immediately whether the device considers itself still in ZTP mode, mid-process, or already disabled. This is the first thing to check any time a device "isn't doing anything."
+
+As you can see, many of these parts will merge in areas while being distinct in other areas. Be ready for our last installment next month!
 
 **Zero Touch Provisioning**
+**Part Three: Replacement, Verification and Device Configuration**
 
-**Part Two: Execution**
-
-Come back in September for the next iteration of the ZTP process! We will detail the environment setup, outline how ZTP processes communications from device to CloudVision, how to engage or disengage, restart, or replace a device.  We will also provide sample working configurations for the topics covered in Part One.
-
-**Zero Touch Provisioning**
-
-**Part Three: Verification and Device Configuration**
-
-The final element in October will be the verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode. 
+The final element in October will outline Zero Touch Replacement and verification that the device is in inventory and turned over for baseline configuration for operations and security and exiting ZTP mode. In Part Three, we'll walk through an actual end-to-end deployment from a cold, unboxed switch to a fully registered, production-configured device in CVP bringing all of the elements together and finishing with a secure and operational device that was provisioned using ZTP and Automation workflows!
+ 
 
 ---
 ## __Webinars and Events__  
