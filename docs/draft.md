@@ -137,6 +137,7 @@ References
 
 ##Zero Touch Provisioning with Arista##
 **Part Two: Environment Setup & Execution**
+
 By Casey Durst (SE) and Brady Schulman (ASE)
 
 In Part One, we covered the "why" of ZTP and laid out the minimum bar you need to clear before a device will even attempt to provision itself: EOS and CVP version minimums, a single cable to a single port and a DHCP server handing out the right options. Now it's time to actually build that environment, walk through what's happening on the wire when a switch boots for the first time and cover the day-two operational questions that always come up: how do I pull a device out of ZTP? How do I put it back in ZTP? Is it ready for configurations? Focusing again on that young Marine, Sailor, or Soldier we will walk through these steps to ensure any level of expertise can execute ZTP. 
