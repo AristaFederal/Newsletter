@@ -33,7 +33,8 @@ theme:
 
 nav:
   - www.aristafederal.com: http://www.aristafederal.com
-  - August 2026: index.md
+  - September 2026: index.md
+  - August 2026: August2026.md
   - July 2026: July2026.md
   - June 2026: June2026.md
   - May 2026: May2026.md
@@ -45,7 +46,7 @@ nav:
   - November 2025: November2025.md
   - October 2025: October2025.md
   - September 2025: September2025.md
-  - August 2025: August2025.md
+
 
 
 extra_css:

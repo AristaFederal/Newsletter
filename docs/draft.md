@@ -55,7 +55,6 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 [4]: https://blogs.arista.com/blog
 
 ---
-
 ##Racing Against Machine-Speed Threats: How Arista Is Using AI##
 By Ken Duda (Arista Founder, President and CTO) and Jason Bevis (Arista VP and CISO) 
  
@@ -134,7 +133,6 @@ References
 - [Arista Security Advisories](https://www.arista.com/en/support/advisories-notices)
 
 ---
-
 ##Zero Touch Provisioning with Arista##
 **Part Two: Environment Setup & Execution**
 
