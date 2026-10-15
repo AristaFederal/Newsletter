@@ -26,7 +26,7 @@ Founded in 2004, Arista challenged traditional networking with a software-driven
 
 Today, Arista is bringing that same innovative thinking to Artificial Intelligence through two complementary strategies:
 
-AI for Networking — Smarter, Simpler, More Secure
+**AI for Networking — Smarter, Simpler, More Secure**
 
 By combining EOS, CloudVision, advanced telemetry, and AI-driven analytics, Arista helps organizations transition from reactive troubleshooting to proactive, intelligent network operations. The result is greater visibility, stronger security, improved efficiency, and less time spent managing network complexity.
 
@@ -98,13 +98,13 @@ In defense and federal environments, the very tools and habits used to achieve m
 Flipping the Script: Modern Network Automation in Action
 Stopping the fight doesn't mean simplifying the mission; it means transforming the architectural foundation into something deterministic, automated, and self-healing. That transformation rests on three core pillars:
 
-1. One Consistent Binary Across Every Tier: EOS & NetDB
+**1. One Consistent Binary Across Every Tier: EOS & NetDB**
 
 Operational simplicity begins at the software layer. An architecture built on a single, unmodified binary across every form factor. From modular chassis in the core to compact switches at the tactical edge, eliminate the multi-train headache.
 
 Because Arista EOS is built on NetDB (a centralized, state-sharing database rather than disjointed, competing daemons), every operational state change from interface counters to route tables, and TCAM utilization, to name a few, are streamed in real time. Operators don't have to guess what happened during a transient microburst or an intermittent flap; telemetry captures it at sub-second granularity.
 
-2. Design & Validate Before Deployment: AVD + ACT (Digital Twin) + ANTA (NRFU)
+**2. Design & Validate Before Deployment: AVD + ACT (Digital Twin) + ANTA (NRFU)**
 
 Manual CLI changes should never be tested for the first time in a live production environment, especially when operational missions are on the line.
 
@@ -116,9 +116,10 @@ Manual CLI changes should never be tested for the first time in a live productio
 
 ![Image Placememt](img/Oct26_pic3.png)
 
-Figure 1: Automated Validation & NRFU Testing with AVD and ANTA: Structured configuration intent and custom test catalogs are executed programmatically across the EOS fabric via the ANTA runner, generating automated, audit-ready validation reports (CSV/Markdown/JSON) before live traffic is committed.
+**Figure 1: Automated Validation & NRFU Testing with AVD and ANTA:** Structured configuration intent and custom test catalogs are executed programmatically across the EOS fabric via the ANTA runner, generating automated, audit-ready validation reports (CSV/Markdown/JSON) before live traffic is committed.
 
-3. Continuous Operational Assurance: CloudVision
+**3. Continuous Operational Assurance: CloudVision**
+
 Once validated, day-to-day operations and change management shift into Arista CloudVision, turning reactive maintenance into continuous, policy-driven automation:
 
 - Continuous Compliance & STIG Baselines: CloudVision continuously audits running configurations against defined STIG, security, and software baselines. The compliance dashboard highlights drift the moment it occurs and allows automated, push-button remediation, ending the cycle of panic before security inspections.
@@ -127,7 +128,7 @@ Once validated, day-to-day operations and change management shift into Arista Cl
 
 ![Image Placememt](img/Oct26_pic4.png)
 
-Figure 2: Automated Leaf Switch Maintenance Mode & Smart System Upgrade (SSU) Workflow: CloudVision and EOS automate hitless maintenance by gracefully shifting active traffic to redundant paths, upgrading the operating system, running post-boot health verification, and returning the switch to service without dropping packets.
+**Figure 2: Automated Leaf Switch Maintenance Mode & Smart System Upgrade (SSU) Workflow:** CloudVision and EOS automate hitless maintenance by gracefully shifting active traffic to redundant paths, upgrading the operating system, running post-boot health verification, and returning the switch to service without dropping packets.
 
 - Time-Machine Troubleshooting: CloudVision’s State Streaming acts as an operational DVR. When an anomaly occurs, operators can rewind the state of the entire network to the exact millisecond of the incident to inspect routing tables, buffer allocations, and environmental metrics side-by-side.
 
@@ -136,7 +137,7 @@ Figure 2: Automated Leaf Switch Maintenance Mode & Smart System Upgrade (SSU) Wo
 When you stop fighting the network, the mission dividend is immediate:
 
 | Legacy Reactive Operations | Modern Deterministic Networking |
-| :--- | :---: |
+| :--- | :--- |
 | Fragmented OS trains & syntax divergence | Single consistent binary (EOS) from tactical edge to core | 
 | Reactive SNMP polling & lost transient events | Real-time state streaming telemetry (NetDB) with historical playback |
 | Box-by-box CLI & manual STIG drift audits	| Declarative Infrastructure-as-Code (AVD) & continuous compliance dashboards |
@@ -210,16 +211,19 @@ Once the new device's serial is permitted and it powers on connected to the same
 
 Let's close the series by walking a single device through everything we've covered, start to finish.
 
-1. Staging. The switch arrives, gets racked, powered, and connected. Remember, one cable & one port as we outlined in Part One. Its serial number has already been added to the CVP Permitted Devices list ahead of the install.
+**1. Staging.** The switch arrives, gets racked, powered, and connected. Remember, one cable & one port as we outlined in Part One. Its serial number has already been added to the CVP Permitted Devices list ahead of the install.
 
-2. Boot and DHCP. With no startup configuration present, the switch boots directly into ZTP mode and sends a DHCP discover out every connected interface:
+**2. Boot and DHCP.** With no startup configuration present, the switch boots directly into ZTP mode and sends a DHCP discover out every connected interface:
 
+```
 DHCPDISCOVER from 00:1c:73:xx:xx:xx via GigabitEthernet1
+```
 
 The DHCP server (configured per Part Two's sample scope) responds with an address, gateway, NTP, DNS, and Option 67 pointing to the CVP bootstrap endpoint:
 
 option bootfile-name "https://cvp.corp.local/ztp/bootstrap";
-3. Bootstrap retrieval. The switch makes an HTTPS request to that URL. A trimmed example of what that exchange looks like:
+
+**3. Bootstrap retrieval.** The switch makes an HTTPS request to that URL. A trimmed example of what that exchange looks like:
 
 ```
 GET /ztp/bootstrap HTTP/1.1
@@ -237,9 +241,9 @@ CVP_SERVER="cvp.corp.local"
 
 That CVP token is what authenticates this request as coming from a legitimate onboarding flow.
 
-4. Serial validation. CVP checks the switch's serial number against the Permitted Devices list. If it's not on the list, the process stalls here, which is exactly the allow-list behavior covered in Part Two and reiterated above under ZTR.
+**4. Serial validation.** CVP checks the switch's serial number against the Permitted Devices list. If it's not on the list, the process stalls here, which is exactly the allow-list behavior covered in Part Two and reiterated above under ZTR.
 
-5. Configuration and TerminAttr push. With the serial validated, CVP pushes down the configuration profile assigned to that device role along with the TerminAttr agent and its pointer back to the CVP cluster. A simplified version of what gets applied:
+**5. Configuration and TerminAttr push.** With the serial validated, CVP pushes down the configuration profile assigned to that device role along with the TerminAttr agent and its pointer back to the CVP cluster. A simplified version of what gets applied:
 
 ```
 hostname core-switch-04
@@ -255,11 +259,11 @@ daemon TerminAttr
    no shutdown
 ```
 
-6. Apply and reboot. The switch applies this configuration, reboots if required (typically for hostname and management interface changes), and comes back up ready to have a full configuration pushed to it. It is also possible to upgrade the switch as part of the ZTP process in order to ensure all devices meet a minimum requirement.
+**6. Apply and reboot.** The switch applies this configuration, reboots if required (typically for hostname and management interface changes), and comes back up ready to have a full configuration pushed to it. It is also possible to upgrade the switch as part of the ZTP process in order to ensure all devices meet a minimum requirement.
  
-7. Steady state. TerminAttr establishes its streaming connection, CVP shows the device as active and streaming in inventory, and from this point forward the device is subject to normal Change Control for any future configuration work; the same governed process, whether the next change happens next week or next year.
+**7. Steady state.** TerminAttr establishes its streaming connection, CVP shows the device as active and streaming in inventory, and from this point forward the device is subject to normal Change Control for any future configuration work; the same governed process, whether the next change happens next week or next year.
 
-8. … and beyond. From here, the device lives its normal operational life under CVP management. If it fails down the road, Zero Touch Replacement picks up exactly where this walkthrough leaves off: same permitted-devices gate, same bootstrap sequence, but landing on an inherited identity rather than a fresh one.
+**8. … and beyond.** From here, the device lives its normal operational life under CVP management. If it fails down the road, Zero Touch Replacement picks up exactly where this walkthrough leaves off: same permitted-devices gate, same bootstrap sequence, but landing on an inherited identity rather than a fresh one.
  
 That's the series: the requirements and rationale in Part One, the environment build-out and day-to-day operational commands in Part Two, and the deeper mechanics including TerminAttr, Zero Touch Replacement, and a full walkthrough here in Part Three. The honest summary is the one we opened with back in Part One: ZTP genuinely does reduce a lot of the manual work of device deployment but it does so because the requirements behind it are well understood and consistently met, not because it's magic. Get the DHCP scope right, keep your Permitted Devices list current and understand what TerminAttr is actually doing and the "it just works" marketing line turns out to be true more often than not. Best of luck and always know your Arista team is here to support any questions or troubleshooting needed on your network. Happy Communicating!
 
@@ -293,29 +297,8 @@ That's the series: the requirements and rationale in Part One, the environment b
 ---
 
 
-
-
-## __* Product Updates*__
-
-![Image Placememt](img/Product_image.png)
-
-*Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
-
-### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
-
-###  **End of Sale / End of Software Support**
-* **May 15th, 2026** — [VeloCloud Security VNF Services](https://www.arista.com/en/support/advisories-notices/end-of-support/24027-end-of-availability-for-velocloud-security-vnf-services){: target="_blank" } 
-
-
-<br>
-
-[View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
-
----
-
-
 ## __*Software Updates*__
-![Image Placememt](img/software_upgrades_condensed.png)
+![Image Placement](img/software_upgrades_condensed.png)
 
 
 *Stay informed on the latest software updates across all Arista products and services.*
@@ -323,30 +306,43 @@ That's the series: the requirements and rationale in Part One, the environment b
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
 | __EOS__           | 4.35.6M <br> 4.34.8M <br> 4.33.10M <br> 4.36.2F | August 18th, 2026 <br> August 18th, 2026 <br> August 18th, 2026 <br> August 15th, 2026 |
-| __CVP__           | Portal 2026.2.0 <br> Appliance 7.2.0 <br> Sensor 1.4.2 | June 23rd, 2026 <br> July 2nd, 2026 <br> July 8th, 2026 |
-| __DMF__           | 8.10.0 | April 22nd, 2026 |
+| __CVP__           | Portal 2026.2.1 <br> Appliance 7.2.0 <br> Sensor 1.4.2 | September 9th, 2026 <br> July 2nd, 2026 <br> July 8th, 2026 |
+| __DMF__           | 8.10.1 | September 18th, 2026 |
 | __CV-CUE__         | 2026.2.0 | May 21st, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
 | __TerminAttr__     | 1.45.1 | July 10th, 2026 |
 | __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 7.0.0 | July 2026 |
 
-
-
 [View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
+
+
 
 ---
 
 ## __* Security Advisories and Field Notices*__
 
-![Image Placememt](img/Security_image_2.png)
+![Image Placement](img/Security_image_2.png)
 
 *Stay informed on the latest platform security and field notice updates. For more information on Arista's statement on AI-Enhanced Security and Resilience regarding Mythos and project Glasswing, [click here.](https://www.arista.com/assets/data/pdf/glasswing/QA-Project-Mythos-Glasswing.pdf){: target="_blank" }*
 
 ### **Security Advisories**
-* **VeloCloud Orchestrator SQL Injection** — [Security Advisory 0145](https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145){: target="_blank" } <br> *(July 27th, 2026)*
-* **VeloCloud Orchestrator On-Prem Privileged Escalation** — [Security Advisory 0144](https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144){: target="_blank" } <br> *(July 27th, 2026)*
+* To View the **Latest Arista PSIRT Advisories**, click the following link — [Arista PSIRT Advisories](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> 
+
+<br>
+
+* **Are you a CloudVision Customer?** Leverage the following workflow to remediate PSIRTs affecting your EOS devices <br> 
+       - Configure **Event Notifications** to be alerted as new PSIRTs are released — [CloudVision Event Notifications](https://www.arista.io/help/articles/events-configure-notifications){: target="_blank" } <br>
+       - View the **Compliance Dashboard** to see a list of impacted devices, an overview of each CVE, and remediation next steps — [CloudVision Compliance Dashboard](https://www.arista.io/help/articles/devices-compliance-bug-cve){: target="_blank" } <br>
+       - Upgrade EOS devices using the **Software Management Studio** to resolve threats from impacted devices — [CloudVision Software Management Studio](https://www.arista.io/help/articles/provisioning-studios-built-in-software){: target="_blank" } <br>    
+
+<br>
+
+* **Not a CloudVision Customer?** Leverage the Arista ANTA PSIRT CLI workflow to generate a report that illustrates which CVEs are impacting your devices — [ANTA PSIRT CLI Feature](https://anta.arista.com/stable/security-advisory/usage/){: target="_blank" } <br> 
+       - Visit **Labs.Arista.com** to try out the ANTA PSIRT CLI Feature Today — [ANTA PSIRT Assessment Lab](https://labs.arista.com/labs#tech-lib-tab-no-module){: target="_blank" } <br>
+<br>
 
 ### **Field Notices**
+* **C-200 AP on firmware 21.4.0M-12** — [Field Notice 135](https://www.arista.com/en/support/advisories-notices/field-notice/24501-field-notice-0135){: target="_blank" } <br> *(August 19th, 2026)*
 * **Deprecation of EOS SWAG rpr Redundancy Mode** — [Field Notice 134](https://www.arista.com/en/support/advisories-notices/field-notice/24450-field-notice-0134){: target="_blank" } <br> *(August 18th, 2026)*
 * **CloudVision Cluster Replay CLI Commands** — [Field Notice 133](https://www.arista.com/en/support/advisories-notices/field-notice/24406-field-notice-0133){: target="_blank" } <br> *(August 6th, 2026)*
 
@@ -362,22 +358,36 @@ That's the series: the requirements and rationale in Part One, the environment b
 
 ## __* Product Updates*__
 
-![Image Placememt](img/Product_image.png)
+![Image Placement](img/Product_image.png)
 
 *Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
 
-### **New Product Releases** * **Q1 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
+### **New Product Releases** 
+* **Q2 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **August 18th, 2026** — [DCA-AGNI-100](https://www.arista.com/en/support/advisories-notices/end-of-sale/24498-end-of-sale-notice-of-dca-agni-100){: target="_blank" }
-* **August 13th, 2026** — [DCA-NDR-NCC10](https://www.arista.com/en/support/advisories-notices/end-of-sale/24449-end-of-sale-of-the-arista-dca-ndr-ncc10){: target="_blank" }
-* **August 3rd, 2026** — [DCS-7060DX5-32](https://www.arista.com/en/support/advisories-notices/end-of-sale/24369-end-of-sale-of-the-arista-dcs-7060dx5-32-model-of-the-7060x5-series){: target="_blank" }
-* **August 3rd, 2026** — [DCS-7060CX5-56D8](https://www.arista.com/en/support/advisories-notices/end-of-sale/24368-end-of-sale-of-the-arista-dcs-7060cx5-56d8-model-of-the-7060x5-series){: target="_blank" }
+* **September 17th, 2026** — [DCA-NDA-S100MB](https://www.arista.com/en/support/advisories-notices/end-of-sale/24757-end-of-sale-of-the-arista-dca-ndr-s10){: target="_blank" }
+
 
 
 <br>
 
 [View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
+
+
+---
+
+## Did You Know? 
+Arista has revamped their certifications! The new **Arista Certified Engineer (ACE)** program is now organized by specific tracks like Cloud Data Center, Campus, and Automation to better align with your job role.
+
+![Image Placement](img/ACE.png)
+
+[Start your ACE journey now](https://www.training.arista.com/){ .md-button .md-button--primary target="_blank" }
+
+---
+## *Your Federal Team is Here to Support Your Success.* 
+
+![Image Placement](img/Arista_Banner.png)
 
 ---
 # *Feel Free to Reach Out To Us For Your Network Needs* 
