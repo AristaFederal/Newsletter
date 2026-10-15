@@ -887,7 +887,8 @@ TerminAttr (short for Terminal Attributes) is the agent that runs on the switch 
 <div class="highlight"><pre><span></span><code>DHCPDISCOVER from 00:1c:73:xx:xx:xx via GigabitEthernet1
 </code></pre></div>
 <p>The DHCP server (configured per Part Two's sample scope) responds with an address, gateway, NTP, DNS, and Option 67 pointing to the CVP bootstrap endpoint:</p>
-<p>option bootfile-name "https://cvp.corp.local/ztp/bootstrap";</p>
+<div class="highlight"><pre><span></span><code>option bootfile-name &quot;https://cvp.corp.local/ztp/bootstrap&quot;;
+</code></pre></div>
 <p><strong>3. Bootstrap retrieval.</strong> The switch makes an HTTPS request to that URL. A trimmed example of what that exchange looks like:</p>
 <div class="highlight"><pre><span></span><code>GET /ztp/bootstrap HTTP/1.1
 Host: cvp.corp.local
@@ -1044,7 +1045,7 @@ daemon TerminAttr
 <p><a class="md-button md-button--primary" href="https://www.training.arista.com/" target="_blank">Start your ACE journey now</a></p>
 <hr />
 <h2 id="your-federal-team-is-here-to-support-your-success"><em>Your Federal Team is Here to Support Your Success.</em><a class="headerlink" href="#your-federal-team-is-here-to-support-your-success" title="Permanent link">&para;</a></h2>
-<p><img alt="Image Placement" src="img/Arista_Banner.png" /></p>
+<p><img alt="Image Placement" src="../img/Arista_Banner.png" /></p>
 <hr />
 <h1 id="feel-free-to-reach-out-to-us-for-your-network-needs"><em>Feel Free to Reach Out To Us For Your Network Needs</em><a class="headerlink" href="#feel-free-to-reach-out-to-us-for-your-network-needs" title="Permanent link">&para;</a></h1>
 <figure>
