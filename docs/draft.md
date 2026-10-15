@@ -221,7 +221,9 @@ DHCPDISCOVER from 00:1c:73:xx:xx:xx via GigabitEthernet1
 
 The DHCP server (configured per Part Two's sample scope) responds with an address, gateway, NTP, DNS, and Option 67 pointing to the CVP bootstrap endpoint:
 
+```
 option bootfile-name "https://cvp.corp.local/ztp/bootstrap";
+```
 
 **3. Bootstrap retrieval.** The switch makes an HTTPS request to that URL. A trimmed example of what that exchange looks like:
 
