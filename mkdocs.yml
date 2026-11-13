@@ -1,7 +1,7 @@
 site_name: Arista Federal Newsletter
 
-site_url: https://AristaFederal.github.io/Newsletter/
-repo_name: AristaFederal/NewsLetter
+site_url: https://aristafederal.github.io/Newsletter/
+repo_name: aristafederal/Newsletter
 docs_dir: docs/
 edit_uri: edit/main/docs/
 

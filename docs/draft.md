@@ -75,31 +75,31 @@ Three capabilities make the platform particularly compelling for Federal custome
 
 1. Maximizing AI Infrastructure Performance
 
-AI workloads generate significant bursts of network traffic as GPUs and other computing resources exchange data. Without effective traffic management, congestion can slow processing and reduce overall computing efficiency.
+    AI workloads generate significant bursts of network traffic as GPUs and other computing resources exchange data. Without effective traffic management, congestion can slow processing and reduce overall computing efficiency.
 
-The 7280R4 combines high-bandwidth connectivity with intelligent deep buffering and advanced congestion management to help minimize packet loss and maintain more predictable performance.
+    The 7280R4 combines high-bandwidth connectivity with intelligent deep buffering and advanced congestion management to help minimize packet loss and maintain more predictable performance.
 
-**The business value is simple: Keep expensive AI computing resources processing information rather than waiting for the network.**
+    **The business value is simple: Keep expensive AI computing resources processing information rather than waiting for the network.**
 
 2. Protecting Investments While Preparing for the Future
 
-AI technology is evolving rapidly, and Federal organizations need infrastructure that can grow without constant redesigns or disruptive technology transitions.
+    AI technology is evolving rapidly, and Federal organizations need infrastructure that can grow without constant redesigns or disruptive technology transitions.
 
-With flexible connectivity ranging from 25GbE to 800GbE and support for high-density 400G/800G DWDM, the Arista 7280R4 enables organizations to expand, modernize, and simplify existing network infrastructure while reducing operational complexity and costs. This flexibility helps protect existing investments while providing a scalable, future-ready foundation for next-generation AI infrastructure.
+    With flexible connectivity ranging from 25GbE to 800GbE and support for high-density 400G/800G DWDM, the Arista 7280R4 enables organizations to expand, modernize, and simplify existing network infrastructure while reducing operational complexity and costs. This flexibility helps protect existing investments while providing a scalable, future-ready foundation for next-generation AI infrastructure.
 
-Arista's open, Ethernet-based approach also provides flexibility across computing platforms and technology vendors, helping organizations avoid unnecessary proprietary dependencies.
+    Arista's open, Ethernet-based approach also provides flexibility across computing platforms and technology vendors, helping organizations avoid unnecessary proprietary dependencies.
 
-**The objective is not simply to build a faster network today, but to establish an architecture capable of supporting tomorrow's AI requirements.**
+    **The objective is not simply to build a faster network today, but to establish an architecture capable of supporting tomorrow's AI requirements.**
 
 3. Simplifying Operations While Strengthening Security
 
-Performance alone is not enough. Federal organizations must also manage operational costs, cybersecurity requirements, and infrastructure complexity.
+    Performance alone is not enough. Federal organizations must also manage operational costs, cybersecurity requirements, and infrastructure complexity.
 
-The 7280R4 runs Arista EOS, providing the same consistent, highly resilient network operating system used across Arista's broader portfolio. Combined with Arista CloudVision, organizations gain centralized visibility, automation, analytics, and simplified network management.
+    The 7280R4 runs Arista EOS, providing the same consistent, highly resilient network operating system used across Arista's broader portfolio. Combined with Arista CloudVision, organizations gain centralized visibility, automation, analytics, and simplified network management.
 
-The platform also supports hardware-based encryption technologies, including MACsec, IPsec, and VXLANsec, helping protect sensitive data moving across the infrastructure.
+    The platform also supports hardware-based encryption technologies, including MACsec, IPsec, and VXLANsec, helping protect sensitive data moving across the infrastructure.
 
-For Federal customers, this combination of performance, security, and operational consistency can help reduce administrative overhead, strengthen cyber resilience, and support Zero Trust initiatives.
+    For Federal customers, this combination of performance, security, and operational consistency can help reduce administrative overhead, strengthen cyber resilience, and support Zero Trust initiatives.
 
 **Why This Matters for Federal Customers**
 
@@ -127,7 +127,9 @@ Ultimately, AI success will depend not just on how much computing power an organ
 
 **Arista Technical References**
 - [Arista 7280R4 Series Product Overview](https://www.arista.com/en/products/7280r4-series)
+
 - [Arista 7280R4 Technical Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)
+
 - [Arista Extends Data Center and AI Leadership](https://blogs.arista.com/blog/arista-extends-dc-ai-leadership-with-new-platforms-higher-speed)
 
 ---
@@ -177,10 +179,15 @@ Arista provides an open path for cloud and enterprise operators to scale heterog
 **References**
 
 [AI Innovators video](youtube.com/watch?si=7LhY0Y_3RZX8gBr_&v=FzwydqLKHxI&feature=youtu.be)
+
 [The Many Facets of AI Fabrics](https://blogs.arista.com/blog/the-many-facets-of-ai-fabrics)
+
 [AI white paper](https://www.arista.com/assets/data/pdf/Whitepapers/AI-Network-WP.pdf)
+
 [Netdi white paper](https://www.arista.com/assets/data/pdf/Arista-Netdi-Whitepaper.pdf)
+
 [Infrastructure Security Webinar](https://www.arista.com/en/24739-keys-to-the-kingdom-webinar)
+
 [Press Release](https://www.arista.com/en/company/news/press-release/24818-pr-20261007)
 
 ---
