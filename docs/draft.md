@@ -242,7 +242,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ---
 
-## __* Security Advisories and Field Notices*__
+## __*Security Advisories and Field Notices*__
 
 ![Image Placement](img/Security_image_2.png)
 
