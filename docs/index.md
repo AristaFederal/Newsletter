@@ -12,56 +12,33 @@
 [1]: img/arista-federal-logo.png
 [2]: http://www.aristafederal.com
 
-# Welcome to the October 2026 edition of the Arista Federal Newsletter, created for our valued Federal Agency and System Integrator customers.
+# Welcome to the November 2026 edition of the Arista Federal Newsletter, created for our valued Federal Agency and System Integrator customers.
 
-**Innovation That Changes Industries - From Henry Ford to Arista Networks**
+**Veterans Day – Honoring Those Who Served**
 
-On October 1, 1908, Henry Ford introduced the Model T, revolutionizing the automotive industry. His vision went beyond building a better automobile. He challenged conventional thinking by embracing simplicity, standardization, and efficiency, ultimately transforming how automobiles were manufactured and delivered.
+Each November 11, our nation pauses to honor the courage, dedication, and sacrifice of the men and women who have served in the United States Armed Forces.
 
-More than a century later, Arista Networks was founded on a similar belief: There had to be a better way.
+Veterans Day traces its origins to **Armistice Day**, commemorating the end of World War I hostilities on November 11, 1918, at the 11th hour of the 11th day of the 11th month. President Woodrow Wilson first proclaimed Armistice Day in 1919, and it became a federal holiday in 1938. Following World War II and the Korean War, Congress officially renamed the holiday **Veterans Day in 1954**, expanding its purpose to honor American veterans of all wars and periods of service.
 
-Founded in 2004, Arista challenged traditional networking with a software-driven, standards-based architecture designed to deliver exceptional performance, reliability, and operational simplicity. At its core, Arista's Extensible Operating System (EOS) provides a consistent software foundation that simplifies network management, improves visibility, and reduces operational costs.
+While both Veterans Day and Memorial Day recognize military service and sacrifice, they serve distinct purposes. **Memorial Day**, observed on the last Monday in May, specifically honors those who died while serving our country. **V**eterans Day**, observed on November 11, honors all who have served in the U.S. Armed Forces, both living and deceased, with particular emphasis on thanking living veterans for their service.
 
-**The Next Frontier: AI for Networking & Networking for AI**
+This Veterans Day, the Arista Federal Team proudly extends our deepest gratitude to our nation's veterans, including those among our colleagues, customers, and partners. Your service, commitment, and sacrifice have helped safeguard the freedoms we enjoy today.
 
-Today, Arista is bringing that same innovative thinking to Artificial Intelligence through two complementary strategies:
-
-**AI for Networking — Smarter, Simpler, More Secure**
-
-By combining EOS, CloudVision, advanced telemetry, and AI-driven analytics, Arista helps organizations transition from reactive troubleshooting to proactive, intelligent network operations. The result is greater visibility, stronger security, improved efficiency, and less time spent managing network complexity.
-
-**Networking for AI — Powering the AI Revolution**
-
-AI workloads demand extraordinary bandwidth, low latency, and massive scalability. Arista's high-performance, standards-based Ethernet platforms provide the resilient, scalable infrastructure needed to support AI training, inference, and high-performance computing without the complexity of proprietary architectures.
-
-- **Scale Up — Maximizing AI Compute Performance:** High-bandwidth, low-latency Ethernet connectivity between AI accelerators within tightly coupled computing environments, including rack-scale systems, helping maximize GPU/XPU utilization and performance.
-
-- **Scale Out — Building Larger AI Clusters:** High-performance Ethernet fabrics connecting thousands of AI accelerators across racks and data centers, delivering the bandwidth, intelligent load balancing, and resiliency needed for demanding AI training and inference workloads.
-
-- **Scale Across — Connecting AI Beyond the Data Center:** Extending AI fabrics across multiple buildings, campuses, and geographically distributed data centers. 
-
-Together, these architectures provide an open, standards-based foundation for AI infrastructure, enabling organizations to scale compute resources efficiently while maintaining operational consistency through Arista EOS.
-
-**Different centuries. Different industries. One shared philosophy.**
-
-Henry Ford understood that lasting innovation requires more than improving a product. It means rethinking the entire operating model to deliver better outcomes.
-
-That same philosophy continues to drive **Arista's Modern Enterprise approach**: delivering greater capability, less complexity, and lower operational costs while enabling our Federal customers to focus on what matters most → **mission success.**
+**To all who have worn the uniform, thank you for your service.**
 
 In this month’s newsletter, you’ll find:
 
-- **Stop Fighting the Network — Focus on the Mission**
+- **Arista 7280R4 Series: Powering the Next Generation of AI Networking**
 
-    Arista Federal Major Account Manager Daniel Lawless shares his perspective on why network engineers should focus on mission success rather than constantly troubleshooting infrastructure. Discover how Arista EOS, CloudVision, and advanced automation tools simplify network operations, enhance visibility, and deliver more predictable, secure infrastructure. **Less complexity. Less firefighting. More time focused on the mission.**
+    AI performance is only as strong as the network behind it. In this article, **Arista Federal Client Director Kevin Carey** explores how the **Arista 7280R4 Series** helps Federal agencies, defense organizations, and Federal System Integrators maximize their AI investments. Combining high-performance 800G connectivity, intelligent traffic management, and the operational simplicity of EOS and CloudVision, the 7280R4 delivers more than just speed, it helps organizations improve AI infrastructure efficiency, strengthen cyber resilience, and build scalable, mission-ready networks. **In the AI era, the network isn't just connecting computing resources, it's enabling their full potential.**
 
-- **Zero Touch Total Domination. — Part 3: TerminAttr, ZTR & Beyond**
+- **Next-Gen Scale-Up Networking for AI Fabrics**
 
-    In this month's Arista Federal Newsletter, **Casey Durst (SE) and Brady Schulman (ASE)** bring our three-part Zero Touch Provisioning series to a close.  Building on the fundamentals and deployment workflows covered in Parts 1 and 2, this final installment explores how **Arista CloudVision and TerminAttr** deliver continuous network visibility and management long after initial provisioning. They'll also dive into **Zero Touch Replacement (ZTR)**, demonstrating how Arista simplifies hardware replacement while preserving device identity and configuration. From initial deployment to ongoing operations and lifecycle management, discover how Arista helps Federal teams **reduce manual effort, minimize downtime, and simplify network operations** all while keeping mission-critical environments running.
+    As AI transforms Federal missions, defense systems, and critical infrastructure, the demand for scalable, high-performance networking continues to accelerate. In this Arista Blog article, **Arista's Arihant Jain and Vijay Vusirikala** discuss how next-generation scale-up networking is reshaping AI infrastructure through open, Ethernet-based architectures that deliver greater performance, flexibility, and resilience while avoiding proprietary vendor lock-in. **Their insights highlight how Arista is helping lead the evolution of AI networking to support increasingly demanding workloads and future mission requirements.**
 
 We welcome your feedback, ideas, and requests for this newsletter at <fed@aristafederal.com.>
 
 As always, thank you for your partnership and trust in Arista. We remain committed to helping our customers build secure, resilient, and modern network infrastructures that support mission success today and well into the future.
-
 
 ---
 
@@ -72,205 +49,155 @@ As always, thank you for your partnership and trust in Arista. We remain committ
 [4]: https://blogs.arista.com/blog
 
 ---
-##Stop Fighting the Network##
+##Arista 7280R4 Series: Powering the Next Generation of AI Networking##
 
-By Daniel Lawless
+By Kevin Carey – Arista Federal Client Director
 
-**The Reality on the Ground**
+**Delivering the Performance, Resilience, and Security Required for AI-Driven Federal Missions**
 
-Every network engineer supporting a mission command node, an enterprise enclave, or an expeditionary tactical site knows the feeling: you’re not engineering for the mission, you’re firefighting the infrastructure.
+Artificial Intelligence is transforming how Federal agencies, defense organizations, and Federal System Integrators operate. As organizations invest heavily in xPUs, accelerators, and advanced computing platforms, an equally important consideration is often overlooked: **AI performance depends not only on computing power, but also on how efficiently data moves across the network.**
 
-You spend scheduled maintenance windows navigating fragmented OS releases, deciphering cryptic syslog storms, praying a route-map tweak doesn't blackhole traffic or create asymmetric routing headaches, and manually auditing configs against STIG baselines that drifted two patch cycles ago. The network is supposed to be the invisible, resilient foundation enabling mission data flow. Yet operators routinely sink up to 80% of their operational cycles just keeping it from tipping over.
+AI workloads generate enormous volumes of traffic between computing resources, creating significant demands on network bandwidth, congestion management, and reliability. When the network becomes a bottleneck, expensive computing resources spend valuable time waiting for data rather than processing it, reducing efficiency and the return on AI investments.
 
-It’s time to stop fighting the network. Friction isn’t the complexity of the mission; it’s the operational debt of legacy paradigms.
+**For Federal customers, the challenge is straightforward: How do you ensure your network keeps pace with AI investments without introducing unnecessary complexity, cost, or operational risk?**
 
-**The Anatomy of the Fight: How We Got Here**
-In defense and federal environments, the very tools and habits used to achieve meant to guarantee are the very things that sabotage it:
+Arista's 7280R4 Series is designed to address that challenge.
 
-- The Multi-Train Trap: Running three different software trains across campus, data center, and tactical edges means your team isn't mastering one operating system, they’re juggling divergent command syntaxes, differing bug matrices, and inconsistent feature behaviors.
+![Image Placememt](img/Nov26_pic1.png)
 
-- Polling in the Dark: Relying on periodic SNMP polling or fragmented syslogs means operators only discover an issue after critical mission traffic drops. When troubleshooting an intermittent route flap or microburst, the evidence is already gone.
+**Arista 7280R4: More Than Just a Faster Switch**
 
-- Tribal Knowledge vs. Standard Baselines: Configs are pushed box-by-box via manual CLI entry. Over time, devices drift into unique "snowflakes." When an outage hits, half the resolution time is spent figuring out what changed and who typed it.
+The Arista 7280R4 Series combines high-density 800GbE connectivity, up to 25.6 Tbps (51.2 Tbps Full Duplex) of line-rate, non-blocking throughput, with up to 32 ports of 800GbE of switching capacity, and intelligent deep-buffer architecture to deliver the performance and scalability required for demanding AI, cloud, and high-performance computing environments.
 
-- Hero Culture: When uptime depends entirely on 0200 maintenance heroics and savant-level CLI troubleshooting, the operational model is fundamentally broken.
+However, the real value extends beyond technical specifications. The 7280R4 helps organizations maximize AI infrastructure investments, simplify operations, strengthen security, and prepare for future growth.
 
-Flipping the Script: Modern Network Automation in Action
-Stopping the fight doesn't mean simplifying the mission; it means transforming the architectural foundation into something deterministic, automated, and self-healing. That transformation rests on three core pillars:
+Three capabilities make the platform particularly compelling for Federal customers.
 
-**1. One Consistent Binary Across Every Tier: EOS & NetDB**
+1. Maximizing AI Infrastructure Performance
 
-Operational simplicity begins at the software layer. An architecture built on a single, unmodified binary across every form factor. From modular chassis in the core to compact switches at the tactical edge, eliminate the multi-train headache.
+    AI workloads generate significant bursts of network traffic as xPUs and other computing resources exchange data. Without effective traffic management, congestion can slow processing and reduce overall computing efficiency.
 
-Because Arista EOS is built on NetDB (a centralized, state-sharing database rather than disjointed, competing daemons), every operational state change from interface counters to route tables, and TCAM utilization, to name a few, are streamed in real time. Operators don't have to guess what happened during a transient microburst or an intermittent flap; telemetry captures it at sub-second granularity.
+    The 7280R4 combines high-bandwidth connectivity with intelligent deep buffering and advanced congestion management to help minimize packet loss and maintain more predictable performance.
 
-**2. Design & Validate Before Deployment: AVD + ACT (Digital Twin) + ANTA (NRFU)**
+    **The business value is simple: Keep expensive AI computing resources processing information rather than waiting for the network.**
 
-Manual CLI changes should never be tested for the first time in a live production environment, especially when operational missions are on the line.
+2. Protecting Investments While Preparing for the Future
 
-- Architect, Validate, Deploy (AVD): Shifting to declarative Infrastructure-as-Code (IaC), AVD leverages simple, human-readable data models (YAML/JSON) to automatically generate, validate, and document consistent, standards-based fabric configurations. Human typographical errors and configuration drift are engineered out before a single command runs.
+    AI technology is evolving rapidly, and Federal organizations need infrastructure that can grow without constant redesigns or disruptive technology transitions.
 
-- Arista Cloud Test (ACT): AVD couples directly with ACT to spin up a high-fidelity digital twin of your production topology using virtual EOS (cEOS/vEOS). Routing policies, ACLs, and failover scenarios are simulated and validated against synthetic traffic inside the twin. You verify operational success long before touching physical switches.
+    With flexible connectivity ranging from 25GbE to 800GbE and support for high-density 400G/800G DWDM, the Arista 7280R4 enables organizations to expand, modernize, and simplify existing network infrastructure while reducing operational complexity and costs. This flexibility helps protect existing investments while providing a scalable, future-ready foundation for next-generation AI infrastructure.
 
-- Arista Network Test Automation (ANTA): Once changes are pushed, ANTA automates Network Ready for Use (NRFU) testing. Instead of operators manually typing in dozens of show commands across every box, ANTA executes structured, declarative test suites across the fabric. It validates routing tables, EVPN/VXLAN reachability, interface health, and protocol adjacencies in seconds, providing immediate, programmatic proof that the network is healthy and ready for mission data.
+    Arista's open, Ethernet-based approach also provides flexibility across computing platforms and technology vendors, helping organizations avoid unnecessary proprietary dependencies.
 
-![Image Placememt](img/Oct26_pic3.png)
+    **The objective is not simply to build a faster network today, but to establish an architecture capable of supporting tomorrow's AI requirements.**
 
-**Figure 1: Automated Validation & NRFU Testing with AVD and ANTA:** Structured configuration intent and custom test catalogs are executed programmatically across the EOS fabric via the ANTA runner, generating automated, audit-ready validation reports (CSV/Markdown/JSON) before live traffic is committed.
+3. Simplifying Operations While Strengthening Security
 
-**3. Continuous Operational Assurance: CloudVision**
+    Performance alone is not enough. Federal organizations must also manage operational costs, cybersecurity requirements, and infrastructure complexity.
 
-Once validated, day-to-day operations and change management shift into Arista CloudVision, turning reactive maintenance into continuous, policy-driven automation:
+    The 7280R4 runs Arista EOS, providing the same consistent, highly resilient network operating system used across Arista's broader portfolio. Combined with Arista CloudVision, organizations gain centralized visibility, automation, analytics, and simplified network management.
 
-- Continuous Compliance & STIG Baselines: CloudVision continuously audits running configurations against defined STIG, security, and software baselines. The compliance dashboard highlights drift the moment it occurs and allows automated, push-button remediation, ending the cycle of panic before security inspections.
+    The platform also supports hardware-based encryption technologies, including MACsec, IPsec, and VXLANsec, helping protect sensitive data moving across the infrastructure.
 
-- Predictable, Hitless Upgrades: Maintenance windows no longer require downtime or late-night heroism. Utilizing Smart System Upgrade (SSU) and hitless leaf/spine maintenance modes, CloudVision gracefully diverts traffic around a target device, applies patches or software upgrades, validates health checks post-upgrade, and safely returns the node to active service, all without dropping packets.
+    For Federal customers, this combination of performance, security, and operational consistency can help reduce administrative overhead, strengthen cyber resilience, and support Zero Trust initiatives.
 
-![Image Placememt](img/Oct26_pic4.png)
+**Why This Matters for Federal Customers**
 
-**Figure 2: Automated Leaf Switch Maintenance Mode & Smart System Upgrade (SSU) Workflow:** CloudVision and EOS automate hitless maintenance by gracefully shifting active traffic to redundant paths, upgrading the operating system, running post-boot health verification, and returning the switch to service without dropping packets.
+Federal AI initiatives are ultimately about improving mission outcomes, whether accelerating intelligence analysis, supporting digital engineering, strengthening cybersecurity, or enabling advanced simulations.
 
-- Time-Machine Troubleshooting: CloudVision’s State Streaming acts as an operational DVR. When an anomaly occurs, operators can rewind the state of the entire network to the exact millisecond of the incident to inspect routing tables, buffer allocations, and environmental metrics side-by-side.
+At the same time, agencies and defense contractors face constrained budgets, limited IT resources, increasing cybersecurity demands, and pressure to modernize aging infrastructure.
 
-**The Operational Dividend**
+The 7280R4 helps address these challenges by delivering greater AI infrastructure efficiency, improved scalability, simplified operations, integrated security, and long-term investment flexibility.
 
-When you stop fighting the network, the mission dividend is immediate:
+For Federal System Integrators, these same capabilities support the delivery of scalable AI solutions that are easier to integrate, manage, and sustain throughout their lifecycle.
 
-| Legacy Reactive Operations | Modern Deterministic Networking |
-| :--- | :--- |
-| Fragmented OS trains & syntax divergence | Single consistent binary (EOS) from tactical edge to core | 
-| Reactive SNMP polling & lost transient events | Real-time state streaming telemetry (NetDB) with historical playback |
-| Box-by-box CLI & manual STIG drift audits	| Declarative Infrastructure-as-Code (AVD) & continuous compliance dashboards |
-| Production testing & maintenance downtime	| Pre-flight digital twin simulation (ACT) & automated, hitless upgrades |
-| High maintenance fatigue & firefighting | Predictable, validated change management & operational assurance |
+**The Arista Advantage: Building AI Infrastructure That Delivers Mission Value**
 
-**Mission Focus Over Maintenance**
+One of Arista's greatest strengths has always been its ability to combine high-performance networking with software quality, architectural consistency, and operational simplicity.
 
-Warfighters and federal mission stakeholders don't care about route reflectors, BGP attributes, or leaf-spine fabrics. They care whether imagery, intelligence feeds, voice, and mission command data arrive reliably, securely, and without delay.
+The 7280R4 builds on that foundation, bringing together high-density 800G networking, intelligent traffic management, EOS, and CloudVision in a scalable Ethernet-based architecture.
 
-Network engineers and architects should be seen as surgeons, operating with precision, deliberate methodology, and deep structural expertise, not emergency triage staff or firefighters constantly rushing to contain the next blaze. Our technical talent shouldn't be trapped in the engine room wrestling legacy technical debt.
+As AI continues to evolve, the network is becoming a critical component of the computing environment itself. Organizations must look beyond xPUs and processing power to ensure their infrastructure can support these investments efficiently, securely, and at scale.
 
-By deploying an infrastructure built on open programmability, digital-twin validation with AVD and ACT, and continuous operational assurance through CloudVision, we remove friction from the transport layer.
+**For Arista Federal customers, the opportunity is not simply to deploy faster switches. It is to build a more efficient, resilient, and future-ready AI infrastructure that maximizes technology investments while supporting critical mission objectives.**
 
-Let the automation handle the plumbing. Stop fighting the network and give operators their time back to practice precision engineering and enable high-priority mission execution.
+Ultimately, AI success will depend not just on how much computing power an organization deploys, but on how effectively those resources work together.
+
+**Arista is helping to make that possible.**
+
+**Arista Technical References**
+
+- [Arista 7280R4 Series Product Overview](https://www.arista.com/en/products/7280r4-series)
+
+- [Arista 7280R4 Technical Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)
+
+- [Arista Extends Data Center and AI Leadership](https://blogs.arista.com/blog/arista-extends-dc-ai-leadership-with-new-platforms-higher-speed)
 
 ---
-##Zero Touch Provisioning with Arista##
-**Part Three: TerminAttr, ZTR, … and Beyond**
+##Next-Gen Scale-Up Networking for AI Fabrics##
 
-By Casey Durst (SE) and Brady Schulman (ASE)
+By: Arihant Jain (Arista Senior Product Manager • Customer Engineering)
 
-We've covered the requirements and the environment build-out (Part One), and the operational mechanics of engaging, disengaging and CloudVision initial setup (Part Two). To close the series out, let's talk about how CVP actually keeps a conversation going with a switch after ZTP is complete. Then, we will discuss Zero Touch Replacement which is the piece most people ask about once they're operating a ZTP enabled network. 
+Vijay Vusirikala (Arista Distinguished Leader - AI Systems • Customer Engineering)
 
-**TerminAttr: How CVP Actually Talks to the Switch**
+![Image Placememt](img/Nov26_pic2.png)
 
-ZTP gets all the attention because it's the element that operators can see: a switch with no configuration turning into a fully managed device in minutes. But ZTP is a one-time event. The thing that makes continued operation via CVP useful on day two or day two hundred is TerminAttr.
-TerminAttr (short for Terminal Attributes) is the agent that runs on the switch and streams its state. This includes interface counters, routing tables, arp tables, hardware status, configuration state, the works. All of this data is streamed to CVP continuously and efficiently using protobuf. It's not polling; it's a persistent streaming connection that sends only the changed data as it occurs. This is why CVP's dashboards feel closer to real-time than the "refresh every five minutes" model older NMS platforms used. When we say ‘state-streaming’, we actually mean the real time state of each agent on the switch viewed from one location (CVP) delivered via Terminattr. 
+AI infrastructure is exploding beyond single-server boundaries. As models grow and workloads demand tightly synchronized communication across larger accelerator pools, local PCIe, CXL, and proprietary interconnects are no longer sufficient as the primary scale-up mechanism. They remain important within the server, but can create constrained compute islands across accelerator generations, system designs, and vendors. Operators are moving toward rack-scale scale-up domains, interconnecting tens to hundreds of XPUs across enclosures with high-bandwidth, low-latency links to operate as a single, tightly coupled supercomputing instance.
 
-A few things worth knowing about TerminAttr in the context of everything we've covered so far:
+Expanding scale-up domains to hundreds of XPUs fundamentally shifts connectivity demands and creates a new compute+network-centric paradigm. The network is no longer simply the fabric between servers; it becomes part of the compute system itself. Just as Ethernet has become the leading open foundation for AI scale-out fabrics, the industry is now advancing Ethernet-based scale-up solutions for performance, openness, interoperability, and ecosystem choice.
 
-- **It is installed as part of the ZTP bootstrap.** When the switch pulls its configuration from CVP during ZTP, TerminAttr comes along with it and is configured to point back at the same CVP cluster. It is bundled with EOS not installed separately! 
+**Evolution from Server I/O → Rack-Scale**
 
-- **It's what makes the device show up as "streaming" in inventory,** as opposed to just present. A device could be in CVP's inventory without a healthy TerminAttr connection. Usually this occurs because of a routing or firewall problem between the switch and CVP. When that happens, you'll see the device but it will be in a stale state. If a device looks like it's "not talking," connectivity is the first thing to check. This is similar to the way DHCP and Option 67 were the first things to check during a stalled ZTP.
+Recognizing the critical need for an open scale-up ecosystem, Arista galvanized the Ethernet for Scale-Up Networks (ESUN) initiative within OCP as a founding member alongside industry leaders such as Broadcom, Meta, and Microsoft. ESUN is focused on open Ethernet switching and framing for tightly coupled AI fabrics, including lossless delivery, error resiliency, and scale. A rack-scale scale-up fabric must deliver:
 
-- **It's the same channel Change Control rides on.** When CVP pushes a configuration change, during ZTP or any ordinary day-two change, it's going out over the same connection TerminAttr established from the switch to CVP. There isn't a separate "management channel" and "telemetry channel"; it's the same pipe doing both jobs.
+- High Radix & Single-Hop Topologies: Support scale-up domains spanning beyond 72 or 144 XPUs to hundreds and ultimately thousands of accelerators while minimizing hop count.
+- Lossless Transport for Low Latency: Incorporating congestion control ensures deterministic, in-order packet delivery for tensor-parallel collective operations without tail-latency spikes.
+- Reliable 200G/Lane Systems: Engineered specifically for 224G (and beyond) signaling, optimizing Signal Integrity (SI) and Power Integrity (PI) while deploying advanced liquid cooling for high-density.
+- Advanced Diagnostic and Telemetry: A robust hardware diagnostic and telemetry layer to guarantee bit-error correction, secure boot, and physical validation whether running Arista EOS® or an open NOS like SONiC.
+- Robust and Resilient NOS: Massive bandwidth demands and XPU uptime require modern, robust, secure, battle-tested software running atop the network.
 
-So the mental model is: ZTP is the one-time introduction, the CVP token and permitted-devices check are the bouncer at the door, and TerminAttr bundled within EOS is the ongoing conversation once the device is inside.
+**Three Rack-Scale Options**
 
-**Zero Touch Replacement (ZTR)**
+To accommodate diverse datacenter footprints, thermal profiles, and accelerator architectures, Arista has pioneered three specialized liquid-cooled physical scale-up rack solutions in partnership with AMD, Arm, Broadcom, d-Matrix, Meta, Microsoft, and Qualcomm. Inspired by OCP’s open infrastructure direction, these designs provide a flexible path to integrate compute, networking, power, and liquid cooling across evolving high-density AI deployments.
 
-Just a few short decades ago, PFC Durst was in the field and needed to change out switches as the existing device was literally covered in mud. The process was manual and time intensive which carried significant risk. The development and support for a simple, low-tech and quick replacement process is an absolute must in many operating environments. Part Two touched on device replacement in general terms. It deserves its own section, because Arista treats it as a distinct workflow, Zero Touch Replacement, rather than just "ZTP happening to run again on a new box." The distinction matters because ZTR is specifically about preserving a device's identity (hostname, management IP, interface roles, topology position) and handing it to a different physical switch rather than provisioning a new device from scratch.
+1. Orthogonal Chassis Design: Using direct orthogonal connectivity between accelerator and switch blades, supporting accelerator density of 144 XPUs in 100 kW to 400 kW direct liquid cooling envelopes.
 
-**Two Scenarios Where ZTR Behaves Differently**
+2. Cabled Backplane Design: Combines a high-density cabled backplane with a modular rack structure to enable a highly serviceable design.
 
-This is the part that trips people up, because "replace a device" covers two operationally different situations:
-
-**Scenario A: The busted switch (unplanned, offline).** The device has already failed and dropped off the network. TerminAttr's connection is gone and CVP shows it as unreachable. There's no graceful decommission step available because the device can't participate in one; it's dead. Here, the sequence is: add the replacement's serial to the permitted list, physically swap the hardware, let ZTR bring the new device in under the old identity, confirm it's healthy, then clean up the dead device's now-orphaned inventory record. You're doing cleanup after the fact because there was no opportunity to do it before.
-
-**Scenario B: The planned refresh (upgraded switch, still online).** This is a hardware refresh, an end-of-life swap, or a capacity upgrade where the existing device is still up and functioning right up until you pull it. This is the easier of the two because you can sequence things properly: add the new serial to the permitted list ahead of time, schedule a maintenance window, and using Studios, automatically transfer the configuration, software, and tags from the original device to the replacement device while seamlessly decommissioning the existing device. Because the old device is healthy until the moment you unplug it, you also have the option to pull its final running configuration for your records before it comes offline, something you don't get the luxury of in Scenario A.
-
-**The Permitted Devices Requirement**
-
-This is worth repeating because it's the step that gets missed under pressure: the replacement device's serial number has to be added to the ZTP Permitted Devices list before it will provision. ZTR doesn't bypass the allow-list gate we covered in Part Two. It uses it the same way a first-time deployment does. The only difference is that once the new switch checks in, we will map it to an existing device identity instead of creating a new one.
+3. Cross-Rack Design: A modular architecture providing maximum flexibility to scale compute and networking across multi-rack deployments, enabling larger scaling domains across scale-up and scale-out.
  
-![Image Placememt](img/Oct26_pic1.png)
+![Image Placememt](img/Nov26_pic3.png)
 
-**Bringing the Replacement Into Inventory**
+**Arista Etherlink for Scale-Up: Supporting 144 Accelerators and Beyond**
 
-Once the new device's serial is permitted and it powers on connected to the same port the old device used:
+Arista's rack-scale Etherlink network architecture, designated as **Etherlink SU-144**, supports unified scale-up domains of up to 144 accelerators. With a cross-rack scale-up architecture, the number of XPUs grows to 1024 using multi-rack interconnects. Arista’s open architecture stands in contrast to proprietary scale-up configurations based on a locked-in accelerator and interconnect ecosystem. ESUN provides network operators flexibility across accelerators, switching silicon, optics, physical rack designs, and network software while retaining the high bandwidth, low latency, and reliable in-order delivery required for collective communication.
 
-1.	It goes through the same DHCP → CVP token → bootstrap sequence as any ZTP device.
+**The Powerful Role of Diagnostics**
 
-2.	Once the device has ZTP’d successfully and is streaming telemetry to CVP, it becomes available to the ZTR workflow. Select the old device in inventory, click replace device, and then select the newly added device. CVP associates the incoming device with the identity of the device it's replacing: the hostname, management IP, and role-specific configuration carry over automatically rather than needing to be rebuilt.
+At rack scale, raw bandwidth only matters if the physical system can be validated, monitored, and serviced predictably. Arista Netdi (Network Diagnostics Infrastructure) provides a common diagnostics and telemetry foundation at both the switch and rack level. Built on more than 8,000 person-years of development, it provides deep hardware-level validation, signal integrity analysis, secure boot attestation, and Single Event Upset (SEU) resiliency, supporting rich telemetry for the switch, physical optics, power shelves, and liquid cooling infrastructure. Netdi is entirely NOS-agnostic, giving customers full operational insight no matter which NOS they run. While Arista champions the freedom of NOS choice, Arista’s EOS remains the industry's leading resilient, secure NOS across all AI fabric roles, including scale-up networks, especially in an era of AI-enabled adversaries looking to exploit software vulnerabilities. 
 
-3.	TerminAttr comes up as part of that same bootstrap, and the device starts streaming state under its new (inherited) identity.
+Arista provides an open path for cloud and enterprise operators to scale heterogeneous AI supercomputing infrastructures without vendor lock-in. It achieves this by combining standards-based ESUN transport, flexible physical topologies spanning orthogonal, cabled backplane, and cross-rack architectures, Etherlink SU-144 scale-up domains, and Arista Netdi™ hardware diagnostics. Welcome to the new era of rack scale-up networking!
 
-![Image Placememt](img/Oct26_pic2.png)
+**References**
 
-**Putting It All Together: A Full Deployment Walkthrough**
+[AI Innovators video](youtube.com/watch?si=7LhY0Y_3RZX8gBr_&v=FzwydqLKHxI&feature=youtu.be)
 
-Let's close the series by walking a single device through everything we've covered, start to finish.
+[The Many Facets of AI Fabrics](https://blogs.arista.com/blog/the-many-facets-of-ai-fabrics)
 
-**1. Staging.** The switch arrives, gets racked, powered, and connected. Remember, one cable & one port as we outlined in Part One. Its serial number has already been added to the CVP Permitted Devices list ahead of the install.
+[AI white paper](https://www.arista.com/assets/data/pdf/Whitepapers/AI-Network-WP.pdf)
 
-**2. Boot and DHCP.** With no startup configuration present, the switch boots directly into ZTP mode and sends a DHCP discover out every connected interface:
+[Netdi white paper](https://www.arista.com/assets/data/pdf/Arista-Netdi-Whitepaper.pdf)
 
-```
-DHCPDISCOVER from 00:1c:73:xx:xx:xx via GigabitEthernet1
-```
+[Infrastructure Security Webinar](https://www.arista.com/en/24739-keys-to-the-kingdom-webinar)
 
-The DHCP server (configured per Part Two's sample scope) responds with an address, gateway, NTP, DNS, and Option 67 pointing to the CVP bootstrap endpoint:
-
-```
-option bootfile-name "https://cvp.corp.local/ztp/bootstrap";
-```
-
-**3. Bootstrap retrieval.** The switch makes an HTTPS request to that URL. A trimmed example of what that exchange looks like:
-
-```
-GET /ztp/bootstrap HTTP/1.1
-Host: cvp.corp.local
-
-HTTP/1.1 200 OK
-Content-Type: text/plain
-
-#!/usr/bin/env bash
-#Arista ZTP bootstrap
-CVP_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6..."
-CVP_SERVER="cvp.corp.local"
-...
-```
-
-That CVP token is what authenticates this request as coming from a legitimate onboarding flow.
-
-**4. Serial validation.** CVP checks the switch's serial number against the Permitted Devices list. If it's not on the list, the process stalls here, which is exactly the allow-list behavior covered in Part Two and reiterated above under ZTR.
-
-**5. Configuration and TerminAttr push.** With the serial validated, CVP pushes down the configuration profile assigned to that device role along with the TerminAttr agent and its pointer back to the CVP cluster. A simplified version of what gets applied:
-
-```
-hostname core-switch-04
-!
-interface Management1
-   ip address 10.10.60.14/24
-!
-ip route 0.0.0.0/0 10.10.60.1
-ntp server 10.10.50.6
-!
-daemon TerminAttr
-   exec /usr/bin/TerminAttr -cvaddr=cvp.corp.local:9910 -cvauth=token,/tmp/token -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent
-   no shutdown
-```
-
-**6. Apply and reboot.** The switch applies this configuration, reboots if required (typically for hostname and management interface changes), and comes back up ready to have a full configuration pushed to it. It is also possible to upgrade the switch as part of the ZTP process in order to ensure all devices meet a minimum requirement.
- 
-**7. Steady state.** TerminAttr establishes its streaming connection, CVP shows the device as active and streaming in inventory, and from this point forward the device is subject to normal Change Control for any future configuration work; the same governed process, whether the next change happens next week or next year.
-
-**8. … and beyond.** From here, the device lives its normal operational life under CVP management. If it fails down the road, Zero Touch Replacement picks up exactly where this walkthrough leaves off: same permitted-devices gate, same bootstrap sequence, but landing on an inherited identity rather than a fresh one.
- 
-That's the series: the requirements and rationale in Part One, the environment build-out and day-to-day operational commands in Part Two, and the deeper mechanics including TerminAttr, Zero Touch Replacement, and a full walkthrough here in Part Three. The honest summary is the one we opened with back in Part One: ZTP genuinely does reduce a lot of the manual work of device deployment but it does so because the requirements behind it are well understood and consistently met, not because it's magic. Get the DHCP scope right, keep your Permitted Devices list current and understand what TerminAttr is actually doing and the "it just works" marketing line turns out to be true more often than not. Best of luck and always know your Arista team is here to support any questions or troubleshooting needed on your network. Happy Communicating!
+[Press Release](https://www.arista.com/en/company/news/press-release/24818-pr-20261007)
 
 ---
-## __Webinars and Events__  
+## __*Upcoming Events*__  
+Arista hosts various events throughout the year for you! Members of our team organize these informative events to showcase Arista's ability to not only help improve your network, but to also assist by providing a set of tools to improve your operations!  
+
+Click on the boxes below to be directed to Arista's website for additional lists of Webinars and Events.
+
 
 <div class="grid cards" markdown>
 
@@ -278,25 +205,21 @@ That's the series: the requirements and rationale in Part One, the environment b
 
     --- 
 
-    We make is easy for you to view products that are of interest, all virtually! Technical memebers of the team showcase outstading explanation of the products. Click below to see our list of Webinars. 
+    We make it easy for you to view products that are of interest, all virtually! Technical members of the team showcase outstanding explanations of the products. Click below to see our list of Webinars. 
 
-    [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button}
+    [Arista Webinars](https://www.arista.com/en/company/news/webinars){.md-button target="_blank"}
 
 -   __Events__ 
 
     ---
-    Join us in person to get a closer look in our list of produts and solution, as well as get the chance to meet members of the team. Click below to see our list of ipcoming Events. 
+    Join us in person to get a closer look at our list of products and solutions, as well as get the chance to meet members of the team. Click below to see our list of upcoming Events. 
 
-    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button }
+    [Upcoming Events](https://www.arista.com/en/company/news/events){ .md-button target="_blank" }
 
 
 </div>
 
-
-
 --- 
-
----
 
 
 ## __*Software Updates*__
@@ -307,13 +230,13 @@ That's the series: the requirements and rationale in Part One, the environment b
 
 |  Software    | Version      |  Release Date |
 | :-----------: | :-----------: | :-----------: |
-| __EOS__           | 4.35.6M <br> 4.34.8M <br> 4.33.10M <br> 4.36.2F | August 18th, 2026 <br> August 18th, 2026 <br> August 18th, 2026 <br> August 15th, 2026 |
-| __CVP__           | Portal 2026.2.1 <br> Appliance 7.2.0 <br> Sensor 1.4.2 | September 9th, 2026 <br> July 2nd, 2026 <br> July 8th, 2026 |
-| __DMF__           | 8.10.1 | September 18th, 2026 |
-| __CV-CUE__         | 2026.2.0 | May 21st, 2026 |
+| __EOS__           | 4.34.9M <br> 4.33.11M <br> 4.35.7M | October 15th, 2026 <br> October 15th, 2026 <br> October 14th, 2026 |
+| __CVP__           | Portal 2026.3.0.1 <br> Appliance 7.2.0 <br> Sensor 1.4.3 | October 27th, 2026 <br> July 2nd, 2026 <br> September 3rd, 2026 |
+| __DMF__           | 8.9.1 | October 20th, 2026 |
+| __CV-CUE__         | 2026.3.0 | October 12th, 2026 |
 | __Arista NDR__     | 5.3.5 | July 16th, 2025 |
-| __TerminAttr__     | 1.45.1 | July 10th, 2026 |
-| __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 7.0.0 | July 2026 |
+| __TerminAttr__     | 1.46.2 | October 12th, 2026 |
+| __VeloCloud SD-WAN__ <br>Orchestrator/Gateway/Edge | 7.0.0 | July, 2026 |
 
 [View All Latest Software Updates](https://www.arista.com/en/support/software-download){: .md-button .md-button--primary target="_blank" }
 
@@ -321,7 +244,7 @@ That's the series: the requirements and rationale in Part One, the environment b
 
 ---
 
-## __* Security Advisories and Field Notices*__
+## __*Security Advisories and Field Notices*__
 
 ![Image Placement](img/Security_image_2.png)
 
@@ -344,38 +267,38 @@ That's the series: the requirements and rationale in Part One, the environment b
 <br>
 
 ### **Field Notices**
-* **C-200 AP on firmware 21.4.0M-12** — [Field Notice 135](https://www.arista.com/en/support/advisories-notices/field-notice/24501-field-notice-0135){: target="_blank" } <br> *(August 19th, 2026)*
-* **Deprecation of EOS SWAG rpr Redundancy Mode** — [Field Notice 134](https://www.arista.com/en/support/advisories-notices/field-notice/24450-field-notice-0134){: target="_blank" } <br> *(August 18th, 2026)*
-* **CloudVision Cluster Replay CLI Commands** — [Field Notice 133](https://www.arista.com/en/support/advisories-notices/field-notice/24406-field-notice-0133){: target="_blank" } <br> *(August 6th, 2026)*
+- **issue triggering a reboot of the switch after 1042 days of uptime** — [Field Notice 0142](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 15th, 2026)*
+- **CVA Appliance Host Resource Reservation** — [Field Notice 0141](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 12th, 2026)*
+- **CVP On-Prem Data Retention** — [Field Notice 0140](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 9th, 2026)*
+- **Migration of Wi-Fi services from arista.com to arista.io** — [Field Notice 0139](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 8th, 2026)*
+- **Change in defaults of configuration options in CV-CUE after 15th January, 2027** (SSID profiles and Access Point Groups) — [Field Notice 0138](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 8th, 2026)*
+- **New EOS image signing key** (This applies to platforms running EOS 4.30.1F or earlier versions that have Secure Boot enabled) — [Field Notice 0137](https://www.arista.com/en/support/advisories-notices){: target="_blank" } <br> *(October 7th, 2026)*
 
 <br>
 
 [View All of the Latest Advisories & Notices](https://www.arista.com/en/support/advisories-notices){: .md-button .md-button--primary target="_blank" }
 
-
 ---
 
-
-
-
-## __* Product Updates*__
+## __*Product Updates*__
 
 ![Image Placement](img/Product_image.png)
 
 *Stay up to date on all new Arista Product Releases, as well as End of Sale/End of Support Notices.*
 
 ### **New Product Releases** 
-* **Q2 2026** — [Ask AVA - CloudVision as a Service (beta feature)](https://www.arista.io/help/articles/overview-core-tools-ask-ava){: target="_blank" }
+* **Q4 2026** — [Rack-Scale Architectures for Scale-Up and Scale-Out AI Fabrics ](https://www.arista.com/en/company/news/press-release/24818-pr-20261007 ){: target="_blank" }
 
 ###  **End of Sale / End of Software Support**
-* **September 17th, 2026** — [DCA-NDA-S100MB](https://www.arista.com/en/support/advisories-notices/end-of-sale/24757-end-of-sale-of-the-arista-dca-ndr-s10){: target="_blank" }
+- **October 27th, 2026** — [DCA-DM-AN660](https://www.arista.com/en/support/advisories-notices/endofsale){: target="_blank" }
+- **October 23rd, 2026** — [EOS-4.31 Train](https://www.arista.com/en/support/advisories-notices/endofsale){: target="_blank" }
+- **October 6th, 2026** — [2025.1 Train](https://www.arista.com/en/support/advisories-notices/endofsale){: target="_blank" }
 
 
 
 <br>
 
 [View All Latest End of Sale & Support Notices](https://www.arista.com/en/support/advisories-notices/endofsale){: .md-button .md-button--primary target="_blank" }
-
 
 ---
 
