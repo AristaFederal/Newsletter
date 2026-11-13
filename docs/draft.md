@@ -126,6 +126,7 @@ Ultimately, AI success will depend not just on how much computing power an organ
 **Arista is helping to make that possible.**
 
 **Arista Technical References**
+
 - [Arista 7280R4 Series Product Overview](https://www.arista.com/en/products/7280r4-series)
 
 - [Arista 7280R4 Technical Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)
@@ -136,6 +137,7 @@ Ultimately, AI success will depend not just on how much computing power an organ
 ##Next-Gen Scale-Up Networking for AI Fabrics##
 
 By: Arihant Jain (Arista Senior Product Manager • Customer Engineering)
+
 Vijay Vusirikala (Arista Distinguished Leader - AI Systems • Customer Engineering)
 
 ![Image Placememt](img/Nov26_pic2.png)
