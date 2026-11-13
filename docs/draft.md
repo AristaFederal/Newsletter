@@ -55,7 +55,7 @@ By Kevin Carey – Arista Federal Client Director
 
 **Delivering the Performance, Resilience, and Security Required for AI-Driven Federal Missions**
 
-Artificial Intelligence is transforming how Federal agencies, defense organizations, and Federal System Integrators operate. As organizations invest heavily in GPUs, accelerators, and advanced computing platforms, an equally important consideration is often overlooked: **AI performance depends not only on computing power, but also on how efficiently data moves across the network.**
+Artificial Intelligence is transforming how Federal agencies, defense organizations, and Federal System Integrators operate. As organizations invest heavily in xPUs, accelerators, and advanced computing platforms, an equally important consideration is often overlooked: **AI performance depends not only on computing power, but also on how efficiently data moves across the network.**
 
 AI workloads generate enormous volumes of traffic between computing resources, creating significant demands on network bandwidth, congestion management, and reliability. When the network becomes a bottleneck, expensive computing resources spend valuable time waiting for data rather than processing it, reducing efficiency and the return on AI investments.
 
@@ -75,7 +75,7 @@ Three capabilities make the platform particularly compelling for Federal custome
 
 1. Maximizing AI Infrastructure Performance
 
-    AI workloads generate significant bursts of network traffic as GPUs and other computing resources exchange data. Without effective traffic management, congestion can slow processing and reduce overall computing efficiency.
+    AI workloads generate significant bursts of network traffic as xPUs and other computing resources exchange data. Without effective traffic management, congestion can slow processing and reduce overall computing efficiency.
 
     The 7280R4 combines high-bandwidth connectivity with intelligent deep buffering and advanced congestion management to help minimize packet loss and maintain more predictable performance.
 
@@ -117,7 +117,7 @@ One of Arista's greatest strengths has always been its ability to combine high-p
 
 The 7280R4 builds on that foundation, bringing together high-density 800G networking, intelligent traffic management, EOS, and CloudVision in a scalable Ethernet-based architecture.
 
-As AI continues to evolve, the network is becoming a critical component of the computing environment itself. Organizations must look beyond GPUs and processing power to ensure their infrastructure can support these investments efficiently, securely, and at scale.
+As AI continues to evolve, the network is becoming a critical component of the computing environment itself. Organizations must look beyond xPUs and processing power to ensure their infrastructure can support these investments efficiently, securely, and at scale.
 
 **For Arista Federal customers, the opportunity is not simply to deploy faster switches. It is to build a more efficient, resilient, and future-ready AI infrastructure that maximizes technology investments while supporting critical mission objectives.**
 
