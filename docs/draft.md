@@ -280,7 +280,7 @@ Click on the boxes below to be directed to Arista's website for additional lists
 
 ---
 
-## __* Product Updates*__
+## __*Product Updates*__
 
 ![Image Placement](img/Product_image.png)
 
